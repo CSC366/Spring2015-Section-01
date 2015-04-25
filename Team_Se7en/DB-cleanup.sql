@@ -1,17 +1,17 @@
-DROP TABLE RegSources;
-
-DROP TABLE URLs;
-
-DROP TABLE Devices;
-
-DROP TABLE Customers; 
-
-DROP TABLE Emails;
-
-DROP TABLE Registrations;
-
-DROP TABLE Campaigns;
+DROP TABLE Events;
 
 DROP TABLE Messages;
 
-DROP TABLE Events;
+DROP TABLE Campaigns;
+
+DROP TABLE Registrations;
+
+DROP TABLE Emails;
+
+DROP TABLE Customers; 
+
+DROP TABLE Devices;
+
+DROP TABLE URLs;
+
+DROP TABLE RegSources;

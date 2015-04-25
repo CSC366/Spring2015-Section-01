@@ -1,0 +1,12 @@
+-- DROP TABLE Email_Action;
+DROP TABLE Email_Link;
+DROP TABLE Email_Event_Type;
+DROP TABLE Email_Sent;
+DROP TABLE Email_Variants;
+DROP TABLE Device_Registrations;
+DROP TABLE Stores;
+DROP TABLE Device_Models;
+DROP TABLE Carriers;
+DROP TABLE Email_Addresses;
+DROP TABLE Customers;
+DROP TABLE Reg_Source;

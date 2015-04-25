@@ -4,7 +4,7 @@ CREATE TABLE Customers (
    CustomerID INT PRIMARY KEY,
    RegSourceID INT,
    RegSourceName VARCHAR(64),
-   ZIP INT,
+   ZIP CHAR(5),
    State CHAR(2),
    Gender CHAR(1),
    IncomeLevel INT,

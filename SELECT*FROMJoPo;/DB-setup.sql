@@ -28,6 +28,7 @@ CREATE TABLE DeviceInformation (
    serial_number VARCHAR(50),
    device_model VARCHAR(100),
    purchase_date DATE,
+   UNIQUE(device_model),
    PRIMARY KEY(serial_number)
 );
 
@@ -42,13 +43,13 @@ CREATE TABLE PurchaseInformation(
 );
 
 
-CREATE TABLE Campaign(
+CREATE TABLE EmailSent(
    campaign_name VARCHAR(100),
    version VARCHAR(50),
    subject_line VARCHAR(100),
    audience VARCHAR(100),
    fk_link_name VARCHAR(30),
-   PRIMARY KEY(campaign_name),
+   PRIMARY KEY(campaign_name, version, audience),
    FOREIGN KEY(fk_link_name) REFERENCES Link(link_name)
 );
 
@@ -70,16 +71,16 @@ CREATE TABLE CustomerEmail(
    email_id INT,
    customer_id INT,
    email_domain VARCHAR(50),
-   audience VARCHAR(100),
+   audience VARCHAR(100) UNIQUE,
    PRIMARY KEY(email_id),
    FOREIGN KEY (customer_id) REFERENCES CustomerAccount(customer_id)
 );
 
 CREATE TABLE IsSentTo(
    fk_campaign_name VARCHAR(100),
-   fk_email_id INT,
-   FOREIGN KEY(fk_campaign_name) REFERENCES Campaign(campaign_name),
-   FOREIGN KEY(fk_email_id) REFERENCES CustomerEmail(email_id)
+   fk_audience VARCHAR(100),
+   FOREIGN KEY(fk_campaign_name) REFERENCES EmailSent(campaign_name),
+   FOREIGN KEY(fk_audience) REFERENCES CustomerEmail(audience)
 );
 
 CREATE TABLE DeviceRegistration(
@@ -120,7 +121,7 @@ CREATE TABLE Event(
    fk_campaign_name VARCHAR(100),
    PRIMARY KEY(email_id, fk_event_type_id),
    FOREIGN KEY(fk_event_type_id) REFERENCES EventType(event_type_id),
-   FOREIGN KEY(fk_campaign_name) REFERENCES Campaign(campaign_name),
+   FOREIGN KEY(fk_campaign_name) REFERENCES EmailSent(campaign_name),
    FOREIGN KEY(email_id) REFERENCES CustomerEmail(email_id)
 );
 
@@ -129,5 +130,5 @@ CREATE TABLE Deployment(
    deployment_date DATE,
    fk_campaign_name VARCHAR(100),
    PRIMARY KEY(deployment_id),
-   FOREIGN KEY(fk_campaign_name) REFERENCES Campaign(campaign_name)
+   FOREIGN KEY(fk_campaign_name) REFERENCES EmailSent(campaign_name)
 );

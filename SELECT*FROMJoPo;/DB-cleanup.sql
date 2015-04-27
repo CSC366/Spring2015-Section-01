@@ -4,7 +4,7 @@ DROP TABLE Event;
 DROP TABLE Possesses;
 DROP TABLE IsRegisteredVia;
 DROP TABLE DeviceRegistration;
-DROP TABLE Campaign;
+DROP TABLE EmailSent;
 DROP TABLE PurchaseInformation;
 DROP TABLE DeviceInformation;
 DROP TABLE EventType;

@@ -52,19 +52,21 @@ CREATE TABLE Registrations (
 CREATE TABLE Campaigns (
    Id INT PRIMARY KEY AUTO_INCREMENT,
    Name VARCHAR(50) NOT NULL,
-   Audience VARCHAR(25)
+   Audience VARCHAR(25),
+   UNIQUE(Name, Audience)
 );
 
 CREATE TABLE Messages (
    DeployId INT PRIMARY KEY,
    DeployDate DATETIME,
+   Email INT,
    Subject VARCHAR(50),
-   Version VARCHAR(25)
+   Version VARCHAR(25),
+   FOREIGN KEY (Email) REFERENCES Emails(Id)
 );
 
 CREATE TABLE Events (
-   Id INT AUTO_INCREMENT PRIMARY KEY,
-   TypeId VARCHAR(20),
+   TypeId INT PRIMARY KEY,
    TypeName VARCHAR(20)
 );
 

@@ -79,6 +79,7 @@ CREATE TABLE CustomerEmail(
 CREATE TABLE IsSentTo(
    fk_campaign_name VARCHAR(100),
    fk_email_id INT,
+   PRIMARY KEY(fk_campaign_name, fk_email_id),
    FOREIGN KEY(fk_campaign_name) REFERENCES EmailSent(campaign_name),
    FOREIGN KEY(fk_email_id) REFERENCES CustomerEmail(email_id)
 );
@@ -100,6 +101,7 @@ CREATE TABLE DeviceRegistration(
 CREATE TABLE IsRegisteredVia(
    fk_registration_id INT,
    fk_customer_id INT,
+   PRIMARY KEY(fk_registration_id, fk_customer_id),
    FOREIGN KEY(fk_registration_id) REFERENCES DeviceRegistration(registration_id),
    FOREIGN KEY(fk_customer_id) REFERENCES CustomerAccount(customer_id)
 );
@@ -108,6 +110,7 @@ CREATE TABLE IsRegisteredVia(
 CREATE TABLE Possesses(
    fk_email_id INT,
    fk_customer_id INT,
+   PRIMARY KEY(fk_email_id, fk_customer_id),
    FOREIGN KEY(fk_email_id) REFERENCES CustomerEmail(email_id),
    FOREIGN KEY(fk_customer_id) REFERENCES CustomerAccount(customer_id)
 );

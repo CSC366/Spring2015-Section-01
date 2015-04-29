@@ -1,72 +1,94 @@
-CREATE TABLE RegSources (
-   Id INT PRIMARY KEY,
-   Name VARCHAR(20)
+CREATE TABLE RegSrcs(
+   RegSrcID INT PRIMARY KEY,
+   Name VARCHAR(12)
 );
 
-CREATE TABLE URLs (
-   Id INT AUTO_INCREMENT PRIMARY KEY,
-   URL VARCHAR(255),
-   Link VARCHAR(25),
-   UNIQUE (URL, Link)
-);
-
-CREATE TABLE Devices (
-   Model INT PRIMARY KEY,
-   Name VARCHAR(50),
+CREATE TABLE Devices(
+   Model VARCHAR(50) PRIMARY KEY,
+   Name VARCHAR(30),
    Type VARCHAR(6),
    Carrier VARCHAR(20)
 );
 
-CREATE TABLE Customers (
-   Id INT NOT NULL PRIMARY KEY,
+CREATE TABLE Customers(
+   CustomerID INT PRIMARY KEY,
    Zip INT,
-   State CHAR(2),
+   State VARCHAR(14),
    Gender CHAR(1),
-   Income VARCHAR(25),
-   Permission VARCHAR(6),
-   Language VARCHAR(20),
+   Income VARCHAR(20),
+   Permission INT,
+   Language CHAR(2),
    RegDate DATE,
-   Tier VARCHAR(25),
-   NumReg INT,
-   RegSrc INT,
-   FOREIGN KEY (RegSrc) REFERENCES RegSources(Id)
+   Tier CHAR(3),
+   NumRegs INT,
+   RegSrcID INT,
+   FOREIGN KEY (RegSrcID) REFERENCES (RegSrcs.RegSrcID)
 );
 
-CREATE TABLE Emails (
-   Id INT PRIMARY KEY,
-   Customer INT,
-   Domain VARCHAR(20),
-   FOREIGN KEY (Customer) REFERENCES Customers(Id)
-);
-
-CREATE TABLE Registrations (
-   Id INT PRIMARY KEY,
+CREATE TABLE Registrations(
+   RegID INT PRIMARY KEY,
    PurchaseDate DATE,
-   PurchaseStore VARCHAR(50),
-   PurchaseState CHAR(2),
-   PurchaseCity VARCHAR(30),
-   Ecomm BOOLEAN,
-   Serial INT
+   PurchaseStoreName VARCHAR(21),
+   PurchaseStoreState CHAR(2),
+   PurchaseStoreCity VARCHAR(50),
+   Ecomm INT,
+   Serial VARCHAR(20),
+   Model VARCHAR(50),
+   FOREIGN KEY (Model) REFERENCES (Devices.Model),
+   CustomerID INT,
+   FOREIGN KEY (CustomerID) REFERENCES (Customers.CustomerID),
+   RegSrcID INT,
+   FOREIGN KEY (RegSrcID) REFERENCES (RegSrcs.RegSrcID)
 );
 
-CREATE TABLE Campaigns (
-   Id INT PRIMARY KEY AUTO_INCREMENT,
-   Name VARCHAR(50) NOT NULL,
-   Audience VARCHAR(25),
-   UNIQUE(Name, Audience)
+CREATE TABLE Emails(
+   EmailID INT PRIMARY KEY,
+   Domain VARCHAR(30),
+   CustomerID INT,
+   FOREIGN KEY (CustomerID) REFERENCES (Customers.CustomerID)
 );
 
-CREATE TABLE Messages (
-   DeployId INT PRIMARY KEY,
-   DeployDate DATETIME,
-   Email INT,
-   Subject VARCHAR(50),
-   Version VARCHAR(25),
-   FOREIGN KEY (Email) REFERENCES Emails(Id)
+CREATE TABLE Campaigns(
+   CampaignID INT PRIMARY KEY AUTO_INCREMENT,
+   Name VARCHAR(50) UNIQUE
 );
 
-CREATE TABLE Events (
-   TypeId INT PRIMARY KEY,
-   TypeName VARCHAR(20)
+CREATE TABLE Messages(
+   MsgID INT PRIMARY KEY AUTO_INCREMENT,
+   DeployID INT,
+   DeployDate DATE,
+   DeployTime TIME,
+   Subject VARCHAR(3),
+   Version VARCHAR(30),
+   Audience VARCHAR(40),
+   CampaignID INT,
+   FOREIGN KEY (CampaignID) REFERENCES (Campaigns.CampaignID),
+   EmailID INT,
+   FOREIGN KEY (EmailID) REFERENCES (Emails.EmailID),
+   UNIQUE(DeployID, CampaignID, EmailID)
 );
 
+CREATE TABLE Links(
+   LinkID INT PRIMARY KEY AUTO_INCREMENT,
+   URL VARCHAR(255),
+   LinkName VARCHAR(40),
+   MsgID INT,
+   FOREIGN KEY (MsgID) REFERENCES (Messages.MsgID),
+   UNIQUE(URL, LinkName, MsgID)
+);
+
+CREATE TABLE Events(
+   EventNum INT PRIMARY KEY AUTO_INCREMENT,
+   MsgID INT,
+   FOREIGN KEY (MsgID) REFERENCES (Messages.MsgID),
+   EventID INT,
+   UNIQUE(MsgID, EventID),
+   LinkID INT,
+   FOREIGN KEY (LinkID) REFERENCES (Links.LinkID)
+);
+
+CREATE TABLE EventTypes(
+   EventNum INT PRIMARY KEY,
+   FOREIGN KEY (EventNum) REFERENCES (Events.EventNum)
+   Name VARCHAR(20)
+);

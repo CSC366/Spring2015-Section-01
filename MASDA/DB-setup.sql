@@ -25,13 +25,13 @@ create table Customers (
 
 create table Carrier (
     id INT AUTO_INCREMENT PRIMARY KEY, -- added key 
-    name VARCHAR(30) 
+    name VARCHAR(30) UNIQUE
 );
 
 
 create table Models (
     id INT PRIMARY KEY AUTO_INCREMENT, -- added key
-    model_id VARCHAR(30),
+    model_id VARCHAR(30) UNIQUE,
     name VARCHAR(30),
     model_type VARCHAR(30),
     carrier INT,
@@ -42,7 +42,7 @@ create table Models (
 
 create table Devices (
     id INT PRIMARY KEY AUTO_INCREMENT,
-    serial_num VARCHAR(30), 
+    serial_num VARCHAR(30) UNIQUE, 
     model INT,
     FOREIGN KEY (model) REFERENCES Models(id)
 );
@@ -50,7 +50,7 @@ create table Devices (
 
 create table Registrations (
     id INT PRIMARY KEY AUTO_INCREMENT, -- added key
-    reg_id VARCHAR(30),
+    reg_id VARCHAR(30) UNIQUE,
     customer VARCHAR(30),
     device INT, 
     model INT, 
@@ -76,49 +76,66 @@ create table Stores (
 
 create table EmailAddresses (
     id INT PRIMARY KEY AUTO_INCREMENT, -- added key
-    email_id VARCHAR(30),
+    email_id VARCHAR(30) UNIQUE,
     customer VARCHAR(30),
     domain VARCHAR(30),
     FOREIGN KEY (customer) REFERENCES CustomerAccounts(customer_id)
 );
 
-create table Campaigns (
+create table Messages (
     id INT PRIMARY KEY AUTO_INCREMENT, -- added key
+    campaign_name VARCHAR(30),
     audience VARCHAR(30),
-    campaign VARCHAR(30)
-);
-
-create table EmailInstances (
-    id INT PRIMARY KEY AUTO_INCREMENT, -- added key
-    email INT, -- assume this is never null
     version VARCHAR(30),
     subject_line VARCHAR(30),
     dep_date DATETIME,
     deployment VARCHAR(30),
     campaign INT,
-    FOREIGN KEY (email) REFERENCES EmailAddresses(id),
-    FOREIGN KEY (campaign) REFERENCES Campaigns(id)
+    FOREIGN KEY (campaign) REFERENCES Campaigns(id),
+    UNIQUE(campaign_name, audience, version)
 );
 
-create table Links (
-    id INT PRIMARY KEY, -- added key
-    name VARCHAR(30),
-    url VARCHAR(30)
+create table Recieve (
+    id INT PRIMARY KEY AUTO_INCREMENT, -- added key
+    message INT,
+    email INT,
+    FOREIGN KEY (message) REFERENCES Messages(id),
+    FOREIGN KEY (email) REFERENCES EmailAddresses(id),
+    UNIQUE(message, email) 
 );
 
 create table EventTypes (
     id INT PRIMARY KEY AUTO_INCREMENT, -- added key
-    type_id VARCHAR(30),
+    type_id VARCHAR(30) UNIQUE,
     name VARCHAR(30)
 );
 
-create table Events (
-    date DATETIME,
+create table Generate (
+    id INT PRIMARY KEY AUTO_INCREMENT, -- added key
+    event_date DATETIME,
+    email INT,
+    message INT,
     event_type INT,
-    email_instance INT,
-    link INT, 
-    PRIMARY KEY (date, event_type, email_instance, link),
-    FOREIGN KEY (event_type) REFERENCES EventTypes(id),
-    FOREIGN KEY (email_instance) REFERENCES EmailInstances(id),
-    FOREIGN KEY (link) REFERENCES Links(id)
+    FOREIGN KEY (email) REFERENCES EmailAddresses(id)
+    FOREIGN KEY (message) REFERENCES Messages(id)
+    FOREIGN KEY (event_type) REFERENCES EventTypes(type_id)
+    UNIQUE(event_date, email, message, event_type)
+);
+
+create table Links (
+    id INT PRIMARY KEY AUTO_INCREMENT, -- added key
+    name VARCHAR(30),
+    url VARCHAR(30),
+    message INT,
+    FOREIGN KEY (message) REFERENCES Messages(id),
+    UNIQUE(name, url, message)
+);
+
+create table Clicked (
+    id INT PRIMARY KEY AUTO_INCREMENT, -- added key
+    generated INT,
+    link INT,
+    FOREIGN KEY (generated) REFERENCES Generate(id),
+    FOREIGN KEY (link) REFERENCES Links(id),
+    UNIQUE(generated, link)
 );

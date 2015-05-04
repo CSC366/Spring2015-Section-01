@@ -7,57 +7,78 @@ CREATE TABLE Customers (
    ZIP CHAR(5),
    State CHAR(2),
    Gender CHAR(1),
-   IncomeLevel INT,
+   IncomeLevel VARCHAR(16),
    Permission BOOLEAN,
-   Language VARCHAR(64),
-   CustomerTier VARCHAR(64)
-);
-
-CREATE TABLE EmailCampaigns (
-   CampaignName VARCHAR(64),
-   CONSTRAINT PK_EmailCampaignID PRIMARY KEY (CampaignName)
-);
-
-CREATE TABLE EmailMessages (
-   Audience VARCHAR(64),
-   Version VARCHAR(64),
-   SubjectLine VARCHAR(64),
-   EmailID VARCHAR(64),
-   CONSTRAINT PK_EmailMessageID PRIMARY KEY (Audience, Version, SubjectLine, EmailID)
-   CONSTRAINT FK_EmailID FOREIGN KEY (EmailID)
-   REFERENCES EmailAddresses(EmailID)
+   Language CHAR(2),
+   CustomerTier CHAR(3)
 );
 
 CREATE TABLE EmailAddresses (
-   EmailID VARCHAR(64),
-   EmailDomain VARCHAR(64),
-   CustomerID INT,
+   EmailID INT,
+   EmailDomain VARCHAR(64) NOT NULL,
+   CustomerID INT NOT NULL,
    CONSTRAINT PK_EmailID PRIMARY KEY (EmailID),
-   CONSTRAINT FK_CustomerID FOREIGN KEY (FK_CustomerID)
-   REFERENCES Customers(FK_CustomerID)
+   CONSTRAINT FK_CustomerID FOREIGN KEY (CustomerID) 
+   REFERENCES Customers(CustomerID)
+);
+
+CREATE TABLE EmailMessages (
+   EmailMessageID BIGINT AUTO_INCREMENT,
+   Audience VARCHAR(64) NOT NULL,
+   Version VARCHAR(64) NOT NULL,
+   SubjectLine VARCHAR(64) NOT NULL,
+   EmailID INT NOT NULL,
+   DeploymentID INT NOT NULL,
+   CampaignName VARCHAR(64) NOT NULL,
+   CONSTRAINT PK_EmailMessageID PRIMARY KEY (EmailMessageID),
+   CONSTRAINT FK_EmailID FOREIGN KEY (EmailID) 
+   REFERENCES EmailAddresses(EmailID)
+);
+
+CREATE TABLE EventTypes(
+   EventTypeID INT,
+   EventTypeName VARCHAR(64),
+   CONSTRAINT PK_EventTypes PRIMARY KEY (EventTypeID)
 );
 
 CREATE TABLE Events (
-   EventDate DATETIME,
-   LinkName VARCHAR(64),
-   LinkURL VARCHAR(128),
-   EventTypeId INT,
-   CONSTRAINT PK_Events PRIMARY KEY (EventDate, LinkName, LinkURL),
-   CONSTRAINT FK_EventType FOREIGN KEY (EventTypeId)
-   REFERENCES EventTypes(EventTypeId),
-   CONSTRAINT FK_Links FOREIGN KEY (LinkName, LinkURL)
-   REFERENCES Links(LinkName, LinkURL)
+   EventDate DATETIME NOT NULL,
+   EventTypeID INT NOT NULL,
+   EmailID INT,
+   EmailMessageID BIGINT,
+   CONSTRAINT PK_Events PRIMARY KEY (EmailID, EmailMessageID, EventTypeID),
+   CONSTRAINT FK_EventType FOREIGN KEY (EventTypeID)
+   REFERENCES EventTypes(EventTypeID),
+   CONSTRAINT FK_Emails FOREIGN KEY (EmailID) 
+   REFERENCES EmailAddresses(EmailID),
+   CONSTRAINT FK_EmailMessages FOREIGN KEY (EmailMessageID)
+   REFERENCES EmailMessages(EmailMessageID)
 );
 
 CREATE TABLE Links (
    LinkName VARCHAR(64),
-   LinkURL VARCHAR(128)
+   LinkURL VARCHAR(128),
+   EmailMessageID BIGINT,
+   CONSTRAINT PK_Links PRIMARY KEY (LinkName, LinkURL, EmailMessageID),
+   CONSTRAINT FK_Links FOREIGN KEY (EmailMessageID) 
+   REFERENCES EmailMessages (EmailMessageID)
 );
 
-CREATE TABLE EventTypes(
-   EventTypeId INT,
-   EventTypeName VARCHAR(64),
-   CONSTRAINT PK_EventTypes PRIMARY KEY (EventTypeId)
+CREATE TABLE EventLinkLookUp(
+   LinkName VARCHAR(64),
+   LinkURL VARCHAR(128),
+   EmailMessageID BIGINT,
+   EmailID INT,
+   EventTypeID INT,
+   CONSTRAINT PK_EventLinkLookUp PRIMARY KEY (EmailID, EmailMessageID, EventTypeID, LinkName, LinkURL),
+   CONSTRAINT FK_EventLinkLookUpEA FOREIGN KEY (EmailID) 
+   REFERENCES EmailAddresses(EmailID),
+   CONSTRAINT FK_EventLinkLookUpEM FOREIGN KEY (EmailMessageID) 
+   REFERENCES EmailMessages(EmailMessageID),
+   CONSTRAINT FK_EventLookUpLink FOREIGN KEY (LinkName, LinkURL)
+   REFERENCES Links(LinkName, LinkURL),
+   CONSTRAINT FK_EventLinkLookUpET FOREIGN KEY (EventTypeID)
+   REFERENCES EventTypes(EventTypeID)
 );
 
 CREATE TABLE DeviceModels (
@@ -84,11 +105,14 @@ CREATE TABLE Purchases (
    ECommFlag BOOLEAN,
    CustomerID INT,
    SerialNumber VARCHAR(64),
-   CONSTRAINT PK_CustomerID PRIMARY KEY (CustomerID),
-   CONSTRAINT FK_CustomerID FOREIGN KEY (CustomerID)
-   REFERENCES Customers(CustomerID)
-   CONSTRAINT FK_SerialNumber FOREIGN KEY (SerialNumber)
-   REFERENCES Devices(SerialNumber)
+   DeviceModel VARCHAR(64) NOT NULL, 
+   CONSTRAINT PK_CustomerID PRIMARY KEY (CustomerID, DeviceModel),
+   CONSTRAINT FK_PurchasesCustomerID FOREIGN KEY (CustomerID) 
+   REFERENCES Customers(CustomerID),
+   CONSTRAINT FK_PurchasesSerialNumber FOREIGN KEY (SerialNumber) 
+   REFERENCES Devices(SerialNumber),
+   CONSTRAINT FK_PurchasesDeviceModels FOREIGN KEY (DeviceModel) 
+   REFERENCES DeviceModels(DeviceModel)
 );
 
 CREATE TABLE Registrations (
@@ -96,12 +120,14 @@ CREATE TABLE Registrations (
    RegistrationID INT,
    RegistrationSourceID INT,
    RegistrationSourceName VARCHAR(64),
-   DeviceModel VARCHAR(64),
-   CustomerID VARCHAR(64),
+   DeviceModel VARCHAR(64) NOT NULL,
+   CustomerID INT,
    SerialNumber VARCHAR(64),
    CONSTRAINT PK_Registrations PRIMARY KEY (RegistrationID),
-   CONSTRAINT FK_CustomerID FOREIGN KEY (CustomerID)
-   REFERENCES Customers(CustomerID)
-   CONSTRAINT FK_SerialNumber FOREIGN KEY (SerialNumber)
-   REFERENCES Devices(SerialNumber)
+   CONSTRAINT FK_RegistrationsCustomerID FOREIGN KEY (CustomerID) 
+   REFERENCES Customers(CustomerID),
+   CONSTRAINT FK_RegistrationsSerialNumber FOREIGN KEY (SerialNumber) 
+   REFERENCES Devices(SerialNumber),
+   CONSTRAINT FK_RegistrationsDeviceModel FOREIGN KEY (DeviceModel)
+   REFERENCES DeviceModels(DeviceModel)
 );

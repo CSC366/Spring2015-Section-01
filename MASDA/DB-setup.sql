@@ -91,7 +91,6 @@ create table Messages (
     dep_date DATETIME,
     deployment VARCHAR(30),
     campaign INT,
-    FOREIGN KEY (campaign) REFERENCES Campaigns(id),
     UNIQUE(campaign_name, audience, version)
 );
 
@@ -106,7 +105,7 @@ create table Recieve (
 
 create table EventTypes (
     id INT PRIMARY KEY AUTO_INCREMENT, -- added key
-    type_id VARCHAR(30) UNIQUE,
+    type_id INT UNIQUE,
     name VARCHAR(30)
 );
 
@@ -116,9 +115,9 @@ create table Generate (
     email INT,
     message INT,
     event_type INT,
-    FOREIGN KEY (email) REFERENCES EmailAddresses(id)
-    FOREIGN KEY (message) REFERENCES Messages(id)
-    FOREIGN KEY (event_type) REFERENCES EventTypes(type_id)
+    FOREIGN KEY (email) REFERENCES EmailAddresses(id),
+    FOREIGN KEY (message) REFERENCES Messages(id),
+    FOREIGN KEY (event_type) REFERENCES EventTypes(type_id),
     UNIQUE(event_date, email, message, event_type)
 );
 

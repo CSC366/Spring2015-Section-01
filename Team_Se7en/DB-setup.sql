@@ -57,7 +57,6 @@ CREATE TABLE Messages(
    MsgID INT PRIMARY KEY AUTO_INCREMENT,
    DeployID INT,
    DeployDate DATE,
-   DeployTime TIME,
    Subject VARCHAR(3),
    Version VARCHAR(30),
    Audience VARCHAR(40),
@@ -65,7 +64,7 @@ CREATE TABLE Messages(
    FOREIGN KEY (CampaignID) REFERENCES (Campaigns.CampaignID),
    EmailID INT,
    FOREIGN KEY (EmailID) REFERENCES (Emails.EmailID),
-   UNIQUE(DeployID, CampaignID, EmailID)
+   UNIQUE(DeployID, CampaignID, EmailID, Audience, Version, Subject, DeployDate)
 );
 
 CREATE TABLE Links(

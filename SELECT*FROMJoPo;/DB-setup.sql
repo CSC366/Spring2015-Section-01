@@ -24,11 +24,13 @@ CREATE TABLE EventType(
    PRIMARY KEY(event_type_id, event_type_name)
 );
 
-CREATE TABLE DeviceInformation (
-   serial_number VARCHAR(50),
-   device_model VARCHAR(100),
+CREATE TABLE DevicePurchaseDate (
    purchase_date DATE,
-   UNIQUE(device_model),
+   PRIMARY KEY(purchase_date)
+);
+
+CREATE TABLE DeviceSerial (
+   serial_number VARCHAR(50),
    PRIMARY KEY(serial_number)
 );
 
@@ -91,10 +93,12 @@ CREATE TABLE DeviceRegistration(
    fk_purchase_store_id INT,
    fk_serial_number VARCHAR(50),
    fk_registration_source_id INT,
+   fk_purchase_date DATE,
    PRIMARY KEY(registration_id),
    FOREIGN KEY(fk_device_model) REFERENCES DeviceModel(device_model), 
    FOREIGN KEY(fk_purchase_store_id) REFERENCES PurchaseInformation(purchase_store_id),
-   FOREIGN KEY(fk_serial_number) REFERENCES DeviceInformation(serial_number),
+   FOREIGN KEY(fk_serial_number) REFERENCES DeviceSerial(serial_number),
+   FOREIGN KEY(fk_purchase_date) REFERENCES DevicePurchaseDate(purchase_date),
    FOREIGN KEY(fk_registration_source_id) REFERENCES RegistrationLocation(registration_source_id)
 );
 

@@ -83,6 +83,7 @@ CREATE TABLE Events(
    EventID INT,
    UNIQUE(MsgID, EventID),
    LinkID INT,
+   EmailEventDateTime VARCHAR(20),
    FOREIGN KEY (LinkID) REFERENCES (Links.LinkID)
 );
 

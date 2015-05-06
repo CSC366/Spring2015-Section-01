@@ -2,13 +2,12 @@
 -- Group Masda cpe 366-01
 create table CustomerAccounts (
     id INT PRIMARY KEY AUTO_INCREMENT, -- added key
-    customer_id VARCHAR(30),
-    permission VARCHAR(30),
+    customer_id varchar(50),
+    permission varchar(50),
     reg_date DATE,
-    tier VARCHAR(30),
+    tier varchar(50),
     num_registrations INT,
     UNIQUE(customer_id)
-
 );
 
 
@@ -16,24 +15,24 @@ create table Customers (
     account INT PRIMARY KEY,
     income FLOAT,
     zip INT,
-    state VARCHAR(30),
-    gender VARCHAR(30), 
-    language VARCHAR(30),
+    state varchar(50),
+    gender varchar(50), 
+    language varchar(50),
     FOREIGN KEY (account) REFERENCES CustomerAccounts(id)
 );
 
 
 create table Carrier (
     id INT AUTO_INCREMENT PRIMARY KEY, -- added key 
-    name VARCHAR(30) UNIQUE
+    name varchar(50) UNIQUE
 );
 
 
 create table Models (
     id INT PRIMARY KEY AUTO_INCREMENT, -- added key
-    model_id VARCHAR(30) UNIQUE,
-    name VARCHAR(30),
-    model_type VARCHAR(30),
+    model_id varchar(50) UNIQUE,
+    name varchar(50),
+    model_type varchar(50),
     carrier INT,
     FOREIGN KEY (carrier) REFERENCES Carrier(id)
     
@@ -42,7 +41,7 @@ create table Models (
 
 create table Devices (
     id INT PRIMARY KEY AUTO_INCREMENT,
-    serial_num VARCHAR(30) UNIQUE, 
+    serial_num varchar(50) UNIQUE, 
     model INT,
     FOREIGN KEY (model) REFERENCES Models(id)
 );
@@ -50,12 +49,12 @@ create table Devices (
 
 create table Registrations (
     id INT PRIMARY KEY AUTO_INCREMENT, -- added key
-    reg_id VARCHAR(30) UNIQUE,
-    customer VARCHAR(30),
+    reg_id varchar(50) UNIQUE,
+    customer varchar(50),
     device INT, 
     model INT, 
-    source_id VARCHAR(30),
-    source_name VARCHAR(30),
+    source_id varchar(50),
+    source_name varchar(50),
     reg_date DATE,
     FOREIGN KEY (customer) REFERENCES CustomerAccounts(customer_id),
     FOREIGN KEY (model) REFERENCES Models(id),
@@ -65,9 +64,9 @@ create table Registrations (
 
 create table Stores (
     id INT PRIMARY KEY,
-    name VARCHAR(30),
-    state VARCHAR(30),
-    city VARCHAR(30),
+    name varchar(50),
+    state varchar(50),
+    city varchar(50),
     ecomm INT,
     purchase_date DATE,
     FOREIGN KEY (id) REFERENCES Registrations(id)
@@ -76,21 +75,20 @@ create table Stores (
 
 create table EmailAddresses (
     id INT PRIMARY KEY AUTO_INCREMENT, -- added key
-    email_id VARCHAR(30) UNIQUE,
-    customer VARCHAR(30),
-    domain VARCHAR(30),
+    email_id varchar(50) UNIQUE,
+    customer varchar(50),
+    domain varchar(50),
     FOREIGN KEY (customer) REFERENCES CustomerAccounts(customer_id)
 );
 
 create table Messages (
     id INT PRIMARY KEY AUTO_INCREMENT, -- added key
-    campaign_name VARCHAR(30),
-    audience VARCHAR(30),
-    version VARCHAR(30),
-    subject_line VARCHAR(30),
+    campaign_name varchar(50),
+    audience varchar(50),
+    version varchar(50),
+    subject_line varchar(50),
     dep_date DATETIME,
-    deployment VARCHAR(30),
-    campaign INT,
+    deployment varchar(50),
     UNIQUE(campaign_name, audience, version)
 );
 
@@ -106,7 +104,7 @@ create table Recieve (
 create table EventTypes (
     id INT PRIMARY KEY AUTO_INCREMENT, -- added key
     type_id INT UNIQUE,
-    name VARCHAR(30)
+    name varchar(50)
 );
 
 create table Generate (
@@ -123,8 +121,8 @@ create table Generate (
 
 create table Links (
     id INT PRIMARY KEY AUTO_INCREMENT, -- added key
-    name VARCHAR(30),
-    url VARCHAR(30),
+    name varchar(50),
+    url varchar(50),
     message INT,
     FOREIGN KEY (message) REFERENCES Messages(id),
     UNIQUE(name, url, message)

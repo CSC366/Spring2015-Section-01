@@ -31,6 +31,8 @@ for x in file.readlines():
             pass
         elif count == 9: #EmailType
             pass
+        elif count == 10: #DateTime
+            pass
         elif count == 11: #Hyperlink Name
             pass
         elif count == 12: #EmailURL

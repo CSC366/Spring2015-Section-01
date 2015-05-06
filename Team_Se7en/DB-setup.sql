@@ -18,7 +18,7 @@ CREATE TABLE Customers(
    Income VARCHAR(20),
    Permission INT,
    Language CHAR(2),
-   RegDate DATE,
+   RegDate VARCHAR(20),
    Tier CHAR(3),
    NumRegs INT,
    RegSrcID INT,
@@ -27,7 +27,7 @@ CREATE TABLE Customers(
 
 CREATE TABLE Registrations(
    RegID INT PRIMARY KEY,
-   PurchaseDate DATE,
+   PurchaseDate VARCHAR(20),
    PurchaseStoreName VARCHAR(21),
    PurchaseStoreState CHAR(2),
    PurchaseStoreCity VARCHAR(50),
@@ -56,7 +56,7 @@ CREATE TABLE Campaigns(
 CREATE TABLE Messages(
    MsgID INT PRIMARY KEY AUTO_INCREMENT,
    DeployID INT,
-   DeployDate DATE,
+   DeployDate VARCHAR(20),
    Subject VARCHAR(3),
    Version VARCHAR(30),
    Audience VARCHAR(40),

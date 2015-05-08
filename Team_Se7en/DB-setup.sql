@@ -1,11 +1,11 @@
 CREATE TABLE RegSrcs(
    RegSrcID INT PRIMARY KEY,
-   Name VARCHAR(30)
+   Name VARCHAR(12)
 );
 
 CREATE TABLE Devices(
    Model VARCHAR(50) PRIMARY KEY,
-   Name VARCHAR(30),
+   Name VARCHAR(35),
    Type VARCHAR(6),
    Carrier VARCHAR(20)
 );
@@ -22,7 +22,7 @@ CREATE TABLE Customers(
    Tier CHAR(3),
    NumRegs INT,
    RegSrcID INT,
-   FOREIGN KEY (RegSrcID) REFERENCES (RegSrcs.RegSrcID)
+   FOREIGN KEY (RegSrcID) REFERENCES RegSrcs(RegSrcID)
 );
 
 CREATE TABLE Registrations(
@@ -34,18 +34,18 @@ CREATE TABLE Registrations(
    Ecomm INT,
    Serial VARCHAR(20),
    Model VARCHAR(50),
-   FOREIGN KEY (Model) REFERENCES (Devices.Model),
+   FOREIGN KEY (Model) REFERENCES Devices(Model),
    CustomerID INT,
-   FOREIGN KEY (CustomerID) REFERENCES (Customers.CustomerID),
+   FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID),
    RegSrcID INT,
-   FOREIGN KEY (RegSrcID) REFERENCES (RegSrcs.RegSrcID)
+   FOREIGN KEY (RegSrcID) REFERENCES RegSrcs(RegSrcID)
 );
 
 CREATE TABLE Emails(
    EmailID INT PRIMARY KEY,
    Domain VARCHAR(30),
    CustomerID INT,
-   FOREIGN KEY (CustomerID) REFERENCES (Customers.CustomerID)
+   FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
 );
 
 CREATE TABLE Campaigns(
@@ -61,9 +61,9 @@ CREATE TABLE Messages(
    Version VARCHAR(30),
    Audience VARCHAR(40),
    CampaignID INT,
-   FOREIGN KEY (CampaignID) REFERENCES (Campaigns.CampaignID),
+   FOREIGN KEY (CampaignID) REFERENCES Campaigns(CampaignID),
    EmailID INT,
-   FOREIGN KEY (EmailID) REFERENCES (Emails.EmailID),
+   FOREIGN KEY (EmailID) REFERENCES Emails(EmailID),
    UNIQUE(DeployID, CampaignID, EmailID, Audience, Version, Subject, DeployDate)
 );
 
@@ -72,23 +72,23 @@ CREATE TABLE Links(
    URL VARCHAR(255),
    LinkName VARCHAR(40),
    MsgID INT,
-   FOREIGN KEY (MsgID) REFERENCES (Messages.MsgID),
+   FOREIGN KEY (MsgID) REFERENCES Messages(MsgID),
    UNIQUE(URL, LinkName, MsgID)
 );
 
 CREATE TABLE Events(
    EventNum INT PRIMARY KEY AUTO_INCREMENT,
    MsgID INT,
-   FOREIGN KEY (MsgID) REFERENCES (Messages.MsgID),
+   FOREIGN KEY (MsgID) REFERENCES Messages(MsgID),
    EventID INT,
    UNIQUE(MsgID, EventID),
    LinkID INT,
    EmailEventDateTime VARCHAR(20),
-   FOREIGN KEY (LinkID) REFERENCES (Links.LinkID)
+   FOREIGN KEY (LinkID) REFERENCES Links(LinkID)
 );
 
 CREATE TABLE EventTypes(
    EventNum INT PRIMARY KEY,
-   FOREIGN KEY (EventNum) REFERENCES (Events.EventNum)
+   FOREIGN KEY (EventNum) REFERENCES Events(EventNum)
    Name VARCHAR(20)
 );

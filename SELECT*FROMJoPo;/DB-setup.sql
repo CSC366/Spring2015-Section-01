@@ -5,17 +5,21 @@ CREATE TABLE RegistrationLocation(
 );
 
 CREATE TABLE Link(
-   link_name VARCHAR(30),
-   url VARCHAR(50),
-   PRIMARY KEY(link_name)
+   link_id INT,
+   link_name VARCHAR(100),
+   url VARCHAR(500),
+   UNIQUE(link_name),
+   PRIMARY KEY(link_id)
 );
 
 CREATE TABLE DeviceModel(
-   device_name VARCHAR(100),
-   carrier VARCHAR(100),
+   device_model_id INT,
    device_model VARCHAR(100),
+   device_name VARCHAR(100),
    device_type VARCHAR(100),
-   PRIMARY KEY(device_model)
+   carrier VARCHAR(100),
+   UNIQUE(device_model),
+   PRIMARY KEY(device_model_id)
 );
 
 CREATE TABLE EventType(
@@ -25,13 +29,17 @@ CREATE TABLE EventType(
 );
 
 CREATE TABLE DevicePurchaseDate (
+   purchase_id INT,
    purchase_date DATE,
-   PRIMARY KEY(purchase_date)
+   UNIQUE(purchase_date),
+   PRIMARY KEY(purchase_id)
 );
 
 CREATE TABLE DeviceSerial (
+   serial_id INT,
    serial_number VARCHAR(50),
-   PRIMARY KEY(serial_number)
+   UNIQUE(serial_number),
+   PRIMARY KEY(serial_id)
 );
 
 CREATE TABLE PurchaseInformation(
@@ -46,22 +54,22 @@ CREATE TABLE PurchaseInformation(
 
 
 CREATE TABLE EmailSent(
+   email_sent_id INT,
    campaign_name VARCHAR(100),
    version VARCHAR(50),
    subject_line VARCHAR(100),
    audience VARCHAR(100),
-   fk_link_name VARCHAR(30),
-   PRIMARY KEY(campaign_name),
-   FOREIGN KEY(fk_link_name) REFERENCES Link(link_name)
+   UNIQUE(campaign_name, version, subject_line, audience),
+   PRIMARY KEY(email_sent_id)
 );
 
 CREATE TABLE CustomerAccount(
-   customer_id INT,
+   customer_id BIGINT,
    permission BOOL,
    customer_tier VARCHAR(20),
    gender CHAR(1),
    zip INT,
-   state CHAR(2),
+   state VARCHAR(30),
    income_level VARCHAR(20),
    num_registrations INT,
    fk_registration_source_id INT,
@@ -71,40 +79,39 @@ CREATE TABLE CustomerAccount(
 
 CREATE TABLE CustomerEmail(
    email_id INT,
-   customer_id INT,
    email_domain VARCHAR(50),
-   audience VARCHAR(100) UNIQUE,
-   PRIMARY KEY(email_id),
-   FOREIGN KEY (customer_id) REFERENCES CustomerAccount(customer_id)
+   PRIMARY KEY(email_id)
 );
 
 CREATE TABLE IsSentTo(
-   fk_campaign_name VARCHAR(100),
+   fk_email_sent_id INT,
    fk_email_id INT,
-   PRIMARY KEY(fk_campaign_name, fk_email_id),
-   FOREIGN KEY(fk_campaign_name) REFERENCES EmailSent(campaign_name),
+   deployment_id INT,
+   deployment_date DATE,
+   PRIMARY KEY(fk_email_sent_id, fk_email_id),
+   FOREIGN KEY(fk_email_sent_id) REFERENCES EmailSent(email_sent_id),
    FOREIGN KEY(fk_email_id) REFERENCES CustomerEmail(email_id)
 );
 
 CREATE TABLE DeviceRegistration(
    registration_id INT,
    registration_date DATE,
-   fk_device_model VARCHAR(100),
+   fk_device_model_id INT, 
    fk_purchase_store_id INT,
-   fk_serial_number VARCHAR(50),
+   fk_serial_id INT, 
    fk_registration_source_id INT,
-   fk_purchase_date DATE,
+   fk_purchase_id INT,
    PRIMARY KEY(registration_id),
-   FOREIGN KEY(fk_device_model) REFERENCES DeviceModel(device_model), 
+   FOREIGN KEY(fk_device_model_id) REFERENCES DeviceModel(device_model_id), 
    FOREIGN KEY(fk_purchase_store_id) REFERENCES PurchaseInformation(purchase_store_id),
-   FOREIGN KEY(fk_serial_number) REFERENCES DeviceSerial(serial_number),
-   FOREIGN KEY(fk_purchase_date) REFERENCES DevicePurchaseDate(purchase_date),
-   FOREIGN KEY(fk_registration_source_id) REFERENCES RegistrationLocation(registration_source_id)
+   FOREIGN KEY(fk_serial_id) REFERENCES DeviceSerial(serial_id),
+   FOREIGN KEY(fk_registration_source_id) REFERENCES RegistrationLocation(registration_source_id),
+   FOREIGN KEY(fk_purchase_id) REFERENCES DevicePurchaseDate(purchase_id)
 );
 
 CREATE TABLE IsRegisteredVia(
    fk_registration_id INT,
-   fk_customer_id INT,
+   fk_customer_id BIGINT,
    PRIMARY KEY(fk_registration_id, fk_customer_id),
    FOREIGN KEY(fk_registration_id) REFERENCES DeviceRegistration(registration_id),
    FOREIGN KEY(fk_customer_id) REFERENCES CustomerAccount(customer_id)
@@ -113,7 +120,7 @@ CREATE TABLE IsRegisteredVia(
 
 CREATE TABLE Possesses(
    fk_email_id INT,
-   fk_customer_id INT,
+   fk_customer_id BIGINT,
    PRIMARY KEY(fk_email_id, fk_customer_id),
    FOREIGN KEY(fk_email_id) REFERENCES CustomerEmail(email_id),
    FOREIGN KEY(fk_customer_id) REFERENCES CustomerAccount(customer_id)
@@ -121,20 +128,11 @@ CREATE TABLE Possesses(
 
 CREATE TABLE Event(
    email_id INT,
-   event_type INT,
-   event_date DATE,
+   event_date DATETIME,
    fk_event_type_id INT,
-   fk_campaign_name VARCHAR(100),
-   PRIMARY KEY(email_id, fk_event_type_id),
+   fk_email_sent_id INT,
+   PRIMARY KEY(email_id, event_date, fk_event_type_id, fk_email_sent_id),
    FOREIGN KEY(fk_event_type_id) REFERENCES EventType(event_type_id),
-   FOREIGN KEY(fk_campaign_name) REFERENCES EmailSent(campaign_name),
+   FOREIGN KEY(fk_email_sent_id) REFERENCES EmailSent(email_sent_id),
    FOREIGN KEY(email_id) REFERENCES CustomerEmail(email_id)
-);
-
-CREATE TABLE Deployment(
-   deployment_id INT,
-   deployment_date DATE,
-   fk_campaign_name VARCHAR(100),
-   PRIMARY KEY(deployment_id),
-   FOREIGN KEY(fk_campaign_name) REFERENCES EmailSent(campaign_name)
 );

@@ -1,0 +1,15 @@
+source RegistrationLocation-insert.sql
+source Link-insert.sql
+source DeviceModel-insert.sql
+source EventType-insert.sql
+source DevicePurchaseDate-insert.sql
+source DeviceSerial-insert.sql
+source PurchaseInformation-insert.sql
+source EmailSent-insert.sql
+source CustomerAccount-insert.sql
+source CustomerEmail-insert.sql
+source IsSentTo-insert.sql
+source DeviceRegistration-insert.sql
+source IsRegisteredVia-insert.sql
+source Possesses-insert.sql
+source Event-insert.sql

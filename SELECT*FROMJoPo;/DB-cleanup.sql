@@ -1,4 +1,3 @@
-DROP TABLE Deployment;
 DROP TABLE IsSentTo;
 DROP TABLE Event;
 DROP TABLE Possesses;

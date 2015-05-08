@@ -28,8 +28,8 @@ CREATE TABLE Customers(
 CREATE TABLE Registrations(
    RegID INT PRIMARY KEY,
    PurchaseDate VARCHAR(20),
-   PurchaseStoreName VARCHAR(21),
-   PurchaseStoreState CHAR(2),
+   PurchaseStoreName VARCHAR(30),
+   PurchaseStoreState VARCHAR(3),
    PurchaseStoreCity VARCHAR(50),
    Ecomm INT,
    Serial VARCHAR(20),
@@ -85,11 +85,11 @@ CREATE TABLE Events(
    UNIQUE(MsgID, EventID),
    LinkID INT,
    EmailEventDateTime VARCHAR(20),
-   FOREIGN KEY (LinkID) REFERENCES Links(LinkID)
+   FOREIGN KEY (LinkID) REFERENCES Links(LinkID),
+   FOREIGN KEY (EventID) REFERENCES EventTypes(EventNum)
 );
 
 CREATE TABLE EventTypes(
    EventNum INT PRIMARY KEY,
-   FOREIGN KEY (EventNum) REFERENCES Events(EventNum)
    Name VARCHAR(20)
 );

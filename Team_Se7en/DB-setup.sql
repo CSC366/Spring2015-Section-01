@@ -34,6 +34,7 @@ CREATE TABLE Registrations(
    Ecomm INT,
    Serial VARCHAR(20),
    Model VARCHAR(50),
+   RegDate VARCHAR(20),
    FOREIGN KEY (Model) REFERENCES Devices(Model),
    CustomerID INT,
    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID),

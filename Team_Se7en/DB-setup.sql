@@ -5,7 +5,7 @@ CREATE TABLE RegSrcs(
 
 CREATE TABLE Devices(
    Model VARCHAR(50) PRIMARY KEY,
-   Name VARCHAR(35),
+   Name VARCHAR(50),
    Type VARCHAR(6),
    Carrier VARCHAR(20)
 );
@@ -13,7 +13,7 @@ CREATE TABLE Devices(
 CREATE TABLE Customers(
    CustomerID INT PRIMARY KEY,
    Zip INT,
-   State VARCHAR(14),
+   State VARCHAR(50),
    Gender CHAR(1),
    Income VARCHAR(20),
    Permission INT,
@@ -44,7 +44,7 @@ CREATE TABLE Registrations(
 
 CREATE TABLE Emails(
    EmailID INT PRIMARY KEY,
-   Domain VARCHAR(30),
+   Domain VARCHAR(50),
    CustomerID INT,
    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
 );

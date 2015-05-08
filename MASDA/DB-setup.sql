@@ -1,13 +1,15 @@
 -- Database schema create tables 1
 -- Group Masda cpe 366-01
+
 create table CustomerAccounts (
-    id INT PRIMARY KEY AUTO_INCREMENT, -- added key
+    id INT PRIMARY KEY, -- added key
     customer_id varchar(50),
+    gender varchar(10), 
     permission varchar(50),
     reg_date DATE,
     tier varchar(50),
     num_registrations INT,
-    UNIQUE(customer_id)
+    UNIQUE(customer_id, gender, reg_date)
 );
 
 
@@ -15,21 +17,20 @@ create table Customers (
     account INT PRIMARY KEY,
     income FLOAT,
     zip INT,
-    state varchar(50),
-    gender varchar(50), 
+    state varchar(30),
     language varchar(50),
     FOREIGN KEY (account) REFERENCES CustomerAccounts(id)
 );
 
 
 create table Carrier (
-    id INT AUTO_INCREMENT PRIMARY KEY, -- added key 
+    id INT PRIMARY KEY, -- added key 
     name varchar(50) UNIQUE
 );
 
 
 create table Models (
-    id INT PRIMARY KEY AUTO_INCREMENT, -- added key
+    id INT PRIMARY KEY, -- added key
     model_id varchar(50) UNIQUE,
     name varchar(50),
     model_type varchar(50),
@@ -40,7 +41,7 @@ create table Models (
 
 
 create table Devices (
-    id INT PRIMARY KEY AUTO_INCREMENT,
+    id INT PRIMARY KEY,
     serial_num varchar(50) UNIQUE, 
     model INT,
     FOREIGN KEY (model) REFERENCES Models(id)
@@ -48,7 +49,7 @@ create table Devices (
 
 
 create table Registrations (
-    id INT PRIMARY KEY AUTO_INCREMENT, -- added key
+    id INT PRIMARY KEY, -- added key
     reg_id varchar(50) UNIQUE,
     customer varchar(50),
     device INT, 
@@ -65,7 +66,7 @@ create table Registrations (
 create table Stores (
     id INT PRIMARY KEY,
     name varchar(50),
-    state varchar(50),
+    state varchar(30),
     city varchar(50),
     ecomm INT,
     purchase_date DATE,
@@ -74,7 +75,7 @@ create table Stores (
 
 
 create table EmailAddresses (
-    id INT PRIMARY KEY AUTO_INCREMENT, -- added key
+    id INT PRIMARY KEY, -- added key
     email_id varchar(50) UNIQUE,
     customer varchar(50),
     domain varchar(50),
@@ -82,7 +83,7 @@ create table EmailAddresses (
 );
 
 create table Messages (
-    id INT PRIMARY KEY AUTO_INCREMENT, -- added key
+    id INT PRIMARY KEY, -- added key
     campaign_name varchar(50),
     audience varchar(50),
     version varchar(50),
@@ -93,7 +94,7 @@ create table Messages (
 );
 
 create table Recieve (
-    id INT PRIMARY KEY AUTO_INCREMENT, -- added key
+    id INT PRIMARY KEY, -- added key
     message INT,
     email INT,
     FOREIGN KEY (message) REFERENCES Messages(id),
@@ -102,13 +103,13 @@ create table Recieve (
 );
 
 create table EventTypes (
-    id INT PRIMARY KEY AUTO_INCREMENT, -- added key
+    id INT PRIMARY KEY, -- added key
     type_id INT UNIQUE,
     name varchar(50)
 );
 
 create table Generate (
-    id INT PRIMARY KEY AUTO_INCREMENT, -- added key
+    id INT PRIMARY KEY, -- added key
     event_date DATETIME,
     email INT,
     message INT,
@@ -120,7 +121,7 @@ create table Generate (
 );
 
 create table Links (
-    id INT PRIMARY KEY AUTO_INCREMENT, -- added key
+    id INT PRIMARY KEY, -- added key
     name varchar(50),
     url varchar(50),
     message INT,
@@ -129,7 +130,7 @@ create table Links (
 );
 
 create table Clicked (
-    id INT PRIMARY KEY AUTO_INCREMENT, -- added key
+    id INT PRIMARY KEY, -- added key
     generated INT,
     link INT,
     FOREIGN KEY (generated) REFERENCES Generate(id),

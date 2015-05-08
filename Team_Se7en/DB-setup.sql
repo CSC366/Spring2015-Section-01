@@ -1,6 +1,6 @@
 CREATE TABLE RegSrcs(
    RegSrcID INT PRIMARY KEY,
-   Name VARCHAR(12)
+   Name VARCHAR(30)
 );
 
 CREATE TABLE Devices(

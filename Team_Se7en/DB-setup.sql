@@ -12,7 +12,7 @@ CREATE TABLE Devices(
 
 CREATE TABLE Customers(
    CustomerID INT PRIMARY KEY,
-   Zip INT,
+   Zip VARCHAR(5),
    State VARCHAR(50),
    Gender CHAR(1),
    Income VARCHAR(20),
@@ -59,8 +59,8 @@ CREATE TABLE Messages(
    DeployID INT,
    DeployDate VARCHAR(20),
    Subject VARCHAR(3),
-   Version VARCHAR(30),
-   Audience VARCHAR(40),
+   Version VARCHAR(50),
+   Audience VARCHAR(50),
    CampaignID INT,
    FOREIGN KEY (CampaignID) REFERENCES Campaigns(CampaignID),
    EmailID INT,
@@ -71,10 +71,15 @@ CREATE TABLE Messages(
 CREATE TABLE Links(
    LinkID INT PRIMARY KEY AUTO_INCREMENT,
    URL VARCHAR(255),
-   LinkName VARCHAR(40),
+   LinkName VARCHAR(100),
    MsgID INT,
    FOREIGN KEY (MsgID) REFERENCES Messages(MsgID),
    UNIQUE(URL, LinkName, MsgID)
+);
+
+CREATE TABLE EventTypes(
+   EventNum INT PRIMARY KEY,
+   Name VARCHAR(40)
 );
 
 CREATE TABLE Events(
@@ -87,9 +92,4 @@ CREATE TABLE Events(
    EmailEventDateTime VARCHAR(20),
    FOREIGN KEY (LinkID) REFERENCES Links(LinkID),
    FOREIGN KEY (EventID) REFERENCES EventTypes(EventNum)
-);
-
-CREATE TABLE EventTypes(
-   EventNum INT PRIMARY KEY,
-   Name VARCHAR(20)
 );

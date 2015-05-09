@@ -91,6 +91,15 @@ INSERT INTO EventTypes (EventID, Name)
 -- populating Events
 INSERT INTO Events (EventID, MsgID, EventID, LinkID, EmailEventDateTime)
    SELECT EventID, MsgID, EventID, LinkID, EmailEventDateTime
-   FROM tempEmails
-   WHERE
+   FROM tempEmails T, Messages M, Links L, EventTypes E, Campaigns C
+   WHERE C.Name = M.Campaign
+     AND T.DeployID = M.DeployID
+     AND T.DeployDate = M.DeployDate
+     AND T.EmailID = M.EmailID
+     AND T.Audience = M.Audience
+     AND T.Version = M.Version
+     AND T.Subject = M.Subject
+     AND T.Campaign = M.Campaign
+     AND T.EventID = E.EventID
+     AND L.MsgID = M.MsgID
 ;

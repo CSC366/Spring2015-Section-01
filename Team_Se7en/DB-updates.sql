@@ -71,15 +71,17 @@ INSERT INTO Messages (DeployID, DeployDate, Subject, Version, Audience, Campaign
 -- populating Links
 INSERT INTO Links (URL, LinkName, MsgID)
    SELECT DISTINCT URL, LinkName, MsgID
-   FROM tempEmails, Messages
-   WHERE tempEmails.DeployID = Messages.DeployID
-     AND tempEmails.Campaign = Messages.Ca
-     AND tempEmails.EmailID
-     AND tempEmails.Audience
-     AND tempEmails.Version
-     AND tempEmails.Subject
-     AND tempEmails.DeployDate
-     
+   FROM tempEmails T, Messages M, Campaigns C
+   WHERE C.Name = M.Campaign
+     AND T.DeployID = M.DeployID
+     AND T.DeployDate = M.DeployDate
+     AND T.EmailID = M.EmailID
+     AND T.Audience = M.Audience
+     AND T.Version = M.Version
+     AND T.Subject = M.Subject
+     AND T.Campaign = M.Campaign
+;
+
 -- populating EventTypes
 INSERT INTO EventTypes (EventID, Name)
    SELECT DISTINCT EventID, EventName
@@ -88,4 +90,7 @@ INSERT INTO EventTypes (EventID, Name)
 
 -- populating Events
 INSERT INTO Events (EventID, MsgID, EventID, LinkID, EmailEventDateTime)
-   SELECT EventID
+   SELECT EventID, MsgID, EventID, LinkID, EmailEventDateTime
+   FROM tempEmails
+   WHERE
+;

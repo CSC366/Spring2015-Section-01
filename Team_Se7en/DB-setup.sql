@@ -78,12 +78,11 @@ CREATE TABLE Links(
 );
 
 CREATE TABLE EventTypes(
-   EventNum INT PRIMARY KEY,
+   EventID INT PRIMARY KEY,
    Name VARCHAR(40)
 );
 
 CREATE TABLE Events(
-   EventNum INT PRIMARY KEY AUTO_INCREMENT,
    MsgID INT,
    FOREIGN KEY (MsgID) REFERENCES Messages(MsgID),
    EventID INT,

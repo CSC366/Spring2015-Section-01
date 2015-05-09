@@ -38,20 +38,54 @@ INSERT INTO Customers (CustomerID, Zip, State, Gender, Income,
 INSERT INTO Registrations (RegID, PurchaseDate, PurchaseStoreName,
    PurchaseStoreState, PurchaseStoreCity, Ecomm, Serial, Model,
    RegDate, CustomerID, RegSrcID)
-      SELECT RegID, PurchaseDate, PurchaseStoreName, PurchaseStoreState,
+      SELECT DISTINCT RegID, PurchaseDate, PurchaseStoreName, PurchaseStoreState,
              PurchaseStoreCity, Ecomm, Serial, Model, RegDate,
              CustomerID, RegSrcID
       FROM tempDevices
 ;
 
 -- populating Emails
+INSERT INTO Emails (EmailID, Domain, CustomerID)
+   SELECT DISTINCT EmailID, Domain, CustomerID
+   FROM tempDevices
+;
 
 -- populating Campaigns
+-- drop emailID2
+ALTER TABLE tempEmails
+DROP COLUMN EmailID2
+;
+
+INSERT INTO Campaigns (Name)
+   SELECT DISTINCT Campaign
+   FROM tempEmails
+;
 
 -- populating Messages
+INSERT INTO Messages (DeployID, DeployDate, Subject, Version, Audience, CampaignID, EmailID)
+      SELECT DISTINCT DeployID, DeployDate, Subject, Version, Audience, CampaignID, EmailID
+      FROM tempEmails, Campaigns
+      WHERE tempEmails.Campaign = Campaigns.Name
+;
 
 -- populating Links
-
+INSERT INTO Links (URL, LinkName, MsgID)
+   SELECT DISTINCT URL, LinkName, MsgID
+   FROM tempEmails, Messages
+   WHERE tempEmails.DeployID = Messages.DeployID
+     AND tempEmails.Campaign = Messages.Ca
+     AND tempEmails.EmailID
+     AND tempEmails.Audience
+     AND tempEmails.Version
+     AND tempEmails.Subject
+     AND tempEmails.DeployDate
+     
 -- populating EventTypes
+INSERT INTO EventTypes (EventID, Name)
+   SELECT DISTINCT EventID, EventName
+   FROM tempEmails
+;
 
 -- populating Events
+INSERT INTO Events (EventID, MsgID, EventID, LinkID, EmailEventDateTime)
+   SELECT EventID

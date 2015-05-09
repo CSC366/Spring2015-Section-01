@@ -84,11 +84,11 @@ CREATE TABLE EventTypes(
 
 CREATE TABLE Events(
    MsgID INT,
-   FOREIGN KEY (MsgID) REFERENCES Messages(MsgID),
    EventID INT,
-   UNIQUE(MsgID, EventID),
    LinkID INT,
    EmailEventDateTime VARCHAR(20),
+   UNIQUE(MsgID, EventID),
+   FOREIGN KEY (MsgID) REFERENCES Messages(MsgID),
    FOREIGN KEY (LinkID) REFERENCES Links(LinkID),
    FOREIGN KEY (EventID) REFERENCES EventTypes(EventNum)
 );

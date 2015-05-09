@@ -1,6 +1,6 @@
-DROP TABLE EventTypes;
-
 DROP TABLE Events;
+
+DROP TABLE EventTypes;
 
 DROP TABLE Links;
 

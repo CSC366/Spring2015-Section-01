@@ -60,7 +60,7 @@ CREATE TABLE Messages(
    DeployDate VARCHAR(20),
    Subject VARCHAR(3) DEFAULT 'N/A',
    Version VARCHAR(50) DEFAULT 'NoVersion',
-   Audience VARCHAR(50) 'NoAudience',
+   Audience VARCHAR(50) DEFAULT 'NoAudience',
    CampaignID INT,
    FOREIGN KEY (CampaignID) REFERENCES Campaigns(CampaignID),
    EmailID INT,

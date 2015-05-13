@@ -97,14 +97,10 @@ CREATE TABLE DeviceRegistration(
    registration_id INT,
    registration_date DATE,
    fk_device_model_id INT, 
-   fk_purchase_store_id INT,
-   fk_serial_id INT, 
    fk_registration_source_id INT,
    fk_purchase_id INT,
    PRIMARY KEY(registration_id),
    FOREIGN KEY(fk_device_model_id) REFERENCES DeviceModel(device_model_id), 
-   FOREIGN KEY(fk_purchase_store_id) REFERENCES PurchaseInformation(purchase_store_id),
-   FOREIGN KEY(fk_serial_id) REFERENCES DeviceSerial(serial_id),
    FOREIGN KEY(fk_registration_source_id) REFERENCES RegistrationLocation(registration_source_id),
    FOREIGN KEY(fk_purchase_id) REFERENCES DevicePurchaseDate(purchase_id)
 );
@@ -127,12 +123,38 @@ CREATE TABLE Possesses(
 );
 
 CREATE TABLE Event(
+   event_id INT,
    email_id INT,
    event_date DATETIME,
    fk_event_type_id INT,
    fk_email_sent_id INT,
-   PRIMARY KEY(email_id, event_date, fk_event_type_id, fk_email_sent_id),
+   PRIMARY KEY(event_id),
+   UNIQUE(email_id, event_date, fk_event_type_id, fk_email_sent_id),
    FOREIGN KEY(fk_event_type_id) REFERENCES EventType(event_type_id),
    FOREIGN KEY(fk_email_sent_id) REFERENCES EmailSent(email_sent_id),
    FOREIGN KEY(email_id) REFERENCES CustomerEmail(email_id)
+);
+
+CREATE TABLE ClickedLink(
+   fk_event_id INT,
+   fk_link_id INT,
+   PRIMARY KEY(fk_event_id, fk_link_id),
+   FOREIGN KEY(fk_event_id) REFERENCES Event(event_id),
+   FOREIGN KEY(fk_link_id) REFERENCES Link(link_id)
+);
+
+CREATE TABLE DeviceToSerial(
+   fk_registration_id INT,
+   fk_serial_id INT,
+   PRIMARY KEY(fk_registration_id, fk_serial_id),
+   FOREIGN KEY(fk_registration_id) REFERENCES DeviceRegistration(registration_id),
+   FOREIGN KEY(fk_serial_id) REFERENCES DeviceSerial(serial_id)
+);
+
+CREATE TABLE DeviceToPurchaseInformation(
+   fk_registration_id INT,
+   fk_purchase_store_id INT,
+   PRIMARY KEY(fk_registration_id, fk_purchase_store_id),
+   FOREIGN KEY(fk_registration_id) REFERENCES DeviceRegistration(registration_id),
+   FOREIGN KEY(fk_purchase_store_id) REFERENCES PurchaseInformation(purchase_store_id)
 );

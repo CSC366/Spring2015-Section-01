@@ -13,3 +13,6 @@ source DeviceRegistration-insert.sql
 source IsRegisteredVia-insert.sql
 source Possesses-insert.sql
 source Event-insert.sql
+source ClickedLink-insert.sql
+source DeviceToSerial-insert.sql
+source DeviceToPurchaseInformation-insert.sql

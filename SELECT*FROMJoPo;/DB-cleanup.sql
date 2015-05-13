@@ -1,3 +1,6 @@
+DROP TABLE DeviceToPurchaseInformation;
+DROP TABLE DeviceToSerial;
+DROP TABLE ClickedLink;
 DROP TABLE IsSentTo;
 DROP TABLE Event;
 DROP TABLE Possesses;

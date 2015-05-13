@@ -32,7 +32,8 @@ SELECT DISTINCT Ac.CustomerID, Ac.Zip, Ac.State, Ac.Gender, Ac.Income,
 FROM (SELECT DISTINCT CustomerID, Zip, State, Gender, Income,
          Permission, Language, RegDate, Tier, RegSrcID
       FROM tempAccounts
-      GROUP BY CustomerID) Ac,
+      GROUP BY CustomerID
+      ORDER BY RegDate DESC) Ac,
      (SELECT DISTINCT CustomerID, numReg
       FROM tempDevices) D
 WHERE Ac.CustomerID = D.CustomerID

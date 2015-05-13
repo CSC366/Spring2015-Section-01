@@ -121,14 +121,14 @@ AND T.EventID = E.EventID
 AND L.MsgID = M.MsgID
 ;
 
-UPDATE CUSTOMERS SET RegDate = str_to_date(RegDate, '%m/%d/%Y');
-ALTER TABLE CUSTOMERS MODIFY RegDate DATE;
+UPDATE Customers SET RegDate = str_to_date(RegDate, '%m/%d/%Y');
+ALTER TABLE Customers MODIFY RegDate DATE;
 
-UPDATE REGISTRATIONS SET PurchaseDate = str_to_date(PurchaseDate, '%m/%d/%Y');
-ALTER TABLE REGISTRATIONS MODIFY PurchaseDate DATE;
+UPDATE Registrations SET PurchaseDate = str_to_date(PurchaseDate, '%m/%d/%Y');
+ALTER TABLE Registrations MODIFY PurchaseDate DATE;
 
-UPDATE REGISTRATIONS SET RegDate = str_to_date(RegDate, '%m/%d/%Y');
-ALTER TABLE REGISTRATIONS MODIFY RegDate DATE;
+UPDATE Registrations SET RegDate = str_to_date(RegDate, '%m/%d/%Y');
+ALTER TABLE Registrations MODIFY RegDate DATE;
 
-UPDATE EVENTS SET EmailEventDateTime = str_to_date(EmailEventDateTime, '%m/%d/%Y %l:%i %p');
-ALTER TABLE EVENTS MODIFY EmailEventDateTime DATETIME;
+UPDATE Events SET EmailEventDateTime = str_to_date(EmailEventDateTime, '%m/%d/%Y %l:%i %p');
+ALTER TABLE Events MODIFY EmailEventDateTime DATETIME;

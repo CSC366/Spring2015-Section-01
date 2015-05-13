@@ -1,0 +1,34 @@
+DROP TABLE Devices;
+DROP TABLE Test;
+
+CREATE TABLE Devices(
+   id INT AUTO_INCREMENT PRIMARY KEY,
+   Model VARCHAR(50),
+   Name VARCHAR(35),
+   Type VARCHAR(6),
+   Carrier VARCHAR(20)
+);
+
+CREATE TABLE Test(
+	Model VARCHAR(50) PRIMARY KEY
+);
+
+
+
+LOAD DATA LOCAL INFILE 'C:\\Users\\nick\\Dropbox\\CSC366\\366python\\CP_Device_Model.csv' INTO TABLE Devices
+FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES
+(Model, Name, Type, Carrier);
+
+
+SELECT * FROM Test;
+SELECT * FROM Devices;
+
+
+
+INSERT INTO Test
+SELECT Devices.Model FROM Devices;
+
+
+SELECT * FROM Test;

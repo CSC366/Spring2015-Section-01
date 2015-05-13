@@ -47,7 +47,7 @@ INSERT INTO Registrations (RegID, PurchaseDate, PurchaseStoreName,
 -- populating Emails
 INSERT INTO Emails (EmailID, Domain, CustomerID)
    SELECT DISTINCT EmailID, Domain, CustomerID
-   FROM tempDevices
+   FROM tempAccounts
 ;
 
 -- populating Campaigns

@@ -1,19 +1,20 @@
-CREATE TABLE RegSrcs(
+
+CREATE TABLE RegSrcs (
    RegSrcID INT PRIMARY KEY,
    Name VARCHAR(30)
 );
 
-CREATE TABLE Devices(
+CREATE TABLE Devices (
    Model VARCHAR(50) PRIMARY KEY,
-   Name VARCHAR(50),
+   Name VARCHAR(35),
    Type VARCHAR(6),
    Carrier VARCHAR(20)
 );
 
-CREATE TABLE Customers(
+CREATE TABLE Customers (
    CustomerID INT PRIMARY KEY,
    Zip VARCHAR(5),
-   State VARCHAR(50),
+   State CHAR(50),
    Gender CHAR(1),
    Income VARCHAR(20),
    Permission INT,
@@ -25,7 +26,7 @@ CREATE TABLE Customers(
    FOREIGN KEY (RegSrcID) REFERENCES RegSrcs(RegSrcID)
 );
 
-CREATE TABLE Registrations(
+CREATE TABLE Registrations (
    RegID INT PRIMARY KEY,
    PurchaseDate VARCHAR(20),
    PurchaseStoreName VARCHAR(30),
@@ -35,26 +36,26 @@ CREATE TABLE Registrations(
    Serial VARCHAR(20),
    Model VARCHAR(50),
    RegDate VARCHAR(20),
-   FOREIGN KEY (Model) REFERENCES Devices(Model),
    CustomerID INT,
-   FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID),
    RegSrcID INT,
+   FOREIGN KEY (Model) REFERENCES Devices(Model),
+   FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID),
    FOREIGN KEY (RegSrcID) REFERENCES RegSrcs(RegSrcID)
 );
 
-CREATE TABLE Emails(
+CREATE TABLE Emails (
    EmailID INT PRIMARY KEY,
    Domain VARCHAR(50),
    CustomerID INT,
    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
 );
 
-CREATE TABLE Campaigns(
+CREATE TABLE Campaigns (
    CampaignID INT PRIMARY KEY AUTO_INCREMENT,
    Name VARCHAR(50) UNIQUE
 );
 
-CREATE TABLE Messages(
+CREATE TABLE Messages (
    MsgID INT PRIMARY KEY AUTO_INCREMENT,
    DeployID INT,
    DeployDate VARCHAR(20),
@@ -62,33 +63,33 @@ CREATE TABLE Messages(
    Version VARCHAR(50) DEFAULT 'NoVersion',
    Audience VARCHAR(50) DEFAULT 'NoAudience',
    CampaignID INT,
-   FOREIGN KEY (CampaignID) REFERENCES Campaigns(CampaignID),
    EmailID INT,
+   FOREIGN KEY (CampaignID) REFERENCES Campaigns(CampaignID),
    FOREIGN KEY (EmailID) REFERENCES Emails(EmailID),
-   UNIQUE(DeployID, CampaignID, EmailID, Audience, Version, Subject, DeployDate)
+   UNIQUE (DeployID, CampaignID, EmailID, Audience, Version, Subject, DeployDate)
 );
 
-CREATE TABLE Links(
+CREATE TABLE Links (
    LinkID INT PRIMARY KEY AUTO_INCREMENT,
    URL VARCHAR(255),
    LinkName VARCHAR(100),
    MsgID INT,
    FOREIGN KEY (MsgID) REFERENCES Messages(MsgID),
-   UNIQUE(URL, LinkName, MsgID)
+   UNIQUE (URL, LinkName, MsgID)
 );
 
-CREATE TABLE EventTypes(
+CREATE TABLE EventTypes (
    EventID INT PRIMARY KEY,
    Name VARCHAR(40)
 );
 
-CREATE TABLE Events(
+CREATE TABLE Events (
    MsgID INT,
    EventID INT,
    LinkID INT,
    EmailEventDateTime VARCHAR(20),
-   PRIMARY KEY (MsgID, EventID),
+   PRIMARY KEY (MsgID, EventID, LinkID, EmailEventDateTime),
    FOREIGN KEY (MsgID) REFERENCES Messages(MsgID),
    FOREIGN KEY (LinkID) REFERENCES Links(LinkID),
-   FOREIGN KEY (EventID) REFERENCES EventTypes(EventNum)
+   FOREIGN KEY (EventID) REFERENCES EventTypes(EventId)
 );

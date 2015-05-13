@@ -1,7 +1,7 @@
-DROP TABLE tempModels;
-DROP TABLE tempAccounts;
-DROP TABLE tempDevices;
-DROP TABLE tempEmails;
+DROP TABLE IF EXISTS tempModels;
+DROP TABLE IF EXISTS tempAccounts;
+DROP TABLE IF EXISTS tempDevices;
+DROP TABLE IF EXISTS tempEmails;
 
 CREATE TABLE tempModels (
    Model VARCHAR(50),

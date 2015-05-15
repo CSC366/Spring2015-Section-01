@@ -108,8 +108,8 @@ FROM tempEmails
 -- populating Events
 -- This should cause 4783 Duplicates/Warnings
 INSERT IGNORE INTO Events (MsgID, EventID, LinkID, EmailEventDateTime)
-SELECT M.MsgID, T.EventID, LinkID, EmailEventDateTime
-FROM tempEmails T, Messages M, Links L, Campaigns C
+SELECT M.MsgID, E.EventID, LinkID, EmailEventDateTime
+FROM tempEmails T, Messages M, Links L, EventTypes E, Campaigns C
 WHERE C.CampaignID = M.CampaignID
 AND T.DeployID = M.DeployID
 AND T.DeployDate = M.DeployDate
@@ -118,6 +118,7 @@ AND T.Audience = M.Audience
 AND T.Version = M.Version
 AND T.Subject = M.Subject
 AND T.Campaign = C.Name
+AND T.EventID = E.EventID
 AND L.MsgID = M.MsgID
 ;
 

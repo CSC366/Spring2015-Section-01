@@ -13,14 +13,14 @@ CREATE TABLE Devices (
 
 CREATE TABLE Customers (
    CustomerID INT PRIMARY KEY,
-   Zip VARCHAR(5),
-   State CHAR(50),
+   Zip VARCHAR(5) DEFAULT 'N/A',
+   State CHAR(50) DEFAULT 'N/A',
    Gender CHAR(1),
-   Income VARCHAR(20),
+   Income VARCHAR(20) 'N/A',
    Permission INT,
    Language CHAR(2),
    RegDate VARCHAR(20),
-   Tier CHAR(3),
+   Tier CHAR(3) 'N/A',
    NumRegs INT,
    RegSrcID INT,
    FOREIGN KEY (RegSrcID) REFERENCES RegSrcs(RegSrcID)

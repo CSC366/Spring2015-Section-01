@@ -14,9 +14,9 @@ CREATE TABLE Devices (
 CREATE TABLE Customers (
    CustomerID INT PRIMARY KEY,
    Zip VARCHAR(5) DEFAULT 'N/A',
-   State CHAR(50) DEFAULT 'N/A',
+   State VARCHAR(50) DEFAULT 'N/A',
    Gender CHAR(1),
-   Income VARCHAR(20) 'N/A',
+   Income VARCHAR(20) DEFAULT 'N/A',
    Permission INT,
    Language CHAR(2),
    RegDate VARCHAR(20),

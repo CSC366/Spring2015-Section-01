@@ -107,7 +107,7 @@ FROM tempEmails
 
 -- populating Events
 -- This should cause 4783 Duplicates/Warnings
-INSERT INTO Events (MsgID, EventID, LinkID, EmailEventDateTime)
+INSERT IGNORE INTO Events (MsgID, EventID, LinkID, EmailEventDateTime)
 SELECT M.MsgID, E.EventID, LinkID, EmailEventDateTime
 FROM tempEmails T, Messages M, Links L, EventTypes E, Campaigns C
 WHERE C.CampaignID = M.CampaignID

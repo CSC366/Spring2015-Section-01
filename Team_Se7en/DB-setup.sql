@@ -20,7 +20,7 @@ CREATE TABLE Customers (
    Permission INT,
    Language CHAR(2),
    RegDate VARCHAR(20),
-   Tier CHAR(3) 'N/A',
+   Tier CHAR(3) DEFAULT 'N/A',
    NumRegs INT,
    RegSrcID INT,
    FOREIGN KEY (RegSrcID) REFERENCES RegSrcs(RegSrcID)

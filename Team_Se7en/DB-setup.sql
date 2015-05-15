@@ -86,7 +86,7 @@ CREATE TABLE EventTypes (
 CREATE TABLE Events (
    MsgID INT,
    EventID INT,
-   LinkID INT DEFAULT -1,
+   LinkID INT,
    EmailEventDateTime VARCHAR(20),
    PRIMARY KEY (MsgID, EventID, LinkID, EmailEventDateTime),
    FOREIGN KEY (MsgID) REFERENCES Messages(MsgID),

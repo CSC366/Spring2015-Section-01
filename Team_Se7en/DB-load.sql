@@ -16,15 +16,15 @@ CREATE TABLE tempAccounts (
    EmailID INT,
    RegSrcID INT,
    RegSrcName VARCHAR(30),
-   Zip VARCHAR(5),
-   State VARCHAR(50),
+   Zip VARCHAR(5) DEFAULT 'N/A',
+   State VARCHAR(50) DEFAULT 'N/A',
    Gender CHAR(1),
-   Income VARCHAR(20),
+   Income VARCHAR(20) DEFAULT 'N/A',
    Permission INT,
    Language CHAR(2),
    RegDate VARCHAR(20),
    Domain VARCHAR(50),
-   Tier CHAR(3),
+   Tier CHAR(3) DEFAULT 'N/A',
    PRIMARY KEY(CustomerID, EmailID, RegSrcID, RegSrcName, Zip, State, Gender, Income, Permission, Language, RegDate, Domain, Tier)
 );
 
@@ -47,10 +47,10 @@ CREATE TABLE tempDevices (
 
 CREATE TABLE tempEmails (
    EmailID INT,
-   Audience VARCHAR(50),
+   Audience VARCHAR(50) DEFAULT 'N/A',
    Campaign VARCHAR(50),
-   Version VARCHAR(50),
-   Subject VARCHAR(3),
+   Version VARCHAR(50) DEFAULT 'N/A',
+   Subject VARCHAR(3) DEFAULT 'N/A',
    DeployDate VARCHAR(20),
    DeployID INT,
    EventID INT,

@@ -73,6 +73,8 @@ CREATE TABLE CustomerAccount(
    income_level VARCHAR(20),
    num_registrations INT,
    fk_registration_source_id INT,
+   regDate DATE,
+   language VARCHAR(10),
    PRIMARY KEY(customer_id),
    FOREIGN KEY(fk_registration_source_id) REFERENCES RegistrationLocation(registration_source_id)
 );

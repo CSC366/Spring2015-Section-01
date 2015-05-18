@@ -17,7 +17,7 @@ SELECT DISTINCT Model, Name, Type, Carrier
 FROM tempModels;
 -- insert the devices found only in Device.csv
 INSERT INTO Devices (Model, Name, Type, Carrier)
-SELECT DISTINCT Model, null, null, null
+SELECT DISTINCT Model, 'N/A', 'N/A', 'N/A'
 FROM tempDevices
 WHERE Model NOT IN (SELECT DISTINCT Model
                     FROM tempModels)
@@ -168,3 +168,7 @@ ALTER TABLE Registrations MODIFY RegDate DATE;
 
 UPDATE Events SET EmailEventDateTime = str_to_date(EmailEventDateTime, '%m/%d/%Y %l:%i %p');
 ALTER TABLE Events MODIFY EmailEventDateTime DATETIME;
+
+UPDATE Messages SET DeployDate = str_to_date(DeployDate, '%m/%d/%Y');
+ALTER TABLE Messages MODIFY DeployDate DATE;
+

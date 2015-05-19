@@ -1,42 +1,36 @@
-CREATE TABLE EmailDeployments AS (
-   SELECT fk_email_sent_id, deployment_date 
-   FROM IsSentTo 
-   GROUP BY fk_email_sent_id, deployment_date
-);
-
 CREATE TABLE UniqueOpen AS (
-   SELECT Event.fk_email_sent_id, EmailDeployments.deployment_date COUNT(DISTINCT email_id) as num 
-   FROM Event JOIN EmailDeployments ON Event.fk_email_sent_id =  EmailDeployments.fk_email_sent_id
-   WHERE fk_event_type_id = 2 
-   GROUP BY fk_email_sent_id, EmailDeployments.deployment_date
+   SELECT Event.fk_email_sent_id, IsSentTo.deployment_date, COUNT(DISTINCT Event.email_id) as num 
+   FROM Event JOIN IsSentTo ON (Event.email_id = IsSentTo.fk_email_id AND Event.fk_email_sent_id = IsSentTo.fk_email_sent_id) 
+   WHERE Event.fk_event_type_id = 2 
+   GROUP BY Event.fk_email_sent_id, IsSentTo.deployment_date
 );
 
 CREATE TABLE Bounce AS (
-   SELECT Event.fk_email_sent_id, EmailDeployments.deployment_date COUNT(DISTINCT email_id) as num 
-   FROM Event JOIN EmailDeployments ON Event.fk_email_sent_id =  EmailDeployments.fk_email_sent_id
+   SELECT Event.fk_email_sent_id, IsSentTo.deployment_date, COUNT(DISTINCT Event.email_id) as num 
+   FROM Event JOIN IsSentTo ON (Event.email_id = IsSentTo.fk_email_id AND Event.fk_email_sent_id = IsSentTo.fk_email_sent_id) 
    WHERE fk_event_type_id >= 38 AND fk_event_type_id <= 42 
-   GROUP BY fk_email_sent_id, EmailDeployments.deployment_date
+   GROUP BY Event.fk_email_sent_id, IsSentTo.deployment_date
 );
 
 CREATE TABLE UniqueSent AS (
-   SELECT Event.fk_email_sent_id, EmailDeployments.deployment_date COUNT(DISTINCT email_id) as num 
-   FROM Event JOIN EmailDeployments ON Event.fk_email_sent_id =  EmailDeployments.fk_email_sent_id
+   SELECT Event.fk_email_sent_id, IsSentTo.deployment_date, COUNT(DISTINCT Event.email_id) as num 
+   FROM Event JOIN IsSentTo ON (Event.email_id = IsSentTo.fk_email_id AND Event.fk_email_sent_id = IsSentTo.fk_email_sent_id) 
    WHERE fk_event_type_id = 20 
-   GROUP BY fk_email_sent_id, EmailDeployments.deployment_date
+   GROUP BY Event.fk_email_sent_id, IsSentTo.deployment_date
 );
 
 CREATE TABLE UniqueClick AS (
-   SELECT Event.fk_email_sent_id, EmailDeployments.deployment_date COUNT(DISTINCT email_id) as num 
-   FROM Event JOIN EmailDeployments ON Event.fk_email_sent_id =  EmailDeployments.fk_email_sent_id
+   SELECT Event.fk_email_sent_id, IsSentTo.deployment_date, COUNT(DISTINCT Event.email_id) as num 
+   FROM Event JOIN IsSentTo ON (Event.email_id = IsSentTo.fk_email_id AND Event.fk_email_sent_id = IsSentTo.fk_email_sent_id) 
    WHERE fk_event_type_id = 0 
-   GROUP BY fk_email_sent_id, EmailDeployments.deployment_date
+   GROUP BY Event.fk_email_sent_id, IsSentTo.deployment_date
 );
 
 CREATE TABLE UniqueUnsub AS (
-   SELECT Event.fk_email_sent_id, EmailDeployments.deployment_date COUNT(DISTINCT email_id) as num 
-   FROM Event JOIN EmailDeployments ON Event.fk_email_sent_id =  EmailDeployments.fk_email_sent_id
+   SELECT Event.fk_email_sent_id, IsSentTo.deployment_date, COUNT(DISTINCT Event.email_id) as num 
+   FROM Event JOIN IsSentTo ON (Event.email_id = IsSentTo.fk_email_id AND Event.fk_email_sent_id = IsSentTo.fk_email_sent_id) 
    WHERE fk_event_type_id = 37 
-   GROUP BY fk_email_sent_id, EmailDeployments.deployment_date
+   GROUP BY Event.fk_email_sent_id, IsSentTo.deployment_date
 );
 
 CREATE TABLE UniqueDeliver AS (
@@ -49,15 +43,16 @@ CREATE TABLE UniqueDeliver AS (
 
 -- Report #1 Datacube
 CREATE TABLE EmailCampaignPerformance AS (
-   SELECT EmailSent.campaign_name AS `Campaign Name`, EmailSent.audience AS `Audience`, EmailSent.version as `Version`, 
-     EmailSent.subject_line AS `Subject Line`, EmailSent.deployment_date as `Deployment Date`, 
-     UniqueDeliver.num AS `Unique Emails Delivered`, UniqueOpen.num AS `Unique Emails Opened`, UniqueClick.num AS `Unique Clickers`, 
-     (UniqueOpen.num/UniqueDeliver.num) as `Open Rate`, (UniqueClick.num/UniqueDeliver.num) as `Click Rate`,
-     ((UniqueClick.num/UniqueDeliver.num)/(UniqueOpen.num/UniqueDeliver.num)) as `Click To Open Rate`, (UniqueUnsub.num/UniqueOpen.num) as `Unsub Rate`
-   FROM UniqueClick JOIN UniqueUnsub ON (UniqueClick.fk_email_sent_id = UniqueUnsub.fk_email_sent_id AND UniqueClick.deployment_date = UniqueUnsub.deployment_date) 
-        JOIN UniqueDeliver ON (UniqueClick.fk_email_sent_id = UniqueDeliver.fk_email_sent_id AND UniqueClick.deployment_date = UniqueDeliver.deployment_date) 
-        JOIN UniqueOpen ON (UniqueOpen.fk_email_sent_id = UniqueClick.fk_email_sent_id AND UniqueOpen.deployment_date = UniqueClick.deployment_date)
-        JOIN EmailSent ON (EmailSent.email_sent_id = UniqueOpen.fk_email_sent_id
+   SELECT EmailSent.campaign_name AS `Campaign Name`, EmailSent.audience AS `Audience`, EmailSent.version as `Version`,       
+          EmailSent.subject_line AS `Subject Line`, UniqueDeliver.deployment_date as `Deployment Date`,       
+          UniqueDeliver.num AS `Unique Emails Delivered`, UniqueOpen.num AS `Unique Emails Opened`, UniqueClick.num AS `Unique Clickers`,       
+          (UniqueOpen.num/UniqueDeliver.num) as `Open Rate`, (UniqueClick.num/UniqueDeliver.num) as `Click Rate`,      
+          ((UniqueClick.num/UniqueDeliver.num)/(UniqueOpen.num/UniqueDeliver.num)) as `Click To Open Rate`, (UniqueUnsub.num/UniqueOpen.num) as `Unsub Rate`    
+          FROM UniqueClick JOIN UniqueUnsub ON (UniqueClick.fk_email_sent_id = UniqueUnsub.fk_email_sent_id 
+               AND UniqueClick.deployment_date = UniqueUnsub.deployment_date)          
+          JOIN UniqueDeliver ON (UniqueClick.fk_email_sent_id = UniqueDeliver.fk_email_sent_id AND UniqueClick.deployment_date = UniqueDeliver.deployment_date) 
+          JOIN UniqueOpen ON (UniqueOpen.fk_email_sent_id = UniqueClick.fk_email_sent_id AND UniqueOpen.deployment_date = UniqueClick.deployment_date)         
+          JOIN EmailSent ON (EmailSent.email_sent_id = UniqueOpen.fk_email_sent_id)
 );
 
 -- Report #2 Datacube
@@ -76,23 +71,3 @@ CREATE TABLE DeviceRegistrationReport AS (
          AND CustomerAccount.customer_id = IsRegisteredVia.fk_customer_id 
    GROUP BY DeviceModel.carrier, DeviceModel.device_model, MONTHNAME(DeviceRegistration.registration_date)
  );
-
--- Ignore for now...
-/*
-CREATE TABLE EmailCampaignPerformance AS (
-   SELECT EmailSent.campaign_name AS `Campaign Name`, EmailSent.audience AS `Audience`, EmailSent.version as `Version`, 
-     EmailSent.subject_line AS `Subject Line`, -- EmailSent.deployment_date as `Deployment Date`, 
-     UniqueDeliver.num AS `Unique Emails Delivered`, UniqueOpen.num AS `Unique Emails Opened`, UniqueClick.num AS `Unique Clickers`, 
-     (UniqueOpen.num/UniqueDeliver.num) as `Open Rate`, (UniqueClick.num/UniqueDeliver.num) as `Click Rate`,
-     ((UniqueClick.num/UniqueDeliver.num)/(UniqueOpen.num/UniqueDeliver.num)) as `Click To Open Rate`, (UniqueUnsub.num/UniqueOpen.num) as `Unsub Rate`
-   FROM UniqueOpen, UniqueUnsub, UniqueDeliver, UniqueClick, EmailSent 
-);
-
-DROP TABLE EmailDeployments;
-DROP TABLE UniqueOpen;
-DROP TABLE Bounce;
-DROP TABLE UniqueSent;
-DROP TABLE UniqueClick;
-DROP TABLE UniqueUnsub;
-DROP TABLE UniqueDeliver;
-*/

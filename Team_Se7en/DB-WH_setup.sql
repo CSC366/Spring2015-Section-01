@@ -3,18 +3,19 @@
  */
 
 CREATE TABLE DeviceRegData (
-   CustomerID INT,
+   NUmCustomers INT,
    Carrier VARCHAR(20),
    RegDate DATE,
    Name VARCHAR(35),
-   PRIMARY KEY (CustomerID, Carrier, RegDate, Name)
+   PRIMARY KEY (Carrier, RegDate, Name)
 );
 
 CREATE TABLE CustomerData (
-   CustomerID INT PRIMARY KEY,
+   NumCustomers INT,
    State VARCHAR(50),
    RegDate DATE,
-   Permission INT
+   Permission INT,
+   PRIMARY KEY(State, RegDate, Permission)
 );
 
 CREATE TABLE EmailData (

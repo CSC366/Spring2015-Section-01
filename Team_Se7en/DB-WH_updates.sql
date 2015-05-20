@@ -16,11 +16,25 @@ INSERT INTO EventData (MsgID, EventName)
    WHERE Events.EventID = EventTypes.EventID
 ;
 
-INSERT INTO EmailData (MsgID, CustomerID, CampaignName,
- Audience, Version, Subject, DeployDate, DeployID)
-   SELECT DISTINCT M.MsgID, E.CustomerID, C.Name, M.Audience,
-      M.Version, M.Subject, M.DeployDate, M.DeployID
-   FROM Campaigns C, Emails E, Messages M
+-- UNFINISHED
+INSERT INTO EmailData (MsgID, CustomerID, CampaignName, Audience, Version,
+Subject, DeployDate, DeployID, UniqueOpens, UniqueDelivers, UniqueClicks, UniqueUnsubs)
+   SELECT DISTINCT M.MsgID, E.CustomerID, C.Name, M.Audience, M.Version,
+      M.Subject, M.DeployDate, M.DeployID, t1.Opens, t2.Delivers, t3.Clicks, t4.Unsubs
+   FROM Campaigns C, Emails E, Messages M, 
+      (SELECT COUNT(EventID) AS Opens
+       FROM Events
+       WHERE EventID = 2) t1,
+      (SELECT COUNT(EventID) AS Delivers
+       FROM Events
+       WHERE EventID = 20) t2,
+      (SELECT COUNT(DISTINCT Messages.EmailID) AS Clicks
+       FROM Events, Messages
+       WHERE Events.MsgID = Messages.MsgID
+          AND EventID = 0) t3,
+      (SELECT COUNT(EventID) AS Unsubs
+       FROM Events
+       WHERE EventID = 37) t4
    WHERE M.EmailID = E.EmailID
       AND C.CampaignID = M.CampaignID
 ;

@@ -26,6 +26,10 @@ CREATE TABLE EmailData (
    Subject VARCHAR(3),
    DeployDate DATE,
    DeployID INT,
+   UniqueOpens INT,
+   UniqueDelivers INT,
+   UniqueClicks INT,
+   UniqueUnsubs INT,
    PRIMARY KEY (MsgID, CustomerID)
 );
 

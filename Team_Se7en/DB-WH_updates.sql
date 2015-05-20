@@ -38,3 +38,10 @@ Subject, DeployDate, DeployID, UniqueOpens, UniqueDelivers, UniqueClicks, Unique
    WHERE M.EmailID = E.EmailID
       AND C.CampaignID = M.CampaignID
 ;
+
+-- (SELECT COUNT(EventID) AS Bounced
+--  FROM Events
+--  WHERE EventID = 40) t5
+
+--SELECT DISTINCT M.MsgID, E.CustomerID, C.Name, M.Audience, M.Version,
+--      M.Subject, M.DeployDate, M.DeployID, t1.Opens, (t2.Delivers - t5.Bounced), t3.Clicks, t4.Unsubs

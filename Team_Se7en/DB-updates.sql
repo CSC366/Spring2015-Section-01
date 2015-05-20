@@ -105,21 +105,38 @@ SELECT DISTINCT EventID, EventName
 FROM tempEmails
 ;
 
--- populating Events
+-- populating Events with click events (EventId 0)
 -- This should cause 4783 Duplicates/Warnings
 INSERT IGNORE INTO Events (MsgID, EventID, LinkID, EmailEventDateTime)
-SELECT M.MsgID, E.EventID, LinkID, EmailEventDateTime
-FROM tempEmails T, Messages M, Links L, EventTypes E, Campaigns C
+SELECT M.MsgID, T.EventID, LinkID, EmailEventDateTime
+FROM tempEmails T, Messages M, Links L, Campaigns C
 WHERE C.CampaignID = M.CampaignID
-AND T.DeployID = M.DeployID
-AND T.DeployDate = M.DeployDate
-AND T.EmailID = M.EmailID
-AND T.Audience = M.Audience
-AND T.Version = M.Version
-AND T.Subject = M.Subject
-AND T.Campaign = C.Name
-AND T.EventID = E.EventID
-AND L.MsgID = M.MsgID
+   AND T.DeployID = M.DeployID
+   AND T.DeployDate = M.DeployDate
+   AND T.EmailID = M.EmailID
+   AND T.Audience = M.Audience
+   AND T.Version = M.Version
+   AND T.Subject = M.Subject
+   AND T.Campaign = C.Name
+   AND L.MsgID = M.MsgID
+   AND T.EventID = 0
+;
+
+-- populating Events with non-click events
+-- This should cause 4783 Duplicates/Warnings
+INSERT IGNORE INTO Events (MsgID, EventID, LinkID, EmailEventDateTime)
+SELECT M.MsgID, T.EventID, 1, EmailEventDateTime
+FROM tempEmails T, Messages M, Links L, Campaigns C
+WHERE C.CampaignID = M.CampaignID
+   AND T.DeployID = M.DeployID
+   AND T.DeployDate = M.DeployDate
+   AND T.EmailID = M.EmailID
+   AND T.Audience = M.Audience
+   AND T.Version = M.Version
+   AND T.Subject = M.Subject
+   AND T.Campaign = C.Name
+   AND L.MsgID = M.MsgID
+   AND T.EventID <> 0
 ;
 
 UPDATE Customers

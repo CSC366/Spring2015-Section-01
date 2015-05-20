@@ -3,7 +3,7 @@
  */
 
 CREATE TABLE DeviceRegData (
-   NUmCustomers INT,
+   NumCustomers INT,
    Carrier VARCHAR(20),
    RegDate DATE,
    Name VARCHAR(35),

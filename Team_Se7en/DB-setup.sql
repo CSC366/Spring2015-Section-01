@@ -78,6 +78,8 @@ CREATE TABLE Links (
    UNIQUE (URL, LinkName, MsgID)
 );
 
+INSERT INTO Links (URL, LinkName, MsgID) VALUES (null, 'N/A', null);
+
 CREATE TABLE EventTypes (
    EventID INT PRIMARY KEY,
    Name VARCHAR(40)

@@ -123,10 +123,10 @@ WHERE C.CampaignID = M.CampaignID
 ;
 
 -- populating Events with non-click events
--- This should cause 4783 Duplicates/Warnings
+-- Now generates 423133 tuples
 INSERT IGNORE INTO Events (MsgID, EventID, LinkID, EmailEventDateTime)
 SELECT M.MsgID, T.EventID, 1, EmailEventDateTime
-FROM tempEmails T, Messages M, Links L, Campaigns C
+FROM tempEmails T, Messages M, Campaigns C
 WHERE C.CampaignID = M.CampaignID
    AND T.DeployID = M.DeployID
    AND T.DeployDate = M.DeployDate
@@ -135,7 +135,6 @@ WHERE C.CampaignID = M.CampaignID
    AND T.Version = M.Version
    AND T.Subject = M.Subject
    AND T.Campaign = C.Name
-   AND L.MsgID = M.MsgID
    AND T.EventID <> 0
 ;
 

@@ -17,27 +17,62 @@ INSERT INTO EventData (MsgID, EventName)
 ;
 
 -- UNFINISHED
-INSERT INTO EmailData (MsgID, CustomerID, CampaignName, Audience, Version,
+  INSERT INTO EmailData (MsgID, CustomerID, CampaignName, Audience, Version,
 Subject, DeployDate, DeployID, UniqueOpens, UniqueDelivers, UniqueClicks, UniqueUnsubs)
-   SELECT DISTINCT M.MsgID, E.CustomerID, C.Name, M.Audience, M.Version,
-      M.Subject, M.DeployDate, M.DeployID, t1.Opens, t2.Delivers, t3.Clicks, t4.Unsubs
-   FROM Campaigns C, Emails E, Messages M, 
-      (SELECT COUNT(EventID) AS Opens
-       FROM Events
-       WHERE EventID = 2) t1,
-      (SELECT COUNT(EventID) AS Delivers
-       FROM Events
-       WHERE EventID = 20) t2,
-      (SELECT COUNT(DISTINCT Messages.EmailID) AS Clicks
-       FROM Events, Messages
-       WHERE Events.MsgID = Messages.MsgID
-          AND EventID = 0) t3,
-      (SELECT COUNT(EventID) AS Unsubs
-       FROM Events
-       WHERE EventID = 37) t4
-   WHERE M.EmailID = E.EmailID
-      AND C.CampaignID = M.CampaignID
+   SELECT
+   FROM
+   (SELECT COUNT(*) NumSent, M.DeployID DeployID, M.DeployDate DeployDate,
+           M.Subject Subject, M.Version Version, M.Audience Audience,
+           M.CampaignID Campaign
+    FROM EventData ED, Emails E, Messages M
+    WHERE ED.MsgID = M.MsgID
+      AND M.EmailID = E.EmailID
+      AND ED.EventName = 'Email Sent/Delivered'
+     GROUP BY M.CampaignID, M.Audience, M.Version, M.Subject, M.DeployDate,
+              M.DeployID) sent,
+   (SELECT COUNT(*) NumBounced, M.DeployID DeployID, M.DeployDate DeployDate,
+           M.Subject Subject, M.Version Version, M.Audience Audience,
+           M.CampaignID Campaign
+    FROM EventData ED, Emails E, Messages M
+    WHERE ED.MsgID = M.MsgID
+      AND M.EmailID = E.EmailID
+      AND (ED.EventName = 'Unknown bounce'
+        OR ED.EventName = 'Technical/Other bounce'
+        OR ED.EventName = 'Hard bounce'
+        OR ED.EventName = 'Soft bounce'
+        OR ED.EventName = 'Block bounce')
+     GROUP BY M.CampaignID, M.Audience, M.Version, M.Subject, M.DeployDate,
+              M.DeployID) bounced,
+   (SELECT COUNT(*) NumOpened, M.DeployID DeployID, M.DeployDate DeployDate,
+           M.Subject Subject, M.Version Version, M.Audience Audience,
+           M.CampaignID Campaign
+    FROM EventData ED, Emails E, Messages M
+    WHERE ED.MsgID = M.MsgID
+      AND M.EmailID = E.EmailID
+      AND ED.EventName = 'Email Opened'
+     GROUP BY M.CampaignID, M.Audience, M.Version, M.Subject, M.DeployDate,
+              M.DeployID) opened,
+   (SELECT COUNT(*) NumClicks, M.DeployID DeployID, M.DeployDate DeployDate,
+           M.Subject Subject, M.Version Version, M.Audience Audience,
+           M.CampaignID Campaign
+    FROM EventData ED, Emails E, Messages M
+    WHERE ED.MsgID = M.MsgID
+      AND M.EmailID = E.EmailID
+      AND ED.EventName = 'Click'
+     GROUP BY M.CampaignID, M.Audience, M.Version, M.Subject, M.DeployDate,
+              M.DeployID) clicked,
+   (SELECT COUNT(*) NumUnsubs, M.DeployID DeployID, M.DeployDate DeployDate,
+           M.Subject Subject, M.Version Version, M.Audience Audience,
+           M.CampaignID Campaign
+    FROM EventData ED, Emails E, Messages M
+    WHERE ED.MsgID = M.MsgID
+      AND M.EmailID = E.EmailID
+      AND ED.EventName = 'Unsubscribe'
+     GROUP BY M.CampaignID, M.Audience, M.Version, M.Subject, M.DeployDate,
+              M.DeployID) unsubbed
+   WHERE
 ;
+
 
 -- (SELECT COUNT(EventID) AS Bounced
 --  FROM Events

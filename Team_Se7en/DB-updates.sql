@@ -137,19 +137,3 @@ WHERE C.CampaignID = M.CampaignID
    AND T.Campaign = C.Name
    AND T.EventID <> 0
 ;
-
-UPDATE Customers SET RegDate = str_to_date(RegDate, '%m/%d/%Y');
-ALTER TABLE Customers MODIFY RegDate DATE;
-
-UPDATE Registrations SET PurchaseDate = str_to_date(PurchaseDate, '%m/%d/%Y');
-ALTER TABLE Registrations MODIFY PurchaseDate DATE;
-
-UPDATE Registrations SET RegDate = str_to_date(RegDate, '%m/%d/%Y');
-ALTER TABLE Registrations MODIFY RegDate DATE;
-
-UPDATE Events SET EmailEventDateTime = str_to_date(EmailEventDateTime, '%m/%d/%Y %l:%i %p');
-ALTER TABLE Events MODIFY EmailEventDateTime DATETIME;
-
-UPDATE Messages SET DeployDate = str_to_date(DeployDate, '%m/%d/%Y');
-ALTER TABLE Messages MODIFY DeployDate DATE;
-

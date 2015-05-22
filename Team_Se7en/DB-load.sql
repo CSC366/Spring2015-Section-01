@@ -126,3 +126,20 @@ UPDATE tempEmails
 SET Audience = 'N/A'
 WHERE Audience = ''
 ;
+
+
+UPDATE tempAccounts SET RegDate = str_to_date(RegDate, '%m/%d/%Y');
+ALTER TABLE tempAccounts MODIFY RegDate DATE;
+
+UPDATE tempDevices SET PurchaseDate = str_to_date(PurchaseDate, '%m/%d/%Y');
+ALTER TABLE tempDevices MODIFY PurchaseDate DATE;
+
+UPDATE tempDevices SET RegDate = str_to_date(RegDate, '%m/%d/%Y');
+ALTER TABLE tempDevices MODIFY RegDate DATE;
+
+UPDATE tempEmails SET EmailEventDateTime = str_to_date(EmailEventDateTime, '%m/%d/%Y %l:%i %p');
+ALTER TABLE tempEmails MODIFY EmailEventDateTime DATETIME;
+
+UPDATE tempEmails SET DeployDate = str_to_date(DeployDate, '%m/%d/%Y');
+ALTER TABLE tempEmails MODIFY DeployDate DATE;
+

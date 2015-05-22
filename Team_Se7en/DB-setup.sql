@@ -1,4 +1,3 @@
-
 CREATE TABLE RegSrcs (
    RegSrcID INT PRIMARY KEY,
    Name VARCHAR(30)

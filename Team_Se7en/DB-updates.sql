@@ -67,11 +67,6 @@ FROM tempAccounts
 ;
 
 -- populating Campaigns
--- drop emailID2
-ALTER TABLE tempEmails
-DROP COLUMN EmailID2
-;
-
 INSERT INTO Campaigns (Name)
 SELECT DISTINCT Campaign
 FROM tempEmails
@@ -108,7 +103,7 @@ FROM tempEmails
 -- populating Events with click events (EventId 0)
 -- This should cause 4783 Duplicates/Warnings
 INSERT IGNORE INTO Events (MsgID, EventID, LinkID, EmailEventDateTime)
-SELECT M.MsgID, T.EventID, LinkID, EmailEventDateTime
+SELECT DISTINCT M.MsgID, T.EventID, LinkID, EmailEventDateTime
 FROM tempEmails T, Messages M, Links L, Campaigns C
 WHERE C.CampaignID = M.CampaignID
    AND T.DeployID = M.DeployID
@@ -119,13 +114,13 @@ WHERE C.CampaignID = M.CampaignID
    AND T.Subject = M.Subject
    AND T.Campaign = C.Name
    AND L.MsgID = M.MsgID
+   AND T.LinkName = L.LinkName
    AND T.EventID = 0
 ;
 
 -- populating Events with non-click events
--- Now generates 423133 tuples
 INSERT IGNORE INTO Events (MsgID, EventID, LinkID, EmailEventDateTime)
-SELECT M.MsgID, T.EventID, 1, EmailEventDateTime
+SELECT DISTINCT M.MsgID, T.EventID, 1, EmailEventDateTime
 FROM tempEmails T, Messages M, Campaigns C
 WHERE C.CampaignID = M.CampaignID
    AND T.DeployID = M.DeployID

@@ -138,41 +138,6 @@ WHERE C.CampaignID = M.CampaignID
    AND T.EventID <> 0
 ;
 
-UPDATE Customers
-SET Zip = 'N/A'
-WHERE Zip = ''
-;
-
-UPDATE Customers
-SET State = 'N/A'
-WHERE State = ''
-;
-
-UPDATE Customers
-SET Income = 'N/A'
-WHERE Income = ''
-;
-
-UPDATE Customers
-SET Tier = 'N/A'
-WHERE Tier = ''
-;
-
-UPDATE Messages
-SET Subject = 'N/A'
-WHERE Subject = ''
-;
-
-UPDATE Messages
-SET Version = 'N/A'
-WHERE Version = ''
-;
-
-UPDATE Messages
-SET Audience = 'N/A'
-WHERE Audience = ''
-;
-
 UPDATE Customers SET RegDate = str_to_date(RegDate, '%m/%d/%Y');
 ALTER TABLE Customers MODIFY RegDate DATE;
 

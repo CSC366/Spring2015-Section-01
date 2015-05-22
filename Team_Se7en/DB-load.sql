@@ -16,15 +16,15 @@ CREATE TABLE tempAccounts (
    EmailID INT,
    RegSrcID INT,
    RegSrcName VARCHAR(30),
-   Zip VARCHAR(5),
-   State VARCHAR(50),
+   Zip VARCHAR(5) DEFAULT 'N/A',
+   State VARCHAR(50) DEFAULT 'N/A',
    Gender CHAR(1),
-   Income VARCHAR(20),
+   Income VARCHAR(20) DEFAULT 'N/A',
    Permission INT,
    Language CHAR(2),
    RegDate VARCHAR(20),
    Domain VARCHAR(50),
-   Tier CHAR(3),
+   Tier CHAR(3) DEFAULT 'N/A',
    PRIMARY KEY(CustomerID, EmailID, RegSrcID, RegSrcName, Zip, State, Gender, Income, Permission, Language, RegDate, Domain, Tier)
 );
 
@@ -47,10 +47,10 @@ CREATE TABLE tempDevices (
 
 CREATE TABLE tempEmails (
    EmailID INT,
-   Audience VARCHAR(50),
+   Audience VARCHAR(50) DEFAULT 'N/A',
    Campaign VARCHAR(50),
-   Version VARCHAR(50),
-   Subject VARCHAR(3),
+   Version VARCHAR(50) DEFAULT 'N/A',
+   Subject VARCHAR(3) DEFAULT 'N/A',
    DeployDate VARCHAR(20),
    DeployID INT,
    EventID INT,
@@ -92,6 +92,12 @@ IGNORE 1 LINES
 (EmailID, Audience, Campaign, Version, Subject, DeployDate, DeployID, EventID, EventName, EmailEventDateTime, LinkName, URL, EmailID2);
 -- should be 70875 warnings
 
+-- drop emailID2
+ALTER TABLE tempEmails
+DROP COLUMN EmailID2
+;
+
+-- replace nulls with N/A
 UPDATE tempAccounts
 SET Zip = 'N/A'
 WHERE Zip = ''
@@ -127,7 +133,7 @@ SET Audience = 'N/A'
 WHERE Audience = ''
 ;
 
-
+-- format dates
 UPDATE tempAccounts SET RegDate = str_to_date(RegDate, '%m/%d/%Y');
 ALTER TABLE tempAccounts MODIFY RegDate DATE;
 
@@ -142,4 +148,3 @@ ALTER TABLE tempEmails MODIFY EmailEventDateTime DATETIME;
 
 UPDATE tempEmails SET DeployDate = str_to_date(DeployDate, '%m/%d/%Y');
 ALTER TABLE tempEmails MODIFY DeployDate DATE;
-

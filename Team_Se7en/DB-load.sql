@@ -16,15 +16,15 @@ CREATE TABLE tempAccounts (
    EmailID INT,
    RegSrcID INT,
    RegSrcName VARCHAR(30),
-   Zip VARCHAR(5) DEFAULT 'N/A',
-   State VARCHAR(50) DEFAULT 'N/A',
+   Zip VARCHAR(5),
+   State VARCHAR(50),
    Gender CHAR(1),
-   Income VARCHAR(20) DEFAULT 'N/A',
+   Income VARCHAR(20),
    Permission INT,
    Language CHAR(2),
    RegDate VARCHAR(20),
    Domain VARCHAR(50),
-   Tier CHAR(3) DEFAULT 'N/A',
+   Tier CHAR(3),
    PRIMARY KEY(CustomerID, EmailID, RegSrcID, RegSrcName, Zip, State, Gender, Income, Permission, Language, RegDate, Domain, Tier)
 );
 
@@ -47,10 +47,10 @@ CREATE TABLE tempDevices (
 
 CREATE TABLE tempEmails (
    EmailID INT,
-   Audience VARCHAR(50) DEFAULT 'N/A',
+   Audience VARCHAR(50),
    Campaign VARCHAR(50),
-   Version VARCHAR(50) DEFAULT 'N/A',
-   Subject VARCHAR(3) DEFAULT 'N/A',
+   Version VARCHAR(50),
+   Subject VARCHAR(3),
    DeployDate VARCHAR(20),
    DeployID INT,
    EventID INT,
@@ -91,3 +91,38 @@ LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (EmailID, Audience, Campaign, Version, Subject, DeployDate, DeployID, EventID, EventName, EmailEventDateTime, LinkName, URL, EmailID2);
 -- should be 70875 warnings
+
+UPDATE tempAccounts
+SET Zip = 'N/A'
+WHERE Zip = ''
+;
+
+UPDATE tempAccounts
+SET State = 'N/A'
+WHERE State = ''
+;
+
+UPDATE tempAccounts
+SET Income = 'N/A'
+WHERE Income = ''
+;
+
+UPDATE tempAccounts
+SET Tier = 'N/A'
+WHERE Tier = ''
+;
+
+UPDATE tempEmails
+SET Subject = 'N/A'
+WHERE Subject = ''
+;
+
+UPDATE tempEmails
+SET Version = 'N/A'
+WHERE Version = ''
+;
+
+UPDATE tempEmails
+SET Audience = 'N/A'
+WHERE Audience = ''
+;

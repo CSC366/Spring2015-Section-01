@@ -1,13 +1,14 @@
-
-INSERT INTO DeviceRegData (CustomerID, Carrier, RegDate, Name)
-   SELECT DISTINCT R.CustomerID, D.Carrier, R.RegDate, D.Name
+INSERT INTO DeviceRegData (NumCustomers, Carrier, RegDate, Name)
+   SELECT DISTINCT COUNT(*) NumCustomers, D.Carrier, MONTHNAME(R.RegDate) Month, D.Name
    FROM Registrations R, Devices D
    WHERE R.Model = D.Model
+   GROUP BY D.Carrier, MONTHNAME(R.RegDate), D.Name
 ;
 
-INSERT INTO CustomerData (CustomerID, State, RegDate, Permission)
-   SELECT DISTINCT CustomerID, State, RegDate, Permission
+INSERT INTO CustomerData (NumCustomers, State, RegDate, Permission)
+   SELECT DISTINCT COUNT(*) NumCustomers, State, MONTHNAME(RegDate) Month, Permission
    FROM Customers
+   GROUP BY State, MONTHNAME(RegDate), Permission
 ;
 
 INSERT INTO EventData (MsgID, EventName)
@@ -16,10 +17,13 @@ INSERT INTO EventData (MsgID, EventName)
    WHERE Events.EventID = EventTypes.EventID
 ;
 
--- UNFINISHED
-  INSERT INTO EmailData (MsgID, CustomerID, CampaignName, Audience, Version,
-Subject, DeployDate, DeployID, UniqueOpens, UniqueDelivers, UniqueClicks, UniqueUnsubs)
-   SELECT
+INSERT INTO EmailData (CampaignName, Audience, Version, Subject,
+            DeployDate, DeployID, UniqueOpens, UniqueDelivers,
+            UniqueClicks, UniqueUnsubs)
+   SELECT C.Name, sent.Audience, sent.Version, sent.Subject, sent.DeployDate,
+          sent.DeployID, opened.NumOpened,
+          sent.NumSent - bounced.NumBounced NumDelivered,
+          clicked.NumClicks, unsubbed.NumUnsubs
    FROM
    (SELECT COUNT(*) NumSent, M.DeployID DeployID, M.DeployDate DeployDate,
            M.Subject Subject, M.Version Version, M.Audience Audience,
@@ -69,14 +73,31 @@ Subject, DeployDate, DeployID, UniqueOpens, UniqueDelivers, UniqueClicks, Unique
       AND M.EmailID = E.EmailID
       AND ED.EventName = 'Unsubscribe'
      GROUP BY M.CampaignID, M.Audience, M.Version, M.Subject, M.DeployDate,
-              M.DeployID) unsubbed
-   WHERE
+              M.DeployID) unsubbed,
+   Campaigns C
+   WHERE sent.DeployID = bounced.DeployID
+     AND sent.DeployDate = bounced.DeployDate
+     AND sent.Subject = bounced.Subject
+     AND sent.Version = bounced.Version
+     AND sent.Audience = bounced.Audience
+     AND sent.Campaign = bounced.Campaign
+     AND sent.DeployID = opened.DeployID
+     AND sent.DeployDate = opened.DeployDate
+     AND sent.Subject = opened.Subject
+     AND sent.Version = opened.Version
+     AND sent.Audience = opened.Audience
+     AND sent.Campaign = opened.Campaign
+     AND sent.DeployID = clicked.DeployID
+     AND sent.DeployDate = clicked.DeployDate
+     AND sent.Subject = clicked.Subject
+     AND sent.Version = clicked.Version
+     AND sent.Audience = clicked.Audience
+     AND sent.Campaign = clicked.Campaign
+     AND sent.DeployID = unsubbed.DeployID
+     AND sent.DeployDate = unsubbed.DeployDate
+     AND sent.Subject = unsubbed.Subject
+     AND sent.Version = unsubbed.Version
+     AND sent.Audience = unsubbed.Audience
+     AND sent.Campaign = unsubbed.Campaign
+     AND sent.Campaign = C.CampaignID
 ;
-
-
--- (SELECT COUNT(EventID) AS Bounced
---  FROM Events
---  WHERE EventID = 40) t5
-
--- SELECT DISTINCT M.MsgID, E.CustomerID, C.Name, M.Audience, M.Version,
---      M.Subject, M.DeployDate, M.DeployID, t1.Opens, (t2.Delivers - t5.Bounced), t3.Clicks, t4.Unsubs

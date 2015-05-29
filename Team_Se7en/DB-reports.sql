@@ -1,6 +1,9 @@
 -- Report 1
-SELECT CampaignName, Audience, Version, Subject, DeployDate, as Delivered, as Opened, as Clickers, as OpenRate, as ClickToOpenRate, as ClickRate, as UnsubRate
-FROM 
+SELECT CampaignName, Audience, Version, Subject, DeployDate, (UniqueOpens / UniqueDelivers) AS OpenRate,
+   (UniqueClicks / UniqueOpens) AS ClickToOpenRate, (UniqueClicks / UniqueDelivers) AS ClickRate,
+   (UniqueUnsubsb / UniqueOpens) AS UnsubRate
+FROM EmailData
+;
 
 -- Report 2
 SELECT State, MONTHNAME(RegDate) as Month, Permission,

@@ -82,15 +82,15 @@ CREATE TABLE EmailCampaignPerformance AS (
 CREATE TABLE AccountRegistrationReport (
    SELECT CustomerAccount.state, MONTHNAME(CustomerAccount.regDate), YEAR(CustomerAccount.regDate), CustomerAccount.permission, COUNT(*) as CustomerIDCount
    FROM CustomerAccount
-   GROUP BY  CustomerAccount.state, MONTHNAME(CustomerAccount.regDate), CustomerAccount.permission
+   GROUP BY  CustomerAccount.state, MONTHNAME(CustomerAccount.regDate), YEAR(CustomerAccount.regDate), CustomerAccount.permission
 );
 
 -- Report #3 Datacube
 CREATE TABLE DeviceRegistrationReport AS (
-   SELECT DeviceModel.carrier, DeviceModel.device_model, MONTHNAME(DeviceRegistration.registration_date), COUNT(*) 
+   SELECT DeviceModel.carrier, DeviceModel.device_model, MONTHNAME(DeviceRegistration.registration_date), YEAR(DeviceRegistration.registration_date), COUNT(*) 
    FROM DeviceRegistration, DeviceModel, CustomerAccount, IsRegisteredVia 
    WHERE DeviceRegistration.fk_device_model_id = DeviceModel.device_model 
          AND DeviceRegistration.registration_id = IsRegisteredVia.fk_registration_id 
          AND CustomerAccount.customer_id = IsRegisteredVia.fk_customer_id 
-   GROUP BY DeviceModel.carrier, DeviceModel.device_model, MONTHNAME(DeviceRegistration.registration_date), YEAR(CustomerAccount.regDate)
+   GROUP BY DeviceModel.carrier, DeviceModel.device_model, MONTHNAME(DeviceRegistration.registration_date), YEAR(DeviceRegistration.registration_date)
  );

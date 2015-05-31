@@ -1,2 +1,4 @@
 .DS_Store
 *.csv
+# Don't ignore JoPo's reports
+!SELECT\*FROMJoPo;/*.csv

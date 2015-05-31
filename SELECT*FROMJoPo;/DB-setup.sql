@@ -90,7 +90,7 @@ CREATE TABLE IsSentTo(
    fk_email_id INT,
    deployment_id INT,
    deployment_date DATE,
-   PRIMARY KEY(fk_email_sent_id, fk_email_id),
+   PRIMARY KEY(fk_email_sent_id, fk_email_id, deployment_date),
    FOREIGN KEY(fk_email_sent_id) REFERENCES EmailSent(email_sent_id),
    FOREIGN KEY(fk_email_id) REFERENCES CustomerEmail(email_id)
 );

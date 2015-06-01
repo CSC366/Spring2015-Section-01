@@ -1,21 +1,11 @@
 -- Report 1
-SELECT CampaignName, Audience, Version, Subject, DeployDate, (UniqueOpens / UniqueDelivers) AS OpenRate,
-   (UniqueClicks / UniqueOpens) AS ClickToOpenRate, (UniqueClicks / UniqueDelivers) AS ClickRate,
-   (UniqueUnsubsb / UniqueOpens) AS UnsubRate
-FROM EmailData
-;
+SELECT CampaignName, Audience, Version, Subject, DeployDate, UniqueDelivers, UniqueOpens, UniqueClicks,
+   (UniqueOpens / UniqueDelivers) AS OpenRate, (UniqueClicks / UniqueOpens) AS ClickToOpenRate,
+   (UniqueClicks / UniqueDelivers) AS ClickRate, (UniqueUnsubs / UniqueOpens) AS UnsubRate
+FROM EmailData;
 
 -- Report 2
-SELECT State, MONTHNAME(RegDate) as Month, Permission,
-   COUNT(DISTINCT CustomerID) as numCustomers
-FROM CustomerData
-WHERE State <> 'N/A'
-GROUP BY State, MONTHNAME(RegDate), Permission
-;
+SELECT * FROM CustomerData;
 
 -- Report 3
-SELECT Carrier, MONTHNAME(RegDate) as Month, Name as Device,
-   COUNT(DISTINCT CustomerID) as numCustomers
-FROM DeviceRegData
-GROUP BY Carrier, MONTHNAME(RegDate), Name
-;
+SELECT * FROM DeviceRegData;

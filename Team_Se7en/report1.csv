@@ -1,4 +1,4 @@
-Campaign, Audience, Version, SubjectLine, DeploymentDate, UniqueOpens, UniqueDelivers, UniqueClicks, OpenRate, ClickToOpenRate, ClickRate, UnsubRate
+Campaign, Audience, Version, SubjectLine, DeploymentDate, UniqueDelivers, UniqueOpens, UniqueClicks, OpenRate, ClickToOpenRate, ClickRate, UnsubRate
 "57_BRX Welcome Stream","N/A","T1","N/A","2013-05-19","4","1","1","0.2500","1.0000","0.2500","1.0000"
 "57_BRX Welcome Stream","N/A","T1","N/A","2013-05-24","1","1","1","1.0000","1.0000","1.0000","1.0000"
 "57_BRX Welcome Stream","N/A","T1","N/A","2013-06-07","32","10","1","0.3125","0.1000","0.0313","0.1000"

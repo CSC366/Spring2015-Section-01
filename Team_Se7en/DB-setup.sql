@@ -92,5 +92,5 @@ CREATE TABLE Events (
    PRIMARY KEY (MsgID, EventID, LinkID, EmailEventDateTime),
    FOREIGN KEY (MsgID) REFERENCES Messages(MsgID),
    FOREIGN KEY (LinkID) REFERENCES Links(LinkID),
-   FOREIGN KEY (EventID) REFERENCES EventTypes(EventId)
+   FOREIGN KEY (EventID) REFERENCES EventTypes(EventID)
 );

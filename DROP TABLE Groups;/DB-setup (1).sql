@@ -127,11 +127,18 @@ CREATE TABLE Email_Action (
    Email_Sent_Key INT,
    Event_Type_Key INT,
    Event_Date VARCHAR(20),
-   Link_Key INT,
    PRIMARY KEY (Email_Action_Key),
-   FOREIGN KEY (Link_Key) REFERENCES Email_Link(Link_Key),
    FOREIGN KEY (Email_Sent_Key) REFERENCES Email_Sent(Email_Sent_Key),
    FOREIGN KEY (Event_Type_Key) REFERENCES Email_Event_Type(Event_Type_Key),
-   CONSTRAINT uc_Email_Action UNIQUE (Email_Sent_Key, Event_Type_Key, Event_Date, Link_Key)
+   CONSTRAINT uc_Email_Action UNIQUE (Email_Sent_Key, Event_Type_Key, Event_Date)
+);
+
+CREATE TABLE Email_Action_Link (
+   Email_Action_Link_Key INT NOT NULL auto_increment,
+   Email_Action_Key INT,
+   Link_Key INT,
+   PRIMARY KEY (Email_Action_Link_Key),
+   FOREIGN KEY (Link_Key) REFERENCES Email_Link(Link_Key),
+   FOREIGN KEY (Email_Action_Key) REFERENCES Email_Action(Email_Action_Key)
 );
 

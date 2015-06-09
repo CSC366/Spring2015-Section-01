@@ -133,6 +133,26 @@ SET Audience = 'N/A'
 WHERE Audience = ''
 ;
 
+UPDATE tempDevices
+SET Serial = 'N/A'
+WHERE Serial = ''
+;
+
+UPDATE tempDevices
+SET PurchaseStoreName = 'N/A'
+WHERE PurchaseStoreName = ''
+;
+
+UPDATE tempDevices
+SET PurchaseStoreState = 'N/A'
+WHERE PurchaseStoreState = ''
+;
+
+UPDATE tempDevices
+SET PurchaseStoreCity = 'N/A'
+WHERE PurchaseStoreCity = ''
+;
+
 -- format dates
 UPDATE tempAccounts SET RegDate = str_to_date(RegDate, '%m/%d/%Y');
 ALTER TABLE tempAccounts MODIFY RegDate DATE;

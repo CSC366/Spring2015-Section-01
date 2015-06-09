@@ -11,11 +11,11 @@
 CREATE TABLE CampaignPerformanceCube4D AS 
 (
     SELECT 
-        Unique_Opened.campaign_name, 
-        Unique_Opened.audience, 
-        Unique_Opened.version, 
-        Unique_Opened.subject_line, 
-        Unique_Opened.dep_date, 
+        Messages.campaign_name, 
+        Messages.audience, 
+        Messages.version, 
+        Messages.subject_line, 
+        Messages.dep_date, 
         Unique_Emails_Delivered, 
         Unique_Emails_Opened, 
         Unique_Clickers, 

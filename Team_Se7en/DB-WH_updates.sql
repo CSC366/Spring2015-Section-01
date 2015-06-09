@@ -1,14 +1,14 @@
-INSERT INTO DeviceRegData (NumCustomers, Carrier, RegDate, Name)
-   SELECT DISTINCT COUNT(*) NumCustomers, D.Carrier, MONTHNAME(R.RegDate) Month, D.Name
+INSERT INTO DeviceRegData (NumCustomers, Carrier, RegMonth, RegYear, Name)
+   SELECT DISTINCT COUNT(*) NumCustomers, D.Carrier, MONTHNAME(R.RegDate) RegMonth, YEAR(R.RegDate) RegYear, D.Name
    FROM Registrations R, Devices D
    WHERE R.Model = D.Model
-   GROUP BY D.Carrier, MONTHNAME(R.RegDate), D.Name
+   GROUP BY D.Carrier, MONTHNAME(R.RegDate), YEAR(R.RegDate), D.Name
 ;
 
-INSERT INTO CustomerData (NumCustomers, State, RegDate, Permission)
-   SELECT DISTINCT COUNT(*) NumCustomers, State, MONTHNAME(RegDate) Month, Permission
+INSERT INTO CustomerData (NumCustomers, State, RegMonth, RegYear, Permission)
+   SELECT DISTINCT COUNT(*) NumCustomers, State, MONTHNAME(RegDate) RegMonth, YEAR(RegDate) RegYear, Permission
    FROM Customers
-   GROUP BY State, MONTHNAME(RegDate), Permission
+   GROUP BY State, MONTHNAME(RegDate), YEAR(RegDate), Permission
 ;
 
 INSERT INTO EventData (MsgID, EventName)

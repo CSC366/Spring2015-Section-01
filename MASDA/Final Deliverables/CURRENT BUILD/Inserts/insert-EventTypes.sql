@@ -1,0 +1,11 @@
+INSERT INTO EventTypes VALUES (0, 'Click');
+INSERT INTO EventTypes VALUES (20, 'Email Sent/Delivered');
+INSERT INTO EventTypes VALUES (2, 'Email Opened');
+INSERT INTO EventTypes VALUES (40, 'Hard bounce');
+INSERT INTO EventTypes VALUES (37, 'Unsubscribe');
+INSERT INTO EventTypes VALUES (43, 'NotSent');
+INSERT INTO EventTypes VALUES (11, 'Complaint');
+INSERT INTO EventTypes VALUES (39, 'Technical/Other bounce');
+INSERT INTO EventTypes VALUES (42, 'Block bounce');
+INSERT INTO EventTypes VALUES (41, 'Soft bounce');
+INSERT INTO EventTypes VALUES (38, 'Unknown bounce');

@@ -1,0 +1,4548 @@
+State,Reg_Year,Reg_Month,Cust_Permission,Count
+Indiana,2001,10,0,1
+"New York",2001,10,0,1
+Georgia,2001,12,1,1
+Illinois,2001,12,0,1
+Maryland,2001,12,0,1
+"New York",2002,1,0,1
+"North Carolina",2002,1,0,1
+Wisconsin,2002,1,0,1
+Pennsylvania,2002,2,0,2
+Virginia,2002,2,0,2
+California,2002,2,0,1
+Colorado,2002,2,0,1
+Indiana,2002,2,0,1
+Minnesota,2002,2,0,1
+Virginia,2002,4,0,1
+Pennsylvania,2002,5,1,1
+Texas,2002,5,1,1
+California,2002,5,0,2
+Minnesota,2002,6,1,1
+Tennessee,2002,6,0,1
+Texas,2002,6,0,1
+Oregon,2002,7,1,1
+Indiana,2002,7,0,1
+"New York",2002,7,1,1
+Idaho,2002,9,0,1
+Minnesota,2002,9,0,1
+"New York",2002,9,0,2
+California,2002,10,0,2
+California,2002,10,1,2
+Connecticut,2002,10,0,1
+Florida,2002,10,0,1
+Pennsylvania,2002,10,0,1
+"North Dakota",2002,12,0,1
+"New York",2002,12,0,1
+"North Carolina",2002,12,0,1
+Kentucky,2003,3,0,2
+Michigan,2003,3,0,1
+Texas,2003,3,0,1
+Virginia,2003,4,0,1
+California,2003,4,0,1
+Florida,2003,4,0,1
+California,2003,7,1,2
+Kentucky,2003,7,0,2
+Massachusetts,2003,7,0,1
+"New York",2003,7,0,1
+Pennsylvania,2003,7,0,1
+"Rhode Island",2003,7,0,1
+Texas,2003,7,0,1
+Virginia,2003,7,0,2
+California,2003,9,0,1
+California,2003,10,0,1
+Florida,2003,10,0,1
+Kentucky,2003,10,0,1
+Arizona,2003,11,0,1
+California,2003,11,0,4
+California,2003,11,1,1
+Connecticut,2003,11,0,1
+Florida,2003,11,1,1
+Idaho,2003,11,0,1
+Maryland,2003,11,0,1
+Ohio,2003,11,0,1
+Oregon,2003,11,0,1
+Pennsylvania,2003,11,0,1
+Oregon,2003,12,0,1
+Minnesota,2003,12,0,1
+Nebraska,2003,12,0,1
+"New York",2003,12,0,1
+California,2004,1,0,1
+California,2004,1,1,2
+Connecticut,2004,1,0,1
+Texas,2004,1,0,1
+Texas,2004,2,0,1
+California,2004,2,0,1
+Colorado,2004,2,0,1
+Connecticut,2004,2,0,1
+Kansas,2004,2,0,1
+"New York",2004,2,0,1
+"New York",2004,2,1,1
+"North Carolina",2004,2,0,2
+"North Dakota",2004,2,0,1
+California,2004,3,0,2
+California,2004,3,1,1
+Colorado,2004,3,1,1
+Connecticut,2004,3,0,1
+Florida,2004,3,0,1
+Maryland,2004,3,0,1
+Michigan,2004,3,0,1
+"New Jersey",2004,3,0,1
+"New York",2004,3,1,1
+"North Carolina",2004,3,0,2
+"North Carolina",2004,3,1,1
+"North Dakota",2004,3,0,4
+Ohio,2004,3,0,2
+Pennsylvania,2004,3,0,2
+"Rhode Island",2004,3,1,1
+Texas,2004,3,1,1
+Virginia,2004,3,0,2
+Texas,2004,4,0,1
+Virginia,2004,4,1,1
+California,2004,4,0,1
+California,2004,4,1,1
+Florida,2004,4,1,1
+"North Dakota",2004,4,1,1
+California,2004,5,0,4
+California,2004,5,1,1
+Connecticut,2004,5,0,2
+Idaho,2004,5,0,1
+Illinois,2004,5,0,1
+Indiana,2004,5,0,1
+Kentucky,2004,5,0,1
+Kentucky,2004,5,1,1
+Mississippi,2004,5,0,1
+Missouri,2004,5,0,1
+"New Jersey",2004,5,1,1
+"New York",2004,5,0,3
+"North Dakota",2004,5,0,1
+Ohio,2004,5,0,1
+Oregon,2004,5,1,1
+Pennsylvania,2004,5,0,1
+Texas,2004,5,0,1
+Virginia,2004,5,0,1
+"North Dakota",2004,6,0,1
+"North Dakota",2004,6,1,1
+Ohio,2004,6,0,1
+Ohio,2004,6,1,1
+Pennsylvania,2004,6,0,2
+Texas,2004,6,0,1
+Washington,2004,6,0,1
+Washington,2004,6,1,1
+California,2004,6,0,1
+California,2004,6,1,1
+Colorado,2004,6,0,1
+Connecticut,2004,6,0,1
+Florida,2004,6,0,2
+Idaho,2004,6,0,2
+Indiana,2004,6,0,1
+Kentucky,2004,6,1,1
+Maryland,2004,6,1,1
+Minnesota,2004,6,0,4
+"New Jersey",2004,6,0,1
+"New York",2004,6,0,5
+"New York",2004,6,1,1
+"North Carolina",2004,6,0,1
+California,2004,7,0,8
+California,2004,7,1,3
+Connecticut,2004,7,0,1
+Connecticut,2004,7,1,1
+Florida,2004,7,0,1
+Florida,2004,7,1,1
+Georgia,2004,7,0,1
+Kentucky,2004,7,1,1
+Maryland,2004,7,0,1
+Michigan,2004,7,0,1
+Minnesota,2004,7,0,3
+Minnesota,2004,7,1,2
+"New Jersey",2004,7,0,1
+"New York",2004,7,0,3
+"New York",2004,7,1,1
+"North Carolina",2004,7,0,2
+"North Carolina",2004,7,1,1
+"North Dakota",2004,7,0,2
+Oregon,2004,7,1,1
+Pennsylvania,2004,7,0,2
+Pennsylvania,2004,7,1,1
+Texas,2004,7,0,3
+Texas,2004,7,1,1
+Virginia,2004,7,0,2
+"North Dakota",2004,8,0,1
+Ohio,2004,8,0,2
+Pennsylvania,2004,8,0,2
+"South Carolina",2004,8,0,1
+Virginia,2004,8,0,1
+California,2004,8,0,1
+California,2004,8,1,1
+Florida,2004,8,0,1
+Georgia,2004,8,1,1
+Hawaii,2004,8,1,1
+Idaho,2004,8,1,1
+Kentucky,2004,8,0,2
+Minnesota,2004,8,0,3
+"New York",2004,8,0,3
+"North Carolina",2004,8,0,1
+"North Carolina",2004,8,1,1
+California,2004,9,0,5
+Colorado,2004,9,0,1
+Colorado,2004,9,1,1
+Illinois,2004,9,0,1
+Maryland,2004,9,1,1
+Massachusetts,2004,9,0,1
+"New York",2004,9,0,2
+"New York",2004,9,1,2
+"North Carolina",2004,9,1,1
+Ohio,2004,9,0,1
+Oregon,2004,9,0,1
+Oregon,2004,9,1,1
+Pennsylvania,2004,9,0,1
+Texas,2004,9,0,3
+Ohio,2004,10,0,1
+Oregon,2004,10,0,1
+Pennsylvania,2004,10,0,1
+Texas,2004,10,0,1
+Texas,2004,10,1,1
+Virginia,2004,10,0,1
+California,2004,10,0,3
+California,2004,10,1,1
+Florida,2004,10,0,2
+Florida,2004,10,1,1
+Georgia,2004,10,0,1
+Illinois,2004,10,0,1
+Kentucky,2004,10,0,1
+"New Jersey",2004,10,0,1
+"New York",2004,10,0,6
+"New York",2004,10,1,1
+"North Carolina",2004,10,0,1
+Alabama,2004,11,0,1
+Connecticut,2004,11,1,1
+Illinois,2004,11,0,1
+Maryland,2004,11,0,1
+"New Hampshire",2004,11,0,1
+"New York",2004,11,0,1
+"North Carolina",2004,11,0,1
+Ohio,2004,11,0,1
+Oregon,2004,11,0,1
+Pennsylvania,2004,11,0,1
+Texas,2004,11,0,1
+Virginia,2004,11,0,1
+Oregon,2004,12,0,1
+Pennsylvania,2004,12,0,3
+Texas,2004,12,0,1
+Washington,2004,12,0,1
+California,2004,12,0,2
+California,2004,12,1,1
+Connecticut,2004,12,0,1
+Indiana,2004,12,0,1
+Minnesota,2004,12,0,2
+California,2005,1,1,2
+Idaho,2005,1,0,1
+Nebraska,2005,1,0,1
+"New York",2005,1,0,1
+"North Carolina",2005,1,0,2
+Ohio,2005,1,0,2
+Pennsylvania,2005,1,0,2
+Texas,2005,1,0,4
+Virginia,2005,1,0,1
+Ohio,2005,2,0,2
+Pennsylvania,2005,2,0,1
+"South Carolina",2005,2,0,1
+California,2005,2,1,1
+Colorado,2005,2,1,1
+Florida,2005,2,0,2
+Illinois,2005,2,0,1
+Minnesota,2005,2,0,1
+"New Jersey",2005,2,0,1
+"New York",2005,2,0,2
+"North Dakota",2005,2,0,1
+California,2005,3,0,3
+Colorado,2005,3,0,2
+Connecticut,2005,3,0,1
+Florida,2005,3,0,1
+Florida,2005,3,1,1
+Kentucky,2005,3,0,1
+Minnesota,2005,3,0,3
+"New York",2005,3,0,2
+"New York",2005,3,1,1
+Ohio,2005,3,0,2
+Oregon,2005,3,0,1
+Pennsylvania,2005,3,0,4
+Pennsylvania,2005,3,1,1
+Pennsylvania,2005,4,0,1
+Tennessee,2005,4,0,1
+Virginia,2005,4,1,1
+Alabama,2005,4,0,1
+California,2005,4,0,2
+California,2005,4,1,2
+Florida,2005,4,0,5
+Florida,2005,4,1,1
+Indiana,2005,4,1,1
+"New York",2005,4,0,3
+"New York",2005,4,1,1
+"North Dakota",2005,4,0,1
+"North Dakota",2005,4,1,1
+California,2005,5,0,9
+California,2005,5,1,5
+Colorado,2005,5,1,1
+Connecticut,2005,5,0,1
+Connecticut,2005,5,1,1
+Florida,2005,5,0,5
+Florida,2005,5,1,1
+Idaho,2005,5,0,2
+Idaho,2005,5,1,1
+Illinois,2005,5,0,1
+Indiana,2005,5,1,2
+Kansas,2005,5,0,2
+Kentucky,2005,5,0,2
+Kentucky,2005,5,1,2
+Maryland,2005,5,0,3
+Maryland,2005,5,1,2
+Minnesota,2005,5,0,2
+Minnesota,2005,5,1,1
+"New York",2005,5,0,8
+"New York",2005,5,1,4
+"North Carolina",2005,5,0,1
+"North Carolina",2005,5,1,1
+"North Dakota",2005,5,0,1
+"North Dakota",2005,5,1,3
+Ohio,2005,5,0,4
+Ohio,2005,5,1,4
+Oregon,2005,5,0,2
+Oregon,2005,5,1,3
+Pennsylvania,2005,5,0,3
+Pennsylvania,2005,5,1,1
+Texas,2005,5,0,5
+Virginia,2005,5,0,4
+Virginia,2005,5,1,2
+"North Dakota",2005,6,0,1
+"North Dakota",2005,6,1,1
+Ohio,2005,6,0,1
+Ohio,2005,6,1,1
+Oklahoma,2005,6,0,1
+Oregon,2005,6,0,3
+Pennsylvania,2005,6,0,2
+Pennsylvania,2005,6,1,1
+Texas,2005,6,0,1
+Texas,2005,6,1,1
+Virginia,2005,6,0,3
+Washington,2005,6,0,1
+California,2005,6,0,8
+California,2005,6,1,2
+Colorado,2005,6,1,1
+Connecticut,2005,6,0,1
+Connecticut,2005,6,1,1
+Florida,2005,6,0,2
+Florida,2005,6,1,1
+Idaho,2005,6,0,1
+Illinois,2005,6,0,1
+Indiana,2005,6,0,1
+Iowa,2005,6,0,1
+Kansas,2005,6,0,1
+Kentucky,2005,6,0,4
+Kentucky,2005,6,1,2
+Maryland,2005,6,0,2
+Minnesota,2005,6,0,5
+"New Jersey",2005,6,0,1
+"New York",2005,6,0,5
+"New York",2005,6,1,1
+"North Carolina",2005,6,0,3
+"North Carolina",2005,6,1,1
+California,2005,7,0,3
+California,2005,7,1,1
+Colorado,2005,7,0,3
+Connecticut,2005,7,0,1
+Florida,2005,7,0,2
+Georgia,2005,7,0,1
+Idaho,2005,7,0,3
+Indiana,2005,7,1,1
+Kentucky,2005,7,0,1
+Massachusetts,2005,7,1,1
+Minnesota,2005,7,0,2
+Minnesota,2005,7,1,1
+"New York",2005,7,0,4
+"North Carolina",2005,7,0,1
+"North Dakota",2005,7,0,1
+Pennsylvania,2005,7,0,2
+Texas,2005,7,0,2
+Virginia,2005,7,0,2
+Wisconsin,2005,7,0,1
+"North Dakota",2005,8,0,3
+Oklahoma,2005,8,0,1
+Pennsylvania,2005,8,0,1
+Pennsylvania,2005,8,1,2
+Texas,2005,8,0,1
+California,2005,8,0,4
+Florida,2005,8,0,1
+Georgia,2005,8,0,1
+Idaho,2005,8,0,2
+Indiana,2005,8,0,1
+Kentucky,2005,8,0,2
+Maryland,2005,8,1,1
+Minnesota,2005,8,1,2
+"New York",2005,8,0,6
+"New York",2005,8,1,1
+"North Carolina",2005,8,0,2
+Alabama,2005,9,0,1
+California,2005,9,0,8
+California,2005,9,1,3
+Georgia,2005,9,0,1
+Minnesota,2005,9,0,1
+Minnesota,2005,9,1,1
+"New York",2005,9,0,2
+"North Carolina",2005,9,0,1
+"North Carolina",2005,9,1,1
+Ohio,2005,9,0,1
+Oregon,2005,9,0,1
+Pennsylvania,2005,9,0,3
+Texas,2005,9,0,1
+Virginia,2005,9,0,1
+"North Dakota",2005,10,0,1
+Ohio,2005,10,0,2
+Ohio,2005,10,1,1
+Oregon,2005,10,0,1
+Pennsylvania,2005,10,0,1
+Pennsylvania,2005,10,1,1
+Tennessee,2005,10,0,2
+Texas,2005,10,0,3
+Utah,2005,10,0,1
+Virginia,2005,10,0,2
+California,2005,10,0,6
+California,2005,10,1,3
+Colorado,2005,10,0,2
+Connecticut,2005,10,0,1
+Florida,2005,10,0,3
+Idaho,2005,10,1,1
+Indiana,2005,10,0,2
+Indiana,2005,10,1,1
+Kentucky,2005,10,0,2
+Maryland,2005,10,0,3
+Minnesota,2005,10,0,1
+"New York",2005,10,0,3
+"North Carolina",2005,10,0,1
+California,2005,11,0,4
+California,2005,11,1,1
+Connecticut,2005,11,0,1
+Connecticut,2005,11,1,1
+Florida,2005,11,0,3
+Florida,2005,11,1,1
+Georgia,2005,11,0,1
+Idaho,2005,11,0,1
+Idaho,2005,11,1,3
+Indiana,2005,11,0,1
+Kentucky,2005,11,0,5
+Louisiana,2005,11,0,1
+Minnesota,2005,11,0,6
+"New York",2005,11,0,4
+"New York",2005,11,1,1
+"North Carolina",2005,11,0,1
+"North Dakota",2005,11,0,1
+Oregon,2005,11,0,1
+Pennsylvania,2005,11,0,3
+Texas,2005,11,0,3
+Texas,2005,11,1,1
+Virginia,2005,11,0,2
+Virginia,2005,11,1,1
+"North Dakota",2005,12,0,1
+Ohio,2005,12,0,2
+Oregon,2005,12,1,1
+Pennsylvania,2005,12,0,5
+Texas,2005,12,0,4
+Washington,2005,12,0,1
+Alabama,2005,12,0,1
+California,2005,12,0,7
+California,2005,12,1,1
+Colorado,2005,12,0,1
+Connecticut,2005,12,0,3
+Florida,2005,12,0,1
+Georgia,2005,12,1,1
+Idaho,2005,12,0,1
+Iowa,2005,12,0,1
+Kentucky,2005,12,0,4
+Louisiana,2005,12,0,1
+Massachusetts,2005,12,0,1
+Michigan,2005,12,0,1
+Minnesota,2005,12,0,1
+Mississippi,2005,12,0,1
+"New York",2005,12,0,3
+California,2006,1,0,9
+California,2006,1,1,1
+Colorado,2006,1,0,1
+Connecticut,2006,1,0,1
+Connecticut,2006,1,1,1
+Florida,2006,1,0,2
+Florida,2006,1,1,2
+Georgia,2006,1,1,1
+Idaho,2006,1,1,1
+Illinois,2006,1,0,1
+Indiana,2006,1,1,1
+Kansas,2006,1,0,2
+Kentucky,2006,1,0,1
+Kentucky,2006,1,1,1
+Maryland,2006,1,0,1
+Minnesota,2006,1,0,3
+Minnesota,2006,1,1,1
+Mississippi,2006,1,0,1
+Nevada,2006,1,0,1
+"New Jersey",2006,1,0,1
+"New York",2006,1,0,9
+"New York",2006,1,1,1
+"North Carolina",2006,1,0,1
+"North Dakota",2006,1,0,1
+Ohio,2006,1,0,2
+Ohio,2006,1,1,2
+Oregon,2006,1,0,1
+Pennsylvania,2006,1,0,4
+Texas,2006,1,0,4
+Virginia,2006,1,0,2
+Oregon,2006,2,0,1
+Pennsylvania,2006,2,0,6
+Texas,2006,2,0,6
+Virginia,2006,2,0,1
+Virginia,2006,2,1,1
+Alabama,2006,2,0,1
+California,2006,2,0,6
+California,2006,2,1,1
+Colorado,2006,2,0,1
+Connecticut,2006,2,0,2
+Florida,2006,2,0,6
+Idaho,2006,2,0,1
+Illinois,2006,2,0,1
+Indiana,2006,2,0,3
+Kentucky,2006,2,0,2
+Kentucky,2006,2,1,1
+Maryland,2006,2,0,4
+Michigan,2006,2,0,1
+Minnesota,2006,2,0,3
+"New York",2006,2,0,8
+"New York",2006,2,1,1
+"North Carolina",2006,2,0,4
+Alabama,2006,3,0,1
+California,2006,3,0,10
+California,2006,3,1,1
+Florida,2006,3,0,2
+Idaho,2006,3,0,4
+Illinois,2006,3,0,2
+Indiana,2006,3,0,4
+Indiana,2006,3,1,1
+Kansas,2006,3,0,1
+Kentucky,2006,3,0,1
+Maryland,2006,3,0,2
+Minnesota,2006,3,0,2
+"New Jersey",2006,3,1,1
+"New York",2006,3,0,2
+"New York",2006,3,1,1
+"North Carolina",2006,3,0,3
+"North Dakota",2006,3,0,2
+"North Dakota",2006,3,1,1
+Ohio,2006,3,0,1
+Oregon,2006,3,0,1
+Pennsylvania,2006,3,0,1
+Texas,2006,3,0,5
+Virginia,2006,3,0,1
+Virginia,2006,3,1,1
+Wisconsin,2006,3,0,1
+Ohio,2006,4,0,2
+Oregon,2006,4,0,1
+Pennsylvania,2006,4,0,4
+Texas,2006,4,0,1
+Virginia,2006,4,0,3
+Washington,2006,4,0,1
+Arizona,2006,4,0,2
+Arkansas,2006,4,0,1
+California,2006,4,0,5
+California,2006,4,1,2
+Florida,2006,4,0,1
+Idaho,2006,4,0,1
+Minnesota,2006,4,0,4
+Minnesota,2006,4,1,1
+"New York",2006,4,0,2
+"New York",2006,4,1,1
+"North Carolina",2006,4,0,2
+Arizona,2006,5,0,1
+California,2006,5,0,1
+California,2006,5,1,2
+Connecticut,2006,5,0,1
+Florida,2006,5,0,4
+Florida,2006,5,1,2
+Kentucky,2006,5,1,1
+Minnesota,2006,5,0,1
+Missouri,2006,5,0,1
+"New Jersey",2006,5,0,1
+"New York",2006,5,0,2
+"North Dakota",2006,5,0,2
+Oregon,2006,5,0,1
+Pennsylvania,2006,5,0,2
+"South Carolina",2006,5,0,1
+Texas,2006,5,0,4
+Washington,2006,5,0,1
+Oregon,2006,6,0,2
+Oregon,2006,6,1,1
+Texas,2006,6,0,1
+Virginia,2006,6,0,2
+California,2006,6,0,4
+Florida,2006,6,0,1
+Idaho,2006,6,0,2
+Illinois,2006,6,0,1
+Indiana,2006,6,0,1
+Kentucky,2006,6,0,3
+Louisiana,2006,6,0,1
+Michigan,2006,6,0,1
+Minnesota,2006,6,0,3
+"New York",2006,6,0,1
+"New York",2006,6,1,1
+"North Carolina",2006,6,0,1
+California,2006,7,0,7
+California,2006,7,1,3
+Colorado,2006,7,0,1
+Florida,2006,7,0,4
+Florida,2006,7,1,1
+Idaho,2006,7,0,2
+Idaho,2006,7,1,1
+Illinois,2006,7,0,1
+Kentucky,2006,7,0,3
+Maryland,2006,7,0,1
+Minnesota,2006,7,0,4
+Nebraska,2006,7,0,1
+"New Jersey",2006,7,0,1
+"New York",2006,7,0,6
+"North Carolina",2006,7,0,1
+"North Dakota",2006,7,0,3
+"North Dakota",2006,7,1,1
+Ohio,2006,7,0,2
+Ohio,2006,7,1,1
+Oklahoma,2006,7,0,1
+Oregon,2006,7,0,2
+Oregon,2006,7,1,1
+Pennsylvania,2006,7,0,1
+Texas,2006,7,0,3
+Texas,2006,7,1,1
+Virginia,2006,7,0,1
+Virginia,2006,7,1,1
+Washington,2006,7,0,1
+"North Dakota",2006,8,0,3
+Ohio,2006,8,0,1
+Pennsylvania,2006,8,0,2
+Pennsylvania,2006,8,1,1
+Texas,2006,8,0,4
+Virginia,2006,8,0,4
+Wisconsin,2006,8,0,1
+California,2006,8,0,8
+California,2006,8,1,1
+Connecticut,2006,8,0,2
+Florida,2006,8,0,2
+Georgia,2006,8,0,1
+Indiana,2006,8,0,1
+Kentucky,2006,8,0,3
+Kentucky,2006,8,1,1
+Minnesota,2006,8,0,1
+"New York",2006,8,0,2
+"New York",2006,8,1,1
+"North Carolina",2006,8,0,3
+Arizona,2006,9,1,1
+Arkansas,2006,9,0,2
+California,2006,9,0,9
+Connecticut,2006,9,0,2
+Connecticut,2006,9,1,1
+Florida,2006,9,0,4
+Florida,2006,9,1,1
+Idaho,2006,9,0,1
+Illinois,2006,9,0,1
+Indiana,2006,9,0,1
+Kentucky,2006,9,0,1
+Kentucky,2006,9,1,1
+Maryland,2006,9,0,1
+Minnesota,2006,9,0,2
+"New York",2006,9,0,4
+"North Carolina",2006,9,0,3
+Oklahoma,2006,9,0,1
+Oregon,2006,9,0,3
+Pennsylvania,2006,9,0,4
+"Rhode Island",2006,9,0,1
+Texas,2006,9,0,5
+Virginia,2006,9,0,1
+"North Dakota",2006,10,0,2
+Ohio,2006,10,0,2
+Ohio,2006,10,1,1
+Oregon,2006,10,0,4
+Pennsylvania,2006,10,0,3
+Pennsylvania,2006,10,1,1
+Texas,2006,10,0,4
+Texas,2006,10,1,1
+Virginia,2006,10,0,5
+Virginia,2006,10,1,1
+California,2006,10,0,5
+Florida,2006,10,0,5
+Georgia,2006,10,0,1
+Idaho,2006,10,0,2
+Idaho,2006,10,1,1
+Illinois,2006,10,0,1
+Indiana,2006,10,0,1
+Kansas,2006,10,0,1
+Kentucky,2006,10,0,2
+Louisiana,2006,10,0,1
+Maryland,2006,10,0,1
+Minnesota,2006,10,0,2
+Missouri,2006,10,0,1
+Nevada,2006,10,0,1
+"New York",2006,10,0,3
+"North Carolina",2006,10,0,2
+Arizona,2006,11,0,1
+California,2006,11,0,5
+California,2006,11,1,2
+Colorado,2006,11,1,1
+Connecticut,2006,11,0,1
+Connecticut,2006,11,1,1
+Florida,2006,11,0,3
+Florida,2006,11,1,1
+Indiana,2006,11,0,3
+Indiana,2006,11,1,1
+Kentucky,2006,11,0,1
+Maine,2006,11,0,1
+Massachusetts,2006,11,0,1
+Minnesota,2006,11,0,2
+Minnesota,2006,11,1,1
+Missouri,2006,11,0,1
+"New York",2006,11,0,4
+"New York",2006,11,1,1
+Ohio,2006,11,0,2
+Pennsylvania,2006,11,1,1
+Tennessee,2006,11,1,1
+Texas,2006,11,0,2
+Utah,2006,11,0,1
+Virginia,2006,11,0,2
+"North Dakota",2006,12,0,3
+"North Dakota",2006,12,1,1
+Ohio,2006,12,0,2
+Oklahoma,2006,12,0,1
+Oregon,2006,12,0,1
+Pennsylvania,2006,12,0,1
+Texas,2006,12,0,5
+Texas,2006,12,1,1
+Virginia,2006,12,0,2
+Wisconsin,2006,12,0,1
+California,2006,12,0,9
+Colorado,2006,12,1,1
+Connecticut,2006,12,0,1
+Florida,2006,12,0,7
+Indiana,2006,12,0,1
+Kentucky,2006,12,0,3
+Louisiana,2006,12,0,1
+Maryland,2006,12,0,1
+Maryland,2006,12,1,1
+Minnesota,2006,12,0,5
+"New Jersey",2006,12,0,1
+"New York",2006,12,0,6
+"North Carolina",2006,12,0,1
+Alaska,2007,1,0,1
+Arizona,2007,1,0,1
+California,2007,1,0,8
+Colorado,2007,1,1,1
+Connecticut,2007,1,0,1
+Florida,2007,1,0,5
+Florida,2007,1,1,1
+Idaho,2007,1,0,1
+Idaho,2007,1,1,2
+Illinois,2007,1,0,1
+Kentucky,2007,1,0,3
+Maryland,2007,1,0,1
+Massachusetts,2007,1,0,1
+Minnesota,2007,1,0,3
+Nevada,2007,1,1,1
+"New York",2007,1,0,7
+"New York",2007,1,1,2
+"North Carolina",2007,1,0,1
+Ohio,2007,1,1,2
+Pennsylvania,2007,1,0,2
+Texas,2007,1,0,2
+Virginia,2007,1,0,1
+Pennsylvania,2007,2,1,1
+Texas,2007,2,1,1
+Connecticut,2007,2,1,1
+Indiana,2007,2,0,4
+Minnesota,2007,2,0,1
+"New York",2007,2,0,2
+"North Carolina",2007,2,0,1
+California,2007,3,0,4
+California,2007,3,1,1
+Florida,2007,3,0,1
+Idaho,2007,3,0,1
+Indiana,2007,3,0,1
+Indiana,2007,3,1,1
+Kentucky,2007,3,0,1
+Missouri,2007,3,0,1
+"New York",2007,3,0,1
+"New York",2007,3,1,1
+"North Carolina",2007,3,1,1
+Ohio,2007,3,1,1
+Tennessee,2007,3,0,1
+Texas,2007,3,1,1
+Virginia,2007,3,0,1
+Oregon,2007,4,0,1
+Pennsylvania,2007,4,0,1
+Virginia,2007,4,0,1
+Virginia,2007,4,1,1
+Wisconsin,2007,4,0,1
+California,2007,4,0,2
+California,2007,4,1,2
+Florida,2007,4,0,2
+Indiana,2007,4,1,1
+Louisiana,2007,4,0,1
+Maryland,2007,4,0,1
+Maryland,2007,4,1,1
+Minnesota,2007,4,0,1
+"New York",2007,4,0,3
+California,2007,5,0,5
+California,2007,5,1,1
+Colorado,2007,5,0,1
+Colorado,2007,5,1,1
+Connecticut,2007,5,1,1
+Florida,2007,5,1,1
+Georgia,2007,5,0,1
+Indiana,2007,5,0,1
+Kentucky,2007,5,1,1
+Maryland,2007,5,0,1
+Minnesota,2007,5,0,1
+Minnesota,2007,5,1,1
+"New York",2007,5,0,1
+"North Carolina",2007,5,0,1
+Ohio,2007,5,1,1
+Oregon,2007,5,0,1
+Oregon,2007,5,1,1
+Pennsylvania,2007,5,0,3
+Pennsylvania,2007,5,1,1
+Texas,2007,5,0,1
+Texas,2007,5,1,1
+Virginia,2007,5,0,1
+Ohio,2007,6,1,1
+Oregon,2007,6,0,1
+Pennsylvania,2007,6,0,2
+Pennsylvania,2007,6,1,1
+Texas,2007,6,0,4
+Texas,2007,6,1,1
+Virginia,2007,6,0,1
+Washington,2007,6,0,1
+California,2007,6,0,3
+California,2007,6,1,2
+Connecticut,2007,6,1,1
+Idaho,2007,6,1,1
+Illinois,2007,6,0,1
+Indiana,2007,6,0,2
+Kentucky,2007,6,0,1
+Maryland,2007,6,0,1
+Michigan,2007,6,0,1
+"New Jersey",2007,6,0,1
+"New York",2007,6,0,2
+"North Carolina",2007,6,0,4
+Alabama,2007,7,0,1
+California,2007,7,0,4
+California,2007,7,1,1
+Colorado,2007,7,0,1
+Florida,2007,7,0,1
+Idaho,2007,7,0,1
+Indiana,2007,7,0,3
+Kentucky,2007,7,0,2
+Minnesota,2007,7,0,1
+"New York",2007,7,0,3
+"New York",2007,7,1,1
+"North Carolina",2007,7,0,1
+Ohio,2007,7,0,1
+Oklahoma,2007,7,0,1
+Oregon,2007,7,0,1
+Pennsylvania,2007,7,0,1
+Texas,2007,7,0,1
+Texas,2007,7,1,1
+"North Dakota",2007,8,0,2
+Oregon,2007,8,0,2
+Pennsylvania,2007,8,0,2
+Pennsylvania,2007,8,1,1
+Texas,2007,8,0,2
+Virginia,2007,8,1,1
+Washington,2007,8,1,1
+Arizona,2007,8,0,1
+California,2007,8,0,8
+Connecticut,2007,8,0,1
+Florida,2007,8,0,3
+Georgia,2007,8,0,1
+Idaho,2007,8,0,3
+Indiana,2007,8,0,3
+Kentucky,2007,8,0,1
+Minnesota,2007,8,0,2
+"New York",2007,8,0,2
+"New York",2007,8,1,1
+Alabama,2007,9,1,1
+Arkansas,2007,9,1,1
+California,2007,9,0,2
+California,2007,9,1,1
+Connecticut,2007,9,0,1
+Connecticut,2007,9,1,1
+Florida,2007,9,0,2
+Idaho,2007,9,1,1
+Indiana,2007,9,1,1
+Kentucky,2007,9,0,2
+Maryland,2007,9,0,2
+"New York",2007,9,0,5
+"New York",2007,9,1,1
+"North Dakota",2007,9,0,3
+Oregon,2007,9,0,1
+Pennsylvania,2007,9,0,2
+Texas,2007,9,0,4
+Texas,2007,9,1,1
+"North Dakota",2007,10,0,2
+Ohio,2007,10,0,4
+Oregon,2007,10,0,2
+Pennsylvania,2007,10,0,2
+Texas,2007,10,0,4
+Texas,2007,10,1,1
+Utah,2007,10,0,1
+Virginia,2007,10,0,2
+California,2007,10,0,6
+California,2007,10,1,1
+Colorado,2007,10,0,2
+Connecticut,2007,10,1,1
+Idaho,2007,10,0,1
+Idaho,2007,10,1,1
+Indiana,2007,10,0,1
+Kansas,2007,10,0,1
+Kentucky,2007,10,0,1
+Kentucky,2007,10,1,1
+Minnesota,2007,10,1,2
+Missouri,2007,10,0,1
+"New York",2007,10,0,3
+"North Carolina",2007,10,0,1
+California,2007,11,0,8
+California,2007,11,1,3
+Colorado,2007,11,0,1
+Connecticut,2007,11,0,1
+"District of Columbia",2007,11,0,1
+Florida,2007,11,0,1
+Florida,2007,11,1,2
+Idaho,2007,11,0,2
+Indiana,2007,11,0,3
+Indiana,2007,11,1,1
+Kentucky,2007,11,0,1
+Maryland,2007,11,0,2
+Minnesota,2007,11,0,2
+"New Jersey",2007,11,0,1
+"New York",2007,11,0,5
+Ohio,2007,11,0,2
+Oklahoma,2007,11,0,1
+Oregon,2007,11,1,2
+"South Carolina",2007,11,0,1
+Virginia,2007,11,0,2
+Washington,2007,11,0,1
+"North Dakota",2007,12,0,1
+"North Dakota",2007,12,1,1
+Ohio,2007,12,0,4
+Ohio,2007,12,1,1
+Oklahoma,2007,12,0,1
+Oregon,2007,12,1,1
+Pennsylvania,2007,12,0,5
+Pennsylvania,2007,12,1,2
+Tennessee,2007,12,0,1
+Virginia,2007,12,0,1
+California,2007,12,0,5
+California,2007,12,1,1
+Connecticut,2007,12,0,3
+Connecticut,2007,12,1,1
+Florida,2007,12,0,4
+Idaho,2007,12,0,2
+Kentucky,2007,12,0,2
+"New Jersey",2007,12,0,1
+"New York",2007,12,0,6
+"New York",2007,12,1,2
+"North Carolina",2007,12,0,2
+California,2008,1,0,8
+California,2008,1,1,1
+Colorado,2008,1,0,3
+Connecticut,2008,1,0,1
+Florida,2008,1,0,4
+Florida,2008,1,1,1
+Idaho,2008,1,0,2
+Indiana,2008,1,0,1
+Kentucky,2008,1,0,3
+Kentucky,2008,1,1,1
+Maryland,2008,1,0,4
+Minnesota,2008,1,0,2
+"New Jersey",2008,1,1,1
+"New York",2008,1,0,7
+"New York",2008,1,1,4
+"North Carolina",2008,1,0,1
+"North Dakota",2008,1,0,3
+Ohio,2008,1,0,2
+Oregon,2008,1,0,1
+"Puerto Rico",2008,1,0,1
+Texas,2008,1,0,2
+Virginia,2008,1,0,1
+Oklahoma,2008,2,0,1
+Oregon,2008,2,0,3
+Oregon,2008,2,1,1
+Pennsylvania,2008,2,0,3
+Pennsylvania,2008,2,1,3
+Texas,2008,2,0,3
+Texas,2008,2,1,2
+Virginia,2008,2,0,2
+Washington,2008,2,0,1
+Arizona,2008,2,0,1
+California,2008,2,0,16
+California,2008,2,1,2
+Colorado,2008,2,0,2
+Colorado,2008,2,1,1
+Delaware,2008,2,0,1
+Florida,2008,2,0,6
+Florida,2008,2,1,2
+Georgia,2008,2,1,1
+Idaho,2008,2,0,1
+Idaho,2008,2,1,2
+Illinois,2008,2,0,1
+Indiana,2008,2,0,2
+Indiana,2008,2,1,2
+Kentucky,2008,2,0,7
+Louisiana,2008,2,0,1
+Maryland,2008,2,1,1
+Minnesota,2008,2,0,5
+Minnesota,2008,2,1,1
+Missouri,2008,2,0,1
+"New York",2008,2,0,4
+"New York",2008,2,1,1
+"North Carolina",2008,2,0,1
+"North Carolina",2008,2,1,1
+"North Dakota",2008,2,0,6
+"North Dakota",2008,2,1,1
+California,2008,3,0,6
+Colorado,2008,3,0,1
+Connecticut,2008,3,0,1
+Florida,2008,3,0,2
+Florida,2008,3,1,1
+Idaho,2008,3,0,1
+Indiana,2008,3,0,1
+Maryland,2008,3,0,1
+Michigan,2008,3,0,1
+Minnesota,2008,3,1,1
+"New York",2008,3,0,3
+"New York",2008,3,1,1
+"North Carolina",2008,3,1,1
+"North Dakota",2008,3,0,1
+Ohio,2008,3,0,1
+Oregon,2008,3,0,1
+Virginia,2008,3,0,1
+Ohio,2008,4,0,1
+Oregon,2008,4,0,1
+Oregon,2008,4,1,1
+Pennsylvania,2008,4,0,2
+Texas,2008,4,0,2
+Virginia,2008,4,0,4
+Virginia,2008,4,1,1
+California,2008,4,0,5
+California,2008,4,1,1
+Colorado,2008,4,0,3
+Florida,2008,4,0,4
+Florida,2008,4,1,1
+Georgia,2008,4,0,1
+Idaho,2008,4,0,4
+Indiana,2008,4,0,1
+Kansas,2008,4,0,1
+Kentucky,2008,4,0,2
+Maryland,2008,4,0,1
+Michigan,2008,4,0,1
+Minnesota,2008,4,0,1
+"New York",2008,4,0,2
+"North Carolina",2008,4,0,2
+"North Dakota",2008,4,1,1
+Alabama,2008,5,0,1
+Alaska,2008,5,0,1
+Arizona,2008,5,0,2
+Arkansas,2008,5,0,1
+California,2008,5,0,54
+California,2008,5,1,2
+Colorado,2008,5,0,7
+Connecticut,2008,5,0,8
+"District of Columbia",2008,5,0,1
+Florida,2008,5,0,19
+Florida,2008,5,1,1
+Georgia,2008,5,0,3
+Idaho,2008,5,0,17
+Illinois,2008,5,0,4
+Indiana,2008,5,0,18
+Kansas,2008,5,0,1
+Kentucky,2008,5,0,12
+Kentucky,2008,5,1,3
+Louisiana,2008,5,0,1
+Maryland,2008,5,0,10
+Michigan,2008,5,0,2
+Minnesota,2008,5,0,15
+Mississippi,2008,5,0,1
+Missouri,2008,5,0,3
+Nebraska,2008,5,0,1
+Nevada,2008,5,0,1
+"New Jersey",2008,5,0,2
+"New York",2008,5,0,40
+"New York",2008,5,1,4
+"North Carolina",2008,5,0,13
+"North Carolina",2008,5,1,1
+"North Dakota",2008,5,0,9
+Ohio,2008,5,0,14
+Oregon,2008,5,0,8
+Pennsylvania,2008,5,0,18
+Pennsylvania,2008,5,1,1
+"Puerto Rico",2008,5,0,2
+Tennessee,2008,5,0,2
+Texas,2008,5,0,18
+Texas,2008,5,1,1
+Utah,2008,5,0,1
+Virginia,2008,5,0,6
+Virginia,2008,5,1,1
+Washington,2008,5,0,1
+Wisconsin,2008,5,0,1
+Wyoming,2008,5,0,1
+"North Dakota",2008,6,0,7
+"North Dakota",2008,6,1,1
+Ohio,2008,6,0,9
+Ohio,2008,6,1,1
+Oklahoma,2008,6,0,2
+Oregon,2008,6,0,3
+Pennsylvania,2008,6,0,10
+Pennsylvania,2008,6,1,1
+"Puerto Rico",2008,6,0,1
+Texas,2008,6,0,18
+Virginia,2008,6,0,8
+Virginia,2008,6,1,3
+Washington,2008,6,0,1
+Wisconsin,2008,6,0,1
+Alabama,2008,6,0,2
+Arkansas,2008,6,0,2
+California,2008,6,0,32
+California,2008,6,1,1
+Colorado,2008,6,0,5
+Colorado,2008,6,1,1
+Connecticut,2008,6,0,3
+Florida,2008,6,0,14
+Florida,2008,6,1,2
+Idaho,2008,6,0,2
+Idaho,2008,6,1,2
+Illinois,2008,6,0,1
+Illinois,2008,6,1,1
+Indiana,2008,6,0,7
+Kentucky,2008,6,0,9
+Louisiana,2008,6,0,2
+Massachusetts,2008,6,0,1
+Michigan,2008,6,0,2
+Minnesota,2008,6,0,5
+Mississippi,2008,6,0,2
+Missouri,2008,6,0,2
+"New Jersey",2008,6,0,1
+"New York",2008,6,0,24
+"North Carolina",2008,6,0,4
+California,2008,7,0,7
+Colorado,2008,7,0,1
+Colorado,2008,7,1,2
+Connecticut,2008,7,0,4
+Florida,2008,7,0,1
+Idaho,2008,7,0,3
+Illinois,2008,7,1,2
+Indiana,2008,7,0,1
+Kansas,2008,7,0,1
+Michigan,2008,7,0,1
+Minnesota,2008,7,0,1
+"New Jersey",2008,7,1,1
+"New York",2008,7,0,6
+"New York",2008,7,1,1
+"North Carolina",2008,7,1,2
+Ohio,2008,7,0,2
+Ohio,2008,7,1,1
+Pennsylvania,2008,7,0,3
+Texas,2008,7,0,3
+Virginia,2008,7,0,1
+Washington,2008,7,1,1
+Wisconsin,2008,7,0,1
+"North Dakota",2008,8,0,2
+"North Dakota",2008,8,1,1
+Ohio,2008,8,0,2
+Oregon,2008,8,0,2
+Oregon,2008,8,1,1
+Pennsylvania,2008,8,0,3
+Texas,2008,8,0,2
+Texas,2008,8,1,1
+Virginia,2008,8,1,1
+Alabama,2008,8,0,1
+California,2008,8,0,6
+California,2008,8,1,1
+Colorado,2008,8,0,1
+Connecticut,2008,8,0,1
+Florida,2008,8,0,1
+Florida,2008,8,1,2
+Idaho,2008,8,0,2
+Indiana,2008,8,0,1
+Kentucky,2008,8,0,4
+Kentucky,2008,8,1,1
+Michigan,2008,8,1,1
+Minnesota,2008,8,0,4
+"New Jersey",2008,8,0,3
+"New York",2008,8,0,5
+"New York",2008,8,1,1
+California,2008,9,0,8
+California,2008,9,1,1
+Colorado,2008,9,1,1
+Connecticut,2008,9,0,2
+Florida,2008,9,0,3
+Georgia,2008,9,0,1
+Idaho,2008,9,0,2
+Indiana,2008,9,0,1
+Kentucky,2008,9,0,1
+Maryland,2008,9,0,2
+Michigan,2008,9,1,1
+Minnesota,2008,9,0,1
+"New York",2008,9,0,7
+"New York",2008,9,1,3
+"North Carolina",2008,9,0,4
+"North Dakota",2008,9,0,2
+Ohio,2008,9,0,2
+Pennsylvania,2008,9,0,2
+Tennessee,2008,9,0,1
+Texas,2008,9,0,2
+Texas,2008,9,1,1
+Virginia,2008,9,0,1
+Washington,2008,9,0,1
+"North Dakota",2008,10,0,2
+Oregon,2008,10,1,1
+Pennsylvania,2008,10,0,1
+Pennsylvania,2008,10,1,1
+"South Carolina",2008,10,0,1
+Texas,2008,10,0,2
+Virginia,2008,10,0,2
+Virginia,2008,10,1,1
+California,2008,10,0,11
+Colorado,2008,10,0,1
+Florida,2008,10,0,7
+Idaho,2008,10,0,2
+Indiana,2008,10,0,2
+Maryland,2008,10,0,1
+Minnesota,2008,10,0,3
+"New York",2008,10,0,6
+"North Carolina",2008,10,0,3
+Alabama,2008,11,1,1
+Arizona,2008,11,0,1
+California,2008,11,0,11
+California,2008,11,1,2
+Colorado,2008,11,0,1
+Colorado,2008,11,1,2
+Connecticut,2008,11,0,1
+Florida,2008,11,0,1
+Florida,2008,11,1,1
+Idaho,2008,11,0,3
+Indiana,2008,11,0,1
+Kentucky,2008,11,0,3
+Louisiana,2008,11,0,2
+Minnesota,2008,11,0,1
+Missouri,2008,11,0,1
+"New York",2008,11,0,4
+"New York",2008,11,1,3
+"North Carolina",2008,11,0,2
+"North Carolina",2008,11,1,1
+"North Dakota",2008,11,0,2
+"North Dakota",2008,11,1,1
+Oregon,2008,11,0,3
+Pennsylvania,2008,11,0,1
+Pennsylvania,2008,11,1,1
+Texas,2008,11,0,2
+Texas,2008,11,1,1
+Virginia,2008,11,0,3
+Washington,2008,11,0,1
+"North Dakota",2008,12,0,4
+Ohio,2008,12,0,1
+Ohio,2008,12,1,1
+Oregon,2008,12,0,6
+Oregon,2008,12,1,2
+Pennsylvania,2008,12,0,4
+Pennsylvania,2008,12,1,2
+Texas,2008,12,0,4
+Texas,2008,12,1,2
+Vermont,2008,12,0,1
+Virginia,2008,12,0,3
+Alabama,2008,12,0,1
+California,2008,12,0,7
+California,2008,12,1,4
+Colorado,2008,12,0,2
+Colorado,2008,12,1,1
+Connecticut,2008,12,0,2
+Connecticut,2008,12,1,2
+Florida,2008,12,0,7
+Florida,2008,12,1,5
+Georgia,2008,12,0,3
+Idaho,2008,12,0,6
+Idaho,2008,12,1,2
+Indiana,2008,12,0,1
+Indiana,2008,12,1,2
+Kentucky,2008,12,0,8
+Kentucky,2008,12,1,2
+Maryland,2008,12,0,3
+Maryland,2008,12,1,1
+Minnesota,2008,12,0,5
+Nevada,2008,12,0,1
+"New Jersey",2008,12,0,1
+"New York",2008,12,0,11
+"New York",2008,12,1,7
+"North Carolina",2008,12,0,3
+"North Carolina",2008,12,1,2
+Arizona,2009,1,0,1
+Arkansas,2009,1,0,1
+California,2009,1,0,8
+California,2009,1,1,1
+Colorado,2009,1,0,1
+Connecticut,2009,1,0,4
+Florida,2009,1,0,3
+Idaho,2009,1,0,1
+Idaho,2009,1,1,1
+Illinois,2009,1,0,1
+Indiana,2009,1,0,1
+Indiana,2009,1,1,1
+Kentucky,2009,1,0,4
+Maryland,2009,1,0,1
+Massachusetts,2009,1,0,2
+"New York",2009,1,0,3
+"North Carolina",2009,1,0,3
+"North Carolina",2009,1,1,2
+"North Dakota",2009,1,0,4
+Ohio,2009,1,0,2
+Oklahoma,2009,1,0,1
+Oregon,2009,1,0,3
+Pennsylvania,2009,1,0,3
+Texas,2009,1,0,1
+Texas,2009,1,1,1
+Virginia,2009,1,0,3
+Virginia,2009,1,1,1
+"West Virginia",2009,1,0,1
+Ohio,2009,2,0,4
+Ohio,2009,2,1,1
+Oregon,2009,2,0,1
+Oregon,2009,2,1,1
+Pennsylvania,2009,2,0,4
+Pennsylvania,2009,2,1,3
+Tennessee,2009,2,0,1
+Texas,2009,2,0,9
+Texas,2009,2,1,3
+Virginia,2009,2,0,5
+Virginia,2009,2,1,4
+Washington,2009,2,0,2
+Alabama,2009,2,0,1
+Arizona,2009,2,0,2
+California,2009,2,0,17
+California,2009,2,1,7
+Colorado,2009,2,0,4
+Colorado,2009,2,1,1
+Connecticut,2009,2,0,2
+Connecticut,2009,2,1,1
+Florida,2009,2,0,9
+Florida,2009,2,1,2
+Idaho,2009,2,0,2
+Idaho,2009,2,1,3
+Illinois,2009,2,0,1
+Indiana,2009,2,0,5
+Indiana,2009,2,1,2
+Kentucky,2009,2,0,2
+Maryland,2009,2,0,2
+Massachusetts,2009,2,0,1
+Minnesota,2009,2,0,8
+Minnesota,2009,2,1,1
+Missouri,2009,2,0,1
+"New Jersey",2009,2,0,1
+"New York",2009,2,0,15
+"New York",2009,2,1,8
+"North Carolina",2009,2,0,2
+"North Carolina",2009,2,1,3
+"North Dakota",2009,2,0,1
+"North Dakota",2009,2,1,3
+Arizona,2009,3,1,1
+Arkansas,2009,3,0,1
+California,2009,3,0,15
+California,2009,3,1,8
+Colorado,2009,3,0,3
+Colorado,2009,3,1,3
+Connecticut,2009,3,0,7
+Connecticut,2009,3,1,2
+Florida,2009,3,0,8
+Florida,2009,3,1,4
+Georgia,2009,3,0,3
+Idaho,2009,3,0,5
+Idaho,2009,3,1,2
+Illinois,2009,3,0,1
+Indiana,2009,3,0,5
+Indiana,2009,3,1,2
+Iowa,2009,3,0,1
+Kentucky,2009,3,0,8
+Kentucky,2009,3,1,1
+Maryland,2009,3,0,1
+Maryland,2009,3,1,1
+Michigan,2009,3,0,2
+Minnesota,2009,3,0,6
+Minnesota,2009,3,1,1
+"New Jersey",2009,3,0,2
+"New York",2009,3,0,12
+"New York",2009,3,1,3
+"North Carolina",2009,3,0,1
+"North Carolina",2009,3,1,1
+"North Dakota",2009,3,0,4
+"North Dakota",2009,3,1,4
+Ohio,2009,3,0,2
+Ohio,2009,3,1,1
+Oregon,2009,3,0,3
+Oregon,2009,3,1,1
+Pennsylvania,2009,3,0,4
+Pennsylvania,2009,3,1,2
+Texas,2009,3,0,2
+Texas,2009,3,1,3
+Virginia,2009,3,0,6
+Virginia,2009,3,1,3
+Oregon,2009,4,0,1
+Pennsylvania,2009,4,0,1
+"South Carolina",2009,4,0,1
+Tennessee,2009,4,0,1
+Utah,2009,4,0,1
+Virginia,2009,4,0,1
+Virginia,2009,4,1,2
+Washington,2009,4,0,1
+California,2009,4,0,3
+California,2009,4,1,1
+Colorado,2009,4,1,1
+Connecticut,2009,4,0,1
+Georgia,2009,4,0,1
+Idaho,2009,4,0,1
+Kentucky,2009,4,1,1
+Maryland,2009,4,0,1
+Michigan,2009,4,0,1
+Missouri,2009,4,0,1
+"New York",2009,4,0,1
+"New York",2009,4,1,2
+"North Carolina",2009,4,0,2
+"North Carolina",2009,4,1,1
+"North Dakota",2009,4,0,1
+Alabama,2009,5,0,1
+California,2009,5,0,13
+California,2009,5,1,3
+Connecticut,2009,5,0,1
+Florida,2009,5,0,8
+Florida,2009,5,1,1
+Idaho,2009,5,0,1
+Indiana,2009,5,0,1
+Kentucky,2009,5,0,1
+Kentucky,2009,5,1,1
+Maryland,2009,5,0,1
+Maryland,2009,5,1,1
+Michigan,2009,5,0,1
+Minnesota,2009,5,0,3
+"New York",2009,5,0,2
+"North Carolina",2009,5,0,3
+"North Dakota",2009,5,1,1
+Ohio,2009,5,0,2
+Oregon,2009,5,0,1
+Oregon,2009,5,1,2
+Pennsylvania,2009,5,0,1
+Texas,2009,5,0,1
+Texas,2009,5,1,1
+Virginia,2009,5,0,2
+Wisconsin,2009,5,0,2
+"North Dakota",2009,6,0,1
+Pennsylvania,2009,6,0,1
+Pennsylvania,2009,6,1,1
+Texas,2009,6,0,1
+Virginia,2009,6,0,1
+Virginia,2009,6,1,1
+Washington,2009,6,0,1
+California,2009,6,0,1
+California,2009,6,1,2
+Colorado,2009,6,0,1
+Idaho,2009,6,0,1
+Indiana,2009,6,0,2
+Minnesota,2009,6,0,1
+"New York",2009,6,0,1
+"New York",2009,6,1,1
+"North Carolina",2009,6,0,2
+Arizona,2009,7,0,1
+California,2009,7,0,2
+California,2009,7,1,2
+Colorado,2009,7,1,1
+Florida,2009,7,0,2
+Florida,2009,7,1,1
+Idaho,2009,7,0,1
+Indiana,2009,7,0,2
+Kansas,2009,7,0,1
+Kentucky,2009,7,0,2
+Kentucky,2009,7,1,1
+Minnesota,2009,7,0,1
+Nevada,2009,7,1,1
+"New York",2009,7,0,1
+"New York",2009,7,1,2
+Oregon,2009,7,0,1
+Texas,2009,7,0,1
+Virginia,2009,7,0,2
+Virginia,2009,7,1,1
+"North Dakota",2009,8,0,1
+Oregon,2009,8,1,1
+Pennsylvania,2009,8,1,1
+Virginia,2009,8,0,2
+Arizona,2009,8,1,1
+California,2009,8,0,5
+California,2009,8,1,1
+Connecticut,2009,8,0,2
+Connecticut,2009,8,1,1
+Florida,2009,8,0,3
+Florida,2009,8,1,2
+Georgia,2009,8,0,1
+Idaho,2009,8,0,2
+Idaho,2009,8,1,2
+Indiana,2009,8,0,3
+Iowa,2009,8,0,1
+Maryland,2009,8,1,1
+Massachusetts,2009,8,0,1
+Minnesota,2009,8,0,1
+Montana,2009,8,0,1
+"New York",2009,8,0,4
+"New York",2009,8,1,2
+California,2009,9,0,14
+California,2009,9,1,2
+Colorado,2009,9,0,1
+Colorado,2009,9,1,2
+Florida,2009,9,0,2
+Idaho,2009,9,0,3
+Indiana,2009,9,0,1
+Kentucky,2009,9,0,1
+Maryland,2009,9,0,1
+Minnesota,2009,9,0,3
+"New York",2009,9,0,2
+"New York",2009,9,1,3
+"North Carolina",2009,9,0,1
+"North Dakota",2009,9,0,1
+Ohio,2009,9,0,2
+Oregon,2009,9,0,3
+Oregon,2009,9,1,1
+Pennsylvania,2009,9,0,3
+"South Carolina",2009,9,0,1
+Texas,2009,9,0,3
+Texas,2009,9,1,1
+Virginia,2009,9,0,3
+Virginia,2009,9,1,1
+"North Dakota",2009,10,0,1
+Ohio,2009,10,0,2
+Ohio,2009,10,1,1
+Oklahoma,2009,10,0,1
+Oregon,2009,10,0,2
+Oregon,2009,10,1,1
+Pennsylvania,2009,10,0,1
+Pennsylvania,2009,10,1,4
+Texas,2009,10,0,3
+Texas,2009,10,1,2
+Virginia,2009,10,0,4
+Virginia,2009,10,1,4
+Wisconsin,2009,10,0,1
+Arizona,2009,10,0,1
+California,2009,10,0,7
+California,2009,10,1,1
+Connecticut,2009,10,0,1
+Florida,2009,10,0,6
+Florida,2009,10,1,2
+Idaho,2009,10,0,1
+Indiana,2009,10,0,2
+Indiana,2009,10,1,1
+Maine,2009,10,0,1
+Maryland,2009,10,0,1
+Massachusetts,2009,10,1,1
+Minnesota,2009,10,0,4
+Minnesota,2009,10,1,2
+"New York",2009,10,0,6
+"New York",2009,10,1,4
+"North Carolina",2009,10,0,2
+"North Carolina",2009,10,1,1
+California,2009,11,0,4
+Colorado,2009,11,0,1
+Florida,2009,11,0,1
+Kentucky,2009,11,0,1
+Maryland,2009,11,0,1
+Massachusetts,2009,11,0,2
+Michigan,2009,11,1,1
+"New Jersey",2009,11,0,1
+"New York",2009,11,0,5
+"North Carolina",2009,11,0,2
+"North Dakota",2009,11,0,2
+Ohio,2009,11,0,2
+Ohio,2009,11,1,1
+Oregon,2009,11,1,1
+Pennsylvania,2009,11,1,1
+"South Carolina",2009,11,1,1
+Texas,2009,11,1,1
+Virginia,2009,11,0,2
+"North Dakota",2009,12,0,6
+"North Dakota",2009,12,1,1
+Ohio,2009,12,0,7
+Ohio,2009,12,1,3
+Oklahoma,2009,12,0,1
+Oregon,2009,12,0,3
+Oregon,2009,12,1,2
+Pennsylvania,2009,12,0,8
+Pennsylvania,2009,12,1,2
+Tennessee,2009,12,0,1
+Texas,2009,12,0,7
+Virginia,2009,12,0,6
+Virginia,2009,12,1,1
+Washington,2009,12,0,2
+Wisconsin,2009,12,0,1
+Alabama,2009,12,0,1
+Arkansas,2009,12,0,1
+California,2009,12,0,23
+California,2009,12,1,9
+Colorado,2009,12,0,1
+Connecticut,2009,12,0,4
+Florida,2009,12,0,8
+Florida,2009,12,1,2
+Georgia,2009,12,0,1
+Idaho,2009,12,0,5
+Idaho,2009,12,1,1
+Illinois,2009,12,0,1
+Indiana,2009,12,0,3
+Indiana,2009,12,1,2
+Kentucky,2009,12,0,6
+Kentucky,2009,12,1,1
+Maryland,2009,12,0,2
+Michigan,2009,12,0,1
+Minnesota,2009,12,0,7
+Minnesota,2009,12,1,1
+Mississippi,2009,12,0,1
+"New Jersey",2009,12,0,1
+"New Mexico",2009,12,0,1
+"New York",2009,12,0,11
+"New York",2009,12,1,5
+"North Carolina",2009,12,0,6
+"North Carolina",2009,12,1,1
+Alabama,2010,1,0,2
+Arizona,2010,1,0,1
+Arkansas,2010,1,0,1
+California,2010,1,0,37
+California,2010,1,1,10
+Colorado,2010,1,0,3
+Colorado,2010,1,1,4
+Connecticut,2010,1,0,5
+Connecticut,2010,1,1,4
+Florida,2010,1,0,14
+Florida,2010,1,1,9
+Georgia,2010,1,0,1
+Idaho,2010,1,0,8
+Idaho,2010,1,1,1
+Illinois,2010,1,0,2
+Indiana,2010,1,0,4
+Iowa,2010,1,0,1
+Kentucky,2010,1,0,7
+Louisiana,2010,1,0,1
+Maryland,2010,1,0,2
+Maryland,2010,1,1,1
+Massachusetts,2010,1,0,1
+Michigan,2010,1,0,1
+Minnesota,2010,1,0,7
+Minnesota,2010,1,1,3
+Missouri,2010,1,0,1
+Nebraska,2010,1,0,1
+"New Hampshire",2010,1,0,1
+"New Jersey",2010,1,0,2
+"New Mexico",2010,1,0,1
+"New York",2010,1,0,23
+"New York",2010,1,1,9
+"North Carolina",2010,1,0,8
+"North Carolina",2010,1,1,3
+"North Dakota",2010,1,0,4
+"North Dakota",2010,1,1,5
+Ohio,2010,1,0,12
+Ohio,2010,1,1,4
+Oklahoma,2010,1,0,1
+Oregon,2010,1,0,3
+Oregon,2010,1,1,1
+Pennsylvania,2010,1,0,12
+Pennsylvania,2010,1,1,4
+"South Carolina",2010,1,0,1
+Tennessee,2010,1,0,1
+Texas,2010,1,0,8
+Texas,2010,1,1,5
+Virginia,2010,1,0,5
+Virginia,2010,1,1,7
+Washington,2010,1,0,3
+Wisconsin,2010,1,0,1
+Ohio,2010,2,0,2
+Oklahoma,2010,2,0,1
+Oregon,2010,2,0,1
+Pennsylvania,2010,2,1,4
+Texas,2010,2,0,6
+Utah,2010,2,0,1
+Virginia,2010,2,0,1
+Virginia,2010,2,1,3
+Washington,2010,2,0,1
+Alabama,2010,2,0,1
+California,2010,2,0,14
+Colorado,2010,2,0,2
+Colorado,2010,2,1,1
+Florida,2010,2,0,3
+Florida,2010,2,1,1
+Georgia,2010,2,0,1
+Indiana,2010,2,0,2
+Michigan,2010,2,0,1
+Minnesota,2010,2,0,3
+"New Mexico",2010,2,0,1
+"New York",2010,2,0,6
+"New York",2010,2,1,1
+"North Carolina",2010,2,0,5
+"North Carolina",2010,2,1,1
+"North Dakota",2010,2,0,3
+Alabama,2010,3,0,1
+Arizona,2010,3,0,1
+California,2010,3,0,12
+California,2010,3,1,5
+Colorado,2010,3,0,1
+Colorado,2010,3,1,1
+Florida,2010,3,0,4
+Georgia,2010,3,0,1
+Idaho,2010,3,1,1
+Indiana,2010,3,0,1
+Indiana,2010,3,1,1
+Kentucky,2010,3,0,3
+Maryland,2010,3,0,1
+Michigan,2010,3,0,1
+Minnesota,2010,3,0,3
+Mississippi,2010,3,0,1
+"New Jersey",2010,3,0,1
+"New Mexico",2010,3,0,1
+"New York",2010,3,0,7
+"New York",2010,3,1,1
+"North Dakota",2010,3,0,3
+Ohio,2010,3,0,2
+Oklahoma,2010,3,0,1
+Oregon,2010,3,1,2
+Pennsylvania,2010,3,0,2
+Pennsylvania,2010,3,1,2
+Texas,2010,3,0,1
+Texas,2010,3,1,4
+Virginia,2010,3,0,2
+Oregon,2010,4,0,5
+Oregon,2010,4,1,1
+Pennsylvania,2010,4,0,5
+Pennsylvania,2010,4,1,3
+Texas,2010,4,0,1
+Virginia,2010,4,0,1
+Arkansas,2010,4,0,1
+California,2010,4,0,12
+California,2010,4,1,1
+Colorado,2010,4,0,1
+Connecticut,2010,4,0,3
+Connecticut,2010,4,1,1
+Florida,2010,4,0,5
+Florida,2010,4,1,3
+Georgia,2010,4,0,1
+Idaho,2010,4,0,2
+Indiana,2010,4,0,3
+Indiana,2010,4,1,1
+Kentucky,2010,4,0,2
+Kentucky,2010,4,1,2
+Maryland,2010,4,0,1
+Massachusetts,2010,4,0,1
+Minnesota,2010,4,0,1
+"New York",2010,4,0,8
+"New York",2010,4,1,3
+"North Carolina",2010,4,0,2
+"North Dakota",2010,4,0,2
+Alabama,2010,5,0,1
+California,2010,5,0,9
+California,2010,5,1,2
+Colorado,2010,5,0,1
+Colorado,2010,5,1,3
+Florida,2010,5,0,4
+Florida,2010,5,1,2
+Idaho,2010,5,0,3
+Idaho,2010,5,1,1
+Indiana,2010,5,0,4
+Kentucky,2010,5,1,1
+Maryland,2010,5,1,1
+Minnesota,2010,5,0,1
+"New York",2010,5,0,2
+"New York",2010,5,1,1
+"North Carolina",2010,5,0,2
+"North Carolina",2010,5,1,1
+Ohio,2010,5,0,2
+Ohio,2010,5,1,2
+Oregon,2010,5,0,4
+Pennsylvania,2010,5,0,3
+Pennsylvania,2010,5,1,1
+Texas,2010,5,0,4
+Texas,2010,5,1,2
+Virginia,2010,5,0,4
+Virginia,2010,5,1,1
+Ohio,2010,6,0,3
+Ohio,2010,6,1,1
+Oregon,2010,6,0,2
+Oregon,2010,6,1,2
+Pennsylvania,2010,6,0,3
+Pennsylvania,2010,6,1,1
+"South Carolina",2010,6,0,1
+Texas,2010,6,1,2
+California,2010,6,0,4
+California,2010,6,1,3
+Colorado,2010,6,0,2
+Connecticut,2010,6,0,1
+Florida,2010,6,0,4
+Florida,2010,6,1,1
+Idaho,2010,6,1,1
+Indiana,2010,6,0,1
+Indiana,2010,6,1,1
+Iowa,2010,6,0,1
+Kentucky,2010,6,0,2
+Kentucky,2010,6,1,1
+Maryland,2010,6,0,1
+Maryland,2010,6,1,2
+Michigan,2010,6,0,1
+Michigan,2010,6,1,2
+Minnesota,2010,6,0,1
+Minnesota,2010,6,1,1
+"New York",2010,6,0,4
+"New York",2010,6,1,4
+"North Carolina",2010,6,0,1
+"North Carolina",2010,6,1,1
+California,2010,7,0,11
+California,2010,7,1,3
+Florida,2010,7,0,5
+Florida,2010,7,1,2
+Georgia,2010,7,0,1
+Idaho,2010,7,0,1
+Indiana,2010,7,0,2
+Indiana,2010,7,1,1
+Kentucky,2010,7,0,2
+Maryland,2010,7,0,2
+Minnesota,2010,7,0,4
+Minnesota,2010,7,1,2
+Mississippi,2010,7,0,1
+"New York",2010,7,0,7
+"New York",2010,7,1,4
+"North Carolina",2010,7,0,1
+"North Dakota",2010,7,0,2
+"North Dakota",2010,7,1,1
+Ohio,2010,7,0,5
+Oregon,2010,7,1,1
+Pennsylvania,2010,7,0,2
+Pennsylvania,2010,7,1,1
+"South Dakota",2010,7,0,1
+Texas,2010,7,0,6
+Texas,2010,7,1,2
+Virginia,2010,7,0,6
+Virginia,2010,7,1,1
+"North Dakota",2010,8,0,4
+"North Dakota",2010,8,1,2
+Ohio,2010,8,0,2
+Oklahoma,2010,8,1,1
+Oregon,2010,8,0,3
+Oregon,2010,8,1,2
+Pennsylvania,2010,8,0,3
+Pennsylvania,2010,8,1,1
+Tennessee,2010,8,0,1
+Texas,2010,8,0,5
+Utah,2010,8,0,1
+Virginia,2010,8,0,5
+Washington,2010,8,0,1
+California,2010,8,0,5
+California,2010,8,1,5
+Colorado,2010,8,1,1
+Connecticut,2010,8,0,1
+Florida,2010,8,0,3
+Georgia,2010,8,0,2
+Idaho,2010,8,0,2
+Idaho,2010,8,1,1
+Illinois,2010,8,0,2
+Kansas,2010,8,0,1
+Kentucky,2010,8,0,5
+Maryland,2010,8,0,3
+Michigan,2010,8,0,1
+Minnesota,2010,8,0,1
+Minnesota,2010,8,1,1
+Nevada,2010,8,0,1
+"New Jersey",2010,8,0,1
+"New York",2010,8,0,12
+"North Carolina",2010,8,0,3
+"North Carolina",2010,8,1,1
+Alabama,2010,9,0,1
+"Armed Forces Americas (except Canada)",2010,9,0,1
+California,2010,9,0,7
+California,2010,9,1,6
+Colorado,2010,9,0,3
+Connecticut,2010,9,0,2
+Florida,2010,9,0,4
+Florida,2010,9,1,2
+Idaho,2010,9,0,3
+Idaho,2010,9,1,4
+Illinois,2010,9,0,1
+Indiana,2010,9,0,2
+Indiana,2010,9,1,3
+Kentucky,2010,9,0,1
+Maryland,2010,9,0,2
+Minnesota,2010,9,0,2
+Minnesota,2010,9,1,3
+Missouri,2010,9,0,1
+"New York",2010,9,0,8
+"New York",2010,9,1,6
+"North Carolina",2010,9,0,2
+"North Dakota",2010,9,0,1
+"North Dakota",2010,9,1,2
+Ohio,2010,9,0,3
+Ohio,2010,9,1,2
+Oregon,2010,9,0,3
+Oregon,2010,9,1,2
+Pennsylvania,2010,9,0,3
+Pennsylvania,2010,9,1,4
+Tennessee,2010,9,0,1
+Texas,2010,9,0,5
+Texas,2010,9,1,3
+Virginia,2010,9,0,5
+Virginia,2010,9,1,1
+Washington,2010,9,0,2
+Wisconsin,2010,9,1,1
+"North Dakota",2010,10,0,3
+"North Dakota",2010,10,1,1
+Ohio,2010,10,0,5
+Oregon,2010,10,0,3
+Pennsylvania,2010,10,1,1
+Texas,2010,10,0,2
+Texas,2010,10,1,1
+Virginia,2010,10,0,2
+Virginia,2010,10,1,2
+California,2010,10,0,10
+California,2010,10,1,6
+Colorado,2010,10,0,2
+Colorado,2010,10,1,2
+Connecticut,2010,10,0,1
+Florida,2010,10,0,5
+Florida,2010,10,1,4
+Idaho,2010,10,0,2
+Idaho,2010,10,1,2
+Illinois,2010,10,0,1
+Illinois,2010,10,1,1
+Indiana,2010,10,0,4
+Kentucky,2010,10,0,5
+Kentucky,2010,10,1,1
+Louisiana,2010,10,0,1
+Maryland,2010,10,0,1
+Maryland,2010,10,1,2
+Minnesota,2010,10,0,4
+Minnesota,2010,10,1,1
+"New Jersey",2010,10,0,1
+"New York",2010,10,0,6
+"New York",2010,10,1,5
+"North Carolina",2010,10,0,2
+Arizona,2010,11,0,1
+California,2010,11,0,11
+California,2010,11,1,6
+Colorado,2010,11,0,1
+Connecticut,2010,11,0,2
+Connecticut,2010,11,1,1
+Florida,2010,11,0,4
+Florida,2010,11,1,1
+Georgia,2010,11,0,1
+Georgia,2010,11,1,1
+Idaho,2010,11,0,4
+Idaho,2010,11,1,2
+Illinois,2010,11,0,1
+Kentucky,2010,11,0,3
+Kentucky,2010,11,1,1
+Maryland,2010,11,0,3
+Maryland,2010,11,1,1
+Minnesota,2010,11,0,1
+Minnesota,2010,11,1,3
+"New York",2010,11,0,5
+"New York",2010,11,1,5
+"North Carolina",2010,11,0,2
+"North Carolina",2010,11,1,2
+"North Dakota",2010,11,0,3
+"North Dakota",2010,11,1,1
+Ohio,2010,11,0,3
+Ohio,2010,11,1,1
+Oregon,2010,11,0,4
+Pennsylvania,2010,11,0,5
+Pennsylvania,2010,11,1,1
+Texas,2010,11,0,4
+Virginia,2010,11,0,4
+Virginia,2010,11,1,2
+"West Virginia",2010,11,0,1
+"North Dakota",2010,12,0,5
+"North Dakota",2010,12,1,5
+Ohio,2010,12,0,8
+Ohio,2010,12,1,3
+Oregon,2010,12,0,5
+Oregon,2010,12,1,3
+Pennsylvania,2010,12,0,10
+Pennsylvania,2010,12,1,2
+Texas,2010,12,0,13
+Texas,2010,12,1,6
+Utah,2010,12,0,1
+Virginia,2010,12,0,13
+Virginia,2010,12,1,5
+Alabama,2010,12,0,1
+California,2010,12,0,27
+California,2010,12,1,22
+Colorado,2010,12,0,4
+Colorado,2010,12,1,3
+Connecticut,2010,12,0,4
+Connecticut,2010,12,1,3
+Florida,2010,12,0,14
+Florida,2010,12,1,8
+Idaho,2010,12,0,7
+Idaho,2010,12,1,4
+Illinois,2010,12,0,2
+Indiana,2010,12,0,8
+Indiana,2010,12,1,2
+Kentucky,2010,12,0,9
+Kentucky,2010,12,1,6
+Louisiana,2010,12,0,1
+Maryland,2010,12,0,2
+Maryland,2010,12,1,2
+Michigan,2010,12,0,3
+Minnesota,2010,12,0,7
+Minnesota,2010,12,1,8
+Mississippi,2010,12,0,1
+Missouri,2010,12,0,1
+"New York",2010,12,0,17
+"New York",2010,12,1,9
+"North Carolina",2010,12,0,3
+"North Carolina",2010,12,1,4
+California,2011,1,0,15
+California,2011,1,1,6
+Colorado,2011,1,0,3
+Colorado,2011,1,1,2
+Connecticut,2011,1,0,2
+Florida,2011,1,0,8
+Florida,2011,1,1,5
+Idaho,2011,1,0,6
+Idaho,2011,1,1,1
+Illinois,2011,1,0,1
+Indiana,2011,1,0,3
+Kentucky,2011,1,0,6
+Kentucky,2011,1,1,1
+Maryland,2011,1,0,3
+Maryland,2011,1,1,1
+Michigan,2011,1,0,1
+Minnesota,2011,1,0,6
+Minnesota,2011,1,1,1
+"New York",2011,1,0,9
+"New York",2011,1,1,8
+"North Carolina",2011,1,0,5
+"North Carolina",2011,1,1,2
+"North Dakota",2011,1,0,4
+Ohio,2011,1,0,6
+Ohio,2011,1,1,2
+Oregon,2011,1,0,4
+Oregon,2011,1,1,3
+Pennsylvania,2011,1,0,5
+Pennsylvania,2011,1,1,1
+"Puerto Rico",2011,1,0,1
+Texas,2011,1,0,5
+Texas,2011,1,1,5
+Virginia,2011,1,0,1
+Virginia,2011,1,1,5
+Ohio,2011,2,0,3
+Ohio,2011,2,1,4
+Oregon,2011,2,0,2
+Pennsylvania,2011,2,0,2
+Pennsylvania,2011,2,1,2
+Texas,2011,2,0,2
+Texas,2011,2,1,1
+Virginia,2011,2,0,2
+Virginia,2011,2,1,4
+California,2011,2,0,16
+California,2011,2,1,8
+Colorado,2011,2,0,3
+Connecticut,2011,2,0,2
+Connecticut,2011,2,1,1
+Florida,2011,2,0,7
+Florida,2011,2,1,3
+Georgia,2011,2,1,1
+Idaho,2011,2,0,3
+Idaho,2011,2,1,3
+Indiana,2011,2,0,3
+Indiana,2011,2,1,1
+Kentucky,2011,2,0,3
+Kentucky,2011,2,1,3
+Maryland,2011,2,0,2
+Michigan,2011,2,0,1
+Minnesota,2011,2,0,7
+Minnesota,2011,2,1,1
+Mississippi,2011,2,0,1
+"New York",2011,2,0,6
+"New York",2011,2,1,3
+"North Carolina",2011,2,0,2
+"North Carolina",2011,2,1,2
+"North Dakota",2011,2,0,1
+"North Dakota",2011,2,1,1
+Alabama,2011,3,1,1
+Arizona,2011,3,0,3
+California,2011,3,0,32
+California,2011,3,1,15
+Colorado,2011,3,0,5
+Colorado,2011,3,1,2
+Connecticut,2011,3,0,4
+Connecticut,2011,3,1,2
+Florida,2011,3,0,16
+Florida,2011,3,1,7
+Georgia,2011,3,0,1
+Idaho,2011,3,0,6
+Idaho,2011,3,1,2
+Illinois,2011,3,0,2
+Illinois,2011,3,1,1
+Indiana,2011,3,0,6
+Indiana,2011,3,1,3
+Kentucky,2011,3,0,5
+Kentucky,2011,3,1,3
+Maryland,2011,3,0,3
+Maryland,2011,3,1,1
+Massachusetts,2011,3,0,1
+Minnesota,2011,3,0,10
+Minnesota,2011,3,1,5
+Nevada,2011,3,0,1
+"New York",2011,3,0,14
+"New York",2011,3,1,8
+"North Carolina",2011,3,0,5
+"North Carolina",2011,3,1,1
+"North Dakota",2011,3,0,8
+"North Dakota",2011,3,1,7
+Ohio,2011,3,0,3
+Ohio,2011,3,1,2
+Oregon,2011,3,0,9
+Oregon,2011,3,1,1
+Pennsylvania,2011,3,0,8
+Pennsylvania,2011,3,1,5
+Texas,2011,3,0,8
+Texas,2011,3,1,5
+Utah,2011,3,0,1
+Virginia,2011,3,0,10
+Virginia,2011,3,1,2
+"West Virginia",2011,3,0,1
+Wisconsin,2011,3,0,1
+Ohio,2011,4,0,2
+Ohio,2011,4,1,2
+Oregon,2011,4,0,1
+Pennsylvania,2011,4,0,3
+"South Carolina",2011,4,0,1
+Texas,2011,4,0,2
+Texas,2011,4,1,4
+Virginia,2011,4,0,5
+Arizona,2011,4,0,1
+California,2011,4,0,11
+California,2011,4,1,5
+Colorado,2011,4,0,2
+Connecticut,2011,4,0,3
+Connecticut,2011,4,1,2
+Florida,2011,4,0,7
+Florida,2011,4,1,4
+Georgia,2011,4,0,1
+Idaho,2011,4,0,4
+Idaho,2011,4,1,5
+Indiana,2011,4,0,1
+Indiana,2011,4,1,3
+Iowa,2011,4,0,1
+Kentucky,2011,4,0,7
+Kentucky,2011,4,1,4
+Maryland,2011,4,0,3
+Maryland,2011,4,1,3
+Minnesota,2011,4,0,5
+Missouri,2011,4,0,1
+"New York",2011,4,0,8
+"North Carolina",2011,4,0,1
+"North Carolina",2011,4,1,1
+"North Dakota",2011,4,0,2
+"North Dakota",2011,4,1,2
+California,2011,5,0,15
+California,2011,5,1,5
+Colorado,2011,5,0,3
+Colorado,2011,5,1,1
+Connecticut,2011,5,0,2
+Connecticut,2011,5,1,2
+Florida,2011,5,0,5
+Florida,2011,5,1,3
+Idaho,2011,5,0,4
+Idaho,2011,5,1,2
+Indiana,2011,5,0,6
+Indiana,2011,5,1,1
+Kentucky,2011,5,0,1
+Kentucky,2011,5,1,3
+Maryland,2011,5,0,4
+Minnesota,2011,5,0,3
+Minnesota,2011,5,1,2
+"New Jersey",2011,5,0,1
+"New York",2011,5,0,11
+"New York",2011,5,1,8
+"North Carolina",2011,5,0,5
+"North Carolina",2011,5,1,5
+"North Dakota",2011,5,0,3
+Ohio,2011,5,0,7
+Oregon,2011,5,0,3
+Oregon,2011,5,1,2
+Pennsylvania,2011,5,0,4
+Pennsylvania,2011,5,1,1
+"South Carolina",2011,5,1,1
+Texas,2011,5,0,4
+Texas,2011,5,1,1
+Utah,2011,5,1,1
+Virginia,2011,5,0,6
+Virginia,2011,5,1,5
+"North Dakota",2011,6,0,1
+"North Dakota",2011,6,1,3
+Ohio,2011,6,0,1
+Ohio,2011,6,1,1
+Oklahoma,2011,6,1,1
+Oregon,2011,6,1,2
+Pennsylvania,2011,6,0,1
+Pennsylvania,2011,6,1,2
+Texas,2011,6,0,2
+Texas,2011,6,1,1
+Virginia,2011,6,0,3
+California,2011,6,0,16
+California,2011,6,1,8
+Colorado,2011,6,0,1
+Colorado,2011,6,1,1
+Connecticut,2011,6,0,1
+Connecticut,2011,6,1,1
+Florida,2011,6,0,2
+Florida,2011,6,1,7
+Idaho,2011,6,0,1
+Indiana,2011,6,0,5
+Indiana,2011,6,1,1
+Kentucky,2011,6,0,3
+Kentucky,2011,6,1,2
+Maryland,2011,6,1,1
+Massachusetts,2011,6,0,2
+Michigan,2011,6,0,1
+Minnesota,2011,6,0,9
+Minnesota,2011,6,1,3
+Mississippi,2011,6,0,1
+"New Jersey",2011,6,0,1
+"New York",2011,6,0,8
+"New York",2011,6,1,2
+"North Carolina",2011,6,0,2
+Arizona,2011,7,0,1
+California,2011,7,0,13
+California,2011,7,1,9
+Colorado,2011,7,0,3
+Connecticut,2011,7,0,2
+Connecticut,2011,7,1,1
+Florida,2011,7,0,2
+Florida,2011,7,1,5
+Idaho,2011,7,0,4
+Idaho,2011,7,1,6
+Indiana,2011,7,0,3
+Indiana,2011,7,1,1
+Kentucky,2011,7,0,7
+Kentucky,2011,7,1,2
+Maryland,2011,7,0,2
+Minnesota,2011,7,0,4
+Minnesota,2011,7,1,5
+Missouri,2011,7,0,1
+"New Jersey",2011,7,0,1
+"New York",2011,7,0,5
+"New York",2011,7,1,6
+"North Carolina",2011,7,0,1
+"North Carolina",2011,7,1,4
+"North Dakota",2011,7,0,5
+"North Dakota",2011,7,1,1
+Ohio,2011,7,1,2
+Oregon,2011,7,0,3
+Oregon,2011,7,1,7
+Pennsylvania,2011,7,0,3
+Pennsylvania,2011,7,1,2
+Texas,2011,7,0,5
+Texas,2011,7,1,1
+Virginia,2011,7,0,6
+Virginia,2011,7,1,2
+"North Dakota",2011,8,0,3
+"North Dakota",2011,8,1,3
+Ohio,2011,8,1,3
+Oregon,2011,8,1,2
+Pennsylvania,2011,8,0,4
+Pennsylvania,2011,8,1,4
+Tennessee,2011,8,0,1
+Texas,2011,8,0,3
+Texas,2011,8,1,1
+Virginia,2011,8,0,4
+Virginia,2011,8,1,1
+California,2011,8,0,17
+California,2011,8,1,13
+Colorado,2011,8,0,1
+Colorado,2011,8,1,3
+Connecticut,2011,8,0,1
+Florida,2011,8,0,1
+Florida,2011,8,1,4
+Idaho,2011,8,0,3
+Idaho,2011,8,1,3
+Illinois,2011,8,0,2
+Indiana,2011,8,0,4
+Iowa,2011,8,0,1
+Kentucky,2011,8,0,5
+Kentucky,2011,8,1,3
+Maryland,2011,8,1,1
+Minnesota,2011,8,0,3
+Minnesota,2011,8,1,3
+"New York",2011,8,0,11
+"New York",2011,8,1,3
+"North Carolina",2011,8,0,5
+"North Carolina",2011,8,1,3
+Alabama,2011,9,0,2
+Arkansas,2011,9,0,1
+California,2011,9,0,18
+California,2011,9,1,15
+Colorado,2011,9,0,4
+Colorado,2011,9,1,2
+Connecticut,2011,9,0,4
+Connecticut,2011,9,1,4
+Florida,2011,9,0,12
+Florida,2011,9,1,11
+Idaho,2011,9,0,11
+Idaho,2011,9,1,4
+Illinois,2011,9,0,3
+Illinois,2011,9,1,1
+Indiana,2011,9,0,2
+Indiana,2011,9,1,5
+Kentucky,2011,9,0,5
+Kentucky,2011,9,1,7
+Louisiana,2011,9,0,1
+Maine,2011,9,0,1
+Maryland,2011,9,0,9
+Maryland,2011,9,1,3
+Minnesota,2011,9,0,9
+Minnesota,2011,9,1,13
+Missouri,2011,9,0,2
+"New Jersey",2011,9,0,1
+"New York",2011,9,0,15
+"New York",2011,9,1,10
+"North Carolina",2011,9,0,6
+"North Carolina",2011,9,1,4
+"North Dakota",2011,9,0,4
+"North Dakota",2011,9,1,4
+Ohio,2011,9,0,2
+Oklahoma,2011,9,0,1
+Oregon,2011,9,0,5
+Oregon,2011,9,1,4
+Pennsylvania,2011,9,0,6
+Pennsylvania,2011,9,1,8
+Texas,2011,9,0,10
+Texas,2011,9,1,3
+Virginia,2011,9,0,8
+Virginia,2011,9,1,4
+"North Dakota",2011,10,0,5
+"North Dakota",2011,10,1,4
+Ohio,2011,10,0,7
+Ohio,2011,10,1,3
+Oregon,2011,10,0,4
+Oregon,2011,10,1,3
+Pennsylvania,2011,10,0,14
+Pennsylvania,2011,10,1,3
+Texas,2011,10,0,16
+Texas,2011,10,1,7
+Virginia,2011,10,0,11
+Virginia,2011,10,1,4
+Washington,2011,10,1,2
+Wisconsin,2011,10,1,1
+Alabama,2011,10,0,1
+Arizona,2011,10,0,1
+California,2011,10,0,27
+California,2011,10,1,23
+Colorado,2011,10,0,6
+Colorado,2011,10,1,4
+Connecticut,2011,10,0,3
+Connecticut,2011,10,1,1
+Florida,2011,10,0,14
+Florida,2011,10,1,8
+Georgia,2011,10,0,1
+Hawaii,2011,10,0,1
+Idaho,2011,10,0,8
+Idaho,2011,10,1,2
+Indiana,2011,10,0,6
+Indiana,2011,10,1,3
+Kentucky,2011,10,0,6
+Kentucky,2011,10,1,3
+Louisiana,2011,10,0,1
+Maryland,2011,10,0,5
+Maryland,2011,10,1,3
+Massachusetts,2011,10,0,1
+Michigan,2011,10,0,1
+Minnesota,2011,10,0,9
+Mississippi,2011,10,0,1
+Mississippi,2011,10,1,1
+Nevada,2011,10,0,1
+"New Jersey",2011,10,0,4
+"New York",2011,10,0,21
+"New York",2011,10,1,11
+"North Carolina",2011,10,0,9
+"North Carolina",2011,10,1,12
+California,2011,11,0,20
+California,2011,11,1,19
+Colorado,2011,11,1,1
+Connecticut,2011,11,0,5
+Connecticut,2011,11,1,1
+Florida,2011,11,0,11
+Florida,2011,11,1,4
+Idaho,2011,11,0,4
+Idaho,2011,11,1,3
+Indiana,2011,11,0,6
+Indiana,2011,11,1,2
+Kentucky,2011,11,0,6
+Kentucky,2011,11,1,2
+Maryland,2011,11,0,2
+Maryland,2011,11,1,2
+Minnesota,2011,11,0,8
+Minnesota,2011,11,1,5
+Mississippi,2011,11,0,1
+"New York",2011,11,0,7
+"New York",2011,11,1,8
+"North Carolina",2011,11,0,2
+"North Carolina",2011,11,1,3
+"North Dakota",2011,11,0,8
+"North Dakota",2011,11,1,4
+Ohio,2011,11,0,4
+Ohio,2011,11,1,2
+Oklahoma,2011,11,0,1
+Oregon,2011,11,0,2
+Oregon,2011,11,1,1
+Pennsylvania,2011,11,0,10
+Pennsylvania,2011,11,1,6
+"Rhode Island",2011,11,0,1
+Texas,2011,11,0,4
+Texas,2011,11,1,2
+Virginia,2011,11,0,4
+Virginia,2011,11,1,1
+Washington,2011,11,0,1
+"North Dakota",2011,12,0,3
+"North Dakota",2011,12,1,1
+Ohio,2011,12,0,8
+Ohio,2011,12,1,1
+Oregon,2011,12,1,2
+Pennsylvania,2011,12,0,4
+Texas,2011,12,0,5
+Texas,2011,12,1,3
+Virginia,2011,12,0,4
+Virginia,2011,12,1,2
+Arizona,2011,12,0,1
+Arkansas,2011,12,0,1
+"Armed Forces",2011,12,0,1
+California,2011,12,0,24
+California,2011,12,1,7
+Colorado,2011,12,0,2
+Colorado,2011,12,1,3
+Connecticut,2011,12,0,4
+Connecticut,2011,12,1,4
+Florida,2011,12,0,5
+Florida,2011,12,1,9
+Idaho,2011,12,0,8
+Idaho,2011,12,1,2
+Illinois,2011,12,0,1
+Indiana,2011,12,0,2
+Indiana,2011,12,1,3
+Iowa,2011,12,0,2
+Kentucky,2011,12,0,5
+Kentucky,2011,12,1,1
+Maryland,2011,12,1,3
+Massachusetts,2011,12,0,1
+Michigan,2011,12,0,1
+Minnesota,2011,12,0,6
+Minnesota,2011,12,1,3
+"New York",2011,12,0,16
+"New York",2011,12,1,3
+"North Carolina",2011,12,0,4
+"North Carolina",2011,12,1,3
+California,2012,1,0,12
+California,2012,1,1,9
+Colorado,2012,1,0,6
+Connecticut,2012,1,0,2
+Connecticut,2012,1,1,4
+Florida,2012,1,0,6
+Florida,2012,1,1,2
+Georgia,2012,1,0,1
+Idaho,2012,1,0,2
+Idaho,2012,1,1,2
+Indiana,2012,1,0,2
+Indiana,2012,1,1,3
+Kansas,2012,1,0,1
+Kentucky,2012,1,0,6
+Maryland,2012,1,0,1
+Maryland,2012,1,1,3
+Minnesota,2012,1,0,8
+Minnesota,2012,1,1,1
+Mississippi,2012,1,0,1
+Missouri,2012,1,0,1
+"New Jersey",2012,1,0,1
+"New Mexico",2012,1,0,1
+"New York",2012,1,0,10
+"New York",2012,1,1,8
+"North Carolina",2012,1,0,3
+"North Carolina",2012,1,1,1
+"North Dakota",2012,1,0,6
+"North Dakota",2012,1,1,3
+Ohio,2012,1,0,4
+Ohio,2012,1,1,4
+Oregon,2012,1,0,2
+Pennsylvania,2012,1,0,3
+Pennsylvania,2012,1,1,5
+Texas,2012,1,0,7
+Texas,2012,1,1,2
+Virginia,2012,1,0,5
+Virginia,2012,1,1,4
+Wisconsin,2012,1,0,1
+Ohio,2012,2,0,6
+Ohio,2012,2,1,2
+Oklahoma,2012,2,0,1
+Oregon,2012,2,0,6
+Oregon,2012,2,1,2
+Pennsylvania,2012,2,0,3
+Pennsylvania,2012,2,1,2
+Texas,2012,2,0,2
+Texas,2012,2,1,3
+Utah,2012,2,0,1
+Utah,2012,2,1,1
+Virginia,2012,2,0,3
+Virginia,2012,2,1,1
+Washington,2012,2,0,1
+Arizona,2012,2,0,1
+California,2012,2,0,19
+California,2012,2,1,9
+Colorado,2012,2,1,4
+Connecticut,2012,2,0,3
+Connecticut,2012,2,1,3
+Florida,2012,2,0,4
+Florida,2012,2,1,5
+Georgia,2012,2,0,1
+Idaho,2012,2,0,8
+Illinois,2012,2,0,2
+Indiana,2012,2,0,3
+Indiana,2012,2,1,1
+Kentucky,2012,2,0,7
+Kentucky,2012,2,1,3
+Maryland,2012,2,0,4
+Michigan,2012,2,0,2
+Minnesota,2012,2,0,9
+Minnesota,2012,2,1,4
+Mississippi,2012,2,1,1
+Missouri,2012,2,0,1
+"New York",2012,2,0,12
+"New York",2012,2,1,7
+"North Carolina",2012,2,0,3
+"North Carolina",2012,2,1,1
+"North Dakota",2012,2,0,5
+"North Dakota",2012,2,1,2
+California,2012,3,0,17
+California,2012,3,1,9
+Colorado,2012,3,0,3
+Connecticut,2012,3,0,2
+Florida,2012,3,0,5
+Florida,2012,3,1,2
+Georgia,2012,3,0,1
+Idaho,2012,3,0,2
+Idaho,2012,3,1,4
+Illinois,2012,3,0,1
+Indiana,2012,3,0,4
+Indiana,2012,3,1,3
+Kentucky,2012,3,0,3
+Kentucky,2012,3,1,3
+Louisiana,2012,3,0,1
+Maryland,2012,3,0,5
+Maryland,2012,3,1,2
+Massachusetts,2012,3,1,1
+Michigan,2012,3,0,1
+Minnesota,2012,3,0,3
+Minnesota,2012,3,1,3
+Mississippi,2012,3,0,2
+"New Jersey",2012,3,0,1
+"New York",2012,3,0,11
+"New York",2012,3,1,5
+"North Carolina",2012,3,0,6
+"North Carolina",2012,3,1,4
+"North Dakota",2012,3,0,3
+"North Dakota",2012,3,1,2
+Ohio,2012,3,0,2
+Ohio,2012,3,1,2
+Oklahoma,2012,3,0,1
+Oregon,2012,3,0,1
+Oregon,2012,3,1,2
+Pennsylvania,2012,3,0,3
+Pennsylvania,2012,3,1,3
+Texas,2012,3,0,5
+Texas,2012,3,1,4
+Virginia,2012,3,0,2
+Virginia,2012,3,1,5
+Ohio,2012,4,0,1
+Ohio,2012,4,1,1
+Oregon,2012,4,0,3
+Pennsylvania,2012,4,0,1
+Texas,2012,4,0,4
+Texas,2012,4,1,2
+Virginia,2012,4,0,2
+Virginia,2012,4,1,2
+California,2012,4,0,9
+California,2012,4,1,7
+Colorado,2012,4,0,4
+Colorado,2012,4,1,1
+Connecticut,2012,4,1,3
+Florida,2012,4,0,9
+Florida,2012,4,1,3
+Idaho,2012,4,0,2
+Idaho,2012,4,1,1
+Indiana,2012,4,0,5
+Indiana,2012,4,1,2
+Kentucky,2012,4,0,2
+Kentucky,2012,4,1,3
+Maryland,2012,4,0,1
+Minnesota,2012,4,0,4
+Minnesota,2012,4,1,2
+"New Jersey",2012,4,0,1
+"New York",2012,4,0,8
+"New York",2012,4,1,3
+"North Carolina",2012,4,0,4
+"North Carolina",2012,4,1,5
+"North Dakota",2012,4,0,4
+"North Dakota",2012,4,1,2
+Alabama,2012,5,0,1
+Arizona,2012,5,0,1
+California,2012,5,0,19
+California,2012,5,1,18
+Colorado,2012,5,0,3
+Colorado,2012,5,1,3
+Connecticut,2012,5,0,6
+Connecticut,2012,5,1,2
+Florida,2012,5,0,10
+Florida,2012,5,1,8
+Hawaii,2012,5,0,1
+Idaho,2012,5,0,5
+Idaho,2012,5,1,4
+Illinois,2012,5,0,2
+Indiana,2012,5,0,7
+Indiana,2012,5,1,1
+Iowa,2012,5,0,1
+Kansas,2012,5,0,1
+Kentucky,2012,5,0,4
+Maryland,2012,5,0,1
+Maryland,2012,5,1,5
+Michigan,2012,5,0,2
+Minnesota,2012,5,0,3
+Minnesota,2012,5,1,3
+Nevada,2012,5,0,1
+"New Jersey",2012,5,1,1
+"New York",2012,5,0,5
+"New York",2012,5,1,5
+"North Carolina",2012,5,0,6
+"North Carolina",2012,5,1,4
+"North Dakota",2012,5,0,6
+"North Dakota",2012,5,1,1
+Ohio,2012,5,0,5
+Ohio,2012,5,1,4
+Oklahoma,2012,5,0,2
+Oregon,2012,5,0,9
+Oregon,2012,5,1,2
+Pennsylvania,2012,5,0,7
+Pennsylvania,2012,5,1,4
+Texas,2012,5,0,11
+Texas,2012,5,1,4
+Virginia,2012,5,0,8
+Virginia,2012,5,1,1
+Washington,2012,5,0,1
+"West Virginia",2012,5,0,1
+Wisconsin,2012,5,0,1
+"North Dakota",2012,6,0,6
+"North Dakota",2012,6,1,4
+Ohio,2012,6,0,3
+Oregon,2012,6,0,7
+Oregon,2012,6,1,3
+Pennsylvania,2012,6,0,8
+Pennsylvania,2012,6,1,2
+Texas,2012,6,0,7
+Texas,2012,6,1,3
+Utah,2012,6,0,1
+Virginia,2012,6,0,3
+Virginia,2012,6,1,2
+Arizona,2012,6,0,1
+California,2012,6,0,18
+California,2012,6,1,17
+Colorado,2012,6,0,2
+Colorado,2012,6,1,3
+Connecticut,2012,6,0,2
+Connecticut,2012,6,1,2
+Delaware,2012,6,0,1
+Florida,2012,6,0,15
+Florida,2012,6,1,10
+Idaho,2012,6,0,4
+Idaho,2012,6,1,6
+Illinois,2012,6,0,2
+Indiana,2012,6,0,4
+Indiana,2012,6,1,2
+Kentucky,2012,6,0,4
+Kentucky,2012,6,1,5
+Louisiana,2012,6,1,1
+Maryland,2012,6,0,3
+Michigan,2012,6,0,1
+Minnesota,2012,6,0,8
+Minnesota,2012,6,1,1
+"New York",2012,6,0,17
+"New York",2012,6,1,9
+"North Carolina",2012,6,0,8
+"North Carolina",2012,6,1,6
+California,2012,7,0,27
+California,2012,7,1,33
+Colorado,2012,7,0,9
+Colorado,2012,7,1,7
+Connecticut,2012,7,0,4
+Connecticut,2012,7,1,2
+Florida,2012,7,0,12
+Florida,2012,7,1,10
+Georgia,2012,7,0,4
+Idaho,2012,7,0,15
+Idaho,2012,7,1,9
+Illinois,2012,7,0,5
+Indiana,2012,7,0,9
+Indiana,2012,7,1,9
+Kentucky,2012,7,0,13
+Kentucky,2012,7,1,5
+Louisiana,2012,7,0,1
+Maryland,2012,7,0,5
+Maryland,2012,7,1,6
+Massachusetts,2012,7,0,2
+Michigan,2012,7,0,1
+Minnesota,2012,7,0,9
+Minnesota,2012,7,1,9
+Missouri,2012,7,0,1
+"New Jersey",2012,7,0,2
+"New York",2012,7,0,34
+"New York",2012,7,1,20
+"North Carolina",2012,7,0,12
+"North Carolina",2012,7,1,4
+"North Dakota",2012,7,0,4
+"North Dakota",2012,7,1,7
+Ohio,2012,7,0,10
+Ohio,2012,7,1,7
+Oregon,2012,7,0,8
+Oregon,2012,7,1,4
+Pennsylvania,2012,7,0,12
+Pennsylvania,2012,7,1,7
+"South Carolina",2012,7,0,1
+"South Dakota",2012,7,0,1
+Texas,2012,7,0,12
+Texas,2012,7,1,10
+Utah,2012,7,0,2
+Virginia,2012,7,0,7
+Virginia,2012,7,1,4
+Wisconsin,2012,7,1,1
+"North Dakota",2012,8,0,4
+"North Dakota",2012,8,1,11
+Ohio,2012,8,0,10
+Ohio,2012,8,1,8
+Oregon,2012,8,0,8
+Oregon,2012,8,1,9
+Pennsylvania,2012,8,0,9
+Pennsylvania,2012,8,1,9
+Texas,2012,8,0,14
+Texas,2012,8,1,9
+Virginia,2012,8,0,13
+Virginia,2012,8,1,11
+Washington,2012,8,0,2
+Wisconsin,2012,8,0,1
+Arizona,2012,8,0,2
+California,2012,8,0,39
+California,2012,8,1,35
+Colorado,2012,8,0,5
+Colorado,2012,8,1,2
+Connecticut,2012,8,0,6
+Connecticut,2012,8,1,4
+Delaware,2012,8,0,1
+Florida,2012,8,0,19
+Florida,2012,8,1,17
+Georgia,2012,8,0,1
+Idaho,2012,8,0,12
+Idaho,2012,8,1,7
+Illinois,2012,8,0,3
+Indiana,2012,8,0,6
+Indiana,2012,8,1,7
+Iowa,2012,8,0,1
+Kentucky,2012,8,0,15
+Kentucky,2012,8,1,10
+Maryland,2012,8,0,2
+Maryland,2012,8,1,4
+Massachusetts,2012,8,0,1
+Minnesota,2012,8,0,10
+Minnesota,2012,8,1,9
+Missouri,2012,8,0,1
+Nevada,2012,8,0,1
+"New Jersey",2012,8,0,2
+"New York",2012,8,0,35
+"New York",2012,8,1,26
+"North Carolina",2012,8,0,4
+"North Carolina",2012,8,1,9
+Alabama,2012,9,0,3
+Arizona,2012,9,0,1
+California,2012,9,0,45
+California,2012,9,1,40
+Colorado,2012,9,0,2
+Colorado,2012,9,1,7
+Connecticut,2012,9,0,6
+Connecticut,2012,9,1,5
+Florida,2012,9,0,13
+Florida,2012,9,1,12
+Georgia,2012,9,0,1
+Georgia,2012,9,1,1
+Idaho,2012,9,0,9
+Idaho,2012,9,1,12
+Illinois,2012,9,0,3
+Indiana,2012,9,0,10
+Indiana,2012,9,1,11
+Kentucky,2012,9,0,11
+Kentucky,2012,9,1,11
+Louisiana,2012,9,0,2
+Maine,2012,9,0,1
+Maryland,2012,9,0,9
+Maryland,2012,9,1,10
+Massachusetts,2012,9,0,3
+Minnesota,2012,9,0,13
+Minnesota,2012,9,1,12
+Mississippi,2012,9,0,1
+Missouri,2012,9,0,1
+"New Jersey",2012,9,0,1
+"New Jersey",2012,9,1,1
+"New Mexico",2012,9,0,1
+"New York",2012,9,0,30
+"New York",2012,9,1,23
+"North Carolina",2012,9,0,10
+"North Carolina",2012,9,1,10
+"North Dakota",2012,9,0,12
+"North Dakota",2012,9,1,10
+Ohio,2012,9,0,6
+Ohio,2012,9,1,8
+Oklahoma,2012,9,0,1
+Oregon,2012,9,0,6
+Oregon,2012,9,1,15
+Pennsylvania,2012,9,0,12
+Pennsylvania,2012,9,1,14
+"Rhode Island",2012,9,0,1
+"South Carolina",2012,9,0,1
+Texas,2012,9,0,19
+Texas,2012,9,1,14
+Utah,2012,9,0,2
+Virginia,2012,9,0,10
+Virginia,2012,9,1,11
+"North Dakota",2012,10,0,5
+"North Dakota",2012,10,1,7
+Ohio,2012,10,0,18
+Ohio,2012,10,1,8
+Oklahoma,2012,10,0,2
+Oregon,2012,10,0,10
+Oregon,2012,10,1,8
+Pennsylvania,2012,10,0,16
+Pennsylvania,2012,10,1,19
+"Puerto Rico",2012,10,0,2
+Texas,2012,10,0,14
+Texas,2012,10,1,10
+Utah,2012,10,0,1
+Virginia,2012,10,0,16
+Virginia,2012,10,1,19
+Washington,2012,10,0,2
+Wisconsin,2012,10,0,1
+Alabama,2012,10,0,2
+Alabama,2012,10,1,1
+Arizona,2012,10,0,2
+California,2012,10,0,53
+California,2012,10,1,46
+Colorado,2012,10,0,9
+Colorado,2012,10,1,6
+Connecticut,2012,10,0,12
+Connecticut,2012,10,1,5
+Florida,2012,10,0,23
+Florida,2012,10,1,19
+Georgia,2012,10,0,3
+Hawaii,2012,10,0,1
+Idaho,2012,10,0,6
+Idaho,2012,10,1,13
+Illinois,2012,10,0,1
+Indiana,2012,10,0,15
+Indiana,2012,10,1,7
+Iowa,2012,10,0,1
+Kentucky,2012,10,0,20
+Kentucky,2012,10,1,15
+Maryland,2012,10,0,5
+Maryland,2012,10,1,7
+Michigan,2012,10,0,2
+Minnesota,2012,10,0,16
+Minnesota,2012,10,1,15
+"New Jersey",2012,10,0,3
+"New York",2012,10,0,53
+"New York",2012,10,1,27
+"North Carolina",2012,10,0,14
+"North Carolina",2012,10,1,8
+Alabama,2012,11,0,2
+Arizona,2012,11,0,2
+California,2012,11,0,91
+California,2012,11,1,47
+Colorado,2012,11,0,9
+Colorado,2012,11,1,11
+Connecticut,2012,11,0,10
+Connecticut,2012,11,1,14
+Delaware,2012,11,0,1
+"District of Columbia",2012,11,0,1
+Florida,2012,11,0,42
+Florida,2012,11,1,29
+Georgia,2012,11,0,1
+Hawaii,2012,11,0,1
+Idaho,2012,11,0,18
+Idaho,2012,11,1,31
+Illinois,2012,11,0,1
+Indiana,2012,11,0,18
+Indiana,2012,11,1,20
+Iowa,2012,11,0,1
+Kentucky,2012,11,0,15
+Kentucky,2012,11,1,17
+Louisiana,2012,11,0,1
+Maryland,2012,11,0,13
+Maryland,2012,11,1,9
+Michigan,2012,11,0,2
+Michigan,2012,11,1,1
+Minnesota,2012,11,0,28
+Minnesota,2012,11,1,19
+Mississippi,2012,11,0,1
+Missouri,2012,11,0,1
+Nevada,2012,11,0,1
+"New Hampshire",2012,11,0,1
+"New Jersey",2012,11,0,2
+"New Mexico",2012,11,0,1
+"New York",2012,11,0,56
+"New York",2012,11,1,54
+"North Carolina",2012,11,0,29
+"North Carolina",2012,11,1,15
+"North Dakota",2012,11,0,13
+"North Dakota",2012,11,1,16
+Ohio,2012,11,0,24
+Ohio,2012,11,1,18
+Oregon,2012,11,0,17
+Oregon,2012,11,1,15
+Pennsylvania,2012,11,0,26
+Pennsylvania,2012,11,1,18
+"Rhode Island",2012,11,0,1
+"South Carolina",2012,11,0,1
+Texas,2012,11,0,35
+Texas,2012,11,1,20
+"Virgin Islands",2012,11,0,1
+Virginia,2012,11,0,21
+Virginia,2012,11,1,10
+Washington,2012,11,0,3
+Washington,2012,11,1,1
+"North Dakota",2012,12,0,21
+"North Dakota",2012,12,1,35
+Ohio,2012,12,0,31
+Ohio,2012,12,1,26
+Oklahoma,2012,12,0,1
+Oregon,2012,12,0,27
+Oregon,2012,12,1,22
+Pennsylvania,2012,12,0,36
+Pennsylvania,2012,12,1,38
+"Puerto Rico",2012,12,1,1
+"Rhode Island",2012,12,0,1
+"South Carolina",2012,12,0,2
+Tennessee,2012,12,0,1
+Texas,2012,12,0,42
+Texas,2012,12,1,32
+Utah,2012,12,0,2
+Virginia,2012,12,0,26
+Virginia,2012,12,1,30
+Washington,2012,12,0,6
+"West Virginia",2012,12,0,1
+Wisconsin,2012,12,0,5
+Wisconsin,2012,12,1,1
+Alabama,2012,12,0,1
+Alaska,2012,12,0,1
+Arizona,2012,12,0,1
+California,2012,12,0,113
+California,2012,12,1,99
+Colorado,2012,12,0,19
+Colorado,2012,12,1,15
+Connecticut,2012,12,0,16
+Connecticut,2012,12,1,17
+Florida,2012,12,0,52
+Florida,2012,12,1,48
+Georgia,2012,12,0,5
+Guam,2012,12,0,1
+Hawaii,2012,12,0,1
+Idaho,2012,12,0,38
+Idaho,2012,12,1,35
+Illinois,2012,12,0,6
+Indiana,2012,12,0,30
+Indiana,2012,12,1,25
+Iowa,2012,12,0,1
+Kansas,2012,12,0,4
+Kentucky,2012,12,0,23
+Kentucky,2012,12,1,30
+Louisiana,2012,12,0,2
+Louisiana,2012,12,1,1
+Maine,2012,12,0,1
+Maryland,2012,12,0,18
+Maryland,2012,12,1,11
+Massachusetts,2012,12,0,4
+Michigan,2012,12,0,2
+Minnesota,2012,12,0,29
+Minnesota,2012,12,1,32
+Mississippi,2012,12,0,2
+Missouri,2012,12,0,2
+Nevada,2012,12,0,1
+"New Hampshire",2012,12,0,1
+"New Jersey",2012,12,0,3
+"New York",2012,12,0,87
+"New York",2012,12,1,78
+"North Carolina",2012,12,0,31
+"North Carolina",2012,12,1,17
+Arizona,2013,1,0,3
+California,2013,1,0,82
+California,2013,1,1,62
+Colorado,2013,1,0,11
+Colorado,2013,1,1,17
+Connecticut,2013,1,0,17
+Connecticut,2013,1,1,9
+Delaware,2013,1,0,1
+Florida,2013,1,0,34
+Florida,2013,1,1,21
+Georgia,2013,1,0,2
+Georgia,2013,1,1,1
+Idaho,2013,1,0,15
+Idaho,2013,1,1,16
+Illinois,2013,1,0,4
+Indiana,2013,1,0,14
+Indiana,2013,1,1,16
+Iowa,2013,1,0,2
+Kansas,2013,1,0,2
+Kentucky,2013,1,0,23
+Kentucky,2013,1,1,22
+Louisiana,2013,1,0,2
+Maryland,2013,1,0,9
+Maryland,2013,1,1,10
+Massachusetts,2013,1,0,1
+Minnesota,2013,1,0,25
+Minnesota,2013,1,1,17
+Montana,2013,1,0,1
+"New Jersey",2013,1,0,4
+"New Mexico",2013,1,0,1
+"New York",2013,1,0,49
+"New York",2013,1,1,43
+"North Carolina",2013,1,0,20
+"North Carolina",2013,1,1,9
+"North Dakota",2013,1,0,12
+"North Dakota",2013,1,1,13
+Ohio,2013,1,0,18
+Ohio,2013,1,1,12
+Oklahoma,2013,1,0,1
+Oregon,2013,1,0,17
+Oregon,2013,1,1,26
+Pennsylvania,2013,1,0,22
+Pennsylvania,2013,1,1,20
+"South Carolina",2013,1,1,1
+Tennessee,2013,1,0,3
+Tennessee,2013,1,1,1
+Texas,2013,1,0,26
+Texas,2013,1,1,14
+Utah,2013,1,0,2
+Virginia,2013,1,0,17
+Virginia,2013,1,1,17
+Washington,2013,1,0,3
+Wisconsin,2013,1,0,2
+Ohio,2013,2,0,13
+Ohio,2013,2,1,17
+Oregon,2013,2,0,6
+Oregon,2013,2,1,11
+Pennsylvania,2013,2,0,20
+Pennsylvania,2013,2,1,24
+"Rhode Island",2013,2,0,1
+Tennessee,2013,2,0,1
+Texas,2013,2,0,24
+Texas,2013,2,1,21
+Utah,2013,2,0,2
+Virginia,2013,2,0,18
+Virginia,2013,2,1,20
+Washington,2013,2,0,1
+"West Virginia",2013,2,0,1
+Wisconsin,2013,2,0,2
+California,2013,2,0,59
+California,2013,2,1,66
+Colorado,2013,2,0,13
+Colorado,2013,2,1,12
+Connecticut,2013,2,0,12
+Connecticut,2013,2,1,10
+Florida,2013,2,0,30
+Florida,2013,2,1,22
+Georgia,2013,2,0,5
+Idaho,2013,2,0,19
+Idaho,2013,2,1,18
+Illinois,2013,2,0,7
+Indiana,2013,2,0,17
+Indiana,2013,2,1,9
+Kansas,2013,2,0,1
+Kentucky,2013,2,0,17
+Kentucky,2013,2,1,17
+Louisiana,2013,2,0,1
+Maryland,2013,2,0,3
+Maryland,2013,2,1,5
+Michigan,2013,2,0,2
+Michigan,2013,2,1,1
+Minnesota,2013,2,0,21
+Minnesota,2013,2,1,17
+Missouri,2013,2,0,2
+"New Jersey",2013,2,0,2
+"New York",2013,2,0,54
+"New York",2013,2,1,44
+"North Carolina",2013,2,0,14
+"North Carolina",2013,2,1,14
+"North Dakota",2013,2,0,20
+"North Dakota",2013,2,1,12
+Alabama,2013,3,0,1
+Arizona,2013,3,0,1
+Arkansas,2013,3,0,2
+California,2013,3,0,87
+California,2013,3,1,88
+Colorado,2013,3,0,11
+Colorado,2013,3,1,14
+Connecticut,2013,3,0,11
+Connecticut,2013,3,1,16
+Delaware,2013,3,0,1
+Florida,2013,3,0,39
+Florida,2013,3,1,44
+Georgia,2013,3,0,2
+Hawaii,2013,3,0,1
+Idaho,2013,3,0,21
+Idaho,2013,3,1,24
+Illinois,2013,3,0,5
+Illinois,2013,3,1,1
+Indiana,2013,3,0,25
+Indiana,2013,3,1,26
+Iowa,2013,3,0,2
+Kansas,2013,3,0,2
+Kentucky,2013,3,0,33
+Kentucky,2013,3,1,26
+Louisiana,2013,3,0,1
+Maryland,2013,3,0,8
+Maryland,2013,3,1,12
+Massachusetts,2013,3,0,2
+Massachusetts,2013,3,1,1
+Michigan,2013,3,0,3
+Minnesota,2013,3,0,39
+Minnesota,2013,3,1,28
+Mississippi,2013,3,0,1
+Nevada,2013,3,0,1
+Nevada,2013,3,1,1
+"New Hampshire",2013,3,0,1
+"New Jersey",2013,3,0,4
+"New Mexico",2013,3,0,2
+"New York",2013,3,0,55
+"New York",2013,3,1,56
+"North Carolina",2013,3,0,30
+"North Carolina",2013,3,1,24
+"North Dakota",2013,3,0,24
+"North Dakota",2013,3,1,23
+Ohio,2013,3,0,23
+Ohio,2013,3,1,25
+Oklahoma,2013,3,0,1
+Oregon,2013,3,0,14
+Oregon,2013,3,1,21
+Pennsylvania,2013,3,0,31
+Pennsylvania,2013,3,1,22
+"Puerto Rico",2013,3,0,3
+"South Carolina",2013,3,0,3
+"South Dakota",2013,3,0,1
+Tennessee,2013,3,0,3
+Texas,2013,3,0,23
+Texas,2013,3,1,20
+Virginia,2013,3,0,24
+Virginia,2013,3,1,32
+Washington,2013,3,0,1
+"West Virginia",2013,3,0,3
+Wisconsin,2013,3,0,2
+Ohio,2013,4,0,18
+Ohio,2013,4,1,9
+Oklahoma,2013,4,0,1
+Oregon,2013,4,0,10
+Oregon,2013,4,1,14
+Pennsylvania,2013,4,0,22
+Pennsylvania,2013,4,1,21
+Tennessee,2013,4,0,1
+Texas,2013,4,0,27
+Texas,2013,4,1,13
+Utah,2013,4,0,1
+Virginia,2013,4,0,19
+Virginia,2013,4,1,18
+Washington,2013,4,0,1
+"West Virginia",2013,4,0,1
+Alabama,2013,4,0,2
+Arkansas,2013,4,0,2
+California,2013,4,0,74
+California,2013,4,1,58
+Colorado,2013,4,0,7
+Colorado,2013,4,1,10
+Connecticut,2013,4,0,15
+Connecticut,2013,4,1,12
+Florida,2013,4,0,36
+Florida,2013,4,1,30
+Georgia,2013,4,0,3
+Georgia,2013,4,1,1
+Idaho,2013,4,0,16
+Idaho,2013,4,1,16
+Illinois,2013,4,0,3
+Illinois,2013,4,1,1
+Indiana,2013,4,0,11
+Indiana,2013,4,1,12
+Kansas,2013,4,0,1
+Kentucky,2013,4,0,14
+Kentucky,2013,4,1,18
+Louisiana,2013,4,0,1
+Maryland,2013,4,0,6
+Maryland,2013,4,1,8
+Massachusetts,2013,4,0,2
+Michigan,2013,4,0,2
+Minnesota,2013,4,0,18
+Minnesota,2013,4,1,18
+Missouri,2013,4,0,1
+"New Jersey",2013,4,0,1
+"New Mexico",2013,4,0,1
+"New York",2013,4,0,51
+"New York",2013,4,1,46
+"North Carolina",2013,4,0,8
+"North Carolina",2013,4,1,16
+"North Dakota",2013,4,0,15
+"North Dakota",2013,4,1,20
+Arizona,2013,5,0,1
+California,2013,5,0,124
+California,2013,5,1,71
+Colorado,2013,5,0,22
+Colorado,2013,5,1,11
+Connecticut,2013,5,0,12
+Connecticut,2013,5,1,8
+Florida,2013,5,0,36
+Florida,2013,5,1,27
+Georgia,2013,5,0,5
+Idaho,2013,5,0,27
+Idaho,2013,5,1,26
+Illinois,2013,5,0,4
+Indiana,2013,5,0,33
+Indiana,2013,5,1,21
+Kentucky,2013,5,0,28
+Kentucky,2013,5,1,25
+Maryland,2013,5,0,8
+Maryland,2013,5,1,8
+Massachusetts,2013,5,0,1
+Michigan,2013,5,0,2
+Minnesota,2013,5,0,16
+Minnesota,2013,5,1,21
+Missouri,2013,5,0,2
+Nevada,2013,5,0,1
+"New Jersey",2013,5,0,3
+"New York",2013,5,0,77
+"New York",2013,5,1,47
+"North Carolina",2013,5,0,26
+"North Carolina",2013,5,1,10
+"North Dakota",2013,5,0,23
+"North Dakota",2013,5,1,12
+Ohio,2013,5,0,24
+Ohio,2013,5,1,19
+Oklahoma,2013,5,0,3
+Oregon,2013,5,0,28
+Oregon,2013,5,1,19
+Pennsylvania,2013,5,0,27
+Pennsylvania,2013,5,1,25
+"South Carolina",2013,5,0,2
+Texas,2013,5,0,20
+Texas,2013,5,1,23
+Virginia,2013,5,0,45
+Virginia,2013,5,1,15
+Washington,2013,5,0,1
+"North Dakota",2013,6,0,42
+"North Dakota",2013,6,1,32
+Ohio,2013,6,0,35
+Ohio,2013,6,1,23
+Oklahoma,2013,6,0,1
+Oregon,2013,6,0,34
+Oregon,2013,6,1,19
+Pennsylvania,2013,6,0,63
+Pennsylvania,2013,6,1,23
+"Puerto Rico",2013,6,0,2
+"Puerto Rico",2013,6,1,1
+"South Carolina",2013,6,0,4
+"South Carolina",2013,6,1,1
+Tennessee,2013,6,0,3
+Tennessee,2013,6,1,1
+Texas,2013,6,0,54
+Texas,2013,6,1,29
+Utah,2013,6,0,1
+Virginia,2013,6,0,67
+Virginia,2013,6,1,15
+Washington,2013,6,0,2
+Alabama,2013,6,0,1
+Arizona,2013,6,0,2
+California,2013,6,0,181
+California,2013,6,1,82
+Colorado,2013,6,0,36
+Colorado,2013,6,1,11
+Connecticut,2013,6,0,24
+Connecticut,2013,6,1,13
+Florida,2013,6,0,75
+Florida,2013,6,1,40
+Georgia,2013,6,0,3
+Georgia,2013,6,1,1
+Idaho,2013,6,0,45
+Idaho,2013,6,1,28
+Illinois,2013,6,0,11
+Illinois,2013,6,1,1
+Indiana,2013,6,0,52
+Indiana,2013,6,1,23
+Iowa,2013,6,0,1
+Kansas,2013,6,0,1
+Kentucky,2013,6,0,55
+Kentucky,2013,6,1,16
+Louisiana,2013,6,0,1
+Maryland,2013,6,0,33
+Maryland,2013,6,1,14
+Massachusetts,2013,6,0,1
+Michigan,2013,6,0,3
+Minnesota,2013,6,0,68
+Minnesota,2013,6,1,28
+Mississippi,2013,6,0,1
+Missouri,2013,6,0,3
+Nebraska,2013,6,0,1
+"New Jersey",2013,6,0,4
+"New Jersey",2013,6,1,1
+"New Mexico",2013,6,0,1
+"New York",2013,6,0,126
+"New York",2013,6,1,67
+"North Carolina",2013,6,0,43
+"North Carolina",2013,6,1,27
+Alabama,2013,7,0,1
+Arizona,2013,7,0,1
+Arizona,2013,7,1,1
+Arkansas,2013,7,0,2
+California,2013,7,0,147
+California,2013,7,1,108
+Colorado,2013,7,0,22
+Colorado,2013,7,1,16
+Connecticut,2013,7,0,27
+Connecticut,2013,7,1,18
+Florida,2013,7,0,74
+Florida,2013,7,1,51
+Georgia,2013,7,0,4
+Georgia,2013,7,1,1
+Hawaii,2013,7,0,1
+Idaho,2013,7,0,34
+Idaho,2013,7,1,27
+Illinois,2013,7,0,2
+Indiana,2013,7,0,28
+Indiana,2013,7,1,21
+Kentucky,2013,7,0,36
+Kentucky,2013,7,1,33
+Louisiana,2013,7,0,1
+Maryland,2013,7,0,19
+Maryland,2013,7,1,15
+Massachusetts,2013,7,0,1
+Massachusetts,2013,7,1,1
+Michigan,2013,7,0,1
+Minnesota,2013,7,0,50
+Minnesota,2013,7,1,36
+Missouri,2013,7,0,2
+Montana,2013,7,0,1
+Nebraska,2013,7,0,1
+Nevada,2013,7,0,3
+"New Jersey",2013,7,0,2
+"New Mexico",2013,7,0,3
+"New York",2013,7,0,88
+"New York",2013,7,1,93
+"North Carolina",2013,7,0,44
+"North Carolina",2013,7,1,26
+"North Dakota",2013,7,0,38
+"North Dakota",2013,7,1,26
+Ohio,2013,7,0,39
+Ohio,2013,7,1,24
+Oklahoma,2013,7,0,1
+Oklahoma,2013,7,1,1
+Oregon,2013,7,0,24
+Oregon,2013,7,1,30
+Pennsylvania,2013,7,0,38
+Pennsylvania,2013,7,1,35
+"South Carolina",2013,7,0,1
+"South Carolina",2013,7,1,1
+Tennessee,2013,7,1,2
+Texas,2013,7,0,45
+Texas,2013,7,1,29
+Virginia,2013,7,0,42
+Virginia,2013,7,1,33
+Washington,2013,7,0,2
+Wisconsin,2013,7,0,1
+"North Dakota",2013,8,0,20
+"North Dakota",2013,8,1,26
+Ohio,2013,8,0,29
+Ohio,2013,8,1,22
+Oklahoma,2013,8,0,1
+Oregon,2013,8,0,14
+Oregon,2013,8,1,38
+Pennsylvania,2013,8,0,26
+Pennsylvania,2013,8,1,39
+"Puerto Rico",2013,8,1,1
+Tennessee,2013,8,0,1
+Texas,2013,8,0,32
+Texas,2013,8,1,27
+Utah,2013,8,0,1
+Virginia,2013,8,0,27
+Virginia,2013,8,1,32
+Washington,2013,8,1,1
+Wisconsin,2013,8,0,2
+Alabama,2013,8,0,2
+California,2013,8,0,85
+California,2013,8,1,133
+Colorado,2013,8,0,10
+Colorado,2013,8,1,19
+Connecticut,2013,8,0,16
+Connecticut,2013,8,1,24
+Florida,2013,8,0,40
+Florida,2013,8,1,44
+Idaho,2013,8,0,18
+Idaho,2013,8,1,27
+Illinois,2013,8,0,2
+Illinois,2013,8,1,1
+Indiana,2013,8,0,15
+Indiana,2013,8,1,29
+Kansas,2013,8,1,1
+Kentucky,2013,8,0,22
+Kentucky,2013,8,1,24
+Louisiana,2013,8,0,1
+Maryland,2013,8,0,16
+Maryland,2013,8,1,17
+Massachusetts,2013,8,1,1
+Minnesota,2013,8,0,39
+Minnesota,2013,8,1,39
+Nevada,2013,8,1,1
+"New Hampshire",2013,8,1,1
+"New Jersey",2013,8,0,5
+"New York",2013,8,0,50
+"New York",2013,8,1,81
+"North Carolina",2013,8,0,18
+"North Carolina",2013,8,1,33
+Alabama,2013,9,0,1
+Arizona,2013,9,0,1
+California,2013,9,0,154
+California,2013,9,1,65
+Colorado,2013,9,0,17
+Colorado,2013,9,1,9
+Connecticut,2013,9,0,29
+Connecticut,2013,9,1,7
+Florida,2013,9,0,58
+Florida,2013,9,1,22
+Georgia,2013,9,0,1
+Idaho,2013,9,0,28
+Idaho,2013,9,1,18
+Illinois,2013,9,0,3
+Indiana,2013,9,0,24
+Indiana,2013,9,1,10
+Iowa,2013,9,0,1
+Kansas,2013,9,0,1
+Kentucky,2013,9,0,31
+Kentucky,2013,9,1,18
+Louisiana,2013,9,0,1
+Maryland,2013,9,0,24
+Maryland,2013,9,1,8
+Massachusetts,2013,9,0,3
+Michigan,2013,9,1,1
+Minnesota,2013,9,0,50
+Minnesota,2013,9,1,10
+Missouri,2013,9,0,1
+Missouri,2013,9,1,1
+Nebraska,2013,9,0,1
+Nevada,2013,9,0,1
+"New Hampshire",2013,9,0,1
+"New Jersey",2013,9,0,5
+"New Jersey",2013,9,1,1
+"New Mexico",2013,9,0,1
+"New York",2013,9,0,110
+"New York",2013,9,1,31
+"North Carolina",2013,9,0,36
+"North Carolina",2013,9,1,11
+"North Dakota",2013,9,0,35
+"North Dakota",2013,9,1,16
+Ohio,2013,9,0,36
+Ohio,2013,9,1,14
+Oklahoma,2013,9,0,1
+Oklahoma,2013,9,1,1
+Oregon,2013,9,0,37
+Oregon,2013,9,1,17
+Pennsylvania,2013,9,0,47
+Pennsylvania,2013,9,1,15
+"Puerto Rico",2013,9,0,1
+"Rhode Island",2013,9,0,1
+"South Carolina",2013,9,0,1
+Tennessee,2013,9,0,2
+Tennessee,2013,9,1,1
+Texas,2013,9,0,54
+Texas,2013,9,1,10
+Virginia,2013,9,0,42
+Virginia,2013,9,1,9
+Washington,2013,9,0,2
+Wisconsin,2013,9,0,1
+"North Dakota",2013,10,0,31
+"North Dakota",2013,10,1,19
+Ohio,2013,10,0,23
+Ohio,2013,10,1,10
+Oklahoma,2013,10,1,1
+Oregon,2013,10,0,29
+Oregon,2013,10,1,20
+Pennsylvania,2013,10,0,45
+Pennsylvania,2013,10,1,18
+"South Carolina",2013,10,0,1
+Tennessee,2013,10,0,3
+Texas,2013,10,0,32
+Texas,2013,10,1,28
+Virginia,2013,10,0,34
+Virginia,2013,10,1,18
+Washington,2013,10,0,1
+Alaska,2013,10,0,1
+Arkansas,2013,10,0,2
+California,2013,10,0,143
+California,2013,10,1,86
+Colorado,2013,10,0,18
+Colorado,2013,10,1,11
+Connecticut,2013,10,0,29
+Connecticut,2013,10,1,11
+"District of Columbia",2013,10,1,1
+Florida,2013,10,0,66
+Florida,2013,10,1,33
+Georgia,2013,10,0,4
+Idaho,2013,10,0,31
+Idaho,2013,10,1,21
+Illinois,2013,10,0,2
+Indiana,2013,10,0,22
+Indiana,2013,10,1,13
+Iowa,2013,10,0,2
+Kansas,2013,10,0,1
+Kentucky,2013,10,0,34
+Kentucky,2013,10,1,24
+Louisiana,2013,10,0,1
+Maine,2013,10,1,1
+Maryland,2013,10,0,22
+Maryland,2013,10,1,13
+Massachusetts,2013,10,0,1
+Michigan,2013,10,0,3
+Minnesota,2013,10,0,44
+Minnesota,2013,10,1,29
+Missouri,2013,10,0,1
+Missouri,2013,10,1,1
+"New Jersey",2013,10,0,1
+"New York",2013,10,0,98
+"New York",2013,10,1,44
+"North Carolina",2013,10,0,29
+"North Carolina",2013,10,1,10
+Alaska,2013,11,0,1
+Arizona,2013,11,0,2
+Arkansas,2013,11,1,1
+California,2013,11,0,137
+California,2013,11,1,84
+Colorado,2013,11,0,23
+Colorado,2013,11,1,9
+Connecticut,2013,11,0,18
+Connecticut,2013,11,1,13
+Florida,2013,11,0,54
+Florida,2013,11,1,29
+Georgia,2013,11,0,4
+Hawaii,2013,11,0,1
+Idaho,2013,11,0,18
+Idaho,2013,11,1,28
+Illinois,2013,11,0,1
+Illinois,2013,11,1,1
+Indiana,2013,11,0,36
+Indiana,2013,11,1,12
+Kansas,2013,11,0,1
+Kentucky,2013,11,0,27
+Kentucky,2013,11,1,19
+Louisiana,2013,11,0,1
+Louisiana,2013,11,1,1
+Maryland,2013,11,0,17
+Maryland,2013,11,1,6
+Michigan,2013,11,0,1
+Minnesota,2013,11,0,42
+Minnesota,2013,11,1,35
+Montana,2013,11,0,1
+Nevada,2013,11,0,1
+"New Jersey",2013,11,0,2
+"New Jersey",2013,11,1,1
+"New Mexico",2013,11,0,1
+"New York",2013,11,0,88
+"New York",2013,11,1,45
+"North Carolina",2013,11,0,30
+"North Carolina",2013,11,1,14
+"North Dakota",2013,11,0,35
+"North Dakota",2013,11,1,14
+Ohio,2013,11,0,29
+Ohio,2013,11,1,25
+Oregon,2013,11,0,25
+Oregon,2013,11,1,13
+Pennsylvania,2013,11,0,41
+Pennsylvania,2013,11,1,27
+"South Carolina",2013,11,0,1
+Texas,2013,11,0,43
+Texas,2013,11,1,22
+Utah,2013,11,0,2
+Vermont,2013,11,0,1
+Virginia,2013,11,0,43
+Virginia,2013,11,1,20
+Washington,2013,11,0,1
+Wisconsin,2013,11,0,1
+"North Dakota",2013,12,0,44
+"North Dakota",2013,12,1,26
+Ohio,2013,12,0,30
+Ohio,2013,12,1,20
+Oklahoma,2013,12,0,5
+Oregon,2013,12,0,43
+Oregon,2013,12,1,34
+Pennsylvania,2013,12,0,65
+Pennsylvania,2013,12,1,45
+"Puerto Rico",2013,12,1,1
+"South Carolina",2013,12,0,2
+Tennessee,2013,12,0,5
+Texas,2013,12,0,61
+Texas,2013,12,1,39
+Virginia,2013,12,0,60
+Virginia,2013,12,1,40
+Washington,2013,12,0,3
+Alabama,2013,12,0,4
+Arizona,2013,12,0,1
+"Armed Forces",2013,12,0,1
+California,2013,12,0,212
+California,2013,12,1,141
+Colorado,2013,12,0,29
+Colorado,2013,12,1,30
+Connecticut,2013,12,0,28
+Connecticut,2013,12,1,27
+Delaware,2013,12,0,1
+Florida,2013,12,0,90
+Florida,2013,12,1,48
+Georgia,2013,12,0,3
+Hawaii,2013,12,1,2
+Idaho,2013,12,0,48
+Idaho,2013,12,1,37
+Illinois,2013,12,0,3
+Illinois,2013,12,1,2
+Indiana,2013,12,0,34
+Indiana,2013,12,1,28
+Kansas,2013,12,0,1
+Kentucky,2013,12,0,59
+Kentucky,2013,12,1,35
+Louisiana,2013,12,0,2
+Maryland,2013,12,0,31
+Maryland,2013,12,1,26
+Michigan,2013,12,0,8
+Minnesota,2013,12,0,54
+Minnesota,2013,12,1,52
+Mississippi,2013,12,0,1
+Missouri,2013,12,0,1
+Nevada,2013,12,1,1
+"New Hampshire",2013,12,0,1
+"New Jersey",2013,12,0,2
+"New Mexico",2013,12,0,1
+"New York",2013,12,0,125
+"New York",2013,12,1,122
+"North Carolina",2013,12,0,43
+"North Carolina",2013,12,1,36
+Alaska,2014,1,0,1
+Arizona,2014,1,0,3
+"Armed Forces Pacific",2014,1,0,1
+California,2014,1,0,165
+California,2014,1,1,83
+Colorado,2014,1,0,27
+Colorado,2014,1,1,14
+Connecticut,2014,1,0,35
+Connecticut,2014,1,1,17
+"District of Columbia",2014,1,0,1
+Florida,2014,1,0,73
+Florida,2014,1,1,44
+Georgia,2014,1,0,2
+Idaho,2014,1,0,46
+Idaho,2014,1,1,23
+Illinois,2014,1,0,5
+Indiana,2014,1,0,42
+Indiana,2014,1,1,22
+Iowa,2014,1,0,2
+Kansas,2014,1,0,1
+Kentucky,2014,1,0,48
+Kentucky,2014,1,1,27
+Maryland,2014,1,0,23
+Maryland,2014,1,1,11
+Massachusetts,2014,1,0,1
+Michigan,2014,1,0,3
+Minnesota,2014,1,0,50
+Minnesota,2014,1,1,20
+Missouri,2014,1,0,2
+Montana,2014,1,0,1
+"New Jersey",2014,1,0,3
+"New York",2014,1,0,121
+"New York",2014,1,1,65
+"North Carolina",2014,1,0,26
+"North Carolina",2014,1,1,24
+"North Dakota",2014,1,0,36
+"North Dakota",2014,1,1,12
+Ohio,2014,1,0,45
+Ohio,2014,1,1,11
+Oklahoma,2014,1,0,2
+Oregon,2014,1,0,32
+Oregon,2014,1,1,23
+Pennsylvania,2014,1,0,56
+Pennsylvania,2014,1,1,28
+"Puerto Rico",2014,1,0,2
+"South Carolina",2014,1,0,2
+Texas,2014,1,0,45
+Texas,2014,1,1,37
+Utah,2014,1,0,2
+Utah,2014,1,1,1
+Virginia,2014,1,0,44
+Virginia,2014,1,1,30
+Washington,2014,1,0,5
+"West Virginia",2014,1,1,1
+Wisconsin,2014,1,0,1
+Ohio,2014,2,0,36
+Ohio,2014,2,1,21
+Oklahoma,2014,2,0,4
+Oregon,2014,2,0,30
+Oregon,2014,2,1,18
+Pennsylvania,2014,2,0,49
+Pennsylvania,2014,2,1,23
+"Puerto Rico",2014,2,0,1
+"Rhode Island",2014,2,0,1
+Tennessee,2014,2,0,2
+Texas,2014,2,0,58
+Texas,2014,2,1,30
+Utah,2014,2,0,1
+Virginia,2014,2,0,67
+Virginia,2014,2,1,30
+Washington,2014,2,0,3
+Wisconsin,2014,2,0,1
+Wisconsin,2014,2,1,1
+Wyoming,2014,2,0,1
+Arizona,2014,2,0,2
+Arizona,2014,2,1,1
+Arkansas,2014,2,0,2
+California,2014,2,0,163
+California,2014,2,1,85
+Colorado,2014,2,0,20
+Colorado,2014,2,1,13
+Connecticut,2014,2,0,27
+Connecticut,2014,2,1,14
+"District of Columbia",2014,2,0,1
+Florida,2014,2,0,78
+Florida,2014,2,1,52
+Georgia,2014,2,0,3
+Georgia,2014,2,1,1
+Hawaii,2014,2,0,2
+Idaho,2014,2,0,42
+Idaho,2014,2,1,27
+Illinois,2014,2,0,1
+Indiana,2014,2,0,31
+Indiana,2014,2,1,19
+Iowa,2014,2,0,1
+Kentucky,2014,2,0,37
+Kentucky,2014,2,1,26
+Louisiana,2014,2,0,2
+Maine,2014,2,0,1
+Maryland,2014,2,0,25
+Maryland,2014,2,1,14
+Michigan,2014,2,0,3
+Michigan,2014,2,1,1
+Minnesota,2014,2,0,38
+Minnesota,2014,2,1,26
+Nebraska,2014,2,0,2
+Nevada,2014,2,0,4
+"New Jersey",2014,2,0,2
+"New Mexico",2014,2,0,2
+"New York",2014,2,0,90
+"New York",2014,2,1,66
+"North Carolina",2014,2,0,29
+"North Carolina",2014,2,1,23
+"North Dakota",2014,2,0,39
+"North Dakota",2014,2,1,22
+Alabama,2014,3,0,3
+California,2014,3,0,143
+California,2014,3,1,108
+Colorado,2014,3,0,24
+Colorado,2014,3,1,15
+Connecticut,2014,3,0,20
+Connecticut,2014,3,1,14
+Florida,2014,3,0,68
+Florida,2014,3,1,60
+Georgia,2014,3,0,3
+Georgia,2014,3,1,1
+Hawaii,2014,3,0,1
+Idaho,2014,3,0,39
+Idaho,2014,3,1,31
+Illinois,2014,3,0,5
+Indiana,2014,3,0,34
+Indiana,2014,3,1,26
+Kentucky,2014,3,0,52
+Kentucky,2014,3,1,36
+Louisiana,2014,3,0,1
+Maryland,2014,3,0,23
+Maryland,2014,3,1,16
+Michigan,2014,3,0,1
+Minnesota,2014,3,0,40
+Minnesota,2014,3,1,31
+Missouri,2014,3,0,1
+"New Jersey",2014,3,0,4
+"New Mexico",2014,3,0,1
+"New York",2014,3,0,97
+"New York",2014,3,1,83
+"North Carolina",2014,3,0,25
+"North Carolina",2014,3,1,32
+"North Dakota",2014,3,0,33
+"North Dakota",2014,3,1,34
+Ohio,2014,3,0,35
+Ohio,2014,3,1,27
+Oregon,2014,3,0,35
+Oregon,2014,3,1,30
+Pennsylvania,2014,3,0,40
+Pennsylvania,2014,3,1,34
+"Puerto Rico",2014,3,0,2
+"Rhode Island",2014,3,0,1
+"South Carolina",2014,3,0,2
+"South Dakota",2014,3,1,2
+Tennessee,2014,3,0,1
+Texas,2014,3,0,35
+Texas,2014,3,1,28
+Virginia,2014,3,0,46
+Virginia,2014,3,1,34
+Washington,2014,3,0,2
+Wisconsin,2014,3,0,3
+Ohio,2014,4,0,52
+Ohio,2014,4,1,24
+Oklahoma,2014,4,0,3
+Oklahoma,2014,4,1,1
+Oregon,2014,4,0,48
+Oregon,2014,4,1,14
+Pennsylvania,2014,4,0,68
+Pennsylvania,2014,4,1,26
+"Puerto Rico",2014,4,0,1
+"South Dakota",2014,4,0,1
+Tennessee,2014,4,0,1
+Texas,2014,4,0,52
+Texas,2014,4,1,29
+Utah,2014,4,0,1
+Utah,2014,4,1,1
+Virginia,2014,4,0,56
+Virginia,2014,4,1,30
+Washington,2014,4,0,5
+Wisconsin,2014,4,0,2
+Wyoming,2014,4,0,1
+Alabama,2014,4,0,3
+Arizona,2014,4,0,1
+Arkansas,2014,4,0,1
+California,2014,4,0,240
+California,2014,4,1,84
+Colorado,2014,4,0,28
+Colorado,2014,4,1,7
+Connecticut,2014,4,0,31
+Connecticut,2014,4,1,11
+Florida,2014,4,0,95
+Florida,2014,4,1,57
+Georgia,2014,4,0,1
+Georgia,2014,4,1,2
+Idaho,2014,4,0,46
+Idaho,2014,4,1,19
+Illinois,2014,4,0,3
+Illinois,2014,4,1,2
+Indiana,2014,4,0,52
+Indiana,2014,4,1,25
+Iowa,2014,4,0,1
+Kentucky,2014,4,0,47
+Kentucky,2014,4,1,24
+Maryland,2014,4,0,27
+Maryland,2014,4,1,16
+Michigan,2014,4,0,3
+Minnesota,2014,4,0,79
+Minnesota,2014,4,1,26
+Mississippi,2014,4,0,1
+Missouri,2014,4,0,2
+Nebraska,2014,4,0,2
+"New Jersey",2014,4,0,8
+"New York",2014,4,0,137
+"New York",2014,4,1,66
+"North Carolina",2014,4,0,50
+"North Carolina",2014,4,1,18
+"North Dakota",2014,4,0,50
+"North Dakota",2014,4,1,33
+Alabama,2014,5,0,3
+Arizona,2014,5,0,10
+Arkansas,2014,5,1,1
+California,2014,5,0,329
+California,2014,5,1,155
+Colorado,2014,5,0,45
+Colorado,2014,5,1,12
+Connecticut,2014,5,0,38
+Connecticut,2014,5,1,20
+Delaware,2014,5,0,1
+Florida,2014,5,0,128
+Florida,2014,5,1,75
+Georgia,2014,5,0,5
+Georgia,2014,5,1,1
+Guam,2014,5,0,1
+Hawaii,2014,5,0,2
+Idaho,2014,5,0,91
+Idaho,2014,5,1,39
+Illinois,2014,5,0,15
+Illinois,2014,5,1,2
+Indiana,2014,5,0,73
+Indiana,2014,5,1,27
+Iowa,2014,5,0,1
+Kansas,2014,5,0,2
+Kentucky,2014,5,0,73
+Kentucky,2014,5,1,30
+Louisiana,2014,5,0,4
+Maine,2014,5,0,1
+Maryland,2014,5,0,39
+Maryland,2014,5,1,22
+Massachusetts,2014,5,0,6
+Michigan,2014,5,0,6
+Michigan,2014,5,1,2
+Minnesota,2014,5,0,87
+Minnesota,2014,5,1,41
+Mississippi,2014,5,0,1
+Mississippi,2014,5,1,1
+Missouri,2014,5,0,4
+Missouri,2014,5,1,3
+Montana,2014,5,0,2
+Nebraska,2014,5,0,2
+Nebraska,2014,5,1,1
+Nevada,2014,5,0,3
+Nevada,2014,5,1,1
+"New Hampshire",2014,5,0,1
+"New Jersey",2014,5,0,6
+"New Jersey",2014,5,1,2
+"New Mexico",2014,5,0,3
+"New York",2014,5,0,219
+"New York",2014,5,1,79
+"North Carolina",2014,5,0,73
+"North Carolina",2014,5,1,28
+"North Dakota",2014,5,0,73
+"North Dakota",2014,5,1,26
+Ohio,2014,5,0,67
+Ohio,2014,5,1,24
+Oklahoma,2014,5,0,2
+Oregon,2014,5,0,72
+Oregon,2014,5,1,38
+Pennsylvania,2014,5,0,98
+Pennsylvania,2014,5,1,34
+"Rhode Island",2014,5,0,1
+"Rhode Island",2014,5,1,1
+"South Carolina",2014,5,0,5
+"South Carolina",2014,5,1,2
+Tennessee,2014,5,0,5
+Texas,2014,5,0,106
+Texas,2014,5,1,51
+Utah,2014,5,0,2
+Virginia,2014,5,0,91
+Virginia,2014,5,1,45
+Washington,2014,5,0,12
+Washington,2014,5,1,1
+"West Virginia",2014,5,0,1
+Wisconsin,2014,5,0,5
+Wyoming,2014,5,0,1
+"North Dakota",2014,6,0,53
+"North Dakota",2014,6,1,22
+Ohio,2014,6,0,50
+Ohio,2014,6,1,29
+Oklahoma,2014,6,0,1
+Oregon,2014,6,0,57
+Oregon,2014,6,1,22
+Pennsylvania,2014,6,0,70
+Pennsylvania,2014,6,1,37
+"Puerto Rico",2014,6,0,2
+"South Carolina",2014,6,0,3
+Tennessee,2014,6,0,5
+Texas,2014,6,0,69
+Texas,2014,6,1,36
+Virginia,2014,6,0,66
+Virginia,2014,6,1,32
+Washington,2014,6,0,7
+Washington,2014,6,1,2
+"West Virginia",2014,6,1,1
+Wisconsin,2014,6,0,2
+Wyoming,2014,6,0,1
+Alabama,2014,6,0,1
+Alaska,2014,6,1,1
+Arizona,2014,6,0,4
+Arizona,2014,6,1,3
+Arkansas,2014,6,0,2
+California,2014,6,0,256
+California,2014,6,1,98
+Colorado,2014,6,0,34
+Colorado,2014,6,1,16
+Connecticut,2014,6,0,46
+Connecticut,2014,6,1,27
+Delaware,2014,6,0,1
+Florida,2014,6,0,91
+Florida,2014,6,1,54
+Georgia,2014,6,0,11
+Hawaii,2014,6,0,2
+Idaho,2014,6,0,44
+Idaho,2014,6,1,24
+Illinois,2014,6,0,5
+Illinois,2014,6,1,2
+Indiana,2014,6,0,56
+Indiana,2014,6,1,28
+Iowa,2014,6,0,1
+Kentucky,2014,6,0,53
+Kentucky,2014,6,1,27
+Louisiana,2014,6,0,6
+Maine,2014,6,0,2
+Maryland,2014,6,0,31
+Maryland,2014,6,1,15
+Massachusetts,2014,6,0,6
+Michigan,2014,6,0,6
+Minnesota,2014,6,0,70
+Minnesota,2014,6,1,20
+Missouri,2014,6,0,4
+Montana,2014,6,0,1
+Nebraska,2014,6,0,2
+Nevada,2014,6,0,3
+"New Hampshire",2014,6,1,2
+"New Jersey",2014,6,0,5
+"New Mexico",2014,6,0,2
+"New York",2014,6,0,155
+"New York",2014,6,1,83
+"North Carolina",2014,6,0,57
+"North Carolina",2014,6,1,16
+Alabama,2014,7,0,1
+Arizona,2014,7,0,3
+Arizona,2014,7,1,1
+Arkansas,2014,7,0,1
+California,2014,7,0,167
+California,2014,7,1,109
+Colorado,2014,7,0,30
+Colorado,2014,7,1,14
+Connecticut,2014,7,0,22
+Connecticut,2014,7,1,18
+Delaware,2014,7,0,2
+"District of Columbia",2014,7,0,1
+Florida,2014,7,0,78
+Florida,2014,7,1,39
+Georgia,2014,7,0,8
+Georgia,2014,7,1,1
+Hawaii,2014,7,0,2
+Hawaii,2014,7,1,1
+Idaho,2014,7,0,46
+Idaho,2014,7,1,30
+Illinois,2014,7,0,12
+Indiana,2014,7,0,31
+Indiana,2014,7,1,26
+Iowa,2014,7,0,1
+Kansas,2014,7,0,2
+Kentucky,2014,7,0,33
+Kentucky,2014,7,1,28
+Maryland,2014,7,0,22
+Maryland,2014,7,1,11
+Massachusetts,2014,7,0,3
+Michigan,2014,7,0,6
+Michigan,2014,7,1,1
+Minnesota,2014,7,0,46
+Minnesota,2014,7,1,29
+Mississippi,2014,7,0,3
+Missouri,2014,7,0,2
+Nevada,2014,7,0,2
+Nevada,2014,7,1,1
+"New Hampshire",2014,7,0,1
+"New Jersey",2014,7,0,8
+"New Mexico",2014,7,0,4
+"New York",2014,7,0,117
+"New York",2014,7,1,80
+"North Carolina",2014,7,0,28
+"North Carolina",2014,7,1,22
+"North Dakota",2014,7,0,41
+"North Dakota",2014,7,1,30
+Ohio,2014,7,0,43
+Ohio,2014,7,1,26
+Oklahoma,2014,7,0,2
+Oregon,2014,7,0,31
+Oregon,2014,7,1,22
+Pennsylvania,2014,7,0,35
+Pennsylvania,2014,7,1,27
+"Puerto Rico",2014,7,0,3
+"Puerto Rico",2014,7,1,1
+"Rhode Island",2014,7,0,1
+"South Carolina",2014,7,0,2
+Tennessee,2014,7,0,1
+Texas,2014,7,0,64
+Texas,2014,7,1,31
+Utah,2014,7,0,2
+Virginia,2014,7,0,28
+Virginia,2014,7,1,37
+Washington,2014,7,0,4
+"West Virginia",2014,7,0,1
+Wisconsin,2014,7,0,8
+"North Dakota",2014,8,0,18
+"North Dakota",2014,8,1,27
+Ohio,2014,8,0,19
+Ohio,2014,8,1,30
+Oklahoma,2014,8,0,3
+Oregon,2014,8,0,24
+Oregon,2014,8,1,15
+Pennsylvania,2014,8,0,31
+Pennsylvania,2014,8,1,22
+"Puerto Rico",2014,8,0,1
+"South Carolina",2014,8,0,2
+Tennessee,2014,8,0,4
+Texas,2014,8,0,40
+Texas,2014,8,1,27
+Utah,2014,8,0,2
+Vermont,2014,8,0,1
+Virginia,2014,8,0,41
+Virginia,2014,8,1,35
+Washington,2014,8,0,3
+Wisconsin,2014,8,0,3
+Alabama,2014,8,0,2
+Alaska,2014,8,0,1
+California,2014,8,0,119
+California,2014,8,1,107
+Colorado,2014,8,0,21
+Colorado,2014,8,1,12
+Connecticut,2014,8,0,16
+Connecticut,2014,8,1,15
+"District of Columbia",2014,8,0,1
+Florida,2014,8,0,54
+Florida,2014,8,1,41
+Georgia,2014,8,0,4
+Hawaii,2014,8,0,2
+Idaho,2014,8,0,23
+Idaho,2014,8,1,33
+Illinois,2014,8,0,8
+Indiana,2014,8,0,29
+Indiana,2014,8,1,23
+Iowa,2014,8,0,3
+Kansas,2014,8,0,3
+Kentucky,2014,8,0,27
+Kentucky,2014,8,1,24
+Louisiana,2014,8,0,4
+Maryland,2014,8,0,16
+Maryland,2014,8,1,14
+Massachusetts,2014,8,0,3
+Michigan,2014,8,0,5
+Minnesota,2014,8,0,27
+Minnesota,2014,8,1,47
+Missouri,2014,8,0,3
+Missouri,2014,8,1,1
+Montana,2014,8,0,1
+Nebraska,2014,8,0,1
+Nevada,2014,8,0,2
+Nevada,2014,8,1,1
+"New Jersey",2014,8,0,6
+"New Mexico",2014,8,0,1
+"New York",2014,8,0,97
+"New York",2014,8,1,86
+"North Carolina",2014,8,0,17
+"North Carolina",2014,8,1,18
+Alabama,2014,9,0,2
+Arizona,2014,9,0,3
+Arkansas,2014,9,0,2
+California,2014,9,0,107
+California,2014,9,1,113
+Colorado,2014,9,0,22
+Colorado,2014,9,1,19
+Connecticut,2014,9,0,15
+Connecticut,2014,9,1,16
+Delaware,2014,9,0,1
+Florida,2014,9,0,51
+Florida,2014,9,1,53
+Georgia,2014,9,0,1
+Idaho,2014,9,0,29
+Idaho,2014,9,1,32
+Illinois,2014,9,0,5
+Illinois,2014,9,1,1
+Indiana,2014,9,0,28
+Indiana,2014,9,1,25
+Kansas,2014,9,0,3
+Kentucky,2014,9,0,29
+Kentucky,2014,9,1,23
+Louisiana,2014,9,0,2
+Maryland,2014,9,0,12
+Maryland,2014,9,1,13
+Massachusetts,2014,9,0,3
+Michigan,2014,9,0,1
+Minnesota,2014,9,0,35
+Minnesota,2014,9,1,36
+Mississippi,2014,9,0,1
+Missouri,2014,9,0,3
+Nebraska,2014,9,0,1
+Nevada,2014,9,0,2
+"New Hampshire",2014,9,0,1
+"New Jersey",2014,9,0,2
+"New Mexico",2014,9,0,2
+"New York",2014,9,0,71
+"New York",2014,9,1,88
+"North Carolina",2014,9,0,30
+"North Carolina",2014,9,1,35
+"North Dakota",2014,9,0,27
+"North Dakota",2014,9,1,34
+Ohio,2014,9,0,26
+Ohio,2014,9,1,24
+Oklahoma,2014,9,0,3
+Oregon,2014,9,0,26
+Oregon,2014,9,1,29
+Pennsylvania,2014,9,0,34
+Pennsylvania,2014,9,1,40
+"South Carolina",2014,9,0,2
+Tennessee,2014,9,0,1
+Texas,2014,9,0,41
+Texas,2014,9,1,27
+Utah,2014,9,0,3
+Virginia,2014,9,0,31
+Virginia,2014,9,1,42
+Washington,2014,9,0,4
+"West Virginia",2014,9,0,3
+Wisconsin,2014,9,0,2
+"North Dakota",2014,10,0,36
+"North Dakota",2014,10,1,36
+Ohio,2014,10,0,47
+Ohio,2014,10,1,29
+Oklahoma,2014,10,0,3
+Oregon,2014,10,0,27
+Oregon,2014,10,1,32
+Pennsylvania,2014,10,0,46
+Pennsylvania,2014,10,1,57
+"Puerto Rico",2014,10,0,1
+"Rhode Island",2014,10,0,1
+"South Carolina",2014,10,0,2
+Tennessee,2014,10,0,3
+Texas,2014,10,0,51
+Texas,2014,10,1,43
+Utah,2014,10,0,4
+Virginia,2014,10,0,46
+Virginia,2014,10,1,58
+Washington,2014,10,0,2
+Washington,2014,10,1,1
+Wisconsin,2014,10,0,2
+Alabama,2014,10,0,1
+Arizona,2014,10,0,2
+Arizona,2014,10,1,1
+Arkansas,2014,10,0,2
+California,2014,10,0,155
+California,2014,10,1,171
+Colorado,2014,10,0,18
+Colorado,2014,10,1,25
+Connecticut,2014,10,0,13
+Connecticut,2014,10,1,22
+Florida,2014,10,0,70
+Florida,2014,10,1,75
+Georgia,2014,10,0,4
+Georgia,2014,10,1,1
+Idaho,2014,10,0,43
+Idaho,2014,10,1,33
+Illinois,2014,10,0,6
+Illinois,2014,10,1,1
+Indiana,2014,10,0,28
+Indiana,2014,10,1,42
+Iowa,2014,10,0,1
+Iowa,2014,10,1,3
+Kansas,2014,10,1,1
+Kentucky,2014,10,0,29
+Kentucky,2014,10,1,46
+Maryland,2014,10,0,20
+Maryland,2014,10,1,28
+Massachusetts,2014,10,0,5
+Michigan,2014,10,0,7
+Minnesota,2014,10,0,44
+Minnesota,2014,10,1,51
+Mississippi,2014,10,0,1
+Missouri,2014,10,0,2
+Montana,2014,10,0,2
+Nebraska,2014,10,0,2
+Nevada,2014,10,0,1
+"New Jersey",2014,10,0,4
+"New Jersey",2014,10,1,1
+"New Mexico",2014,10,1,1
+"New York",2014,10,0,112
+"New York",2014,10,1,122
+"North Carolina",2014,10,0,43
+"North Carolina",2014,10,1,32
+Alabama,2014,11,0,1
+Alaska,2014,11,0,1
+Arizona,2014,11,0,8
+Arkansas,2014,11,0,2
+California,2014,11,0,147
+California,2014,11,1,153
+Colorado,2014,11,0,16
+Colorado,2014,11,1,27
+Connecticut,2014,11,0,23
+Connecticut,2014,11,1,25
+Delaware,2014,11,0,3
+"District of Columbia",2014,11,0,1
+Florida,2014,11,0,58
+Florida,2014,11,1,60
+Georgia,2014,11,0,4
+Georgia,2014,11,1,1
+Hawaii,2014,11,0,1
+Idaho,2014,11,0,35
+Idaho,2014,11,1,25
+Illinois,2014,11,0,11
+Illinois,2014,11,1,1
+Indiana,2014,11,0,31
+Indiana,2014,11,1,36
+Iowa,2014,11,0,3
+Kansas,2014,11,0,1
+Kentucky,2014,11,0,45
+Kentucky,2014,11,1,31
+Louisiana,2014,11,0,4
+Maine,2014,11,0,1
+Maryland,2014,11,0,17
+Maryland,2014,11,1,23
+Massachusetts,2014,11,0,1
+Michigan,2014,11,0,6
+Minnesota,2014,11,0,35
+Minnesota,2014,11,1,46
+Mississippi,2014,11,0,2
+Missouri,2014,11,0,2
+Missouri,2014,11,1,2
+Nevada,2014,11,0,1
+"New Jersey",2014,11,0,3
+"New Jersey",2014,11,1,1
+"New Mexico",2014,11,0,2
+"New Mexico",2014,11,1,1
+"New York",2014,11,0,105
+"New York",2014,11,1,94
+"North Carolina",2014,11,0,30
+"North Carolina",2014,11,1,33
+"North Dakota",2014,11,0,29
+"North Dakota",2014,11,1,42
+Ohio,2014,11,0,25
+Ohio,2014,11,1,30
+Oklahoma,2014,11,0,3
+Oregon,2014,11,0,33
+Oregon,2014,11,1,38
+Pennsylvania,2014,11,0,43
+Pennsylvania,2014,11,1,43
+"South Carolina",2014,11,0,1
+"South Dakota",2014,11,0,1
+Tennessee,2014,11,0,3
+Texas,2014,11,0,46
+Texas,2014,11,1,42
+Utah,2014,11,0,3
+Virginia,2014,11,0,41
+Virginia,2014,11,1,42
+Washington,2014,11,0,1
+"West Virginia",2014,11,0,2
+"North Dakota",2014,12,0,32
+"North Dakota",2014,12,1,31
+Ohio,2014,12,0,27
+Ohio,2014,12,1,33
+Oklahoma,2014,12,0,2
+Oklahoma,2014,12,1,1
+Oregon,2014,12,0,26
+Oregon,2014,12,1,27
+Pennsylvania,2014,12,0,49
+Pennsylvania,2014,12,1,54
+"South Carolina",2014,12,0,1
+"South Carolina",2014,12,1,1
+"South Dakota",2014,12,0,1
+"South Dakota",2014,12,1,1
+Texas,2014,12,0,49
+Texas,2014,12,1,41
+Virginia,2014,12,0,47
+Virginia,2014,12,1,46
+"West Virginia",2014,12,0,1
+Wisconsin,2014,12,1,1
+California,2014,12,0,157
+California,2014,12,1,158
+Colorado,2014,12,0,26
+Colorado,2014,12,1,24
+Connecticut,2014,12,0,26
+Connecticut,2014,12,1,27
+Florida,2014,12,0,77
+Florida,2014,12,1,77
+Georgia,2014,12,0,5
+Idaho,2014,12,0,27
+Idaho,2014,12,1,53
+Illinois,2014,12,0,2
+Indiana,2014,12,0,29
+Indiana,2014,12,1,42
+Kansas,2014,12,0,2
+Kentucky,2014,12,0,41
+Kentucky,2014,12,1,42
+Maryland,2014,12,0,29
+Maryland,2014,12,1,15
+Massachusetts,2014,12,1,1
+Michigan,2014,12,1,1
+Minnesota,2014,12,0,47
+Minnesota,2014,12,1,48
+Nebraska,2014,12,1,1
+Nevada,2014,12,0,1
+"New Jersey",2014,12,0,1
+"New York",2014,12,0,112
+"New York",2014,12,1,110
+"North Carolina",2014,12,0,37
+"North Carolina",2014,12,1,49
+California,2015,1,0,86
+California,2015,1,1,79
+Colorado,2015,1,0,12
+Colorado,2015,1,1,13
+Connecticut,2015,1,0,14
+Connecticut,2015,1,1,14
+Florida,2015,1,0,53
+Florida,2015,1,1,49
+Georgia,2015,1,0,1
+Idaho,2015,1,0,25
+Idaho,2015,1,1,30
+Indiana,2015,1,0,24
+Indiana,2015,1,1,19
+Iowa,2015,1,1,1
+Kentucky,2015,1,0,29
+Kentucky,2015,1,1,23
+Maryland,2015,1,0,19
+Maryland,2015,1,1,14
+Massachusetts,2015,1,1,1
+Michigan,2015,1,0,1
+Minnesota,2015,1,0,32
+Minnesota,2015,1,1,34
+Nevada,2015,1,1,1
+"New Jersey",2015,1,1,1
+"New York",2015,1,0,68
+"New York",2015,1,1,74
+"North Carolina",2015,1,0,24
+"North Carolina",2015,1,1,23
+"North Dakota",2015,1,0,33
+"North Dakota",2015,1,1,18
+Ohio,2015,1,0,23
+Ohio,2015,1,1,21
+Oregon,2015,1,0,14
+Oregon,2015,1,1,15
+Pennsylvania,2015,1,0,17
+Pennsylvania,2015,1,1,33
+"South Carolina",2015,1,1,2
+Texas,2015,1,0,23
+Texas,2015,1,1,24
+Vermont,2015,1,0,1
+Virginia,2015,1,0,22
+Virginia,2015,1,1,26
+Washington,2015,1,1,1
+Wisconsin,2015,1,1,1
+Wyoming,2015,1,1,1
+Ohio,2015,2,0,18
+Ohio,2015,2,1,28
+Oregon,2015,2,0,29
+Oregon,2015,2,1,27
+Pennsylvania,2015,2,0,24
+Pennsylvania,2015,2,1,33
+Texas,2015,2,0,29
+Texas,2015,2,1,37
+Virginia,2015,2,0,19
+Virginia,2015,2,1,22
+California,2015,2,0,84
+California,2015,2,1,120
+Colorado,2015,2,0,10
+Colorado,2015,2,1,13
+Connecticut,2015,2,0,18
+Connecticut,2015,2,1,26
+Florida,2015,2,0,36
+Florida,2015,2,1,46
+Hawaii,2015,2,1,1
+Idaho,2015,2,0,17
+Idaho,2015,2,1,31
+Indiana,2015,2,0,17
+Indiana,2015,2,1,36
+Kentucky,2015,2,0,17
+Kentucky,2015,2,1,25
+Maryland,2015,2,0,15
+Maryland,2015,2,1,15
+Michigan,2015,2,1,1
+Minnesota,2015,2,0,21
+Minnesota,2015,2,1,45
+"New York",2015,2,0,75
+"New York",2015,2,1,81
+"North Carolina",2015,2,0,19
+"North Carolina",2015,2,1,19
+"North Dakota",2015,2,0,22
+"North Dakota",2015,2,1,26
+Alaska,2015,3,1,1
+California,2015,3,0,99
+California,2015,3,1,139
+Colorado,2015,3,0,12
+Colorado,2015,3,1,21
+Connecticut,2015,3,0,16
+Connecticut,2015,3,1,28
+Florida,2015,3,0,42
+Florida,2015,3,1,46
+Hawaii,2015,3,0,1
+Hawaii,2015,3,1,1
+Idaho,2015,3,0,16
+Idaho,2015,3,1,30
+Indiana,2015,3,0,17
+Indiana,2015,3,1,36
+Kentucky,2015,3,0,31
+Kentucky,2015,3,1,34
+Maryland,2015,3,0,6
+Maryland,2015,3,1,15
+Minnesota,2015,3,0,35
+Minnesota,2015,3,1,47
+"New York",2015,3,0,60
+"New York",2015,3,1,97
+"North Carolina",2015,3,0,19
+"North Carolina",2015,3,1,28
+"North Dakota",2015,3,0,17
+"North Dakota",2015,3,1,29
+Ohio,2015,3,0,17
+Ohio,2015,3,1,24
+Oregon,2015,3,0,13
+Oregon,2015,3,1,37
+Pennsylvania,2015,3,0,26
+Pennsylvania,2015,3,1,47
+Texas,2015,3,0,30
+Texas,2015,3,1,37
+Virginia,2015,3,0,27
+Virginia,2015,3,1,45
+Ohio,2015,4,0,24
+Ohio,2015,4,1,23
+Oklahoma,2015,4,0,1
+Oklahoma,2015,4,1,1
+Oregon,2015,4,0,20
+Oregon,2015,4,1,18
+Pennsylvania,2015,4,0,31
+Pennsylvania,2015,4,1,25
+"South Carolina",2015,4,1,4
+"South Dakota",2015,4,0,1
+Tennessee,2015,4,1,1
+Texas,2015,4,0,24
+Texas,2015,4,1,33
+Utah,2015,4,1,1
+Virginia,2015,4,0,24
+Virginia,2015,4,1,26
+Washington,2015,4,0,1
+Wyoming,2015,4,1,2
+Alabama,2015,4,0,1
+Arizona,2015,4,1,1
+Arkansas,2015,4,1,1
+California,2015,4,0,108
+California,2015,4,1,103
+Colorado,2015,4,0,12
+Colorado,2015,4,1,14
+Connecticut,2015,4,0,15
+Connecticut,2015,4,1,9
+Florida,2015,4,0,41
+Florida,2015,4,1,36
+Georgia,2015,4,1,1
+Idaho,2015,4,0,28
+Idaho,2015,4,1,25
+Illinois,2015,4,0,2
+Illinois,2015,4,1,3
+Indiana,2015,4,0,20
+Indiana,2015,4,1,24
+Iowa,2015,4,0,1
+Iowa,2015,4,1,1
+Kansas,2015,4,0,1
+Kentucky,2015,4,0,15
+Kentucky,2015,4,1,29
+Louisiana,2015,4,0,1
+Louisiana,2015,4,1,2
+Maryland,2015,4,0,8
+Maryland,2015,4,1,15
+Massachusetts,2015,4,1,2
+Michigan,2015,4,1,3
+Minnesota,2015,4,0,25
+Minnesota,2015,4,1,42
+Mississippi,2015,4,0,1
+Nebraska,2015,4,1,1
+"New Hampshire",2015,4,0,1
+"New Hampshire",2015,4,1,1
+"New Jersey",2015,4,0,1
+"New Jersey",2015,4,1,1
+"New York",2015,4,0,71
+"New York",2015,4,1,69
+"North Carolina",2015,4,0,24
+"North Carolina",2015,4,1,24
+"North Dakota",2015,4,0,25
+"North Dakota",2015,4,1,23

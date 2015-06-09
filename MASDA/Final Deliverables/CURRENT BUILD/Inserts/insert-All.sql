@@ -1,0 +1,16 @@
+source insert-CustomerAccounts.sql
+source update-CustomerAccounts.sql
+source insert-Customers.sql
+source insert-Carrier.sql
+source insert-Models.sql
+source insert-Devices.sql
+source insert-Sources.sql
+source insert-Registrations.sql
+source insert-Stores.sql
+source insert-EmailAddresses.sql
+source insert-Messages.sql
+source insert-Recieve.sql
+source insert-EventTypes.sql
+source insert-Generate.sql
+source insert-Links.sql
+source insert-Clicked.sql

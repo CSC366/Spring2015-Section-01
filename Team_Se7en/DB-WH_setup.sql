@@ -4,7 +4,7 @@ CREATE TABLE DeviceRegData (
    RegMonth VARCHAR(20),
    RegYear VARCHAR(20),
    Name VARCHAR(35),
-   PRIMARY KEY (Carrier, RegDate, Name)
+   PRIMARY KEY (Carrier, RegMonth, RegYear, Name)
 );
 
 CREATE TABLE CustomerData (
@@ -13,7 +13,7 @@ CREATE TABLE CustomerData (
    RegMonth VARCHAR(20),
    RegYear VARCHAR(20),
    Permission INT,
-   PRIMARY KEY(State, RegDate, Permission)
+   PRIMARY KEY(State, RegMonth, RegYear, Permission)
 );
 
 CREATE TABLE EmailData (

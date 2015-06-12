@@ -1,4 +1,4 @@
-CustomerCount, Carrier, Month, Device
+CustomerCount, Carrier, Month, Device, Name
 "7","AIO","April","2015","Alpha X 123"
 "3","AIO","April","2015","Alpha X 987"
 "3","AIO","August","2014","Alpha X 987"

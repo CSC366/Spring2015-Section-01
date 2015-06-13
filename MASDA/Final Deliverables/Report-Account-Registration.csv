@@ -1,0 +1,4619 @@
+Month, Year, State, Permission, Num_Customers
+10,2001,,0,1
+10,2001,Indiana,0,1
+10,2001,New York,0,1
+12,2001,Georgia,1,1
+12,2001,Illinois,0,1
+12,2001,Maryland,0,1
+1,2002,New York,0,1
+1,2002,North Carolina,0,1
+1,2002,Wisconsin,0,1
+2,2002,California,0,1
+2,2002,Colorado,0,1
+2,2002,Minnesota,0,1
+2,2002,Pennsylvania,0,2
+2,2002,Virginia,0,2
+4,2002,Virginia,0,1
+5,2002,California,0,2
+5,2002,Pennsylvania,1,1
+5,2002,Texas,1,1
+6,2002,Minnesota,1,1
+6,2002,Tennessee,0,1
+6,2002,Texas,0,1
+7,2002,Indiana,0,1
+7,2002,New York,1,1
+7,2002,Oregon,1,1
+9,2002,Idaho,0,1
+9,2002,Minnesota,0,1
+9,2002,New York,0,1
+10,2002,,0,1
+10,2002,California,0,2
+10,2002,California,1,2
+10,2002,Connecticut,0,1
+10,2002,Florida,0,1
+10,2002,Pennsylvania,0,1
+12,2002,New York,0,1
+12,2002,North Carolina,0,1
+12,2002,North Dakota,0,1
+3,2003,Kentucky,0,2
+3,2003,Michigan,0,1
+3,2003,Texas,0,1
+4,2003,California,0,1
+4,2003,Florida,0,1
+4,2003,Virginia,0,1
+7,2003,California,1,2
+7,2003,Kentucky,0,2
+7,2003,Massachusetts,0,1
+7,2003,New York,0,1
+7,2003,Pennsylvania,0,1
+7,2003,Rhode Island,0,1
+7,2003,Texas,0,1
+7,2003,Virginia,0,2
+9,2003,California,0,1
+10,2003,,0,1
+10,2003,California,0,1
+10,2003,Florida,0,1
+10,2003,Kentucky,0,1
+11,2003,,0,1
+11,2003,Arizona,0,1
+11,2003,California,0,4
+11,2003,California,1,1
+11,2003,Connecticut,0,1
+11,2003,Florida,1,1
+11,2003,Idaho,0,1
+11,2003,Maryland,0,1
+11,2003,Ohio,0,1
+11,2003,Oregon,0,1
+12,2003,Minnesota,0,1
+12,2003,Nebraska,0,1
+12,2003,New York,0,1
+12,2003,Oregon,0,1
+1,2004,California,0,1
+1,2004,California,1,2
+1,2004,Connecticut,0,1
+2,2004,California,0,1
+2,2004,Colorado,0,1
+2,2004,Connecticut,0,1
+2,2004,Kansas,0,1
+2,2004,New York,0,1
+2,2004,New York,1,1
+2,2004,North Carolina,0,1
+2,2004,North Dakota,0,1
+2,2004,Texas,0,1
+3,2004,California,0,2
+3,2004,California,1,1
+3,2004,Colorado,1,1
+3,2004,Connecticut,0,1
+3,2004,Florida,0,1
+3,2004,Maryland,0,1
+3,2004,Michigan,0,1
+3,2004,New Jersey,0,1
+3,2004,New York,1,1
+3,2004,North Carolina,0,2
+3,2004,North Dakota,0,4
+3,2004,Ohio,0,2
+3,2004,Pennsylvania,0,2
+3,2004,Rhode Island,1,1
+3,2004,Texas,1,1
+3,2004,Virginia,0,2
+4,2004,California,0,1
+4,2004,California,1,1
+4,2004,Florida,1,1
+4,2004,North Dakota,1,1
+4,2004,Texas,0,1
+4,2004,Virginia,1,1
+5,2004,California,0,4
+5,2004,California,1,1
+5,2004,Connecticut,0,2
+5,2004,Idaho,0,1
+5,2004,Illinois,0,1
+5,2004,Indiana,0,1
+5,2004,Kentucky,0,1
+5,2004,Kentucky,1,1
+5,2004,Mississippi,0,1
+5,2004,Missouri,0,1
+5,2004,New Jersey,1,1
+5,2004,New York,0,3
+5,2004,North Dakota,0,1
+5,2004,Ohio,0,1
+5,2004,Oregon,1,1
+5,2004,Pennsylvania,0,1
+5,2004,Texas,0,1
+5,2004,Virginia,0,1
+6,2004,,1,1
+6,2004,California,0,1
+6,2004,California,1,1
+6,2004,Colorado,0,1
+6,2004,Connecticut,0,1
+6,2004,Florida,0,2
+6,2004,Idaho,0,2
+6,2004,Indiana,0,1
+6,2004,Kentucky,1,1
+6,2004,Maryland,1,1
+6,2004,Minnesota,0,4
+6,2004,New Jersey,0,1
+6,2004,New York,0,5
+6,2004,New York,1,1
+6,2004,North Carolina,0,1
+6,2004,North Dakota,0,1
+6,2004,North Dakota,1,1
+6,2004,Ohio,0,1
+6,2004,Ohio,1,1
+6,2004,Pennsylvania,0,2
+6,2004,Texas,0,1
+6,2004,Washington,0,1
+6,2004,Washington,1,1
+7,2004,,0,2
+7,2004,,1,3
+7,2004,California,0,8
+7,2004,California,1,3
+7,2004,Connecticut,0,1
+7,2004,Connecticut,1,1
+7,2004,Florida,0,1
+7,2004,Florida,1,1
+7,2004,Georgia,0,1
+7,2004,Kentucky,1,1
+7,2004,Maryland,0,1
+7,2004,Michigan,0,1
+7,2004,Minnesota,0,3
+7,2004,Minnesota,1,2
+7,2004,New Jersey,0,1
+7,2004,New York,0,3
+7,2004,New York,1,1
+7,2004,North Carolina,0,2
+7,2004,North Carolina,1,1
+7,2004,North Dakota,0,2
+7,2004,Oregon,1,1
+7,2004,Pennsylvania,0,2
+7,2004,Pennsylvania,1,1
+7,2004,Texas,0,3
+7,2004,Texas,1,1
+7,2004,Virginia,0,2
+8,2004,,1,2
+8,2004,California,0,1
+8,2004,California,1,1
+8,2004,Florida,0,1
+8,2004,Georgia,1,1
+8,2004,Hawaii,1,1
+8,2004,Idaho,1,1
+8,2004,Kentucky,0,2
+8,2004,Minnesota,0,3
+8,2004,New York,0,3
+8,2004,North Carolina,0,1
+8,2004,North Carolina,1,1
+8,2004,North Dakota,0,1
+8,2004,Ohio,0,2
+8,2004,Pennsylvania,0,2
+8,2004,South Carolina,0,1
+8,2004,Virginia,0,1
+9,2004,,1,2
+9,2004,California,0,5
+9,2004,Colorado,0,1
+9,2004,Colorado,1,1
+9,2004,Illinois,0,1
+9,2004,Maryland,1,1
+9,2004,Massachusetts,0,1
+9,2004,New York,0,2
+9,2004,New York,1,2
+9,2004,North Carolina,1,1
+9,2004,Ohio,0,1
+9,2004,Oregon,0,1
+9,2004,Oregon,1,1
+9,2004,Pennsylvania,0,1
+9,2004,Texas,0,3
+10,2004,,0,1
+10,2004,California,0,3
+10,2004,California,1,1
+10,2004,Florida,0,2
+10,2004,Florida,1,1
+10,2004,Georgia,0,1
+10,2004,Illinois,0,1
+10,2004,Kentucky,0,1
+10,2004,New Jersey,0,1
+10,2004,New York,0,6
+10,2004,New York,1,1
+10,2004,North Carolina,0,1
+10,2004,Ohio,0,1
+10,2004,Oregon,0,1
+10,2004,Pennsylvania,0,1
+10,2004,Texas,0,1
+10,2004,Texas,1,1
+10,2004,Virginia,0,1
+11,2004,Alabama,0,1
+11,2004,Connecticut,1,1
+11,2004,Illinois,0,1
+11,2004,Maryland,0,1
+11,2004,New Hampshire,0,1
+11,2004,New York,0,1
+11,2004,North Carolina,0,1
+11,2004,Ohio,0,1
+11,2004,Oregon,0,1
+11,2004,Pennsylvania,0,1
+11,2004,Texas,0,1
+11,2004,Virginia,0,1
+12,2004,California,0,2
+12,2004,California,1,1
+12,2004,Connecticut,0,1
+12,2004,Indiana,0,1
+12,2004,Minnesota,0,2
+12,2004,Oregon,0,1
+12,2004,Pennsylvania,0,3
+12,2004,Texas,0,1
+12,2004,Washington,0,1
+1,2005,California,1,2
+1,2005,Idaho,0,1
+1,2005,Nebraska,0,1
+1,2005,New York,0,1
+1,2005,North Carolina,0,2
+1,2005,Ohio,0,2
+1,2005,Pennsylvania,0,2
+1,2005,Texas,0,4
+1,2005,Virginia,0,1
+2,2005,California,1,1
+2,2005,Colorado,1,1
+2,2005,Florida,0,1
+2,2005,Illinois,0,1
+2,2005,Minnesota,0,1
+2,2005,New York,0,2
+2,2005,North Dakota,0,1
+2,2005,Ohio,0,2
+2,2005,Pennsylvania,0,1
+2,2005,South Carolina,0,1
+3,2005,,1,1
+3,2005,California,0,3
+3,2005,Colorado,0,2
+3,2005,Connecticut,0,1
+3,2005,Florida,0,1
+3,2005,Florida,1,1
+3,2005,Kentucky,0,1
+3,2005,Minnesota,0,3
+3,2005,New York,0,2
+3,2005,New York,1,1
+3,2005,Ohio,0,2
+3,2005,Oregon,0,1
+3,2005,Pennsylvania,0,3
+3,2005,Pennsylvania,1,1
+4,2005,,1,1
+4,2005,Alabama,0,1
+4,2005,California,0,1
+4,2005,California,1,2
+4,2005,Florida,0,5
+4,2005,Florida,1,1
+4,2005,New York,0,3
+4,2005,New York,1,1
+4,2005,North Dakota,0,1
+4,2005,North Dakota,1,1
+4,2005,Pennsylvania,0,1
+4,2005,Tennessee,0,1
+4,2005,Virginia,1,1
+5,2005,,0,12
+5,2005,,1,12
+5,2005,California,0,9
+5,2005,California,1,5
+5,2005,Colorado,1,1
+5,2005,Connecticut,0,1
+5,2005,Connecticut,1,1
+5,2005,Florida,0,5
+5,2005,Florida,1,1
+5,2005,Idaho,0,2
+5,2005,Idaho,1,1
+5,2005,Illinois,0,1
+5,2005,Indiana,1,2
+5,2005,Kansas,0,2
+5,2005,Kentucky,0,2
+5,2005,Kentucky,1,2
+5,2005,Maryland,0,2
+5,2005,Maryland,1,2
+5,2005,Minnesota,0,2
+5,2005,Minnesota,1,1
+5,2005,New York,0,8
+5,2005,New York,1,4
+5,2005,North Carolina,0,1
+5,2005,North Carolina,1,1
+5,2005,North Dakota,0,1
+5,2005,North Dakota,1,3
+5,2005,Ohio,0,4
+5,2005,Ohio,1,3
+5,2005,Oregon,0,2
+5,2005,Oregon,1,3
+5,2005,Pennsylvania,0,3
+5,2005,Pennsylvania,1,1
+5,2005,Texas,0,5
+5,2005,Virginia,0,4
+5,2005,Virginia,1,2
+6,2005,,1,3
+6,2005,California,0,8
+6,2005,California,1,2
+6,2005,Colorado,1,1
+6,2005,Connecticut,0,1
+6,2005,Connecticut,1,1
+6,2005,Florida,0,2
+6,2005,Florida,1,1
+6,2005,Idaho,0,1
+6,2005,Illinois,0,1
+6,2005,Indiana,0,1
+6,2005,Iowa,0,1
+6,2005,Kansas,0,1
+6,2005,Kentucky,0,4
+6,2005,Kentucky,1,2
+6,2005,Maryland,0,2
+6,2005,Minnesota,0,5
+6,2005,New Jersey,0,1
+6,2005,New York,0,5
+6,2005,New York,1,1
+6,2005,North Carolina,0,3
+6,2005,North Carolina,1,1
+6,2005,North Dakota,0,1
+6,2005,North Dakota,1,1
+6,2005,Ohio,0,1
+6,2005,Ohio,1,1
+6,2005,Oklahoma,0,1
+6,2005,Oregon,0,3
+6,2005,Pennsylvania,0,2
+6,2005,Pennsylvania,1,1
+6,2005,Texas,0,1
+6,2005,Texas,1,1
+6,2005,Virginia,0,3
+6,2005,Washington,0,1
+7,2005,,0,1
+7,2005,,1,1
+7,2005,California,0,3
+7,2005,California,1,1
+7,2005,Colorado,0,3
+7,2005,Connecticut,0,1
+7,2005,Florida,0,2
+7,2005,Georgia,0,1
+7,2005,Idaho,0,3
+7,2005,Indiana,1,1
+7,2005,Kentucky,0,1
+7,2005,Massachusetts,1,1
+7,2005,Minnesota,0,2
+7,2005,Minnesota,1,1
+7,2005,New York,0,4
+7,2005,North Carolina,0,1
+7,2005,North Dakota,0,1
+7,2005,Pennsylvania,0,2
+7,2005,Texas,0,2
+7,2005,Virginia,0,1
+7,2005,Wisconsin,0,1
+8,2005,,0,1
+8,2005,California,0,4
+8,2005,Florida,0,1
+8,2005,Georgia,0,1
+8,2005,Idaho,0,2
+8,2005,Indiana,0,1
+8,2005,Kentucky,0,2
+8,2005,Maryland,1,1
+8,2005,Minnesota,1,2
+8,2005,New York,0,6
+8,2005,New York,1,1
+8,2005,North Carolina,0,2
+8,2005,North Dakota,0,3
+8,2005,Oklahoma,0,1
+8,2005,Pennsylvania,0,1
+8,2005,Pennsylvania,1,2
+8,2005,Texas,0,1
+9,2005,,0,2
+9,2005,,1,1
+9,2005,Alabama,0,1
+9,2005,California,0,8
+9,2005,California,1,2
+9,2005,Georgia,0,1
+9,2005,Minnesota,0,1
+9,2005,Minnesota,1,1
+9,2005,New York,0,2
+9,2005,North Carolina,0,1
+9,2005,North Carolina,1,1
+9,2005,Ohio,0,1
+9,2005,Oregon,0,1
+9,2005,Pennsylvania,0,3
+9,2005,Texas,0,1
+9,2005,Virginia,0,1
+10,2005,,0,1
+10,2005,,1,1
+10,2005,California,0,5
+10,2005,California,1,3
+10,2005,Colorado,0,2
+10,2005,Connecticut,0,1
+10,2005,Florida,0,3
+10,2005,Idaho,1,1
+10,2005,Indiana,0,2
+10,2005,Indiana,1,1
+10,2005,Kentucky,0,2
+10,2005,Maryland,0,3
+10,2005,Minnesota,0,1
+10,2005,New York,0,3
+10,2005,North Carolina,0,1
+10,2005,North Dakota,0,1
+10,2005,Ohio,0,2
+10,2005,Ohio,1,1
+10,2005,Oregon,0,1
+10,2005,Pennsylvania,0,1
+10,2005,Pennsylvania,1,1
+10,2005,Tennessee,0,2
+10,2005,Texas,0,3
+10,2005,Utah,0,1
+10,2005,Virginia,0,2
+11,2005,,0,3
+11,2005,,1,1
+11,2005,California,0,4
+11,2005,California,1,1
+11,2005,Connecticut,0,1
+11,2005,Connecticut,1,1
+11,2005,Florida,0,2
+11,2005,Florida,1,1
+11,2005,Georgia,0,1
+11,2005,Idaho,0,1
+11,2005,Idaho,1,3
+11,2005,Indiana,0,1
+11,2005,Kentucky,0,5
+11,2005,Louisiana,0,1
+11,2005,Minnesota,0,6
+11,2005,New York,0,4
+11,2005,New York,1,1
+11,2005,North Carolina,0,1
+11,2005,North Dakota,0,1
+11,2005,Oregon,0,1
+11,2005,Pennsylvania,0,3
+11,2005,Texas,0,3
+11,2005,Texas,1,1
+11,2005,Virginia,0,2
+11,2005,Virginia,1,1
+12,2005,,0,1
+12,2005,Alabama,0,1
+12,2005,California,0,7
+12,2005,California,1,1
+12,2005,Colorado,0,1
+12,2005,Connecticut,0,3
+12,2005,Florida,0,1
+12,2005,Georgia,1,1
+12,2005,Idaho,0,1
+12,2005,Iowa,0,1
+12,2005,Kentucky,0,4
+12,2005,Louisiana,0,1
+12,2005,Massachusetts,0,1
+12,2005,Michigan,0,1
+12,2005,Minnesota,0,1
+12,2005,Mississippi,0,1
+12,2005,New York,0,3
+12,2005,North Dakota,0,1
+12,2005,Ohio,0,2
+12,2005,Oregon,1,1
+12,2005,Pennsylvania,0,5
+12,2005,Texas,0,4
+12,2005,Washington,0,1
+1,2006,,0,1
+1,2006,,1,2
+1,2006,California,0,9
+1,2006,California,1,1
+1,2006,Colorado,0,1
+1,2006,Connecticut,0,1
+1,2006,Connecticut,1,1
+1,2006,Florida,0,2
+1,2006,Florida,1,1
+1,2006,Georgia,1,1
+1,2006,Idaho,1,1
+1,2006,Illinois,0,1
+1,2006,Indiana,1,1
+1,2006,Kansas,0,2
+1,2006,Kentucky,0,1
+1,2006,Kentucky,1,1
+1,2006,Maryland,0,1
+1,2006,Minnesota,0,3
+1,2006,Minnesota,1,1
+1,2006,Mississippi,0,1
+1,2006,Nevada,0,1
+1,2006,New Jersey,0,1
+1,2006,New York,0,9
+1,2006,New York,1,1
+1,2006,North Carolina,0,1
+1,2006,North Dakota,0,1
+1,2006,Ohio,0,2
+1,2006,Ohio,1,2
+1,2006,Oregon,0,1
+1,2006,Pennsylvania,0,4
+1,2006,Texas,0,4
+1,2006,Virginia,0,1
+2,2006,,1,1
+2,2006,Alabama,0,1
+2,2006,California,0,6
+2,2006,California,1,1
+2,2006,Colorado,0,1
+2,2006,Connecticut,0,2
+2,2006,Florida,0,6
+2,2006,Idaho,0,1
+2,2006,Illinois,0,1
+2,2006,Indiana,0,3
+2,2006,Kentucky,0,2
+2,2006,Kentucky,1,1
+2,2006,Maryland,0,4
+2,2006,Michigan,0,1
+2,2006,Minnesota,0,3
+2,2006,New York,0,8
+2,2006,New York,1,1
+2,2006,North Carolina,0,4
+2,2006,Oregon,0,1
+2,2006,Pennsylvania,0,6
+2,2006,Texas,0,6
+2,2006,Virginia,0,1
+2,2006,Virginia,1,1
+3,2006,,1,1
+3,2006,Alabama,0,1
+3,2006,California,0,10
+3,2006,California,1,1
+3,2006,Florida,0,2
+3,2006,Idaho,0,4
+3,2006,Illinois,0,2
+3,2006,Indiana,0,4
+3,2006,Indiana,1,1
+3,2006,Kansas,0,1
+3,2006,Kentucky,0,1
+3,2006,Maryland,0,2
+3,2006,Minnesota,0,2
+3,2006,New Jersey,1,1
+3,2006,New York,0,2
+3,2006,New York,1,1
+3,2006,North Carolina,0,3
+3,2006,North Dakota,0,2
+3,2006,North Dakota,1,1
+3,2006,Ohio,0,1
+3,2006,Oregon,0,1
+3,2006,Pennsylvania,0,1
+3,2006,Texas,0,5
+3,2006,Virginia,0,1
+3,2006,Virginia,1,1
+3,2006,Wisconsin,0,1
+4,2006,,1,1
+4,2006,Arizona,0,2
+4,2006,Arkansas,0,1
+4,2006,California,0,5
+4,2006,California,1,2
+4,2006,Florida,0,1
+4,2006,Idaho,0,1
+4,2006,Minnesota,0,4
+4,2006,Minnesota,1,1
+4,2006,New York,0,2
+4,2006,New York,1,1
+4,2006,North Carolina,0,2
+4,2006,Ohio,0,2
+4,2006,Oregon,0,1
+4,2006,Pennsylvania,0,4
+4,2006,Texas,0,1
+4,2006,Virginia,0,2
+4,2006,Washington,0,1
+5,2006,Arizona,0,1
+5,2006,California,0,1
+5,2006,California,1,2
+5,2006,Connecticut,0,1
+5,2006,Florida,0,4
+5,2006,Florida,1,2
+5,2006,Kentucky,1,1
+5,2006,Minnesota,0,1
+5,2006,Missouri,0,1
+5,2006,New Jersey,0,1
+5,2006,New York,0,2
+5,2006,North Dakota,0,2
+5,2006,Oregon,0,1
+5,2006,Pennsylvania,0,2
+5,2006,South Carolina,0,1
+5,2006,Texas,0,4
+5,2006,Washington,0,1
+6,2006,California,0,4
+6,2006,Florida,0,1
+6,2006,Idaho,0,2
+6,2006,Indiana,0,1
+6,2006,Kentucky,0,3
+6,2006,Louisiana,0,1
+6,2006,Michigan,0,1
+6,2006,Minnesota,0,3
+6,2006,New York,0,1
+6,2006,New York,1,1
+6,2006,North Carolina,0,1
+6,2006,Oregon,0,2
+6,2006,Oregon,1,1
+6,2006,Texas,0,1
+6,2006,Virginia,0,2
+7,2006,,0,2
+7,2006,,1,2
+7,2006,California,0,7
+7,2006,California,1,3
+7,2006,Colorado,0,1
+7,2006,Florida,0,4
+7,2006,Florida,1,1
+7,2006,Idaho,0,2
+7,2006,Idaho,1,1
+7,2006,Illinois,0,1
+7,2006,Kentucky,0,3
+7,2006,Maryland,0,1
+7,2006,Minnesota,0,4
+7,2006,Nebraska,0,1
+7,2006,New Jersey,0,1
+7,2006,New York,0,6
+7,2006,North Carolina,0,1
+7,2006,North Dakota,0,3
+7,2006,North Dakota,1,1
+7,2006,Ohio,0,2
+7,2006,Ohio,1,1
+7,2006,Oklahoma,0,1
+7,2006,Oregon,0,1
+7,2006,Oregon,1,1
+7,2006,Pennsylvania,0,1
+7,2006,Texas,0,3
+7,2006,Texas,1,1
+7,2006,Virginia,0,1
+7,2006,Virginia,1,1
+7,2006,Washington,0,1
+8,2006,,0,2
+8,2006,,1,3
+8,2006,California,0,8
+8,2006,California,1,1
+8,2006,Connecticut,0,2
+8,2006,Florida,0,2
+8,2006,Georgia,0,1
+8,2006,Indiana,0,1
+8,2006,Kentucky,0,3
+8,2006,Kentucky,1,1
+8,2006,Minnesota,0,1
+8,2006,New York,0,2
+8,2006,New York,1,1
+8,2006,North Carolina,0,3
+8,2006,North Dakota,0,3
+8,2006,Ohio,0,1
+8,2006,Pennsylvania,0,2
+8,2006,Pennsylvania,1,1
+8,2006,Texas,0,4
+8,2006,Virginia,0,4
+8,2006,Wisconsin,0,1
+9,2006,,0,1
+9,2006,Arizona,1,1
+9,2006,Arkansas,0,2
+9,2006,California,0,9
+9,2006,Connecticut,0,2
+9,2006,Connecticut,1,1
+9,2006,Florida,0,4
+9,2006,Florida,1,1
+9,2006,Idaho,0,1
+9,2006,Illinois,0,1
+9,2006,Indiana,0,1
+9,2006,Kentucky,0,1
+9,2006,Kentucky,1,1
+9,2006,Maryland,0,1
+9,2006,Minnesota,0,2
+9,2006,New York,0,4
+9,2006,North Carolina,0,3
+9,2006,Oklahoma,0,1
+9,2006,Oregon,0,3
+9,2006,Pennsylvania,0,4
+9,2006,Rhode Island,0,1
+9,2006,Texas,0,5
+9,2006,Virginia,0,1
+10,2006,California,0,5
+10,2006,Florida,0,5
+10,2006,Georgia,0,1
+10,2006,Idaho,0,2
+10,2006,Idaho,1,1
+10,2006,Illinois,0,1
+10,2006,Indiana,0,1
+10,2006,Kansas,0,1
+10,2006,Kentucky,0,2
+10,2006,Louisiana,0,1
+10,2006,Maryland,0,1
+10,2006,Minnesota,0,2
+10,2006,Missouri,0,1
+10,2006,Nevada,0,1
+10,2006,New York,0,3
+10,2006,North Carolina,0,2
+10,2006,North Dakota,0,2
+10,2006,Ohio,0,2
+10,2006,Oregon,0,4
+10,2006,Pennsylvania,0,3
+10,2006,Pennsylvania,1,1
+10,2006,Texas,0,4
+10,2006,Texas,1,1
+10,2006,Virginia,0,5
+11,2006,,0,4
+11,2006,,1,2
+11,2006,Arizona,0,1
+11,2006,California,0,5
+11,2006,California,1,2
+11,2006,Colorado,1,1
+11,2006,Connecticut,0,1
+11,2006,Connecticut,1,1
+11,2006,Florida,0,3
+11,2006,Florida,1,1
+11,2006,Indiana,0,3
+11,2006,Indiana,1,1
+11,2006,Kentucky,0,1
+11,2006,Maine,0,1
+11,2006,Massachusetts,0,1
+11,2006,Minnesota,0,2
+11,2006,Minnesota,1,1
+11,2006,Missouri,0,1
+11,2006,New York,0,4
+11,2006,Ohio,0,2
+11,2006,Pennsylvania,1,1
+11,2006,Tennessee,1,1
+11,2006,Texas,0,2
+11,2006,Utah,0,1
+11,2006,Virginia,0,2
+12,2006,,0,1
+12,2006,,1,6
+12,2006,California,0,9
+12,2006,Colorado,1,1
+12,2006,Connecticut,0,1
+12,2006,Florida,0,7
+12,2006,Indiana,0,1
+12,2006,Kentucky,0,3
+12,2006,Louisiana,0,1
+12,2006,Maryland,0,1
+12,2006,Maryland,1,1
+12,2006,Minnesota,0,5
+12,2006,New York,0,6
+12,2006,North Carolina,0,1
+12,2006,North Dakota,0,3
+12,2006,North Dakota,1,1
+12,2006,Ohio,0,2
+12,2006,Oklahoma,0,1
+12,2006,Oregon,0,1
+12,2006,Pennsylvania,0,1
+12,2006,Texas,0,5
+12,2006,Texas,1,1
+12,2006,Virginia,0,2
+12,2006,Wisconsin,0,1
+1,2007,,1,2
+1,2007,Alaska,0,1
+1,2007,Arizona,0,1
+1,2007,California,0,8
+1,2007,Colorado,1,1
+1,2007,Connecticut,0,1
+1,2007,Florida,0,5
+1,2007,Florida,1,1
+1,2007,Idaho,0,1
+1,2007,Idaho,1,2
+1,2007,Illinois,0,1
+1,2007,Kentucky,0,3
+1,2007,Maryland,0,1
+1,2007,Massachusetts,0,1
+1,2007,Minnesota,0,3
+1,2007,Nevada,1,1
+1,2007,New York,0,7
+1,2007,New York,1,2
+1,2007,North Carolina,0,1
+1,2007,Ohio,1,2
+1,2007,Pennsylvania,0,2
+1,2007,Texas,0,2
+1,2007,Virginia,0,1
+2,2007,,0,1
+2,2007,Connecticut,1,1
+2,2007,Indiana,0,4
+2,2007,Minnesota,0,1
+2,2007,New York,0,2
+2,2007,North Carolina,0,1
+2,2007,Pennsylvania,1,1
+2,2007,Texas,1,1
+3,2007,,1,1
+3,2007,California,0,4
+3,2007,Florida,0,1
+3,2007,Idaho,0,1
+3,2007,Indiana,0,1
+3,2007,Indiana,1,1
+3,2007,Kentucky,0,1
+3,2007,Missouri,0,1
+3,2007,New York,0,1
+3,2007,New York,1,1
+3,2007,Ohio,1,1
+3,2007,Tennessee,0,1
+3,2007,Texas,1,1
+3,2007,Virginia,0,1
+4,2007,,1,1
+4,2007,California,0,2
+4,2007,California,1,2
+4,2007,Florida,0,2
+4,2007,Indiana,1,1
+4,2007,Louisiana,0,1
+4,2007,Maryland,0,1
+4,2007,Maryland,1,1
+4,2007,Minnesota,0,1
+4,2007,New York,0,3
+4,2007,Oregon,0,1
+4,2007,Pennsylvania,0,1
+4,2007,Virginia,0,1
+4,2007,Virginia,1,1
+4,2007,Wisconsin,0,1
+5,2007,California,0,5
+5,2007,California,1,1
+5,2007,Colorado,0,1
+5,2007,Connecticut,1,1
+5,2007,Florida,1,1
+5,2007,Georgia,0,1
+5,2007,Indiana,0,1
+5,2007,Maryland,0,1
+5,2007,Minnesota,0,1
+5,2007,Minnesota,1,1
+5,2007,New York,0,1
+5,2007,North Carolina,0,1
+5,2007,Ohio,1,1
+5,2007,Oregon,0,1
+5,2007,Oregon,1,1
+5,2007,Pennsylvania,0,3
+5,2007,Pennsylvania,1,1
+5,2007,Texas,0,1
+5,2007,Texas,1,1
+5,2007,Virginia,0,1
+6,2007,,1,1
+6,2007,California,0,3
+6,2007,California,1,2
+6,2007,Connecticut,1,1
+6,2007,Idaho,1,1
+6,2007,Illinois,0,1
+6,2007,Indiana,0,2
+6,2007,Kentucky,0,1
+6,2007,Maryland,0,1
+6,2007,Michigan,0,1
+6,2007,New Jersey,0,1
+6,2007,New York,0,2
+6,2007,North Carolina,0,4
+6,2007,Ohio,1,1
+6,2007,Oregon,0,1
+6,2007,Pennsylvania,0,1
+6,2007,Pennsylvania,1,1
+6,2007,Texas,0,4
+6,2007,Texas,1,1
+6,2007,Virginia,0,1
+6,2007,Washington,0,1
+7,2007,,1,1
+7,2007,Alabama,0,1
+7,2007,California,0,4
+7,2007,California,1,1
+7,2007,Colorado,0,1
+7,2007,Florida,0,1
+7,2007,Idaho,0,1
+7,2007,Indiana,0,2
+7,2007,Kentucky,0,2
+7,2007,Minnesota,0,1
+7,2007,New York,0,3
+7,2007,North Carolina,0,1
+7,2007,Ohio,0,1
+7,2007,Oklahoma,0,1
+7,2007,Oregon,0,1
+7,2007,Pennsylvania,0,1
+7,2007,Texas,0,1
+7,2007,Texas,1,1
+8,2007,Arizona,0,1
+8,2007,California,0,8
+8,2007,Connecticut,0,1
+8,2007,Florida,0,3
+8,2007,Georgia,0,1
+8,2007,Idaho,0,3
+8,2007,Indiana,0,3
+8,2007,Minnesota,0,2
+8,2007,New York,0,2
+8,2007,New York,1,1
+8,2007,North Dakota,0,2
+8,2007,Oregon,0,2
+8,2007,Pennsylvania,0,2
+8,2007,Pennsylvania,1,1
+8,2007,Texas,0,1
+8,2007,Virginia,1,1
+8,2007,Washington,1,1
+9,2007,,0,2
+9,2007,,1,1
+9,2007,Alabama,1,1
+9,2007,Arkansas,1,1
+9,2007,California,0,2
+9,2007,California,1,1
+9,2007,Connecticut,0,1
+9,2007,Connecticut,1,1
+9,2007,Florida,0,1
+9,2007,Idaho,1,1
+9,2007,Indiana,1,1
+9,2007,Kentucky,0,2
+9,2007,Maryland,0,2
+9,2007,New York,0,5
+9,2007,New York,1,1
+9,2007,North Dakota,0,2
+9,2007,Oregon,0,1
+9,2007,Pennsylvania,0,2
+9,2007,Texas,0,4
+9,2007,Texas,1,1
+10,2007,,1,2
+10,2007,California,0,6
+10,2007,California,1,1
+10,2007,Colorado,0,2
+10,2007,Connecticut,1,1
+10,2007,Idaho,0,1
+10,2007,Idaho,1,1
+10,2007,Indiana,0,1
+10,2007,Kansas,0,1
+10,2007,Kentucky,0,1
+10,2007,Kentucky,1,1
+10,2007,Minnesota,1,2
+10,2007,Missouri,0,1
+10,2007,New York,0,3
+10,2007,North Carolina,0,1
+10,2007,North Dakota,0,2
+10,2007,Ohio,0,4
+10,2007,Oregon,0,1
+10,2007,Pennsylvania,0,2
+10,2007,Texas,0,4
+10,2007,Texas,1,1
+10,2007,Utah,0,1
+10,2007,Virginia,0,2
+11,2007,California,0,8
+11,2007,California,1,3
+11,2007,Colorado,0,1
+11,2007,Connecticut,0,1
+11,2007,District of Columbia,0,1
+11,2007,Florida,0,1
+11,2007,Florida,1,2
+11,2007,Idaho,0,2
+11,2007,Indiana,0,3
+11,2007,Indiana,1,1
+11,2007,Kentucky,0,1
+11,2007,Maryland,0,2
+11,2007,Minnesota,0,1
+11,2007,New Jersey,0,1
+11,2007,New York,0,5
+11,2007,Ohio,0,2
+11,2007,Oklahoma,0,1
+11,2007,Oregon,1,1
+11,2007,South Carolina,0,1
+11,2007,Virginia,0,2
+11,2007,Washington,0,1
+12,2007,,0,1
+12,2007,,1,3
+12,2007,California,0,5
+12,2007,California,1,1
+12,2007,Connecticut,0,3
+12,2007,Connecticut,1,1
+12,2007,Florida,0,4
+12,2007,Idaho,0,2
+12,2007,Kentucky,0,1
+12,2007,New Jersey,0,1
+12,2007,New York,0,5
+12,2007,New York,1,2
+12,2007,North Carolina,0,2
+12,2007,North Dakota,0,1
+12,2007,North Dakota,1,1
+12,2007,Ohio,0,4
+12,2007,Ohio,1,1
+12,2007,Oklahoma,0,1
+12,2007,Oregon,1,1
+12,2007,Pennsylvania,0,5
+12,2007,Pennsylvania,1,2
+12,2007,Tennessee,0,1
+12,2007,Virginia,0,1
+1,2008,,0,1
+1,2008,California,0,6
+1,2008,California,1,1
+1,2008,Colorado,0,2
+1,2008,Connecticut,0,1
+1,2008,Florida,0,4
+1,2008,Florida,1,1
+1,2008,Idaho,0,1
+1,2008,Indiana,0,1
+1,2008,Kentucky,0,3
+1,2008,Kentucky,1,1
+1,2008,Maryland,0,4
+1,2008,Minnesota,0,2
+1,2008,New Jersey,1,1
+1,2008,New York,0,7
+1,2008,New York,1,3
+1,2008,North Carolina,0,1
+1,2008,North Dakota,0,3
+1,2008,Ohio,0,2
+1,2008,Oregon,0,1
+1,2008,Puerto Rico,0,1
+1,2008,Texas,0,2
+1,2008,Virginia,0,1
+2,2008,,0,17
+2,2008,,1,3
+2,2008,Arizona,0,1
+2,2008,California,0,16
+2,2008,California,1,2
+2,2008,Colorado,0,2
+2,2008,Colorado,1,1
+2,2008,Delaware,0,1
+2,2008,Florida,0,6
+2,2008,Florida,1,2
+2,2008,Georgia,1,1
+2,2008,Idaho,0,1
+2,2008,Idaho,1,2
+2,2008,Illinois,0,1
+2,2008,Indiana,0,2
+2,2008,Indiana,1,2
+2,2008,Kentucky,0,6
+2,2008,Louisiana,0,1
+2,2008,Maryland,1,1
+2,2008,Minnesota,0,5
+2,2008,Minnesota,1,1
+2,2008,Missouri,0,1
+2,2008,New York,0,4
+2,2008,New York,1,1
+2,2008,North Carolina,0,1
+2,2008,North Carolina,1,1
+2,2008,North Dakota,0,6
+2,2008,North Dakota,1,1
+2,2008,Oklahoma,0,1
+2,2008,Oregon,0,3
+2,2008,Oregon,1,1
+2,2008,Pennsylvania,0,3
+2,2008,Pennsylvania,1,3
+2,2008,Texas,0,3
+2,2008,Texas,1,2
+2,2008,Virginia,0,2
+2,2008,Washington,0,1
+3,2008,,1,2
+3,2008,California,0,6
+3,2008,Colorado,0,1
+3,2008,Connecticut,0,1
+3,2008,Florida,0,2
+3,2008,Florida,1,1
+3,2008,Idaho,0,1
+3,2008,Indiana,0,1
+3,2008,Maryland,0,1
+3,2008,Michigan,0,1
+3,2008,Minnesota,1,1
+3,2008,New York,0,3
+3,2008,New York,1,1
+3,2008,North Carolina,1,1
+3,2008,North Dakota,0,1
+3,2008,Ohio,0,1
+3,2008,Oregon,0,1
+3,2008,Virginia,0,1
+4,2008,,1,2
+4,2008,California,0,5
+4,2008,California,1,1
+4,2008,Colorado,0,3
+4,2008,Florida,0,4
+4,2008,Florida,1,1
+4,2008,Georgia,0,1
+4,2008,Idaho,0,4
+4,2008,Indiana,0,1
+4,2008,Kansas,0,1
+4,2008,Kentucky,0,2
+4,2008,Maryland,0,1
+4,2008,Michigan,0,1
+4,2008,Minnesota,0,1
+4,2008,New York,0,2
+4,2008,North Carolina,0,2
+4,2008,North Dakota,1,1
+4,2008,Oregon,0,1
+4,2008,Oregon,1,1
+4,2008,Pennsylvania,0,2
+4,2008,Texas,0,2
+4,2008,Virginia,0,4
+4,2008,Virginia,1,1
+5,2008,,0,32
+5,2008,Alabama,0,1
+5,2008,Alaska,0,1
+5,2008,Arizona,0,2
+5,2008,Arkansas,0,1
+5,2008,California,0,53
+5,2008,California,1,2
+5,2008,Colorado,0,7
+5,2008,Connecticut,0,8
+5,2008,District of Columbia,0,1
+5,2008,Florida,0,19
+5,2008,Georgia,0,3
+5,2008,Idaho,0,17
+5,2008,Illinois,0,4
+5,2008,Indiana,0,18
+5,2008,Kentucky,0,11
+5,2008,Kentucky,1,1
+5,2008,Louisiana,0,1
+5,2008,Maryland,0,10
+5,2008,Michigan,0,2
+5,2008,Minnesota,0,15
+5,2008,Mississippi,0,1
+5,2008,Missouri,0,3
+5,2008,Nebraska,0,1
+5,2008,Nevada,0,1
+5,2008,New Jersey,0,2
+5,2008,New York,0,40
+5,2008,New York,1,3
+5,2008,North Carolina,0,13
+5,2008,North Carolina,1,1
+5,2008,North Dakota,0,8
+5,2008,Ohio,0,14
+5,2008,Oregon,0,8
+5,2008,Pennsylvania,0,18
+5,2008,Pennsylvania,1,1
+5,2008,Puerto Rico,0,2
+5,2008,Tennessee,0,2
+5,2008,Texas,0,18
+5,2008,Texas,1,1
+5,2008,Utah,0,1
+5,2008,Virginia,0,6
+5,2008,Virginia,1,1
+5,2008,Washington,0,1
+5,2008,Wisconsin,0,1
+5,2008,Wyoming,0,1
+6,2008,,1,2
+6,2008,Alabama,0,2
+6,2008,Arkansas,0,2
+6,2008,California,0,31
+6,2008,California,1,1
+6,2008,Colorado,0,5
+6,2008,Colorado,1,1
+6,2008,Connecticut,0,3
+6,2008,Florida,0,13
+6,2008,Florida,1,2
+6,2008,Idaho,0,2
+6,2008,Idaho,1,2
+6,2008,Illinois,0,1
+6,2008,Illinois,1,1
+6,2008,Indiana,0,7
+6,2008,Kentucky,0,9
+6,2008,Louisiana,0,2
+6,2008,Massachusetts,0,1
+6,2008,Michigan,0,2
+6,2008,Minnesota,0,5
+6,2008,Mississippi,0,2
+6,2008,Missouri,0,2
+6,2008,New Jersey,0,1
+6,2008,New York,0,24
+6,2008,North Carolina,0,2
+6,2008,North Dakota,0,7
+6,2008,North Dakota,1,1
+6,2008,Ohio,0,9
+6,2008,Ohio,1,1
+6,2008,Oklahoma,0,2
+6,2008,Oregon,0,3
+6,2008,Pennsylvania,0,10
+6,2008,Puerto Rico,0,1
+6,2008,Texas,0,18
+6,2008,Virginia,0,8
+6,2008,Virginia,1,3
+6,2008,Washington,0,1
+6,2008,Wisconsin,0,1
+7,2008,,1,1
+7,2008,California,0,7
+7,2008,Colorado,0,1
+7,2008,Colorado,1,2
+7,2008,Connecticut,0,4
+7,2008,Florida,0,1
+7,2008,Idaho,0,3
+7,2008,Illinois,1,2
+7,2008,Indiana,0,1
+7,2008,Kansas,0,1
+7,2008,Michigan,0,1
+7,2008,Minnesota,0,1
+7,2008,New Jersey,1,1
+7,2008,New York,0,6
+7,2008,New York,1,1
+7,2008,North Carolina,1,1
+7,2008,Ohio,0,2
+7,2008,Ohio,1,1
+7,2008,Pennsylvania,0,3
+7,2008,Texas,0,3
+7,2008,Virginia,0,1
+7,2008,Washington,1,1
+7,2008,Wisconsin,0,1
+8,2008,,1,2
+8,2008,Alabama,0,1
+8,2008,California,0,6
+8,2008,California,1,1
+8,2008,Colorado,0,1
+8,2008,Connecticut,0,1
+8,2008,Florida,0,1
+8,2008,Florida,1,2
+8,2008,Idaho,0,2
+8,2008,Indiana,0,1
+8,2008,Kentucky,0,4
+8,2008,Kentucky,1,1
+8,2008,Michigan,1,1
+8,2008,Minnesota,0,3
+8,2008,New Jersey,0,2
+8,2008,New York,0,5
+8,2008,New York,1,1
+8,2008,North Dakota,0,2
+8,2008,North Dakota,1,1
+8,2008,Ohio,0,2
+8,2008,Oregon,0,2
+8,2008,Oregon,1,1
+8,2008,Pennsylvania,0,3
+8,2008,Texas,0,2
+8,2008,Texas,1,1
+8,2008,Virginia,1,1
+9,2008,California,0,8
+9,2008,California,1,1
+9,2008,Colorado,1,1
+9,2008,Connecticut,0,1
+9,2008,Florida,0,3
+9,2008,Georgia,0,1
+9,2008,Idaho,0,2
+9,2008,Indiana,0,1
+9,2008,Kentucky,0,1
+9,2008,Maryland,0,1
+9,2008,Michigan,1,1
+9,2008,Minnesota,0,1
+9,2008,New York,0,5
+9,2008,New York,1,3
+9,2008,North Carolina,0,4
+9,2008,North Dakota,0,1
+9,2008,Ohio,0,2
+9,2008,Pennsylvania,0,2
+9,2008,Tennessee,0,1
+9,2008,Texas,0,2
+9,2008,Texas,1,1
+9,2008,Virginia,0,1
+9,2008,Washington,0,1
+10,2008,,0,1
+10,2008,California,0,10
+10,2008,Florida,0,7
+10,2008,Idaho,0,2
+10,2008,Indiana,0,1
+10,2008,Maryland,0,1
+10,2008,Minnesota,0,3
+10,2008,New York,0,6
+10,2008,North Carolina,0,2
+10,2008,North Dakota,0,2
+10,2008,Oregon,1,1
+10,2008,Pennsylvania,0,1
+10,2008,Pennsylvania,1,1
+10,2008,South Carolina,0,1
+10,2008,Texas,0,1
+10,2008,Virginia,0,2
+10,2008,Virginia,1,1
+11,2008,,0,1
+11,2008,Alabama,1,1
+11,2008,Arizona,0,1
+11,2008,California,0,9
+11,2008,California,1,1
+11,2008,Colorado,0,1
+11,2008,Colorado,1,2
+11,2008,Connecticut,0,1
+11,2008,Florida,0,1
+11,2008,Florida,1,1
+11,2008,Idaho,0,3
+11,2008,Indiana,0,1
+11,2008,Kentucky,0,3
+11,2008,Louisiana,0,2
+11,2008,Minnesota,0,1
+11,2008,Missouri,0,1
+11,2008,New York,0,4
+11,2008,New York,1,3
+11,2008,North Carolina,0,2
+11,2008,North Carolina,1,1
+11,2008,North Dakota,0,1
+11,2008,North Dakota,1,1
+11,2008,Oregon,0,3
+11,2008,Pennsylvania,0,1
+11,2008,Texas,0,2
+11,2008,Texas,1,1
+11,2008,Virginia,0,3
+11,2008,Washington,0,1
+12,2008,,0,2
+12,2008,,1,4
+12,2008,Alabama,0,1
+12,2008,California,0,6
+12,2008,California,1,4
+12,2008,Colorado,0,1
+12,2008,Colorado,1,1
+12,2008,Connecticut,0,2
+12,2008,Connecticut,1,2
+12,2008,Florida,0,7
+12,2008,Florida,1,5
+12,2008,Georgia,0,3
+12,2008,Idaho,0,6
+12,2008,Idaho,1,2
+12,2008,Indiana,0,1
+12,2008,Indiana,1,2
+12,2008,Kentucky,0,8
+12,2008,Kentucky,1,2
+12,2008,Maryland,0,3
+12,2008,Maryland,1,1
+12,2008,Minnesota,0,5
+12,2008,Nevada,0,1
+12,2008,New Jersey,0,1
+12,2008,New York,0,11
+12,2008,New York,1,7
+12,2008,North Carolina,0,3
+12,2008,North Carolina,1,2
+12,2008,North Dakota,0,4
+12,2008,Ohio,0,1
+12,2008,Ohio,1,1
+12,2008,Oregon,0,6
+12,2008,Oregon,1,2
+12,2008,Pennsylvania,0,3
+12,2008,Pennsylvania,1,2
+12,2008,Texas,0,4
+12,2008,Texas,1,2
+12,2008,Vermont,0,1
+12,2008,Virginia,0,3
+1,2009,Arizona,0,1
+1,2009,Arkansas,0,1
+1,2009,California,0,6
+1,2009,California,1,1
+1,2009,Colorado,0,1
+1,2009,Connecticut,0,4
+1,2009,Florida,0,3
+1,2009,Idaho,0,1
+1,2009,Idaho,1,1
+1,2009,Illinois,0,1
+1,2009,Indiana,0,1
+1,2009,Indiana,1,1
+1,2009,Kentucky,0,4
+1,2009,Maryland,0,1
+1,2009,Massachusetts,0,2
+1,2009,New York,0,3
+1,2009,North Carolina,0,3
+1,2009,North Carolina,1,1
+1,2009,North Dakota,0,4
+1,2009,Ohio,0,2
+1,2009,Oklahoma,0,1
+1,2009,Oregon,0,3
+1,2009,Pennsylvania,0,3
+1,2009,Texas,0,1
+1,2009,Texas,1,1
+1,2009,Virginia,0,2
+1,2009,Virginia,1,1
+1,2009,West Virginia,0,1
+2,2009,,0,1
+2,2009,,1,9
+2,2009,Alabama,0,1
+2,2009,Arizona,0,2
+2,2009,California,0,17
+2,2009,California,1,7
+2,2009,Colorado,0,4
+2,2009,Colorado,1,1
+2,2009,Connecticut,0,2
+2,2009,Connecticut,1,1
+2,2009,Florida,0,8
+2,2009,Florida,1,2
+2,2009,Idaho,0,1
+2,2009,Idaho,1,3
+2,2009,Illinois,0,1
+2,2009,Indiana,0,5
+2,2009,Indiana,1,2
+2,2009,Kentucky,0,2
+2,2009,Maryland,0,1
+2,2009,Massachusetts,0,1
+2,2009,Minnesota,0,8
+2,2009,Minnesota,1,1
+2,2009,Missouri,0,1
+2,2009,New Jersey,0,1
+2,2009,New York,0,15
+2,2009,New York,1,8
+2,2009,North Carolina,0,2
+2,2009,North Carolina,1,3
+2,2009,North Dakota,0,1
+2,2009,North Dakota,1,3
+2,2009,Ohio,0,4
+2,2009,Ohio,1,1
+2,2009,Oregon,0,1
+2,2009,Oregon,1,1
+2,2009,Pennsylvania,0,4
+2,2009,Pennsylvania,1,3
+2,2009,Tennessee,0,1
+2,2009,Texas,0,9
+2,2009,Texas,1,3
+2,2009,Virginia,0,5
+2,2009,Virginia,1,4
+2,2009,Washington,0,2
+3,2009,,0,5
+3,2009,,1,12
+3,2009,Arizona,1,1
+3,2009,Arkansas,0,1
+3,2009,California,0,15
+3,2009,California,1,8
+3,2009,Colorado,0,3
+3,2009,Colorado,1,3
+3,2009,Connecticut,0,7
+3,2009,Connecticut,1,2
+3,2009,Florida,0,8
+3,2009,Florida,1,4
+3,2009,Georgia,0,3
+3,2009,Idaho,0,5
+3,2009,Idaho,1,2
+3,2009,Illinois,0,1
+3,2009,Indiana,0,5
+3,2009,Indiana,1,2
+3,2009,Iowa,0,1
+3,2009,Kentucky,0,7
+3,2009,Kentucky,1,1
+3,2009,Maryland,0,1
+3,2009,Maryland,1,1
+3,2009,Michigan,0,2
+3,2009,Minnesota,0,6
+3,2009,Minnesota,1,1
+3,2009,New Jersey,0,2
+3,2009,New York,0,12
+3,2009,New York,1,3
+3,2009,North Carolina,0,1
+3,2009,North Carolina,1,1
+3,2009,North Dakota,0,4
+3,2009,North Dakota,1,4
+3,2009,Ohio,0,2
+3,2009,Ohio,1,1
+3,2009,Oregon,0,3
+3,2009,Oregon,1,1
+3,2009,Pennsylvania,0,4
+3,2009,Pennsylvania,1,2
+3,2009,Texas,0,2
+3,2009,Texas,1,3
+3,2009,Virginia,0,6
+3,2009,Virginia,1,3
+4,2009,California,0,3
+4,2009,California,1,1
+4,2009,Colorado,1,1
+4,2009,Connecticut,0,1
+4,2009,Georgia,0,1
+4,2009,Idaho,0,1
+4,2009,Kentucky,1,1
+4,2009,Maryland,0,1
+4,2009,Michigan,0,1
+4,2009,Missouri,0,1
+4,2009,New York,0,1
+4,2009,New York,1,2
+4,2009,North Carolina,0,2
+4,2009,North Carolina,1,1
+4,2009,North Dakota,0,1
+4,2009,Pennsylvania,0,1
+4,2009,South Carolina,0,1
+4,2009,Tennessee,0,1
+4,2009,Utah,0,1
+4,2009,Virginia,0,1
+4,2009,Virginia,1,2
+4,2009,Washington,0,1
+5,2009,,1,1
+5,2009,Alabama,0,1
+5,2009,California,0,12
+5,2009,Connecticut,0,1
+5,2009,Florida,0,8
+5,2009,Florida,1,1
+5,2009,Idaho,0,1
+5,2009,Indiana,0,1
+5,2009,Kentucky,0,1
+5,2009,Kentucky,1,1
+5,2009,Maryland,0,1
+5,2009,Maryland,1,1
+5,2009,Michigan,0,1
+5,2009,Minnesota,0,2
+5,2009,New York,0,2
+5,2009,North Carolina,0,3
+5,2009,Ohio,0,2
+5,2009,Oregon,0,1
+5,2009,Oregon,1,2
+5,2009,Pennsylvania,0,1
+5,2009,Texas,0,1
+5,2009,Texas,1,1
+5,2009,Virginia,0,2
+5,2009,Wisconsin,0,2
+6,2009,California,0,1
+6,2009,California,1,1
+6,2009,Colorado,0,1
+6,2009,Idaho,0,1
+6,2009,Indiana,0,2
+6,2009,Minnesota,0,1
+6,2009,New York,0,1
+6,2009,New York,1,1
+6,2009,North Carolina,0,2
+6,2009,Pennsylvania,0,1
+6,2009,Pennsylvania,1,1
+6,2009,Texas,0,1
+6,2009,Virginia,0,1
+6,2009,Virginia,1,1
+6,2009,Washington,0,1
+7,2009,,0,2
+7,2009,Arizona,0,1
+7,2009,California,0,2
+7,2009,California,1,2
+7,2009,Colorado,1,1
+7,2009,Florida,0,2
+7,2009,Florida,1,1
+7,2009,Idaho,0,1
+7,2009,Indiana,0,2
+7,2009,Kansas,0,1
+7,2009,Kentucky,0,1
+7,2009,Kentucky,1,1
+7,2009,Minnesota,0,1
+7,2009,Nevada,1,1
+7,2009,New York,0,1
+7,2009,New York,1,2
+7,2009,Oregon,0,1
+7,2009,Virginia,0,2
+7,2009,Virginia,1,1
+8,2009,Arizona,1,1
+8,2009,California,0,5
+8,2009,Connecticut,0,2
+8,2009,Connecticut,1,1
+8,2009,Florida,0,2
+8,2009,Florida,1,2
+8,2009,Georgia,0,1
+8,2009,Idaho,0,2
+8,2009,Idaho,1,1
+8,2009,Indiana,0,3
+8,2009,Iowa,0,1
+8,2009,Maryland,1,1
+8,2009,Massachusetts,0,1
+8,2009,Minnesota,0,1
+8,2009,New York,0,3
+8,2009,New York,1,2
+8,2009,North Dakota,0,1
+8,2009,Oregon,1,1
+8,2009,Pennsylvania,1,1
+8,2009,Virginia,0,2
+9,2009,,0,1
+9,2009,,1,5
+9,2009,California,0,14
+9,2009,California,1,2
+9,2009,Colorado,0,1
+9,2009,Colorado,1,2
+9,2009,Florida,0,2
+9,2009,Idaho,0,3
+9,2009,Indiana,0,1
+9,2009,Kentucky,0,1
+9,2009,Maryland,0,1
+9,2009,Minnesota,0,3
+9,2009,New York,0,2
+9,2009,New York,1,3
+9,2009,North Carolina,0,1
+9,2009,North Dakota,0,1
+9,2009,Ohio,0,2
+9,2009,Oregon,0,2
+9,2009,Oregon,1,1
+9,2009,Pennsylvania,0,3
+9,2009,South Carolina,0,1
+9,2009,Texas,0,3
+9,2009,Texas,1,1
+9,2009,Virginia,0,3
+9,2009,Virginia,1,1
+10,2009,,0,1
+10,2009,,1,4
+10,2009,Arizona,0,1
+10,2009,California,0,6
+10,2009,California,1,1
+10,2009,Connecticut,0,1
+10,2009,Florida,0,6
+10,2009,Florida,1,2
+10,2009,Idaho,0,1
+10,2009,Indiana,0,2
+10,2009,Maine,0,1
+10,2009,Maryland,0,1
+10,2009,Massachusetts,1,1
+10,2009,Minnesota,0,4
+10,2009,Minnesota,1,2
+10,2009,New York,0,6
+10,2009,New York,1,2
+10,2009,North Carolina,0,2
+10,2009,North Carolina,1,1
+10,2009,North Dakota,0,1
+10,2009,Ohio,0,2
+10,2009,Ohio,1,1
+10,2009,Oklahoma,0,1
+10,2009,Oregon,0,2
+10,2009,Oregon,1,1
+10,2009,Pennsylvania,0,1
+10,2009,Pennsylvania,1,3
+10,2009,Texas,0,3
+10,2009,Texas,1,2
+10,2009,Virginia,0,4
+10,2009,Virginia,1,4
+10,2009,Wisconsin,0,1
+11,2009,,0,5
+11,2009,,1,3
+11,2009,California,0,3
+11,2009,Colorado,0,1
+11,2009,Florida,0,1
+11,2009,Kentucky,0,1
+11,2009,Maryland,0,1
+11,2009,Massachusetts,0,2
+11,2009,New Jersey,0,1
+11,2009,New York,0,5
+11,2009,North Carolina,0,2
+11,2009,North Dakota,0,2
+11,2009,Ohio,0,2
+11,2009,Ohio,1,1
+11,2009,Oregon,1,1
+11,2009,Pennsylvania,1,1
+11,2009,South Carolina,1,1
+11,2009,Texas,1,1
+11,2009,Virginia,0,2
+12,2009,,0,3
+12,2009,,1,10
+12,2009,Alabama,0,1
+12,2009,Arkansas,0,1
+12,2009,California,0,22
+12,2009,California,1,9
+12,2009,Colorado,0,1
+12,2009,Connecticut,0,4
+12,2009,Florida,0,8
+12,2009,Florida,1,2
+12,2009,Georgia,0,1
+12,2009,Idaho,0,4
+12,2009,Idaho,1,1
+12,2009,Illinois,0,1
+12,2009,Indiana,0,3
+12,2009,Indiana,1,2
+12,2009,Kentucky,0,6
+12,2009,Kentucky,1,1
+12,2009,Maryland,0,2
+12,2009,Michigan,0,1
+12,2009,Minnesota,0,7
+12,2009,Minnesota,1,1
+12,2009,Mississippi,0,1
+12,2009,New Jersey,0,1
+12,2009,New Mexico,0,1
+12,2009,New York,0,11
+12,2009,New York,1,5
+12,2009,North Carolina,0,6
+12,2009,North Carolina,1,1
+12,2009,North Dakota,0,6
+12,2009,North Dakota,1,1
+12,2009,Ohio,0,7
+12,2009,Ohio,1,2
+12,2009,Oklahoma,0,1
+12,2009,Oregon,0,3
+12,2009,Oregon,1,1
+12,2009,Pennsylvania,0,8
+12,2009,Pennsylvania,1,2
+12,2009,Tennessee,0,1
+12,2009,Texas,0,6
+12,2009,Virginia,0,6
+12,2009,Virginia,1,1
+12,2009,Washington,0,2
+12,2009,Wisconsin,0,1
+1,2010,,0,4
+1,2010,,1,20
+1,2010,Alabama,0,2
+1,2010,Arizona,0,1
+1,2010,Arkansas,0,1
+1,2010,California,0,35
+1,2010,California,1,10
+1,2010,Colorado,0,3
+1,2010,Colorado,1,3
+1,2010,Connecticut,0,5
+1,2010,Connecticut,1,4
+1,2010,Florida,0,14
+1,2010,Florida,1,8
+1,2010,Georgia,0,1
+1,2010,Idaho,0,8
+1,2010,Idaho,1,1
+1,2010,Illinois,0,2
+1,2010,Indiana,0,4
+1,2010,Iowa,0,1
+1,2010,Kentucky,0,7
+1,2010,Louisiana,0,1
+1,2010,Maryland,0,2
+1,2010,Maryland,1,1
+1,2010,Massachusetts,0,1
+1,2010,Michigan,0,1
+1,2010,Minnesota,0,7
+1,2010,Minnesota,1,3
+1,2010,Missouri,0,1
+1,2010,Nebraska,0,1
+1,2010,New Hampshire,0,1
+1,2010,New Jersey,0,2
+1,2010,New Mexico,0,1
+1,2010,New York,0,23
+1,2010,New York,1,8
+1,2010,North Carolina,0,8
+1,2010,North Carolina,1,3
+1,2010,North Dakota,0,4
+1,2010,North Dakota,1,5
+1,2010,Ohio,0,12
+1,2010,Ohio,1,4
+1,2010,Oklahoma,0,1
+1,2010,Oregon,0,3
+1,2010,Oregon,1,1
+1,2010,Pennsylvania,0,12
+1,2010,Pennsylvania,1,4
+1,2010,South Carolina,0,1
+1,2010,Tennessee,0,1
+1,2010,Texas,0,8
+1,2010,Texas,1,5
+1,2010,Virginia,0,5
+1,2010,Virginia,1,6
+1,2010,Washington,0,3
+1,2010,Wisconsin,0,1
+2,2010,,0,2
+2,2010,Alabama,0,1
+2,2010,California,0,13
+2,2010,Colorado,0,2
+2,2010,Colorado,1,1
+2,2010,Florida,0,3
+2,2010,Georgia,0,1
+2,2010,Indiana,0,2
+2,2010,Michigan,0,1
+2,2010,Minnesota,0,3
+2,2010,New Mexico,0,1
+2,2010,New York,0,6
+2,2010,New York,1,1
+2,2010,North Carolina,0,5
+2,2010,North Carolina,1,1
+2,2010,North Dakota,0,3
+2,2010,Ohio,0,2
+2,2010,Oklahoma,0,1
+2,2010,Oregon,0,1
+2,2010,Pennsylvania,1,4
+2,2010,Texas,0,6
+2,2010,Utah,0,1
+2,2010,Virginia,0,1
+2,2010,Virginia,1,3
+2,2010,Washington,0,1
+3,2010,,0,1
+3,2010,,1,4
+3,2010,Alabama,0,1
+3,2010,Arizona,0,1
+3,2010,California,0,11
+3,2010,California,1,5
+3,2010,Colorado,1,1
+3,2010,Florida,0,4
+3,2010,Georgia,0,1
+3,2010,Idaho,1,1
+3,2010,Indiana,0,1
+3,2010,Indiana,1,1
+3,2010,Kentucky,0,3
+3,2010,Maryland,0,1
+3,2010,Michigan,0,1
+3,2010,Minnesota,0,3
+3,2010,Mississippi,0,1
+3,2010,New Mexico,0,1
+3,2010,New York,0,7
+3,2010,New York,1,1
+3,2010,North Dakota,0,3
+3,2010,Ohio,0,2
+3,2010,Oklahoma,0,1
+3,2010,Oregon,1,2
+3,2010,Pennsylvania,0,2
+3,2010,Pennsylvania,1,2
+3,2010,Texas,0,1
+3,2010,Texas,1,4
+3,2010,Virginia,0,2
+4,2010,,0,3
+4,2010,,1,2
+4,2010,Arkansas,0,1
+4,2010,California,0,11
+4,2010,Colorado,0,1
+4,2010,Connecticut,0,3
+4,2010,Connecticut,1,1
+4,2010,Florida,0,5
+4,2010,Florida,1,2
+4,2010,Georgia,0,1
+4,2010,Idaho,0,2
+4,2010,Indiana,0,3
+4,2010,Indiana,1,1
+4,2010,Kentucky,0,2
+4,2010,Kentucky,1,2
+4,2010,Massachusetts,0,1
+4,2010,Minnesota,0,1
+4,2010,New York,0,8
+4,2010,New York,1,3
+4,2010,North Carolina,0,2
+4,2010,North Dakota,0,2
+4,2010,Oregon,0,4
+4,2010,Oregon,1,1
+4,2010,Pennsylvania,0,5
+4,2010,Pennsylvania,1,3
+4,2010,Texas,0,1
+4,2010,Virginia,0,1
+5,2010,Alabama,0,1
+5,2010,California,0,8
+5,2010,California,1,2
+5,2010,Colorado,0,1
+5,2010,Colorado,1,3
+5,2010,Florida,0,3
+5,2010,Florida,1,2
+5,2010,Idaho,0,2
+5,2010,Idaho,1,1
+5,2010,Indiana,0,4
+5,2010,Kentucky,1,1
+5,2010,Maryland,1,1
+5,2010,Minnesota,0,1
+5,2010,New York,0,2
+5,2010,New York,1,1
+5,2010,North Carolina,0,2
+5,2010,North Carolina,1,1
+5,2010,Ohio,0,2
+5,2010,Ohio,1,2
+5,2010,Oregon,0,4
+5,2010,Pennsylvania,0,3
+5,2010,Pennsylvania,1,1
+5,2010,Texas,0,4
+5,2010,Texas,1,2
+5,2010,Virginia,0,4
+5,2010,Virginia,1,1
+6,2010,,0,2
+6,2010,,1,3
+6,2010,California,0,4
+6,2010,California,1,3
+6,2010,Colorado,0,2
+6,2010,Connecticut,0,1
+6,2010,Florida,0,4
+6,2010,Florida,1,1
+6,2010,Idaho,1,1
+6,2010,Indiana,0,1
+6,2010,Indiana,1,1
+6,2010,Iowa,0,1
+6,2010,Kentucky,0,2
+6,2010,Kentucky,1,1
+6,2010,Maryland,0,1
+6,2010,Maryland,1,2
+6,2010,Michigan,0,1
+6,2010,Michigan,1,2
+6,2010,Minnesota,0,1
+6,2010,Minnesota,1,1
+6,2010,New York,0,4
+6,2010,New York,1,4
+6,2010,North Carolina,0,1
+6,2010,North Carolina,1,1
+6,2010,Ohio,0,3
+6,2010,Ohio,1,1
+6,2010,Oregon,0,2
+6,2010,Oregon,1,2
+6,2010,Pennsylvania,0,2
+6,2010,Pennsylvania,1,1
+6,2010,South Carolina,0,1
+6,2010,Texas,1,1
+7,2010,,0,2
+7,2010,,1,2
+7,2010,California,0,11
+7,2010,California,1,3
+7,2010,Florida,0,4
+7,2010,Florida,1,2
+7,2010,Georgia,0,1
+7,2010,Idaho,0,1
+7,2010,Indiana,0,2
+7,2010,Indiana,1,1
+7,2010,Kentucky,0,2
+7,2010,Maryland,0,2
+7,2010,Minnesota,0,4
+7,2010,Minnesota,1,2
+7,2010,Mississippi,0,1
+7,2010,New York,0,7
+7,2010,New York,1,4
+7,2010,North Carolina,0,1
+7,2010,North Dakota,0,2
+7,2010,North Dakota,1,1
+7,2010,Ohio,0,5
+7,2010,Oregon,1,1
+7,2010,Pennsylvania,0,2
+7,2010,Pennsylvania,1,1
+7,2010,South Dakota,0,1
+7,2010,Texas,0,6
+7,2010,Texas,1,2
+7,2010,Virginia,0,6
+7,2010,Virginia,1,1
+8,2010,,0,3
+8,2010,,1,6
+8,2010,California,0,4
+8,2010,California,1,5
+8,2010,Colorado,1,1
+8,2010,Florida,0,3
+8,2010,Georgia,0,2
+8,2010,Idaho,0,2
+8,2010,Idaho,1,1
+8,2010,Illinois,0,2
+8,2010,Kansas,0,1
+8,2010,Kentucky,0,5
+8,2010,Maryland,0,3
+8,2010,Michigan,0,1
+8,2010,Minnesota,0,1
+8,2010,Minnesota,1,1
+8,2010,Nevada,0,1
+8,2010,New Jersey,0,1
+8,2010,New York,0,11
+8,2010,North Carolina,0,3
+8,2010,North Carolina,1,1
+8,2010,North Dakota,0,4
+8,2010,North Dakota,1,2
+8,2010,Ohio,0,2
+8,2010,Oklahoma,1,1
+8,2010,Oregon,0,3
+8,2010,Oregon,1,2
+8,2010,Pennsylvania,0,2
+8,2010,Pennsylvania,1,1
+8,2010,Tennessee,0,1
+8,2010,Texas,0,5
+8,2010,Utah,0,1
+8,2010,Virginia,0,3
+8,2010,Washington,0,1
+9,2010,,1,3
+9,2010,Alabama,0,1
+9,2010,Armed Forces Americas (except ,0,1
+9,2010,California,0,7
+9,2010,California,1,5
+9,2010,Colorado,0,2
+9,2010,Connecticut,0,2
+9,2010,Florida,0,4
+9,2010,Florida,1,1
+9,2010,Idaho,0,3
+9,2010,Idaho,1,4
+9,2010,Illinois,0,1
+9,2010,Indiana,0,2
+9,2010,Indiana,1,3
+9,2010,Kentucky,0,1
+9,2010,Maryland,0,2
+9,2010,Minnesota,0,2
+9,2010,Minnesota,1,3
+9,2010,Missouri,0,1
+9,2010,New York,0,6
+9,2010,New York,1,6
+9,2010,North Carolina,0,2
+9,2010,North Dakota,0,1
+9,2010,North Dakota,1,2
+9,2010,Ohio,0,3
+9,2010,Ohio,1,2
+9,2010,Oregon,0,3
+9,2010,Oregon,1,2
+9,2010,Pennsylvania,0,2
+9,2010,Pennsylvania,1,4
+9,2010,Tennessee,0,1
+9,2010,Texas,0,5
+9,2010,Texas,1,3
+9,2010,Virginia,0,5
+9,2010,Virginia,1,1
+9,2010,Washington,0,2
+9,2010,Wisconsin,1,1
+10,2010,,0,2
+10,2010,California,0,10
+10,2010,California,1,6
+10,2010,Colorado,0,2
+10,2010,Colorado,1,2
+10,2010,Connecticut,0,1
+10,2010,Florida,0,5
+10,2010,Florida,1,4
+10,2010,Idaho,0,2
+10,2010,Idaho,1,1
+10,2010,Illinois,0,1
+10,2010,Illinois,1,1
+10,2010,Indiana,0,3
+10,2010,Kentucky,0,5
+10,2010,Kentucky,1,1
+10,2010,Louisiana,0,1
+10,2010,Maryland,1,2
+10,2010,Minnesota,0,3
+10,2010,Minnesota,1,1
+10,2010,New Jersey,0,1
+10,2010,New York,0,6
+10,2010,New York,1,4
+10,2010,North Carolina,0,2
+10,2010,North Dakota,0,2
+10,2010,North Dakota,1,1
+10,2010,Ohio,0,5
+10,2010,Oregon,0,3
+10,2010,Pennsylvania,1,1
+10,2010,Texas,0,2
+10,2010,Texas,1,1
+10,2010,Virginia,0,2
+10,2010,Virginia,1,1
+11,2010,,0,4
+11,2010,,1,4
+11,2010,Arizona,0,1
+11,2010,California,0,10
+11,2010,California,1,6
+11,2010,Colorado,0,1
+11,2010,Connecticut,0,2
+11,2010,Connecticut,1,1
+11,2010,Florida,0,4
+11,2010,Florida,1,1
+11,2010,Georgia,0,1
+11,2010,Georgia,1,1
+11,2010,Idaho,0,3
+11,2010,Idaho,1,2
+11,2010,Kentucky,0,3
+11,2010,Kentucky,1,1
+11,2010,Maryland,0,3
+11,2010,Maryland,1,1
+11,2010,Minnesota,0,1
+11,2010,Minnesota,1,3
+11,2010,New York,0,5
+11,2010,New York,1,4
+11,2010,North Carolina,0,2
+11,2010,North Carolina,1,1
+11,2010,North Dakota,0,3
+11,2010,North Dakota,1,1
+11,2010,Ohio,0,2
+11,2010,Ohio,1,1
+11,2010,Oregon,0,4
+11,2010,Pennsylvania,0,5
+11,2010,Pennsylvania,1,1
+11,2010,Texas,0,4
+11,2010,Virginia,0,3
+11,2010,Virginia,1,2
+11,2010,West Virginia,0,1
+12,2010,,0,3
+12,2010,,1,27
+12,2010,Alabama,0,1
+12,2010,California,0,26
+12,2010,California,1,20
+12,2010,Colorado,0,4
+12,2010,Colorado,1,3
+12,2010,Connecticut,0,4
+12,2010,Connecticut,1,3
+12,2010,Florida,0,14
+12,2010,Florida,1,8
+12,2010,Idaho,0,7
+12,2010,Idaho,1,4
+12,2010,Illinois,0,2
+12,2010,Indiana,0,7
+12,2010,Indiana,1,2
+12,2010,Kentucky,0,8
+12,2010,Kentucky,1,6
+12,2010,Louisiana,0,1
+12,2010,Maryland,0,2
+12,2010,Maryland,1,2
+12,2010,Michigan,0,3
+12,2010,Minnesota,0,7
+12,2010,Minnesota,1,8
+12,2010,Mississippi,0,1
+12,2010,Missouri,0,1
+12,2010,New York,0,16
+12,2010,New York,1,8
+12,2010,North Carolina,0,3
+12,2010,North Carolina,1,4
+12,2010,North Dakota,0,5
+12,2010,North Dakota,1,5
+12,2010,Ohio,0,8
+12,2010,Ohio,1,3
+12,2010,Oregon,0,5
+12,2010,Oregon,1,3
+12,2010,Pennsylvania,0,10
+12,2010,Pennsylvania,1,2
+12,2010,Texas,0,12
+12,2010,Texas,1,6
+12,2010,Utah,0,1
+12,2010,Virginia,0,13
+12,2010,Virginia,1,5
+1,2011,,0,4
+1,2011,,1,6
+1,2011,California,0,14
+1,2011,California,1,6
+1,2011,Colorado,0,3
+1,2011,Colorado,1,2
+1,2011,Connecticut,0,2
+1,2011,Florida,0,8
+1,2011,Florida,1,5
+1,2011,Idaho,0,6
+1,2011,Idaho,1,1
+1,2011,Illinois,0,1
+1,2011,Indiana,0,3
+1,2011,Kentucky,0,6
+1,2011,Kentucky,1,1
+1,2011,Maryland,0,3
+1,2011,Maryland,1,1
+1,2011,Michigan,0,1
+1,2011,Minnesota,0,6
+1,2011,Minnesota,1,1
+1,2011,New York,0,9
+1,2011,New York,1,8
+1,2011,North Carolina,0,5
+1,2011,North Carolina,1,2
+1,2011,North Dakota,0,4
+1,2011,Ohio,0,6
+1,2011,Ohio,1,2
+1,2011,Oregon,0,4
+1,2011,Oregon,1,3
+1,2011,Pennsylvania,0,4
+1,2011,Pennsylvania,1,1
+1,2011,Puerto Rico,0,1
+1,2011,Texas,0,5
+1,2011,Texas,1,5
+1,2011,Virginia,0,1
+1,2011,Virginia,1,5
+2,2011,,0,3
+2,2011,,1,2
+2,2011,California,0,16
+2,2011,California,1,8
+2,2011,Colorado,0,3
+2,2011,Connecticut,0,2
+2,2011,Connecticut,1,1
+2,2011,Florida,0,7
+2,2011,Florida,1,2
+2,2011,Georgia,1,1
+2,2011,Idaho,0,3
+2,2011,Idaho,1,3
+2,2011,Indiana,0,3
+2,2011,Indiana,1,1
+2,2011,Kentucky,0,2
+2,2011,Kentucky,1,2
+2,2011,Maryland,0,2
+2,2011,Michigan,0,1
+2,2011,Minnesota,0,6
+2,2011,Minnesota,1,1
+2,2011,Mississippi,0,1
+2,2011,New York,0,4
+2,2011,New York,1,3
+2,2011,North Carolina,0,2
+2,2011,North Carolina,1,2
+2,2011,North Dakota,0,1
+2,2011,North Dakota,1,1
+2,2011,Ohio,0,3
+2,2011,Ohio,1,4
+2,2011,Oregon,0,2
+2,2011,Pennsylvania,0,2
+2,2011,Pennsylvania,1,2
+2,2011,Texas,0,2
+2,2011,Texas,1,1
+2,2011,Virginia,0,2
+2,2011,Virginia,1,4
+3,2011,,0,2
+3,2011,,1,10
+3,2011,Alabama,1,1
+3,2011,Arizona,0,3
+3,2011,California,0,32
+3,2011,California,1,14
+3,2011,Colorado,0,3
+3,2011,Colorado,1,2
+3,2011,Connecticut,0,4
+3,2011,Connecticut,1,2
+3,2011,Florida,0,15
+3,2011,Florida,1,7
+3,2011,Georgia,0,1
+3,2011,Idaho,0,6
+3,2011,Idaho,1,2
+3,2011,Illinois,0,2
+3,2011,Illinois,1,1
+3,2011,Indiana,0,6
+3,2011,Indiana,1,3
+3,2011,Kentucky,0,5
+3,2011,Kentucky,1,3
+3,2011,Maryland,0,2
+3,2011,Maryland,1,1
+3,2011,Massachusetts,0,1
+3,2011,Minnesota,0,10
+3,2011,Minnesota,1,5
+3,2011,Nevada,0,1
+3,2011,New York,0,14
+3,2011,New York,1,8
+3,2011,North Carolina,0,4
+3,2011,North Carolina,1,1
+3,2011,North Dakota,0,8
+3,2011,North Dakota,1,6
+3,2011,Ohio,0,3
+3,2011,Ohio,1,2
+3,2011,Oregon,0,8
+3,2011,Oregon,1,1
+3,2011,Pennsylvania,0,8
+3,2011,Pennsylvania,1,5
+3,2011,Texas,0,7
+3,2011,Texas,1,4
+3,2011,Utah,0,1
+3,2011,Virginia,0,10
+3,2011,Virginia,1,2
+3,2011,West Virginia,0,1
+3,2011,Wisconsin,0,1
+4,2011,,0,3
+4,2011,,1,9
+4,2011,Arizona,0,1
+4,2011,California,0,8
+4,2011,California,1,5
+4,2011,Colorado,0,2
+4,2011,Connecticut,0,3
+4,2011,Connecticut,1,2
+4,2011,Florida,0,7
+4,2011,Florida,1,4
+4,2011,Georgia,0,1
+4,2011,Idaho,0,3
+4,2011,Idaho,1,4
+4,2011,Indiana,0,1
+4,2011,Indiana,1,3
+4,2011,Iowa,0,1
+4,2011,Kentucky,0,7
+4,2011,Kentucky,1,4
+4,2011,Maryland,0,3
+4,2011,Maryland,1,3
+4,2011,Minnesota,0,4
+4,2011,Missouri,0,1
+4,2011,New York,0,7
+4,2011,North Carolina,0,1
+4,2011,North Carolina,1,1
+4,2011,North Dakota,0,2
+4,2011,North Dakota,1,2
+4,2011,Ohio,0,1
+4,2011,Ohio,1,2
+4,2011,Oregon,0,1
+4,2011,Pennsylvania,0,3
+4,2011,South Carolina,0,1
+4,2011,Texas,0,2
+4,2011,Texas,1,4
+4,2011,Virginia,0,5
+5,2011,,0,1
+5,2011,,1,7
+5,2011,California,0,15
+5,2011,California,1,4
+5,2011,Colorado,0,3
+5,2011,Colorado,1,1
+5,2011,Connecticut,0,2
+5,2011,Connecticut,1,2
+5,2011,Florida,0,5
+5,2011,Florida,1,3
+5,2011,Idaho,0,4
+5,2011,Idaho,1,2
+5,2011,Indiana,0,6
+5,2011,Indiana,1,1
+5,2011,Kentucky,0,1
+5,2011,Kentucky,1,3
+5,2011,Maryland,0,4
+5,2011,Minnesota,0,3
+5,2011,Minnesota,1,2
+5,2011,New Jersey,0,1
+5,2011,New York,0,8
+5,2011,New York,1,8
+5,2011,North Carolina,0,4
+5,2011,North Carolina,1,5
+5,2011,North Dakota,0,3
+5,2011,Ohio,0,7
+5,2011,Oregon,0,3
+5,2011,Oregon,1,2
+5,2011,Pennsylvania,0,4
+5,2011,Pennsylvania,1,1
+5,2011,South Carolina,1,1
+5,2011,Texas,0,4
+5,2011,Texas,1,1
+5,2011,Utah,1,1
+5,2011,Virginia,0,6
+5,2011,Virginia,1,5
+6,2011,,0,1
+6,2011,,1,8
+6,2011,California,0,15
+6,2011,California,1,8
+6,2011,Colorado,0,1
+6,2011,Colorado,1,1
+6,2011,Connecticut,0,1
+6,2011,Connecticut,1,1
+6,2011,Florida,0,2
+6,2011,Florida,1,4
+6,2011,Idaho,0,1
+6,2011,Indiana,0,5
+6,2011,Indiana,1,1
+6,2011,Kentucky,0,2
+6,2011,Kentucky,1,1
+6,2011,Maryland,1,1
+6,2011,Massachusetts,0,2
+6,2011,Minnesota,0,8
+6,2011,Minnesota,1,2
+6,2011,Mississippi,0,1
+6,2011,New Jersey,0,1
+6,2011,New York,0,8
+6,2011,New York,1,2
+6,2011,North Carolina,0,2
+6,2011,North Dakota,1,3
+6,2011,Ohio,0,1
+6,2011,Ohio,1,1
+6,2011,Oklahoma,1,1
+6,2011,Oregon,1,2
+6,2011,Pennsylvania,0,1
+6,2011,Pennsylvania,1,2
+6,2011,Texas,0,2
+6,2011,Virginia,0,2
+7,2011,,1,10
+7,2011,Arizona,0,1
+7,2011,California,0,13
+7,2011,California,1,9
+7,2011,Colorado,0,3
+7,2011,Connecticut,0,2
+7,2011,Connecticut,1,1
+7,2011,Florida,0,2
+7,2011,Florida,1,4
+7,2011,Idaho,0,4
+7,2011,Idaho,1,6
+7,2011,Indiana,0,3
+7,2011,Indiana,1,1
+7,2011,Kentucky,0,7
+7,2011,Kentucky,1,2
+7,2011,Maryland,0,2
+7,2011,Minnesota,0,3
+7,2011,Minnesota,1,5
+7,2011,Missouri,0,1
+7,2011,New York,0,4
+7,2011,New York,1,5
+7,2011,North Carolina,0,1
+7,2011,North Carolina,1,4
+7,2011,North Dakota,0,3
+7,2011,Ohio,1,2
+7,2011,Oregon,0,2
+7,2011,Oregon,1,7
+7,2011,Pennsylvania,0,3
+7,2011,Pennsylvania,1,2
+7,2011,Texas,0,5
+7,2011,Texas,1,1
+7,2011,Virginia,0,5
+7,2011,Virginia,1,2
+8,2011,,0,1
+8,2011,,1,1
+8,2011,California,0,15
+8,2011,California,1,11
+8,2011,Colorado,0,1
+8,2011,Colorado,1,3
+8,2011,Connecticut,0,1
+8,2011,Florida,0,1
+8,2011,Florida,1,3
+8,2011,Idaho,0,3
+8,2011,Idaho,1,3
+8,2011,Illinois,0,2
+8,2011,Indiana,0,3
+8,2011,Iowa,0,1
+8,2011,Kentucky,0,5
+8,2011,Kentucky,1,3
+8,2011,Maryland,1,1
+8,2011,Minnesota,0,3
+8,2011,Minnesota,1,3
+8,2011,New York,0,11
+8,2011,New York,1,2
+8,2011,North Carolina,0,4
+8,2011,North Carolina,1,3
+8,2011,North Dakota,0,2
+8,2011,North Dakota,1,3
+8,2011,Ohio,1,3
+8,2011,Oregon,1,2
+8,2011,Pennsylvania,0,4
+8,2011,Pennsylvania,1,3
+8,2011,Tennessee,0,1
+8,2011,Texas,0,3
+8,2011,Texas,1,1
+8,2011,Virginia,0,4
+8,2011,Virginia,1,1
+9,2011,,0,3
+9,2011,,1,34
+9,2011,Alabama,0,2
+9,2011,Arkansas,0,1
+9,2011,California,0,17
+9,2011,California,1,14
+9,2011,Colorado,0,4
+9,2011,Colorado,1,2
+9,2011,Connecticut,0,4
+9,2011,Connecticut,1,4
+9,2011,Florida,0,12
+9,2011,Florida,1,11
+9,2011,Idaho,0,11
+9,2011,Idaho,1,4
+9,2011,Illinois,0,3
+9,2011,Illinois,1,1
+9,2011,Indiana,0,2
+9,2011,Indiana,1,5
+9,2011,Kentucky,0,4
+9,2011,Kentucky,1,7
+9,2011,Louisiana,0,1
+9,2011,Maine,0,1
+9,2011,Maryland,0,8
+9,2011,Maryland,1,3
+9,2011,Minnesota,0,8
+9,2011,Minnesota,1,13
+9,2011,Missouri,0,2
+9,2011,New Jersey,0,1
+9,2011,New York,0,14
+9,2011,New York,1,10
+9,2011,North Carolina,0,6
+9,2011,North Carolina,1,4
+9,2011,North Dakota,0,4
+9,2011,North Dakota,1,3
+9,2011,Ohio,0,2
+9,2011,Oklahoma,0,1
+9,2011,Oregon,0,4
+9,2011,Oregon,1,4
+9,2011,Pennsylvania,0,5
+9,2011,Pennsylvania,1,7
+9,2011,Texas,0,10
+9,2011,Texas,1,3
+9,2011,Virginia,0,8
+9,2011,Virginia,1,4
+10,2011,,0,8
+10,2011,,1,37
+10,2011,Alabama,0,1
+10,2011,Arizona,0,1
+10,2011,California,0,24
+10,2011,California,1,23
+10,2011,Colorado,0,5
+10,2011,Colorado,1,4
+10,2011,Connecticut,0,2
+10,2011,Connecticut,1,1
+10,2011,Florida,0,14
+10,2011,Florida,1,8
+10,2011,Georgia,0,1
+10,2011,Idaho,0,8
+10,2011,Idaho,1,2
+10,2011,Indiana,0,6
+10,2011,Indiana,1,3
+10,2011,Kentucky,0,6
+10,2011,Kentucky,1,3
+10,2011,Louisiana,0,1
+10,2011,Maryland,0,5
+10,2011,Maryland,1,3
+10,2011,Massachusetts,0,1
+10,2011,Michigan,0,1
+10,2011,Minnesota,0,9
+10,2011,Mississippi,0,1
+10,2011,Mississippi,1,1
+10,2011,Nevada,0,1
+10,2011,New Jersey,0,3
+10,2011,New York,0,21
+10,2011,New York,1,11
+10,2011,North Carolina,0,8
+10,2011,North Carolina,1,11
+10,2011,North Dakota,0,5
+10,2011,North Dakota,1,3
+10,2011,Ohio,0,7
+10,2011,Ohio,1,3
+10,2011,Oregon,0,4
+10,2011,Oregon,1,3
+10,2011,Pennsylvania,0,14
+10,2011,Pennsylvania,1,3
+10,2011,Texas,0,15
+10,2011,Texas,1,7
+10,2011,Virginia,0,11
+10,2011,Virginia,1,4
+10,2011,Washington,1,2
+10,2011,Wisconsin,1,1
+11,2011,,0,5
+11,2011,,1,12
+11,2011,California,0,18
+11,2011,California,1,19
+11,2011,Colorado,1,1
+11,2011,Connecticut,0,5
+11,2011,Connecticut,1,1
+11,2011,Florida,0,10
+11,2011,Florida,1,3
+11,2011,Idaho,0,4
+11,2011,Idaho,1,3
+11,2011,Indiana,0,5
+11,2011,Indiana,1,2
+11,2011,Kentucky,0,6
+11,2011,Kentucky,1,2
+11,2011,Maryland,0,2
+11,2011,Maryland,1,2
+11,2011,Minnesota,0,7
+11,2011,Minnesota,1,5
+11,2011,Mississippi,0,1
+11,2011,New York,0,6
+11,2011,New York,1,8
+11,2011,North Carolina,0,2
+11,2011,North Carolina,1,3
+11,2011,North Dakota,0,8
+11,2011,North Dakota,1,4
+11,2011,Ohio,0,4
+11,2011,Ohio,1,2
+11,2011,Oklahoma,0,1
+11,2011,Oregon,0,2
+11,2011,Oregon,1,1
+11,2011,Pennsylvania,0,9
+11,2011,Pennsylvania,1,6
+11,2011,Rhode Island,0,1
+11,2011,Texas,0,4
+11,2011,Texas,1,2
+11,2011,Virginia,0,4
+11,2011,Virginia,1,1
+11,2011,Washington,0,1
+12,2011,,0,2
+12,2011,,1,7
+12,2011,Arizona,0,1
+12,2011,Arkansas,0,1
+12,2011,Armed Forces,0,1
+12,2011,California,0,23
+12,2011,California,1,7
+12,2011,Colorado,0,2
+12,2011,Colorado,1,3
+12,2011,Connecticut,0,4
+12,2011,Connecticut,1,4
+12,2011,Florida,0,4
+12,2011,Florida,1,9
+12,2011,Idaho,0,7
+12,2011,Idaho,1,2
+12,2011,Illinois,0,1
+12,2011,Indiana,0,1
+12,2011,Indiana,1,3
+12,2011,Iowa,0,2
+12,2011,Kentucky,0,4
+12,2011,Kentucky,1,1
+12,2011,Maryland,1,3
+12,2011,Massachusetts,0,1
+12,2011,Michigan,0,1
+12,2011,Minnesota,0,6
+12,2011,Minnesota,1,2
+12,2011,New York,0,15
+12,2011,New York,1,3
+12,2011,North Carolina,0,4
+12,2011,North Carolina,1,3
+12,2011,North Dakota,0,3
+12,2011,North Dakota,1,1
+12,2011,Ohio,0,7
+12,2011,Ohio,1,1
+12,2011,Oregon,1,2
+12,2011,Pennsylvania,0,4
+12,2011,Texas,0,5
+12,2011,Texas,1,3
+12,2011,Virginia,0,4
+12,2011,Virginia,1,2
+1,2012,,0,2
+1,2012,,1,9
+1,2012,California,0,12
+1,2012,California,1,8
+1,2012,Colorado,0,5
+1,2012,Connecticut,0,1
+1,2012,Connecticut,1,4
+1,2012,Florida,0,6
+1,2012,Florida,1,2
+1,2012,Georgia,0,1
+1,2012,Idaho,0,2
+1,2012,Idaho,1,2
+1,2012,Indiana,0,2
+1,2012,Indiana,1,3
+1,2012,Kansas,0,1
+1,2012,Kentucky,0,5
+1,2012,Maryland,0,1
+1,2012,Maryland,1,3
+1,2012,Minnesota,0,8
+1,2012,Minnesota,1,1
+1,2012,Mississippi,0,1
+1,2012,New Jersey,0,1
+1,2012,New Mexico,0,1
+1,2012,New York,0,10
+1,2012,New York,1,8
+1,2012,North Carolina,0,3
+1,2012,North Carolina,1,1
+1,2012,North Dakota,0,6
+1,2012,North Dakota,1,3
+1,2012,Ohio,0,3
+1,2012,Ohio,1,4
+1,2012,Oregon,0,1
+1,2012,Pennsylvania,0,3
+1,2012,Pennsylvania,1,5
+1,2012,Texas,0,7
+1,2012,Texas,1,2
+1,2012,Virginia,0,5
+1,2012,Virginia,1,4
+1,2012,Wisconsin,0,1
+2,2012,,0,2
+2,2012,,1,14
+2,2012,Arizona,0,1
+2,2012,California,0,18
+2,2012,California,1,8
+2,2012,Colorado,1,2
+2,2012,Connecticut,0,3
+2,2012,Connecticut,1,3
+2,2012,Florida,0,4
+2,2012,Florida,1,5
+2,2012,Georgia,0,1
+2,2012,Idaho,0,8
+2,2012,Illinois,0,2
+2,2012,Indiana,0,3
+2,2012,Indiana,1,1
+2,2012,Kentucky,0,7
+2,2012,Kentucky,1,3
+2,2012,Maryland,0,3
+2,2012,Michigan,0,2
+2,2012,Minnesota,0,9
+2,2012,Minnesota,1,3
+2,2012,Mississippi,1,1
+2,2012,Missouri,0,1
+2,2012,New York,0,12
+2,2012,New York,1,7
+2,2012,North Carolina,0,3
+2,2012,North Carolina,1,1
+2,2012,North Dakota,0,5
+2,2012,North Dakota,1,2
+2,2012,Ohio,0,6
+2,2012,Ohio,1,2
+2,2012,Oklahoma,0,1
+2,2012,Oregon,0,6
+2,2012,Oregon,1,2
+2,2012,Pennsylvania,0,2
+2,2012,Pennsylvania,1,2
+2,2012,Texas,0,2
+2,2012,Texas,1,3
+2,2012,Utah,0,1
+2,2012,Utah,1,1
+2,2012,Virginia,0,3
+2,2012,Virginia,1,1
+2,2012,Washington,0,1
+3,2012,,0,3
+3,2012,,1,11
+3,2012,California,0,15
+3,2012,California,1,8
+3,2012,Colorado,0,3
+3,2012,Connecticut,0,2
+3,2012,Florida,0,5
+3,2012,Florida,1,2
+3,2012,Georgia,0,1
+3,2012,Idaho,0,2
+3,2012,Idaho,1,4
+3,2012,Illinois,0,1
+3,2012,Indiana,0,4
+3,2012,Indiana,1,2
+3,2012,Kentucky,0,3
+3,2012,Kentucky,1,3
+3,2012,Louisiana,0,1
+3,2012,Maryland,0,5
+3,2012,Maryland,1,1
+3,2012,Massachusetts,1,1
+3,2012,Michigan,0,1
+3,2012,Minnesota,0,3
+3,2012,Minnesota,1,2
+3,2012,Mississippi,0,2
+3,2012,New Jersey,0,1
+3,2012,New York,0,11
+3,2012,New York,1,5
+3,2012,North Carolina,0,6
+3,2012,North Carolina,1,4
+3,2012,North Dakota,0,3
+3,2012,North Dakota,1,2
+3,2012,Ohio,0,2
+3,2012,Ohio,1,2
+3,2012,Oklahoma,0,1
+3,2012,Oregon,0,1
+3,2012,Oregon,1,2
+3,2012,Pennsylvania,0,3
+3,2012,Pennsylvania,1,3
+3,2012,Texas,0,5
+3,2012,Texas,1,4
+3,2012,Virginia,0,1
+3,2012,Virginia,1,5
+4,2012,,0,3
+4,2012,,1,5
+4,2012,California,0,8
+4,2012,California,1,7
+4,2012,Colorado,0,4
+4,2012,Colorado,1,1
+4,2012,Connecticut,1,3
+4,2012,Florida,0,9
+4,2012,Florida,1,2
+4,2012,Idaho,0,2
+4,2012,Idaho,1,1
+4,2012,Indiana,0,4
+4,2012,Indiana,1,2
+4,2012,Kentucky,0,2
+4,2012,Kentucky,1,3
+4,2012,Maryland,0,1
+4,2012,Minnesota,0,3
+4,2012,Minnesota,1,2
+4,2012,New Jersey,0,1
+4,2012,New York,0,8
+4,2012,New York,1,3
+4,2012,North Carolina,0,3
+4,2012,North Carolina,1,5
+4,2012,North Dakota,0,4
+4,2012,North Dakota,1,2
+4,2012,Ohio,0,1
+4,2012,Ohio,1,1
+4,2012,Oregon,0,3
+4,2012,Pennsylvania,0,1
+4,2012,Texas,0,4
+4,2012,Texas,1,2
+4,2012,Virginia,0,2
+4,2012,Virginia,1,2
+5,2012,,0,1
+5,2012,,1,9
+5,2012,Alabama,0,1
+5,2012,Arizona,0,1
+5,2012,California,0,19
+5,2012,California,1,18
+5,2012,Colorado,0,3
+5,2012,Colorado,1,3
+5,2012,Connecticut,0,5
+5,2012,Connecticut,1,1
+5,2012,Florida,0,9
+5,2012,Florida,1,7
+5,2012,Hawaii,0,1
+5,2012,Idaho,0,5
+5,2012,Idaho,1,4
+5,2012,Illinois,0,2
+5,2012,Indiana,0,7
+5,2012,Indiana,1,1
+5,2012,Kansas,0,1
+5,2012,Kentucky,0,4
+5,2012,Maryland,0,1
+5,2012,Maryland,1,4
+5,2012,Michigan,0,2
+5,2012,Minnesota,0,3
+5,2012,Minnesota,1,3
+5,2012,Nevada,0,1
+5,2012,New Jersey,1,1
+5,2012,New York,0,5
+5,2012,New York,1,5
+5,2012,North Carolina,0,5
+5,2012,North Carolina,1,4
+5,2012,North Dakota,0,5
+5,2012,North Dakota,1,1
+5,2012,Ohio,0,5
+5,2012,Ohio,1,4
+5,2012,Oklahoma,0,2
+5,2012,Oregon,0,7
+5,2012,Oregon,1,2
+5,2012,Pennsylvania,0,7
+5,2012,Pennsylvania,1,4
+5,2012,Texas,0,11
+5,2012,Texas,1,4
+5,2012,Virginia,0,8
+5,2012,Virginia,1,1
+5,2012,Washington,0,1
+5,2012,West Virginia,0,1
+5,2012,Wisconsin,0,1
+6,2012,,0,4
+6,2012,,1,8
+6,2012,California,0,18
+6,2012,California,1,17
+6,2012,Colorado,0,2
+6,2012,Colorado,1,3
+6,2012,Connecticut,0,2
+6,2012,Connecticut,1,2
+6,2012,Delaware,0,1
+6,2012,Florida,0,14
+6,2012,Florida,1,9
+6,2012,Idaho,0,4
+6,2012,Idaho,1,6
+6,2012,Illinois,0,2
+6,2012,Indiana,0,4
+6,2012,Indiana,1,2
+6,2012,Kentucky,0,4
+6,2012,Kentucky,1,4
+6,2012,Louisiana,1,1
+6,2012,Maryland,0,3
+6,2012,Michigan,0,1
+6,2012,Minnesota,0,8
+6,2012,Minnesota,1,1
+6,2012,New York,0,16
+6,2012,New York,1,8
+6,2012,North Carolina,0,8
+6,2012,North Carolina,1,6
+6,2012,North Dakota,0,6
+6,2012,North Dakota,1,4
+6,2012,Ohio,0,3
+6,2012,Oregon,0,7
+6,2012,Oregon,1,2
+6,2012,Pennsylvania,0,8
+6,2012,Pennsylvania,1,2
+6,2012,Texas,0,7
+6,2012,Texas,1,3
+6,2012,Utah,0,1
+6,2012,Virginia,0,3
+6,2012,Virginia,1,2
+7,2012,,0,10
+7,2012,,1,16
+7,2012,California,0,27
+7,2012,California,1,33
+7,2012,Colorado,0,8
+7,2012,Colorado,1,6
+7,2012,Connecticut,0,4
+7,2012,Connecticut,1,2
+7,2012,Florida,0,12
+7,2012,Florida,1,10
+7,2012,Georgia,0,4
+7,2012,Idaho,0,15
+7,2012,Idaho,1,8
+7,2012,Illinois,0,5
+7,2012,Indiana,0,9
+7,2012,Indiana,1,8
+7,2012,Kentucky,0,11
+7,2012,Kentucky,1,5
+7,2012,Louisiana,0,1
+7,2012,Maryland,0,5
+7,2012,Maryland,1,6
+7,2012,Massachusetts,0,2
+7,2012,Michigan,0,1
+7,2012,Minnesota,0,9
+7,2012,Minnesota,1,9
+7,2012,Missouri,0,1
+7,2012,New Jersey,0,2
+7,2012,New York,0,31
+7,2012,New York,1,20
+7,2012,North Carolina,0,12
+7,2012,North Carolina,1,4
+7,2012,North Dakota,0,4
+7,2012,North Dakota,1,7
+7,2012,Ohio,0,9
+7,2012,Ohio,1,7
+7,2012,Oregon,0,8
+7,2012,Oregon,1,4
+7,2012,Pennsylvania,0,11
+7,2012,Pennsylvania,1,7
+7,2012,South Carolina,0,1
+7,2012,South Dakota,0,1
+7,2012,Texas,0,12
+7,2012,Texas,1,9
+7,2012,Utah,0,2
+7,2012,Virginia,0,6
+7,2012,Virginia,1,3
+7,2012,Wisconsin,1,1
+8,2012,,0,8
+8,2012,,1,8
+8,2012,Arizona,0,2
+8,2012,California,0,37
+8,2012,California,1,34
+8,2012,Colorado,0,5
+8,2012,Colorado,1,2
+8,2012,Connecticut,0,6
+8,2012,Connecticut,1,4
+8,2012,Delaware,0,1
+8,2012,Florida,0,19
+8,2012,Florida,1,17
+8,2012,Georgia,0,1
+8,2012,Idaho,0,11
+8,2012,Idaho,1,7
+8,2012,Illinois,0,3
+8,2012,Indiana,0,6
+8,2012,Indiana,1,7
+8,2012,Iowa,0,1
+8,2012,Kentucky,0,13
+8,2012,Kentucky,1,10
+8,2012,Maryland,0,1
+8,2012,Maryland,1,4
+8,2012,Massachusetts,0,1
+8,2012,Minnesota,0,10
+8,2012,Minnesota,1,8
+8,2012,Missouri,0,1
+8,2012,Nevada,0,1
+8,2012,New Jersey,0,2
+8,2012,New York,0,34
+8,2012,New York,1,26
+8,2012,North Carolina,0,4
+8,2012,North Carolina,1,9
+8,2012,North Dakota,0,3
+8,2012,North Dakota,1,11
+8,2012,Ohio,0,10
+8,2012,Ohio,1,8
+8,2012,Oregon,0,7
+8,2012,Oregon,1,9
+8,2012,Pennsylvania,0,8
+8,2012,Pennsylvania,1,9
+8,2012,Texas,0,13
+8,2012,Texas,1,9
+8,2012,Virginia,0,12
+8,2012,Virginia,1,11
+8,2012,Washington,0,2
+8,2012,Wisconsin,0,1
+9,2012,,0,8
+9,2012,,1,3
+9,2012,Alabama,0,3
+9,2012,Arizona,0,1
+9,2012,California,0,43
+9,2012,California,1,39
+9,2012,Colorado,0,1
+9,2012,Colorado,1,7
+9,2012,Connecticut,0,6
+9,2012,Connecticut,1,5
+9,2012,Florida,0,11
+9,2012,Florida,1,12
+9,2012,Georgia,0,1
+9,2012,Georgia,1,1
+9,2012,Idaho,0,9
+9,2012,Idaho,1,11
+9,2012,Illinois,0,3
+9,2012,Indiana,0,10
+9,2012,Indiana,1,11
+9,2012,Kentucky,0,11
+9,2012,Kentucky,1,10
+9,2012,Louisiana,0,2
+9,2012,Maine,0,1
+9,2012,Maryland,0,9
+9,2012,Maryland,1,10
+9,2012,Massachusetts,0,3
+9,2012,Minnesota,0,12
+9,2012,Minnesota,1,10
+9,2012,Mississippi,0,1
+9,2012,Missouri,0,1
+9,2012,New Jersey,0,1
+9,2012,New Jersey,1,1
+9,2012,New Mexico,0,1
+9,2012,New York,0,30
+9,2012,New York,1,23
+9,2012,North Carolina,0,9
+9,2012,North Carolina,1,10
+9,2012,North Dakota,0,12
+9,2012,North Dakota,1,10
+9,2012,Ohio,0,6
+9,2012,Ohio,1,8
+9,2012,Oklahoma,0,1
+9,2012,Oregon,0,6
+9,2012,Oregon,1,15
+9,2012,Pennsylvania,0,12
+9,2012,Pennsylvania,1,14
+9,2012,Rhode Island,0,1
+9,2012,South Carolina,0,1
+9,2012,Texas,0,19
+9,2012,Texas,1,14
+9,2012,Utah,0,2
+9,2012,Virginia,0,10
+9,2012,Virginia,1,11
+10,2012,,0,7
+10,2012,,1,9
+10,2012,Alabama,0,1
+10,2012,Alabama,1,1
+10,2012,Arizona,0,2
+10,2012,California,0,52
+10,2012,California,1,44
+10,2012,Colorado,0,9
+10,2012,Colorado,1,6
+10,2012,Connecticut,0,12
+10,2012,Connecticut,1,5
+10,2012,Florida,0,22
+10,2012,Florida,1,17
+10,2012,Georgia,0,3
+10,2012,Hawaii,0,1
+10,2012,Idaho,0,6
+10,2012,Idaho,1,13
+10,2012,Illinois,0,1
+10,2012,Indiana,0,14
+10,2012,Indiana,1,7
+10,2012,Iowa,0,1
+10,2012,Kentucky,0,20
+10,2012,Kentucky,1,15
+10,2012,Maryland,0,5
+10,2012,Maryland,1,7
+10,2012,Michigan,0,2
+10,2012,Minnesota,0,16
+10,2012,Minnesota,1,15
+10,2012,New Jersey,0,3
+10,2012,New York,0,53
+10,2012,New York,1,26
+10,2012,North Carolina,0,12
+10,2012,North Carolina,1,7
+10,2012,North Dakota,0,5
+10,2012,North Dakota,1,7
+10,2012,Ohio,0,16
+10,2012,Ohio,1,8
+10,2012,Oklahoma,0,2
+10,2012,Oregon,0,10
+10,2012,Oregon,1,8
+10,2012,Pennsylvania,0,15
+10,2012,Pennsylvania,1,19
+10,2012,Puerto Rico,0,2
+10,2012,Texas,0,14
+10,2012,Texas,1,9
+10,2012,Utah,0,1
+10,2012,Virginia,0,14
+10,2012,Virginia,1,19
+10,2012,Washington,0,2
+10,2012,Wisconsin,0,1
+11,2012,,0,9
+11,2012,,1,1
+11,2012,Alabama,0,2
+11,2012,Arizona,0,2
+11,2012,California,0,89
+11,2012,California,1,47
+11,2012,Colorado,0,8
+11,2012,Colorado,1,11
+11,2012,Connecticut,0,10
+11,2012,Connecticut,1,14
+11,2012,Delaware,0,1
+11,2012,District of Columbia,0,1
+11,2012,Florida,0,42
+11,2012,Florida,1,28
+11,2012,Georgia,0,1
+11,2012,Hawaii,0,1
+11,2012,Idaho,0,17
+11,2012,Idaho,1,31
+11,2012,Illinois,0,1
+11,2012,Indiana,0,17
+11,2012,Indiana,1,20
+11,2012,Iowa,0,1
+11,2012,Kentucky,0,14
+11,2012,Kentucky,1,17
+11,2012,Louisiana,0,1
+11,2012,Maryland,0,13
+11,2012,Maryland,1,9
+11,2012,Michigan,0,2
+11,2012,Michigan,1,1
+11,2012,Minnesota,0,26
+11,2012,Minnesota,1,19
+11,2012,Mississippi,0,1
+11,2012,Missouri,0,1
+11,2012,New Hampshire,0,1
+11,2012,New Jersey,0,2
+11,2012,New Mexico,0,1
+11,2012,New York,0,55
+11,2012,New York,1,54
+11,2012,North Carolina,0,29
+11,2012,North Carolina,1,15
+11,2012,North Dakota,0,13
+11,2012,North Dakota,1,16
+11,2012,Ohio,0,22
+11,2012,Ohio,1,17
+11,2012,Oregon,0,17
+11,2012,Oregon,1,15
+11,2012,Pennsylvania,0,26
+11,2012,Pennsylvania,1,17
+11,2012,Rhode Island,0,1
+11,2012,South Carolina,0,1
+11,2012,Texas,0,32
+11,2012,Texas,1,20
+11,2012,Virgin Islands,0,1
+11,2012,Virginia,0,20
+11,2012,Virginia,1,10
+11,2012,Washington,0,3
+11,2012,Washington,1,1
+12,2012,,0,12
+12,2012,,1,5
+12,2012,Alabama,0,1
+12,2012,Alaska,0,1
+12,2012,Arizona,0,1
+12,2012,California,0,109
+12,2012,California,1,98
+12,2012,Colorado,0,19
+12,2012,Colorado,1,14
+12,2012,Connecticut,0,16
+12,2012,Connecticut,1,17
+12,2012,Florida,0,48
+12,2012,Florida,1,48
+12,2012,Georgia,0,5
+12,2012,Guam,0,1
+12,2012,Hawaii,0,1
+12,2012,Idaho,0,38
+12,2012,Idaho,1,34
+12,2012,Illinois,0,6
+12,2012,Indiana,0,28
+12,2012,Indiana,1,25
+12,2012,Iowa,0,1
+12,2012,Kansas,0,4
+12,2012,Kentucky,0,22
+12,2012,Kentucky,1,30
+12,2012,Louisiana,0,2
+12,2012,Louisiana,1,1
+12,2012,Maine,0,1
+12,2012,Maryland,0,17
+12,2012,Maryland,1,10
+12,2012,Massachusetts,0,4
+12,2012,Michigan,0,2
+12,2012,Minnesota,0,29
+12,2012,Minnesota,1,32
+12,2012,Mississippi,0,2
+12,2012,Missouri,0,2
+12,2012,Nevada,0,1
+12,2012,New Hampshire,0,1
+12,2012,New Jersey,0,3
+12,2012,New York,0,87
+12,2012,New York,1,77
+12,2012,North Carolina,0,29
+12,2012,North Carolina,1,14
+12,2012,North Dakota,0,20
+12,2012,North Dakota,1,34
+12,2012,Ohio,0,28
+12,2012,Ohio,1,25
+12,2012,Oklahoma,0,1
+12,2012,Oregon,0,27
+12,2012,Oregon,1,22
+12,2012,Pennsylvania,0,36
+12,2012,Pennsylvania,1,38
+12,2012,Puerto Rico,1,1
+12,2012,Rhode Island,0,1
+12,2012,South Carolina,0,2
+12,2012,Tennessee,0,1
+12,2012,Texas,0,42
+12,2012,Texas,1,32
+12,2012,Utah,0,2
+12,2012,Virginia,0,26
+12,2012,Virginia,1,29
+12,2012,Washington,0,6
+12,2012,West Virginia,0,1
+12,2012,Wisconsin,0,5
+12,2012,Wisconsin,1,1
+1,2013,,0,4
+1,2013,,1,6
+1,2013,Arizona,0,3
+1,2013,California,0,77
+1,2013,California,1,62
+1,2013,Colorado,0,11
+1,2013,Colorado,1,17
+1,2013,Connecticut,0,17
+1,2013,Connecticut,1,9
+1,2013,Delaware,0,1
+1,2013,Florida,0,32
+1,2013,Florida,1,21
+1,2013,Georgia,0,2
+1,2013,Idaho,0,15
+1,2013,Idaho,1,16
+1,2013,Illinois,0,4
+1,2013,Indiana,0,14
+1,2013,Indiana,1,16
+1,2013,Iowa,0,2
+1,2013,Kansas,0,2
+1,2013,Kentucky,0,23
+1,2013,Kentucky,1,22
+1,2013,Louisiana,0,2
+1,2013,Maryland,0,9
+1,2013,Maryland,1,10
+1,2013,Massachusetts,0,1
+1,2013,Minnesota,0,23
+1,2013,Minnesota,1,16
+1,2013,Montana,0,1
+1,2013,New Jersey,0,2
+1,2013,New Mexico,0,1
+1,2013,New York,0,47
+1,2013,New York,1,42
+1,2013,North Carolina,0,19
+1,2013,North Carolina,1,9
+1,2013,North Dakota,0,11
+1,2013,North Dakota,1,13
+1,2013,Ohio,0,18
+1,2013,Ohio,1,12
+1,2013,Oklahoma,0,1
+1,2013,Oregon,0,17
+1,2013,Oregon,1,24
+1,2013,Pennsylvania,0,22
+1,2013,Pennsylvania,1,19
+1,2013,South Carolina,1,1
+1,2013,Tennessee,0,3
+1,2013,Tennessee,1,1
+1,2013,Texas,0,26
+1,2013,Texas,1,14
+1,2013,Utah,0,2
+1,2013,Virginia,0,17
+1,2013,Virginia,1,17
+1,2013,Washington,0,3
+1,2013,Wisconsin,0,2
+2,2013,,0,5
+2,2013,,1,2
+2,2013,California,0,57
+2,2013,California,1,65
+2,2013,Colorado,0,13
+2,2013,Colorado,1,12
+2,2013,Connecticut,0,12
+2,2013,Connecticut,1,10
+2,2013,Florida,0,29
+2,2013,Florida,1,22
+2,2013,Georgia,0,5
+2,2013,Idaho,0,18
+2,2013,Idaho,1,17
+2,2013,Illinois,0,7
+2,2013,Indiana,0,17
+2,2013,Indiana,1,9
+2,2013,Kansas,0,1
+2,2013,Kentucky,0,16
+2,2013,Kentucky,1,17
+2,2013,Louisiana,0,1
+2,2013,Maryland,0,3
+2,2013,Maryland,1,5
+2,2013,Michigan,0,2
+2,2013,Michigan,1,1
+2,2013,Minnesota,0,20
+2,2013,Minnesota,1,17
+2,2013,Missouri,0,2
+2,2013,New Jersey,0,2
+2,2013,New York,0,54
+2,2013,New York,1,44
+2,2013,North Carolina,0,14
+2,2013,North Carolina,1,13
+2,2013,North Dakota,0,19
+2,2013,North Dakota,1,12
+2,2013,Ohio,0,13
+2,2013,Ohio,1,17
+2,2013,Oregon,0,6
+2,2013,Oregon,1,11
+2,2013,Pennsylvania,0,20
+2,2013,Pennsylvania,1,24
+2,2013,Rhode Island,0,1
+2,2013,Tennessee,0,1
+2,2013,Texas,0,24
+2,2013,Texas,1,21
+2,2013,Utah,0,2
+2,2013,Virginia,0,18
+2,2013,Virginia,1,20
+2,2013,Washington,0,1
+2,2013,West Virginia,0,1
+2,2013,Wisconsin,0,2
+3,2013,,0,16
+3,2013,,1,44
+3,2013,Alabama,0,1
+3,2013,Arizona,0,1
+3,2013,Arkansas,0,2
+3,2013,California,0,86
+3,2013,California,1,86
+3,2013,Colorado,0,11
+3,2013,Colorado,1,14
+3,2013,Connecticut,0,11
+3,2013,Connecticut,1,16
+3,2013,Florida,0,39
+3,2013,Florida,1,44
+3,2013,Georgia,0,2
+3,2013,Hawaii,0,1
+3,2013,Idaho,0,20
+3,2013,Idaho,1,23
+3,2013,Illinois,0,5
+3,2013,Illinois,1,1
+3,2013,Indiana,0,24
+3,2013,Indiana,1,25
+3,2013,Iowa,0,2
+3,2013,Kansas,0,2
+3,2013,Kentucky,0,32
+3,2013,Kentucky,1,26
+3,2013,Louisiana,0,1
+3,2013,Maryland,0,8
+3,2013,Maryland,1,12
+3,2013,Massachusetts,0,2
+3,2013,Massachusetts,1,1
+3,2013,Michigan,0,3
+3,2013,Minnesota,0,37
+3,2013,Minnesota,1,27
+3,2013,Mississippi,0,1
+3,2013,Nevada,0,1
+3,2013,Nevada,1,1
+3,2013,New Hampshire,0,1
+3,2013,New Jersey,0,3
+3,2013,New Mexico,0,1
+3,2013,New York,0,54
+3,2013,New York,1,56
+3,2013,North Carolina,0,29
+3,2013,North Carolina,1,24
+3,2013,North Dakota,0,23
+3,2013,North Dakota,1,23
+3,2013,Ohio,0,21
+3,2013,Ohio,1,25
+3,2013,Oklahoma,0,1
+3,2013,Oregon,0,14
+3,2013,Oregon,1,21
+3,2013,Pennsylvania,0,29
+3,2013,Pennsylvania,1,20
+3,2013,Puerto Rico,0,3
+3,2013,South Carolina,0,3
+3,2013,South Dakota,0,1
+3,2013,Tennessee,0,3
+3,2013,Texas,0,21
+3,2013,Texas,1,19
+3,2013,Virginia,0,24
+3,2013,Virginia,1,32
+3,2013,Washington,0,1
+3,2013,West Virginia,0,3
+3,2013,Wisconsin,0,2
+4,2013,,0,26
+4,2013,,1,17
+4,2013,Alabama,0,2
+4,2013,Arkansas,0,2
+4,2013,California,0,71
+4,2013,California,1,58
+4,2013,Colorado,0,7
+4,2013,Colorado,1,10
+4,2013,Connecticut,0,13
+4,2013,Connecticut,1,12
+4,2013,Florida,0,35
+4,2013,Florida,1,30
+4,2013,Georgia,0,2
+4,2013,Georgia,1,1
+4,2013,Idaho,0,16
+4,2013,Idaho,1,16
+4,2013,Illinois,0,3
+4,2013,Illinois,1,1
+4,2013,Indiana,0,11
+4,2013,Indiana,1,12
+4,2013,Kansas,0,1
+4,2013,Kentucky,0,14
+4,2013,Kentucky,1,17
+4,2013,Louisiana,0,1
+4,2013,Maryland,0,5
+4,2013,Maryland,1,8
+4,2013,Massachusetts,0,2
+4,2013,Michigan,0,2
+4,2013,Minnesota,0,18
+4,2013,Minnesota,1,18
+4,2013,Missouri,0,1
+4,2013,New Jersey,0,1
+4,2013,New Mexico,0,1
+4,2013,New York,0,49
+4,2013,New York,1,45
+4,2013,North Carolina,0,8
+4,2013,North Carolina,1,14
+4,2013,North Dakota,0,14
+4,2013,North Dakota,1,19
+4,2013,Ohio,0,18
+4,2013,Ohio,1,8
+4,2013,Oklahoma,0,1
+4,2013,Oregon,0,9
+4,2013,Oregon,1,13
+4,2013,Pennsylvania,0,22
+4,2013,Pennsylvania,1,21
+4,2013,Tennessee,0,1
+4,2013,Texas,0,26
+4,2013,Texas,1,13
+4,2013,Utah,0,1
+4,2013,Virginia,0,19
+4,2013,Virginia,1,18
+4,2013,Washington,0,1
+4,2013,West Virginia,0,1
+5,2013,,0,79
+5,2013,,1,8
+5,2013,Arizona,0,1
+5,2013,California,0,124
+5,2013,California,1,71
+5,2013,Colorado,0,22
+5,2013,Colorado,1,11
+5,2013,Connecticut,0,12
+5,2013,Connecticut,1,8
+5,2013,Florida,0,36
+5,2013,Florida,1,27
+5,2013,Georgia,0,4
+5,2013,Idaho,0,27
+5,2013,Idaho,1,26
+5,2013,Illinois,0,4
+5,2013,Indiana,0,32
+5,2013,Indiana,1,21
+5,2013,Kentucky,0,28
+5,2013,Kentucky,1,25
+5,2013,Maryland,0,8
+5,2013,Maryland,1,6
+5,2013,Massachusetts,0,1
+5,2013,Michigan,0,2
+5,2013,Minnesota,0,15
+5,2013,Minnesota,1,21
+5,2013,Missouri,0,2
+5,2013,Nevada,0,1
+5,2013,New Jersey,0,3
+5,2013,New York,0,75
+5,2013,New York,1,47
+5,2013,North Carolina,0,25
+5,2013,North Carolina,1,10
+5,2013,North Dakota,0,23
+5,2013,North Dakota,1,12
+5,2013,Ohio,0,24
+5,2013,Ohio,1,19
+5,2013,Oklahoma,0,3
+5,2013,Oregon,0,28
+5,2013,Oregon,1,19
+5,2013,Pennsylvania,0,27
+5,2013,Pennsylvania,1,24
+5,2013,South Carolina,0,2
+5,2013,Texas,0,19
+5,2013,Texas,1,23
+5,2013,Virginia,0,44
+5,2013,Virginia,1,15
+5,2013,Washington,0,1
+6,2013,,0,99
+6,2013,,1,14
+6,2013,Alabama,0,1
+6,2013,Arizona,0,2
+6,2013,California,0,160
+6,2013,California,1,74
+6,2013,Colorado,0,27
+6,2013,Colorado,1,10
+6,2013,Connecticut,0,19
+6,2013,Connecticut,1,12
+6,2013,Florida,0,67
+6,2013,Florida,1,37
+6,2013,Georgia,0,3
+6,2013,Idaho,0,40
+6,2013,Idaho,1,28
+6,2013,Illinois,0,7
+6,2013,Indiana,0,47
+6,2013,Indiana,1,23
+6,2013,Iowa,0,1
+6,2013,Kansas,0,1
+6,2013,Kentucky,0,49
+6,2013,Kentucky,1,15
+6,2013,Louisiana,0,1
+6,2013,Maryland,0,25
+6,2013,Maryland,1,13
+6,2013,Massachusetts,0,1
+6,2013,Michigan,0,2
+6,2013,Minnesota,0,57
+6,2013,Minnesota,1,26
+6,2013,Mississippi,0,1
+6,2013,Missouri,0,3
+6,2013,Nebraska,0,1
+6,2013,New Jersey,0,2
+6,2013,New Mexico,0,1
+6,2013,New York,0,104
+6,2013,New York,1,60
+6,2013,North Carolina,0,36
+6,2013,North Carolina,1,25
+6,2013,North Dakota,0,39
+6,2013,North Dakota,1,28
+6,2013,Ohio,0,31
+6,2013,Ohio,1,23
+6,2013,Oklahoma,0,1
+6,2013,Oregon,0,30
+6,2013,Oregon,1,19
+6,2013,Pennsylvania,0,53
+6,2013,Pennsylvania,1,21
+6,2013,Puerto Rico,0,2
+6,2013,South Carolina,0,3
+6,2013,Tennessee,0,3
+6,2013,Tennessee,1,1
+6,2013,Texas,0,48
+6,2013,Texas,1,29
+6,2013,Utah,0,1
+6,2013,Virginia,0,61
+6,2013,Virginia,1,14
+6,2013,Washington,0,1
+7,2013,,0,98
+7,2013,,1,20
+7,2013,Alabama,0,1
+7,2013,Arizona,0,1
+7,2013,Arizona,1,1
+7,2013,Arkansas,0,2
+7,2013,California,0,126
+7,2013,California,1,96
+7,2013,Colorado,0,15
+7,2013,Colorado,1,13
+7,2013,Connecticut,0,21
+7,2013,Connecticut,1,15
+7,2013,Florida,0,64
+7,2013,Florida,1,43
+7,2013,Georgia,0,4
+7,2013,Hawaii,0,1
+7,2013,Idaho,0,30
+7,2013,Idaho,1,22
+7,2013,Illinois,0,1
+7,2013,Indiana,0,23
+7,2013,Indiana,1,19
+7,2013,Kentucky,0,34
+7,2013,Kentucky,1,27
+7,2013,Louisiana,0,1
+7,2013,Maryland,0,14
+7,2013,Maryland,1,15
+7,2013,Massachusetts,0,1
+7,2013,Michigan,0,1
+7,2013,Minnesota,0,39
+7,2013,Minnesota,1,29
+7,2013,Missouri,0,2
+7,2013,Montana,0,1
+7,2013,Nebraska,0,1
+7,2013,Nevada,0,3
+7,2013,New Jersey,0,2
+7,2013,New Mexico,0,3
+7,2013,New York,0,77
+7,2013,New York,1,79
+7,2013,North Carolina,0,38
+7,2013,North Carolina,1,23
+7,2013,North Dakota,0,24
+7,2013,North Dakota,1,23
+7,2013,Ohio,0,32
+7,2013,Ohio,1,21
+7,2013,Oklahoma,0,1
+7,2013,Oregon,0,22
+7,2013,Oregon,1,27
+7,2013,Pennsylvania,0,33
+7,2013,Pennsylvania,1,32
+7,2013,South Carolina,1,1
+7,2013,Texas,0,37
+7,2013,Texas,1,27
+7,2013,Virginia,0,35
+7,2013,Virginia,1,27
+7,2013,Washington,0,2
+7,2013,Wisconsin,0,1
+8,2013,,0,32
+8,2013,,1,29
+8,2013,Alabama,0,1
+8,2013,California,0,70
+8,2013,California,1,120
+8,2013,Colorado,0,6
+8,2013,Colorado,1,19
+8,2013,Connecticut,0,12
+8,2013,Connecticut,1,20
+8,2013,Florida,0,35
+8,2013,Florida,1,37
+8,2013,Idaho,0,15
+8,2013,Idaho,1,24
+8,2013,Illinois,0,2
+8,2013,Indiana,0,13
+8,2013,Indiana,1,24
+8,2013,Kansas,1,1
+8,2013,Kentucky,0,20
+8,2013,Kentucky,1,22
+8,2013,Louisiana,0,1
+8,2013,Maryland,0,14
+8,2013,Maryland,1,16
+8,2013,Massachusetts,1,1
+8,2013,Minnesota,0,34
+8,2013,Minnesota,1,33
+8,2013,New Jersey,0,3
+8,2013,New York,0,42
+8,2013,New York,1,67
+8,2013,North Carolina,0,18
+8,2013,North Carolina,1,28
+8,2013,North Dakota,0,19
+8,2013,North Dakota,1,26
+8,2013,Ohio,0,26
+8,2013,Ohio,1,15
+8,2013,Oklahoma,0,1
+8,2013,Oregon,0,13
+8,2013,Oregon,1,32
+8,2013,Pennsylvania,0,24
+8,2013,Pennsylvania,1,33
+8,2013,Puerto Rico,1,1
+8,2013,Tennessee,0,1
+8,2013,Texas,0,31
+8,2013,Texas,1,23
+8,2013,Utah,0,1
+8,2013,Virginia,0,26
+8,2013,Virginia,1,30
+8,2013,Wisconsin,0,2
+9,2013,,0,97
+9,2013,,1,19
+9,2013,Alabama,0,1
+9,2013,Arizona,0,1
+9,2013,California,0,125
+9,2013,California,1,57
+9,2013,Colorado,0,13
+9,2013,Colorado,1,9
+9,2013,Connecticut,0,28
+9,2013,Connecticut,1,7
+9,2013,Florida,0,47
+9,2013,Florida,1,21
+9,2013,Georgia,0,1
+9,2013,Idaho,0,21
+9,2013,Idaho,1,17
+9,2013,Illinois,0,2
+9,2013,Indiana,0,20
+9,2013,Indiana,1,9
+9,2013,Iowa,0,1
+9,2013,Kansas,0,1
+9,2013,Kentucky,0,23
+9,2013,Kentucky,1,16
+9,2013,Louisiana,0,1
+9,2013,Maryland,0,20
+9,2013,Maryland,1,7
+9,2013,Massachusetts,0,2
+9,2013,Minnesota,0,43
+9,2013,Minnesota,1,9
+9,2013,Missouri,0,1
+9,2013,Nebraska,0,1
+9,2013,Nevada,0,1
+9,2013,New Hampshire,0,1
+9,2013,New Jersey,0,5
+9,2013,New Jersey,1,1
+9,2013,New York,0,97
+9,2013,New York,1,26
+9,2013,North Carolina,0,30
+9,2013,North Carolina,1,11
+9,2013,North Dakota,0,27
+9,2013,North Dakota,1,15
+9,2013,Ohio,0,32
+9,2013,Ohio,1,14
+9,2013,Oklahoma,0,1
+9,2013,Oregon,0,34
+9,2013,Oregon,1,15
+9,2013,Pennsylvania,0,43
+9,2013,Pennsylvania,1,14
+9,2013,Puerto Rico,0,1
+9,2013,Rhode Island,0,1
+9,2013,South Carolina,0,1
+9,2013,Tennessee,0,1
+9,2013,Tennessee,1,1
+9,2013,Texas,0,45
+9,2013,Texas,1,10
+9,2013,Virginia,0,37
+9,2013,Virginia,1,8
+9,2013,Washington,0,1
+9,2013,Wisconsin,0,1
+10,2013,,0,92
+10,2013,,1,25
+10,2013,Alaska,0,1
+10,2013,Arkansas,0,2
+10,2013,California,0,132
+10,2013,California,1,79
+10,2013,Colorado,0,17
+10,2013,Colorado,1,7
+10,2013,Connecticut,0,27
+10,2013,Connecticut,1,11
+10,2013,Florida,0,62
+10,2013,Florida,1,28
+10,2013,Georgia,0,3
+10,2013,Idaho,0,25
+10,2013,Idaho,1,20
+10,2013,Illinois,0,2
+10,2013,Indiana,0,20
+10,2013,Indiana,1,9
+10,2013,Iowa,0,1
+10,2013,Kansas,0,1
+10,2013,Kentucky,0,34
+10,2013,Kentucky,1,20
+10,2013,Louisiana,0,1
+10,2013,Maine,1,1
+10,2013,Maryland,0,19
+10,2013,Maryland,1,12
+10,2013,Massachusetts,0,1
+10,2013,Michigan,0,2
+10,2013,Minnesota,0,41
+10,2013,Minnesota,1,26
+10,2013,New Jersey,0,1
+10,2013,New York,0,88
+10,2013,New York,1,35
+10,2013,North Carolina,0,25
+10,2013,North Carolina,1,9
+10,2013,North Dakota,0,29
+10,2013,North Dakota,1,16
+10,2013,Ohio,0,22
+10,2013,Ohio,1,7
+10,2013,Oregon,0,28
+10,2013,Oregon,1,17
+10,2013,Pennsylvania,0,41
+10,2013,Pennsylvania,1,14
+10,2013,South Carolina,0,1
+10,2013,Tennessee,0,3
+10,2013,Texas,0,28
+10,2013,Texas,1,24
+10,2013,Virginia,0,31
+10,2013,Virginia,1,15
+10,2013,Washington,0,1
+11,2013,,0,107
+11,2013,,1,39
+11,2013,Alaska,0,1
+11,2013,Arizona,0,1
+11,2013,California,0,125
+11,2013,California,1,76
+11,2013,Colorado,0,22
+11,2013,Colorado,1,9
+11,2013,Connecticut,0,17
+11,2013,Connecticut,1,12
+11,2013,Florida,0,48
+11,2013,Florida,1,26
+11,2013,Georgia,0,4
+11,2013,Hawaii,0,1
+11,2013,Idaho,0,14
+11,2013,Idaho,1,27
+11,2013,Indiana,0,32
+11,2013,Indiana,1,10
+11,2013,Kansas,0,1
+11,2013,Kentucky,0,26
+11,2013,Kentucky,1,18
+11,2013,Louisiana,0,1
+11,2013,Maryland,0,15
+11,2013,Maryland,1,4
+11,2013,Michigan,0,1
+11,2013,Minnesota,0,38
+11,2013,Minnesota,1,33
+11,2013,Montana,0,1
+11,2013,Nevada,0,1
+11,2013,New Jersey,0,2
+11,2013,New Jersey,1,1
+11,2013,New Mexico,0,1
+11,2013,New York,0,81
+11,2013,New York,1,44
+11,2013,North Carolina,0,27
+11,2013,North Carolina,1,13
+11,2013,North Dakota,0,32
+11,2013,North Dakota,1,14
+11,2013,Ohio,0,24
+11,2013,Ohio,1,23
+11,2013,Oregon,0,24
+11,2013,Oregon,1,13
+11,2013,Pennsylvania,0,36
+11,2013,Pennsylvania,1,25
+11,2013,South Carolina,0,1
+11,2013,Texas,0,40
+11,2013,Texas,1,19
+11,2013,Utah,0,1
+11,2013,Vermont,0,1
+11,2013,Virginia,0,39
+11,2013,Virginia,1,18
+11,2013,Washington,0,1
+11,2013,Wisconsin,0,1
+12,2013,,0,135
+12,2013,,1,40
+12,2013,Alabama,0,4
+12,2013,Arizona,0,1
+12,2013,Armed Forces,0,1
+12,2013,California,0,188
+12,2013,California,1,129
+12,2013,Colorado,0,26
+12,2013,Colorado,1,28
+12,2013,Connecticut,0,28
+12,2013,Connecticut,1,23
+12,2013,Delaware,0,1
+12,2013,Florida,0,78
+12,2013,Florida,1,43
+12,2013,Georgia,0,3
+12,2013,Hawaii,1,1
+12,2013,Idaho,0,39
+12,2013,Idaho,1,34
+12,2013,Illinois,0,3
+12,2013,Indiana,0,30
+12,2013,Indiana,1,25
+12,2013,Kansas,0,1
+12,2013,Kentucky,0,57
+12,2013,Kentucky,1,31
+12,2013,Louisiana,0,2
+12,2013,Maryland,0,27
+12,2013,Maryland,1,22
+12,2013,Michigan,0,8
+12,2013,Minnesota,0,50
+12,2013,Minnesota,1,46
+12,2013,Missouri,0,1
+12,2013,New Hampshire,0,1
+12,2013,New Jersey,0,2
+12,2013,New York,0,107
+12,2013,New York,1,106
+12,2013,North Carolina,0,38
+12,2013,North Carolina,1,34
+12,2013,North Dakota,0,43
+12,2013,North Dakota,1,26
+12,2013,Ohio,0,27
+12,2013,Ohio,1,18
+12,2013,Oklahoma,0,4
+12,2013,Oregon,0,38
+12,2013,Oregon,1,32
+12,2013,Pennsylvania,0,59
+12,2013,Pennsylvania,1,40
+12,2013,South Carolina,0,2
+12,2013,Tennessee,0,4
+12,2013,Texas,0,54
+12,2013,Texas,1,35
+12,2013,Virginia,0,54
+12,2013,Virginia,1,36
+12,2013,Washington,0,3
+1,2014,,0,176
+1,2014,,1,17
+1,2014,Alaska,0,1
+1,2014,Arizona,0,2
+1,2014,Armed Forces Pacific,0,1
+1,2014,California,0,140
+1,2014,California,1,78
+1,2014,Colorado,0,25
+1,2014,Colorado,1,13
+1,2014,Connecticut,0,29
+1,2014,Connecticut,1,15
+1,2014,District of Columbia,0,1
+1,2014,Florida,0,62
+1,2014,Florida,1,37
+1,2014,Georgia,0,2
+1,2014,Idaho,0,38
+1,2014,Idaho,1,18
+1,2014,Illinois,0,5
+1,2014,Indiana,0,33
+1,2014,Indiana,1,21
+1,2014,Iowa,0,2
+1,2014,Kansas,0,1
+1,2014,Kentucky,0,41
+1,2014,Kentucky,1,23
+1,2014,Maryland,0,20
+1,2014,Maryland,1,10
+1,2014,Michigan,0,3
+1,2014,Minnesota,0,41
+1,2014,Minnesota,1,18
+1,2014,Missouri,0,2
+1,2014,Montana,0,1
+1,2014,New Jersey,0,3
+1,2014,New York,0,105
+1,2014,New York,1,54
+1,2014,North Carolina,0,25
+1,2014,North Carolina,1,20
+1,2014,North Dakota,0,32
+1,2014,North Dakota,1,11
+1,2014,Ohio,0,39
+1,2014,Ohio,1,7
+1,2014,Oklahoma,0,2
+1,2014,Oregon,0,30
+1,2014,Oregon,1,20
+1,2014,Pennsylvania,0,48
+1,2014,Pennsylvania,1,27
+1,2014,Puerto Rico,0,2
+1,2014,South Carolina,0,2
+1,2014,Texas,0,38
+1,2014,Texas,1,29
+1,2014,Utah,0,1
+1,2014,Virginia,0,38
+1,2014,Virginia,1,27
+1,2014,Washington,0,5
+2,2014,,0,120
+2,2014,,1,41
+2,2014,Arizona,0,1
+2,2014,Arkansas,0,2
+2,2014,California,0,150
+2,2014,California,1,77
+2,2014,Colorado,0,20
+2,2014,Colorado,1,13
+2,2014,Connecticut,0,25
+2,2014,Connecticut,1,14
+2,2014,District of Columbia,0,1
+2,2014,Florida,0,72
+2,2014,Florida,1,48
+2,2014,Georgia,0,3
+2,2014,Hawaii,0,2
+2,2014,Idaho,0,41
+2,2014,Idaho,1,22
+2,2014,Illinois,0,1
+2,2014,Indiana,0,27
+2,2014,Indiana,1,18
+2,2014,Kentucky,0,34
+2,2014,Kentucky,1,26
+2,2014,Louisiana,0,2
+2,2014,Maine,0,1
+2,2014,Maryland,0,23
+2,2014,Maryland,1,14
+2,2014,Michigan,0,3
+2,2014,Minnesota,0,36
+2,2014,Minnesota,1,25
+2,2014,Nebraska,0,2
+2,2014,Nevada,0,4
+2,2014,New Jersey,0,2
+2,2014,New Mexico,0,2
+2,2014,New York,0,83
+2,2014,New York,1,60
+2,2014,North Carolina,0,28
+2,2014,North Carolina,1,22
+2,2014,North Dakota,0,36
+2,2014,North Dakota,1,21
+2,2014,Ohio,0,35
+2,2014,Ohio,1,20
+2,2014,Oklahoma,0,4
+2,2014,Oregon,0,29
+2,2014,Oregon,1,18
+2,2014,Pennsylvania,0,46
+2,2014,Pennsylvania,1,20
+2,2014,Puerto Rico,0,1
+2,2014,Rhode Island,0,1
+2,2014,Tennessee,0,1
+2,2014,Texas,0,56
+2,2014,Texas,1,29
+2,2014,Utah,0,1
+2,2014,Virginia,0,64
+2,2014,Virginia,1,23
+2,2014,Washington,0,2
+2,2014,Wisconsin,0,1
+2,2014,Wyoming,0,1
+3,2014,,0,121
+3,2014,,1,75
+3,2014,Alabama,0,2
+3,2014,California,0,128
+3,2014,California,1,100
+3,2014,Colorado,0,21
+3,2014,Colorado,1,14
+3,2014,Connecticut,0,17
+3,2014,Connecticut,1,14
+3,2014,Florida,0,60
+3,2014,Florida,1,50
+3,2014,Georgia,0,3
+3,2014,Georgia,1,1
+3,2014,Hawaii,0,1
+3,2014,Idaho,0,34
+3,2014,Idaho,1,30
+3,2014,Illinois,0,4
+3,2014,Indiana,0,31
+3,2014,Indiana,1,24
+3,2014,Kentucky,0,50
+3,2014,Kentucky,1,33
+3,2014,Louisiana,0,1
+3,2014,Maryland,0,20
+3,2014,Maryland,1,14
+3,2014,Michigan,0,1
+3,2014,Minnesota,0,34
+3,2014,Minnesota,1,30
+3,2014,Missouri,0,1
+3,2014,New Jersey,0,2
+3,2014,New Mexico,0,1
+3,2014,New York,0,89
+3,2014,New York,1,71
+3,2014,North Carolina,0,21
+3,2014,North Carolina,1,28
+3,2014,North Dakota,0,30
+3,2014,North Dakota,1,30
+3,2014,Ohio,0,33
+3,2014,Ohio,1,25
+3,2014,Oregon,0,32
+3,2014,Oregon,1,28
+3,2014,Pennsylvania,0,36
+3,2014,Pennsylvania,1,32
+3,2014,Puerto Rico,0,2
+3,2014,Rhode Island,0,1
+3,2014,South Carolina,0,2
+3,2014,South Dakota,1,1
+3,2014,Tennessee,0,1
+3,2014,Texas,0,32
+3,2014,Texas,1,27
+3,2014,Virginia,0,40
+3,2014,Virginia,1,31
+3,2014,Washington,0,2
+3,2014,Wisconsin,0,2
+4,2014,,0,127
+4,2014,,1,44
+4,2014,Alabama,0,2
+4,2014,Arizona,0,1
+4,2014,Arkansas,0,1
+4,2014,California,0,200
+4,2014,California,1,69
+4,2014,Colorado,0,25
+4,2014,Colorado,1,6
+4,2014,Connecticut,0,28
+4,2014,Connecticut,1,9
+4,2014,Florida,0,73
+4,2014,Florida,1,49
+4,2014,Georgia,0,1
+4,2014,Idaho,0,40
+4,2014,Idaho,1,14
+4,2014,Illinois,0,3
+4,2014,Illinois,1,1
+4,2014,Indiana,0,47
+4,2014,Indiana,1,25
+4,2014,Iowa,0,1
+4,2014,Kentucky,0,37
+4,2014,Kentucky,1,23
+4,2014,Maryland,0,23
+4,2014,Maryland,1,14
+4,2014,Michigan,0,2
+4,2014,Minnesota,0,69
+4,2014,Minnesota,1,20
+4,2014,Missouri,0,2
+4,2014,Nebraska,0,2
+4,2014,New Jersey,0,8
+4,2014,New York,0,105
+4,2014,New York,1,57
+4,2014,North Carolina,0,38
+4,2014,North Carolina,1,17
+4,2014,North Dakota,0,37
+4,2014,North Dakota,1,24
+4,2014,Ohio,0,39
+4,2014,Ohio,1,22
+4,2014,Oklahoma,0,3
+4,2014,Oregon,0,41
+4,2014,Oregon,1,11
+4,2014,Pennsylvania,0,52
+4,2014,Pennsylvania,1,22
+4,2014,Puerto Rico,0,1
+4,2014,Tennessee,0,1
+4,2014,Texas,0,43
+4,2014,Texas,1,22
+4,2014,Utah,0,1
+4,2014,Virginia,0,44
+4,2014,Virginia,1,22
+4,2014,Washington,0,2
+4,2014,Wisconsin,0,2
+5,2014,,0,56
+5,2014,,1,36
+5,2014,Alabama,0,3
+5,2014,Arizona,0,6
+5,2014,California,0,244
+5,2014,California,1,117
+5,2014,Colorado,0,37
+5,2014,Colorado,1,8
+5,2014,Connecticut,0,34
+5,2014,Connecticut,1,13
+5,2014,Delaware,0,1
+5,2014,Florida,0,108
+5,2014,Florida,1,54
+5,2014,Georgia,0,3
+5,2014,Guam,0,1
+5,2014,Hawaii,0,2
+5,2014,Idaho,0,73
+5,2014,Idaho,1,34
+5,2014,Illinois,0,9
+5,2014,Indiana,0,60
+5,2014,Indiana,1,18
+5,2014,Iowa,0,1
+5,2014,Kansas,0,1
+5,2014,Kentucky,0,47
+5,2014,Kentucky,1,21
+5,2014,Louisiana,0,3
+5,2014,Maine,0,1
+5,2014,Maryland,0,31
+5,2014,Maryland,1,18
+5,2014,Massachusetts,0,3
+5,2014,Michigan,0,3
+5,2014,Minnesota,0,69
+5,2014,Minnesota,1,33
+5,2014,Mississippi,1,1
+5,2014,Missouri,0,1
+5,2014,Nebraska,0,2
+5,2014,Nevada,0,1
+5,2014,New Hampshire,0,1
+5,2014,New Jersey,0,4
+5,2014,New Mexico,0,1
+5,2014,New York,0,168
+5,2014,New York,1,59
+5,2014,North Carolina,0,57
+5,2014,North Carolina,1,24
+5,2014,North Dakota,0,57
+5,2014,North Dakota,1,20
+5,2014,Ohio,0,56
+5,2014,Ohio,1,20
+5,2014,Oregon,0,60
+5,2014,Oregon,1,30
+5,2014,Pennsylvania,0,66
+5,2014,Pennsylvania,1,28
+5,2014,Rhode Island,0,1
+5,2014,South Carolina,0,1
+5,2014,Tennessee,0,3
+5,2014,Texas,0,85
+5,2014,Texas,1,32
+5,2014,Utah,0,2
+5,2014,Virginia,0,71
+5,2014,Virginia,1,32
+5,2014,Washington,0,7
+5,2014,Wisconsin,0,2
+5,2014,Wyoming,0,1
+6,2014,,0,47
+6,2014,,1,29
+6,2014,Alabama,0,1
+6,2014,Arizona,0,3
+6,2014,Arizona,1,1
+6,2014,Arkansas,0,1
+6,2014,California,0,219
+6,2014,California,1,81
+6,2014,Colorado,0,32
+6,2014,Colorado,1,13
+6,2014,Connecticut,0,40
+6,2014,Connecticut,1,23
+6,2014,Florida,0,77
+6,2014,Florida,1,42
+6,2014,Georgia,0,8
+6,2014,Hawaii,0,1
+6,2014,Idaho,0,39
+6,2014,Idaho,1,22
+6,2014,Illinois,0,2
+6,2014,Illinois,1,1
+6,2014,Indiana,0,48
+6,2014,Indiana,1,24
+6,2014,Kentucky,0,49
+6,2014,Kentucky,1,22
+6,2014,Louisiana,0,5
+6,2014,Maine,0,2
+6,2014,Maryland,0,24
+6,2014,Maryland,1,12
+6,2014,Massachusetts,0,6
+6,2014,Michigan,0,4
+6,2014,Minnesota,0,58
+6,2014,Minnesota,1,16
+6,2014,Missouri,0,3
+6,2014,Montana,0,1
+6,2014,Nebraska,0,2
+6,2014,Nevada,0,2
+6,2014,New Hampshire,1,2
+6,2014,New Jersey,0,3
+6,2014,New Mexico,0,2
+6,2014,New York,0,133
+6,2014,New York,1,68
+6,2014,North Carolina,0,49
+6,2014,North Carolina,1,12
+6,2014,North Dakota,0,48
+6,2014,North Dakota,1,19
+6,2014,Ohio,0,42
+6,2014,Ohio,1,23
+6,2014,Oklahoma,0,1
+6,2014,Oregon,0,54
+6,2014,Oregon,1,19
+6,2014,Pennsylvania,0,58
+6,2014,Pennsylvania,1,30
+6,2014,Tennessee,0,4
+6,2014,Texas,0,56
+6,2014,Texas,1,26
+6,2014,Virginia,0,58
+6,2014,Virginia,1,27
+6,2014,Washington,0,6
+6,2014,West Virginia,1,1
+6,2014,Wisconsin,0,1
+6,2014,Wyoming,0,1
+7,2014,,0,18
+7,2014,,1,33
+7,2014,Alabama,0,1
+7,2014,Arizona,0,3
+7,2014,Arkansas,0,1
+7,2014,California,0,159
+7,2014,California,1,98
+7,2014,Colorado,0,26
+7,2014,Colorado,1,12
+7,2014,Connecticut,0,21
+7,2014,Connecticut,1,18
+7,2014,Delaware,0,2
+7,2014,District of Columbia,0,1
+7,2014,Florida,0,73
+7,2014,Florida,1,37
+7,2014,Georgia,0,7
+7,2014,Hawaii,0,1
+7,2014,Hawaii,1,1
+7,2014,Idaho,0,41
+7,2014,Idaho,1,28
+7,2014,Illinois,0,10
+7,2014,Indiana,0,27
+7,2014,Indiana,1,26
+7,2014,Iowa,0,1
+7,2014,Kansas,0,2
+7,2014,Kentucky,0,31
+7,2014,Kentucky,1,28
+7,2014,Maryland,0,22
+7,2014,Maryland,1,10
+7,2014,Massachusetts,0,3
+7,2014,Michigan,0,6
+7,2014,Michigan,1,1
+7,2014,Minnesota,0,42
+7,2014,Minnesota,1,28
+7,2014,Mississippi,0,3
+7,2014,Missouri,0,1
+7,2014,Nevada,0,2
+7,2014,New Hampshire,0,1
+7,2014,New Jersey,0,8
+7,2014,New Mexico,0,4
+7,2014,New York,0,111
+7,2014,New York,1,76
+7,2014,North Carolina,0,25
+7,2014,North Carolina,1,20
+7,2014,North Dakota,0,39
+7,2014,North Dakota,1,29
+7,2014,Ohio,0,42
+7,2014,Ohio,1,25
+7,2014,Oklahoma,0,2
+7,2014,Oregon,0,29
+7,2014,Oregon,1,21
+7,2014,Pennsylvania,0,32
+7,2014,Pennsylvania,1,23
+7,2014,Puerto Rico,0,3
+7,2014,Rhode Island,0,1
+7,2014,South Carolina,0,2
+7,2014,Tennessee,0,1
+7,2014,Texas,0,60
+7,2014,Texas,1,29
+7,2014,Utah,0,2
+7,2014,Virginia,0,22
+7,2014,Virginia,1,36
+7,2014,Washington,0,4
+7,2014,West Virginia,0,1
+7,2014,Wisconsin,0,8
+8,2014,,0,27
+8,2014,,1,31
+8,2014,Alabama,0,2
+8,2014,Alaska,0,1
+8,2014,California,0,117
+8,2014,California,1,107
+8,2014,Colorado,0,20
+8,2014,Colorado,1,12
+8,2014,Connecticut,0,16
+8,2014,Connecticut,1,15
+8,2014,District of Columbia,0,1
+8,2014,Florida,0,54
+8,2014,Florida,1,39
+8,2014,Georgia,0,4
+8,2014,Hawaii,0,2
+8,2014,Idaho,0,23
+8,2014,Idaho,1,33
+8,2014,Illinois,0,8
+8,2014,Indiana,0,29
+8,2014,Indiana,1,22
+8,2014,Iowa,0,3
+8,2014,Kansas,0,3
+8,2014,Kentucky,0,27
+8,2014,Kentucky,1,24
+8,2014,Louisiana,0,4
+8,2014,Maryland,0,16
+8,2014,Maryland,1,14
+8,2014,Massachusetts,0,3
+8,2014,Michigan,0,5
+8,2014,Minnesota,0,26
+8,2014,Minnesota,1,47
+8,2014,Missouri,0,3
+8,2014,Missouri,1,1
+8,2014,Montana,0,1
+8,2014,Nebraska,0,1
+8,2014,Nevada,0,2
+8,2014,New Jersey,0,6
+8,2014,New Mexico,0,1
+8,2014,New York,0,96
+8,2014,New York,1,85
+8,2014,North Carolina,0,17
+8,2014,North Carolina,1,18
+8,2014,North Dakota,0,18
+8,2014,North Dakota,1,27
+8,2014,Ohio,0,19
+8,2014,Ohio,1,30
+8,2014,Oklahoma,0,3
+8,2014,Oregon,0,24
+8,2014,Oregon,1,15
+8,2014,Pennsylvania,0,30
+8,2014,Pennsylvania,1,22
+8,2014,Puerto Rico,0,1
+8,2014,South Carolina,0,2
+8,2014,Tennessee,0,4
+8,2014,Texas,0,40
+8,2014,Texas,1,25
+8,2014,Utah,0,2
+8,2014,Vermont,0,1
+8,2014,Virginia,0,41
+8,2014,Virginia,1,34
+8,2014,Washington,0,3
+8,2014,Wisconsin,0,3
+9,2014,,0,35
+9,2014,,1,56
+9,2014,Alabama,0,2
+9,2014,Arizona,0,3
+9,2014,Arkansas,0,2
+9,2014,California,0,107
+9,2014,California,1,113
+9,2014,Colorado,0,22
+9,2014,Colorado,1,19
+9,2014,Connecticut,0,15
+9,2014,Connecticut,1,16
+9,2014,Delaware,0,1
+9,2014,Florida,0,51
+9,2014,Florida,1,53
+9,2014,Georgia,0,1
+9,2014,Idaho,0,29
+9,2014,Idaho,1,32
+9,2014,Illinois,0,5
+9,2014,Illinois,1,1
+9,2014,Indiana,0,28
+9,2014,Indiana,1,24
+9,2014,Kansas,0,3
+9,2014,Kentucky,0,29
+9,2014,Kentucky,1,21
+9,2014,Louisiana,0,2
+9,2014,Maryland,0,12
+9,2014,Maryland,1,13
+9,2014,Massachusetts,0,3
+9,2014,Michigan,0,1
+9,2014,Minnesota,0,35
+9,2014,Minnesota,1,36
+9,2014,Mississippi,0,1
+9,2014,Missouri,0,3
+9,2014,Nebraska,0,1
+9,2014,Nevada,0,2
+9,2014,New Hampshire,0,1
+9,2014,New Jersey,0,2
+9,2014,New Mexico,0,2
+9,2014,New York,0,71
+9,2014,New York,1,88
+9,2014,North Carolina,0,29
+9,2014,North Carolina,1,35
+9,2014,North Dakota,0,27
+9,2014,North Dakota,1,34
+9,2014,Ohio,0,26
+9,2014,Ohio,1,24
+9,2014,Oklahoma,0,3
+9,2014,Oregon,0,26
+9,2014,Oregon,1,29
+9,2014,Pennsylvania,0,34
+9,2014,Pennsylvania,1,40
+9,2014,South Carolina,0,2
+9,2014,Tennessee,0,1
+9,2014,Texas,0,41
+9,2014,Texas,1,26
+9,2014,Utah,0,3
+9,2014,Virginia,0,31
+9,2014,Virginia,1,42
+9,2014,Washington,0,4
+9,2014,West Virginia,0,3
+9,2014,Wisconsin,0,2
+10,2014,,0,41
+10,2014,,1,50
+10,2014,Alabama,0,1
+10,2014,Arizona,0,2
+10,2014,Arkansas,0,1
+10,2014,California,0,151
+10,2014,California,1,156
+10,2014,Colorado,0,17
+10,2014,Colorado,1,23
+10,2014,Connecticut,0,13
+10,2014,Connecticut,1,21
+10,2014,Florida,0,69
+10,2014,Florida,1,67
+10,2014,Georgia,0,4
+10,2014,Georgia,1,1
+10,2014,Idaho,0,40
+10,2014,Idaho,1,27
+10,2014,Illinois,0,6
+10,2014,Indiana,0,27
+10,2014,Indiana,1,39
+10,2014,Iowa,0,1
+10,2014,Iowa,1,1
+10,2014,Kansas,1,1
+10,2014,Kentucky,0,29
+10,2014,Kentucky,1,44
+10,2014,Maryland,0,20
+10,2014,Maryland,1,27
+10,2014,Massachusetts,0,4
+10,2014,Michigan,0,7
+10,2014,Minnesota,0,42
+10,2014,Minnesota,1,46
+10,2014,Mississippi,0,1
+10,2014,Missouri,0,2
+10,2014,Montana,0,2
+10,2014,Nebraska,0,2
+10,2014,Nevada,0,1
+10,2014,New Jersey,0,4
+10,2014,New Mexico,1,1
+10,2014,New York,0,108
+10,2014,New York,1,118
+10,2014,North Carolina,0,43
+10,2014,North Carolina,1,26
+10,2014,North Dakota,0,36
+10,2014,North Dakota,1,33
+10,2014,Ohio,0,47
+10,2014,Ohio,1,23
+10,2014,Oklahoma,0,3
+10,2014,Oregon,0,26
+10,2014,Oregon,1,31
+10,2014,Pennsylvania,0,46
+10,2014,Pennsylvania,1,50
+10,2014,Rhode Island,0,1
+10,2014,South Carolina,0,2
+10,2014,Tennessee,0,3
+10,2014,Texas,0,50
+10,2014,Texas,1,35
+10,2014,Utah,0,4
+10,2014,Virginia,0,46
+10,2014,Virginia,1,48
+10,2014,Washington,0,2
+10,2014,Washington,1,1
+10,2014,Wisconsin,0,2
+11,2014,,0,39
+11,2014,,1,42
+11,2014,Alabama,0,1
+11,2014,Alaska,0,1
+11,2014,Arizona,0,8
+11,2014,Arkansas,0,2
+11,2014,California,0,146
+11,2014,California,1,152
+11,2014,Colorado,0,16
+11,2014,Colorado,1,27
+11,2014,Connecticut,0,23
+11,2014,Connecticut,1,25
+11,2014,Delaware,0,3
+11,2014,District of Columbia,0,1
+11,2014,Florida,0,57
+11,2014,Florida,1,57
+11,2014,Georgia,0,4
+11,2014,Georgia,1,1
+11,2014,Hawaii,0,1
+11,2014,Idaho,0,35
+11,2014,Idaho,1,25
+11,2014,Illinois,0,11
+11,2014,Illinois,1,1
+11,2014,Indiana,0,31
+11,2014,Indiana,1,35
+11,2014,Iowa,0,3
+11,2014,Kansas,0,1
+11,2014,Kentucky,0,45
+11,2014,Kentucky,1,31
+11,2014,Louisiana,0,4
+11,2014,Maine,0,1
+11,2014,Maryland,0,17
+11,2014,Maryland,1,23
+11,2014,Massachusetts,0,1
+11,2014,Michigan,0,6
+11,2014,Minnesota,0,35
+11,2014,Minnesota,1,43
+11,2014,Mississippi,0,2
+11,2014,Missouri,0,2
+11,2014,Missouri,1,2
+11,2014,Nevada,0,1
+11,2014,New Jersey,0,3
+11,2014,New Jersey,1,1
+11,2014,New Mexico,0,2
+11,2014,New Mexico,1,1
+11,2014,New York,0,104
+11,2014,New York,1,93
+11,2014,North Carolina,0,30
+11,2014,North Carolina,1,31
+11,2014,North Dakota,0,29
+11,2014,North Dakota,1,39
+11,2014,Ohio,0,25
+11,2014,Ohio,1,29
+11,2014,Oklahoma,0,3
+11,2014,Oregon,0,33
+11,2014,Oregon,1,38
+11,2014,Pennsylvania,0,43
+11,2014,Pennsylvania,1,43
+11,2014,South Carolina,0,1
+11,2014,South Dakota,0,1
+11,2014,Tennessee,0,3
+11,2014,Texas,0,46
+11,2014,Texas,1,41
+11,2014,Utah,0,3
+11,2014,Virginia,0,41
+11,2014,Virginia,1,40
+11,2014,Washington,0,1
+11,2014,West Virginia,0,2
+12,2014,,0,73
+12,2014,,1,59
+12,2014,California,0,157
+12,2014,California,1,158
+12,2014,Colorado,0,26
+12,2014,Colorado,1,24
+12,2014,Connecticut,0,25
+12,2014,Connecticut,1,27
+12,2014,Florida,0,77
+12,2014,Florida,1,77
+12,2014,Georgia,0,5
+12,2014,Idaho,0,27
+12,2014,Idaho,1,53
+12,2014,Illinois,0,2
+12,2014,Indiana,0,29
+12,2014,Indiana,1,42
+12,2014,Kansas,0,2
+12,2014,Kentucky,0,41
+12,2014,Kentucky,1,42
+12,2014,Maryland,0,29
+12,2014,Maryland,1,15
+12,2014,Massachusetts,1,1
+12,2014,Michigan,1,1
+12,2014,Minnesota,0,47
+12,2014,Minnesota,1,48
+12,2014,Nebraska,1,1
+12,2014,Nevada,0,1
+12,2014,New Jersey,0,1
+12,2014,New York,0,112
+12,2014,New York,1,110
+12,2014,North Carolina,0,37
+12,2014,North Carolina,1,48
+12,2014,North Dakota,0,32
+12,2014,North Dakota,1,31
+12,2014,Ohio,0,27
+12,2014,Ohio,1,33
+12,2014,Oklahoma,0,2
+12,2014,Oklahoma,1,1
+12,2014,Oregon,0,26
+12,2014,Oregon,1,27
+12,2014,Pennsylvania,0,49
+12,2014,Pennsylvania,1,54
+12,2014,South Carolina,0,1
+12,2014,South Carolina,1,1
+12,2014,South Dakota,0,1
+12,2014,South Dakota,1,1
+12,2014,Texas,0,49
+12,2014,Texas,1,41
+12,2014,Virginia,0,47
+12,2014,Virginia,1,46
+12,2014,West Virginia,0,1
+12,2014,Wisconsin,1,1
+1,2015,,0,56
+1,2015,,1,35
+1,2015,California,0,86
+1,2015,California,1,79
+1,2015,Colorado,0,12
+1,2015,Colorado,1,13
+1,2015,Connecticut,0,14
+1,2015,Connecticut,1,14
+1,2015,Florida,0,53
+1,2015,Florida,1,49
+1,2015,Georgia,0,1
+1,2015,Idaho,0,25
+1,2015,Idaho,1,30
+1,2015,Indiana,0,24
+1,2015,Indiana,1,19
+1,2015,Iowa,1,1
+1,2015,Kentucky,0,29
+1,2015,Kentucky,1,23
+1,2015,Maryland,0,19
+1,2015,Maryland,1,14
+1,2015,Massachusetts,1,1
+1,2015,Michigan,0,1
+1,2015,Minnesota,0,32
+1,2015,Minnesota,1,34
+1,2015,Nevada,1,1
+1,2015,New Jersey,1,1
+1,2015,New York,0,68
+1,2015,New York,1,74
+1,2015,North Carolina,0,24
+1,2015,North Carolina,1,23
+1,2015,North Dakota,0,33
+1,2015,North Dakota,1,18
+1,2015,Ohio,0,23
+1,2015,Ohio,1,21
+1,2015,Oregon,0,14
+1,2015,Oregon,1,15
+1,2015,Pennsylvania,0,17
+1,2015,Pennsylvania,1,33
+1,2015,South Carolina,1,2
+1,2015,Texas,0,23
+1,2015,Texas,1,24
+1,2015,Vermont,0,1
+1,2015,Virginia,0,22
+1,2015,Virginia,1,26
+1,2015,Washington,1,1
+1,2015,Wisconsin,1,1
+1,2015,Wyoming,1,1
+2,2015,,0,66
+2,2015,,1,34
+2,2015,California,0,84
+2,2015,California,1,120
+2,2015,Colorado,0,10
+2,2015,Colorado,1,13
+2,2015,Connecticut,0,18
+2,2015,Connecticut,1,26
+2,2015,Florida,0,36
+2,2015,Florida,1,46
+2,2015,Hawaii,1,1
+2,2015,Idaho,0,17
+2,2015,Idaho,1,31
+2,2015,Indiana,0,17
+2,2015,Indiana,1,36
+2,2015,Kentucky,0,17
+2,2015,Kentucky,1,25
+2,2015,Maryland,0,15
+2,2015,Maryland,1,15
+2,2015,Michigan,1,1
+2,2015,Minnesota,0,21
+2,2015,Minnesota,1,45
+2,2015,New York,0,75
+2,2015,New York,1,81
+2,2015,North Carolina,0,19
+2,2015,North Carolina,1,19
+2,2015,North Dakota,0,22
+2,2015,North Dakota,1,26
+2,2015,Ohio,0,18
+2,2015,Ohio,1,28
+2,2015,Oregon,0,29
+2,2015,Oregon,1,27
+2,2015,Pennsylvania,0,24
+2,2015,Pennsylvania,1,33
+2,2015,Texas,0,29
+2,2015,Texas,1,37
+2,2015,Virginia,0,19
+2,2015,Virginia,1,22
+3,2015,,0,94
+3,2015,,1,82
+3,2015,Alaska,1,1
+3,2015,California,0,99
+3,2015,California,1,139
+3,2015,Colorado,0,12
+3,2015,Colorado,1,21
+3,2015,Connecticut,0,16
+3,2015,Connecticut,1,28
+3,2015,Florida,0,42
+3,2015,Florida,1,46
+3,2015,Hawaii,0,1
+3,2015,Hawaii,1,1
+3,2015,Idaho,0,16
+3,2015,Idaho,1,30
+3,2015,Indiana,0,17
+3,2015,Indiana,1,36
+3,2015,Kentucky,0,31
+3,2015,Kentucky,1,34
+3,2015,Maryland,0,6
+3,2015,Maryland,1,15
+3,2015,Minnesota,0,35
+3,2015,Minnesota,1,47
+3,2015,New York,0,60
+3,2015,New York,1,97
+3,2015,North Carolina,0,19
+3,2015,North Carolina,1,28
+3,2015,North Dakota,0,17
+3,2015,North Dakota,1,29
+3,2015,Ohio,0,17
+3,2015,Ohio,1,24
+3,2015,Oregon,0,13
+3,2015,Oregon,1,37
+3,2015,Pennsylvania,0,26
+3,2015,Pennsylvania,1,47
+3,2015,Texas,0,30
+3,2015,Texas,1,37
+3,2015,Virginia,0,27
+3,2015,Virginia,1,45
+4,2015,,0,145
+4,2015,,1,63
+4,2015,Alabama,0,1
+4,2015,Arizona,1,1
+4,2015,Arkansas,1,1
+4,2015,California,0,108
+4,2015,California,1,103
+4,2015,Colorado,0,12
+4,2015,Colorado,1,14
+4,2015,Connecticut,0,15
+4,2015,Connecticut,1,9
+4,2015,Florida,0,41
+4,2015,Florida,1,36
+4,2015,Georgia,1,1
+4,2015,Idaho,0,28
+4,2015,Idaho,1,25
+4,2015,Illinois,0,2
+4,2015,Illinois,1,3
+4,2015,Indiana,0,20
+4,2015,Indiana,1,24
+4,2015,Iowa,0,1
+4,2015,Iowa,1,1
+4,2015,Kansas,0,1
+4,2015,Kentucky,0,15
+4,2015,Kentucky,1,29
+4,2015,Louisiana,0,1
+4,2015,Louisiana,1,2
+4,2015,Maryland,0,8
+4,2015,Maryland,1,15
+4,2015,Massachusetts,1,2
+4,2015,Michigan,1,3
+4,2015,Minnesota,0,25
+4,2015,Minnesota,1,42
+4,2015,Mississippi,0,1
+4,2015,Nebraska,1,1
+4,2015,New Hampshire,0,1
+4,2015,New Hampshire,1,1
+4,2015,New Jersey,0,1
+4,2015,New Jersey,1,1
+4,2015,New York,0,71
+4,2015,New York,1,69
+4,2015,North Carolina,0,24
+4,2015,North Carolina,1,24
+4,2015,North Dakota,0,25
+4,2015,North Dakota,1,23
+4,2015,Ohio,0,24
+4,2015,Ohio,1,23
+4,2015,Oklahoma,0,1
+4,2015,Oklahoma,1,1
+4,2015,Oregon,0,20
+4,2015,Oregon,1,18
+4,2015,Pennsylvania,0,31
+4,2015,Pennsylvania,1,25
+4,2015,South Carolina,1,4
+4,2015,South Dakota,0,1
+4,2015,Tennessee,1,1
+4,2015,Texas,0,24
+4,2015,Texas,1,33
+4,2015,Utah,1,1
+4,2015,Virginia,0,24
+4,2015,Virginia,1,26
+4,2015,Washington,0,1
+4,2015,Wyoming,1,2
